@@ -1,0 +1,263 @@
+{
+  "executado_em_utc": "2026-10-09T23:43:59+00:00",
+  "resultados": [
+    {
+      "nome": "bcb_sgs1_ptax",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/09/2026&dataFinal=31/12/2026",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 1093,
+      "segundos": 1.1,
+      "trecho": "[{\"data\":\"01/09/2026\",\"valor\":\"5.1570\"},{\"data\":\"02/09/2026\",\"valor\":\"5.1273\"},{\"data\":\"03/09/2026\",\"valor\":\"5.0962\"},{\"data\":\"04/09/2026\",\"valor\":\"5.1253\"},{\"data\":\"08/09/2026\",\"valor\":\"5.0856\"},{\"data\":\"09/09/2026\",\"valor\":\"5.0979\"},{\"data\":\"10/09/2026\",\"valor\":\"5.1149\"},{\"data\":\"11/09/2026\",\"valo"
+    },
+    {
+      "nome": "bcb_sgs432_selic_meta",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/09/2026&dataFinal=31/12/2026",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 2471,
+      "segundos": 1.08,
+      "trecho": "[{\"data\":\"01/09/2026\",\"valor\":\"14.00\"},{\"data\":\"02/09/2026\",\"valor\":\"14.00\"},{\"data\":\"03/09/2026\",\"valor\":\"14.00\"},{\"data\":\"04/09/2026\",\"valor\":\"14.00\"},{\"data\":\"05/09/2026\",\"valor\":\"14.00\"},{\"data\":\"06/09/2026\",\"valor\":\"14.00\"},{\"data\":\"07/09/2026\",\"valor\":\"14.00\"},{\"data\":\"08/09/2026\",\"valor\":\"14."
+    },
+    {
+      "nome": "bcb_olinda_ptax",
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='09-01-2026'&@dataFinalCotacao='12-31-2026'&$format=json",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8;odata.metadata=minimal",
+      "bytes": 2809,
+      "segundos": 0.82,
+      "trecho": "{\"@odata.context\":\"https://was-p.bcnet.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata$metadata#_CotacaoDolarPeriodo\",\"value\":[{\"cotacaoCompra\":5.15640,\"cotacaoVenda\":5.15700,\"dataHoraCotacao\":\"2026-09-01 13:06:03.857125\"},{\"cotacaoCompra\":5.12670,\"cotacaoVenda\":5.12730,\"dataHoraCotacao\":\"2026-09-02 "
+    },
+    {
+      "nome": "fred_sp500",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500",
+      "status": null,
+      "erro": "ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)",
+      "segundos": 40.18
+    },
+    {
+      "nome": "fred_dff",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFF",
+      "status": null,
+      "erro": "ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)",
+      "segundos": 40.11
+    },
+    {
+      "nome": "fred_dfedtarl",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARL",
+      "status": null,
+      "erro": "ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)",
+      "segundos": 40.08
+    },
+    {
+      "nome": "fred_dfedtaru",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARU",
+      "status": null,
+      "erro": "ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)",
+      "segundos": 40.09
+    },
+    {
+      "nome": "fred_dgs10",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "status": null,
+      "erro": "ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)",
+      "segundos": 40.21
+    },
+    {
+      "nome": "fred_dcoilbrenteu",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU",
+      "status": null,
+      "erro": "ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=40)",
+      "segundos": 40.25
+    },
+    {
+      "nome": "btc_coinbase",
+      "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 21483,
+      "segundos": 0.08,
+      "trecho": "[[1791504000,81534.02,83452.99,81692.79,82523.97,4377.94133449],[1791417600,80314.7,83473.42,83275.05,81692.79,8586.66801134],[1791331200,82717.3,85601.11,85539.77,83275.06,7688.7646354],[1791244800,85100.01,86698.35,85748.96,85539.77,4698.57646281],[1791158400,84944.2,86996,86502.65,85748.96,5354.9"
+    },
+    {
+      "nome": "btc_kraken",
+      "url": "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 62300,
+      "segundos": 0.21,
+      "trecho": "{\"error\":[],\"result\":{\"XXBTZUSD\":[[1729296000,\"68440.2\",\"68632.7\",\"68062.2\",\"68374.9\",\"68291.9\",\"402.00012426\",15819],[1729382400,\"68375.0\",\"69315.0\",\"68129.4\",\"69010.5\",\"68665.6\",\"696.12320319\",20673],[1729468800,\"69010.5\",\"69447.8\",\"66838.6\",\"67385.1\",\"67857.8\",\"2249.69267837\",42900],[1729555200,\""
+    },
+    {
+      "nome": "btc_coingecko",
+      "url": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3239,
+      "segundos": 0.21,
+      "trecho": "{\"prices\":[[1788998400000,78283.06047169256],[1789084800000,76554.98664973286],[1789171200000,77203.53444805603],[1789257600000,77261.62722069985],[1789344000000,76819.04496746542],[1789430400000,78173.35158344489],[1789516800000,75590.24471973324],[1789603200000,76146.81236783884],[1789689600000,76"
+    },
+    {
+      "nome": "ibov_yahoo",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBVSP?range=2y&interval=1d",
+      "status": 429,
+      "content_type": "text/html",
+      "bytes": 19,
+      "segundos": 0.18,
+      "trecho": "Too Many Requests\r\n"
+    },
+    {
+      "nome": "ibov_b3_pagina",
+      "url": "https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-estatisticas-historicas.htm",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 33917,
+      "segundos": 0.39,
+      "trecho": "<!DOCTYPE html><html class=\"no-js\" lang=\"pt-BR\"><head><meta charset=\"utf-8\"><script>\n(function (m, a, z, e) {\n  var s, t;\n  try {\n    t = m.sessionStorage.getItem('maze-us');\n  } catch (err) {}\n \n  if (!t) {\n    t = new Date().getTime();\n    try {\n      m.sessionStorage.setItem('maze-us', t);\n    } "
+    },
+    {
+      "nome": "cepea_boi_pagina",
+      "url": "https://www.cepea.org.br/br/indicador/boi-gordo.aspx",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5616,
+      "segundos": 0.21,
+      "trecho": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scal"
+    },
+    {
+      "nome": "cepea_boi_series",
+      "url": "https://www.cepea.org.br/br/indicador/series/boi-gordo.aspx?id=2",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5688,
+      "segundos": 0.09,
+      "trecho": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scal"
+    },
+    {
+      "nome": "na_boi",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 132053,
+      "segundos": 0.34,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Indicador do Boi Gordo Esalq / B3 - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect"
+    },
+    {
+      "nome": "na_boi_data_2025-12-30",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf/2025-12-30",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 122446,
+      "segundos": 0.25,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Indicador do Boi Gordo Esalq / B3 - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect"
+    },
+    {
+      "nome": "na_soja_paranagua",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-indicador-cepea-esalq-porto-paranagua",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 131877,
+      "segundos": 0.17,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Indicador da Soja ESALQ/B3 - Paranaguá - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"prec"
+    },
+    {
+      "nome": "na_milho",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/milho/indicador-cepea-esalq-milho",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 131917,
+      "segundos": 0.17,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Indicador do Milho Esalq/B3 - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href"
+    },
+    {
+      "nome": "na_bezerro",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/indicador-bezerro-esalq-bmf",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 80462,
+      "segundos": 0.35,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Página Não Encontrada - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href=\"https://www.g"
+    },
+    {
+      "nome": "na_boi_index",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 262344,
+      "segundos": 0.12,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Boi Gordo - Cotação e Preço - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href=\"https:"
+    },
+    {
+      "nome": "scot_boi",
+      "url": "https://www.scotconsultoria.com.br/cotacoes/boi-gordo/",
+      "status": 429,
+      "content_type": "",
+      "bytes": 0,
+      "segundos": 1.14,
+      "trecho": ""
+    },
+    {
+      "nome": "scot_reposicao",
+      "url": "https://www.scotconsultoria.com.br/cotacoes/reposicao/",
+      "status": 429,
+      "content_type": "",
+      "bytes": 0,
+      "segundos": 0.72,
+      "trecho": ""
+    },
+    {
+      "nome": "scot_home",
+      "url": "https://www.scotconsultoria.com.br/",
+      "status": 429,
+      "content_type": "",
+      "bytes": 0,
+      "segundos": 0.74,
+      "trecho": ""
+    },
+    {
+      "nome": "openmeteo_go_previsao",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=-18.7215&longitude=-50.4246&daily=precipitation_sum,temperature_2m_max,temperature_2m_min,precipitation_probability_max&past_days=31&forecast_days=10&timezone=America%2FSao_Paulo",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 1731,
+      "segundos": 0.54,
+      "trecho": "{\"latitude\":-18.734623,\"longitude\":-50.392944,\"generationtime_ms\":13.472676277160645,\"utc_offset_seconds\":-10800,\"timezone\":\"America/Sao_Paulo\",\"timezone_abbreviation\":\"GMT-3\",\"elevation\":429.0,\"daily_units\":{\"time\":\"iso8601\",\"precipitation_sum\":\"mm\",\"temperature_2m_max\":\"°C\",\"temperature_2m_min\":\""
+    },
+    {
+      "nome": "openmeteo_to_previsao",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=-10.29775&longitude=-49.79627&daily=precipitation_sum,temperature_2m_max,temperature_2m_min,precipitation_probability_max&past_days=31&forecast_days=10&timezone=America%2FSao_Paulo",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 1727,
+      "segundos": 0.57,
+      "trecho": "{\"latitude\":-10.298769,\"longitude\":-49.82425,\"generationtime_ms\":14.111638069152832,\"utc_offset_seconds\":-10800,\"timezone\":\"America/Sao_Paulo\",\"timezone_abbreviation\":\"GMT-3\",\"elevation\":177.0,\"daily_units\":{\"time\":\"iso8601\",\"precipitation_sum\":\"mm\",\"temperature_2m_max\":\"°C\",\"temperature_2m_min\":\"�"
+    },
+    {
+      "nome": "openmeteo_go_historico",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-18.7215&longitude=-50.4246&start_date=2025-09-01&end_date=2025-12-31&daily=precipitation_sum&timezone=America%2FSao_Paulo",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 2496,
+      "segundos": 0.56,
+      "trecho": "{\"latitude\":-18.734623,\"longitude\":-50.392944,\"generationtime_ms\":6.832718849182129,\"utc_offset_seconds\":-10800,\"timezone\":\"America/Sao_Paulo\",\"timezone_abbreviation\":\"GMT-3\",\"elevation\":429.0,\"daily_units\":{\"time\":\"iso8601\",\"precipitation_sum\":\"mm\"},\"daily\":{\"time\":[\"2025-09-01\",\"2025-09-02\",\"2025-"
+    },
+    {
+      "nome": "inmet_estacoes",
+      "url": "https://apitempo.inmet.gov.br/estacoes/T",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 262134,
+      "segundos": 1.85,
+      "trecho": "[{\"CD_OSCAR\":null,\"DC_NOME\":\"ACAJUTIBA\",\"FL_CAPITAL\":\"N\",\"DT_FIM_OPERACAO\":null,\"CD_SITUACAO\":\"Operante\",\"TP_ESTACAO\":\"Automatica\",\"VL_LATITUDE\":\"-11.65444444\",\"CD_WSI\":\"0-76-0-2900306000000688\",\"CD_DISTRITO\":\" 04\",\"VL_ALTITUDE\":\"182\",\"SG_ESTADO\":\"BA\",\"SG_ENTIDADE\":\"INMET\",\"CD_ESTACAO\":\"A472\",\"VL_LO"
+    },
+    {
+      "nome": "climatempo_home",
+      "url": "https://www.climatempo.com.br/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 161764,
+      "segundos": 0.3,
+      "trecho": "\n<!DOCTYPE html>\n<html lang=\"pt-br\" data-theme-mode=\"light\" data-theme-brand=\"climatempo\" data-theme-id=\"default\">\n\t<head>\n\t\t<title>Climatempo: Clima e Previsão do Tempo sempre atualizados</title>\n\n\t\t<meta\n\t\tcharset=\"UTF-8\">\n\n\t\t<!-- This one can help to identify and solve our design issue for Mobil"
+    }
+  ]
+}
