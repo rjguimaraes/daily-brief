@@ -2,6 +2,10 @@ name: Teste de fontes
 
 on:
   workflow_dispatch:
+    inputs:
+      probe_set:
+        description: "Conjunto de testes (1 ou 2)"
+        default: "1"
 
 permissions:
   contents: write
@@ -17,6 +21,8 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python scripts/probe_sources.py
+        env:
+          PROBE_SET: ${{ inputs.probe_set }}
       - run: cat reports/probe/summary.md >> "$GITHUB_STEP_SUMMARY"
       - name: Salvar resultado no repositório
         run: |

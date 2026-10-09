@@ -51,12 +51,36 @@ PROBES: list[tuple[str, str, str]] = [
     ("climatempo_home", "https://www.climatempo.com.br/", "html"),
 ]
 
+# Rodada 2 (09/10/2026): alternativas às falhas da rodada 1 (FRED timeout,
+# Scot 429, Yahoo 429, CEPEA 403, URL errada do bezerro).
+PROBES_R2: list[tuple[str, str, str]] = [
+    ("na_bezerro_ms", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/indicador-bezerro-esalq-bmf-bovespa-ms", "html"),
+    ("na_bezerro_ms_data_2025-12-30", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/indicador-bezerro-esalq-bmf-bovespa-ms/2025-12-30", "html"),
+    ("na_soja_data_2025-12-30", "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-indicador-cepea-esalq-porto-paranagua/2025-12-30", "html"),
+    ("na_milho_data_2025-12-30", "https://www.noticiasagricolas.com.br/cotacoes/milho/indicador-cepea-esalq-milho/2025-12-30", "html"),
+    ("na_scot", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria", "html"),
+    ("na_scot_data_2026-09-08", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria/2026-09-08", "html"),
+    ("na_scot_data_2025-10-08", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria/2025-10-08", "html"),
+    ("na_imea_boi", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-a-vista-imea", "html"),
+    ("na_reposicao_nelore_macho", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho", "html"),
+    ("fred_dgs10_timeout_longo", "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10", "csv"),
+    ("treasury_yields_2026", "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv", "csv"),
+    ("nyfed_effr", "https://markets.newyorkfed.org/api/rates/unsecured/effr/last/30.json", "json"),
+    ("eia_brent_xls", "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls", "xls"),
+    ("stooq_spx", "https://stooq.com/q/d/l/?s=%5Espx&i=d", "csv"),
+    ("stooq_ibov", "https://stooq.com/q/d/l/?s=%5Ebvp&i=d", "csv"),
+    ("b3_ibov_pagina_dia", "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/day/IBOV?language=pt-br", "html"),
+    ("scot_boi_lento", "https://www.scotconsultoria.com.br/cotacoes/boi-gordo/", "html"),
+    ("inmet_a011_dados", "https://apitempo.inmet.gov.br/estacao/2026-09-01/2026-10-08/A011", "json"),
+    ("inmet_a055_dados", "https://apitempo.inmet.gov.br/estacao/2026-09-01/2026-10-08/A055", "json"),
+]
+
 
 def probe(name: str, url: str, ext: str) -> dict:
     started = time.time()
     rec = {"nome": name, "url": url}
     try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=40)
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=90)
         body = r.content
         rec.update(
             status=r.status_code,
@@ -73,8 +97,14 @@ def probe(name: str, url: str, ext: str) -> dict:
 
 
 def main() -> None:
+    import os
+
     RAW.mkdir(parents=True, exist_ok=True)
-    results = [probe(*p) for p in PROBES]
+    probes = PROBES_R2 if os.environ.get("PROBE_SET") == "2" else PROBES
+    results = []
+    for p in probes:
+        results.append(probe(*p))
+        time.sleep(2)  # espaçar requisições evita 429 em sites pequenos
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
     (OUT / "summary.json").write_text(
         json.dumps({"executado_em_utc": stamp, "resultados": results}, ensure_ascii=False, indent=2),
