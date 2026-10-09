@@ -1,0 +1,27 @@
+{
+  "chave_presente": true,
+  "chave_tamanho": 32,
+  "status": 200,
+  "ultimas_observacoes": [
+    {
+      "data": "2026-10-08",
+      "valor": "7765.36"
+    },
+    {
+      "data": "2026-10-07",
+      "valor": "7801.77"
+    },
+    {
+      "data": "2026-10-06",
+      "valor": "7818.93"
+    },
+    {
+      "data": "2026-10-05",
+      "valor": "7773.95"
+    },
+    {
+      "data": "2026-10-02",
+      "valor": "7722.72"
+    }
+  ]
+}
