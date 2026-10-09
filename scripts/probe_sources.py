@@ -76,6 +76,19 @@ PROBES_R2: list[tuple[str, str, str]] = [
 ]
 
 
+B3 = "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/"
+
+# Rodada 3: S&P 500 e Ibovespa (Stooq exige JS, Yahoo 429, FRED não responde).
+PROBES_R3: list[tuple[str, str, str]] = [
+    ("b3_main_js", B3 + "main-es2015.204ca04ae07d2c137636.js", "js"),
+    ("fred_api_sem_chave", "https://api.stlouisfed.org/fred/series/observations?series_id=SP500&file_type=json", "json"),
+    ("nasdaq_spx", "https://api.nasdaq.com/api/quote/SPX/historical?assetclass=index&fromdate=2025-09-01&todate=2026-10-09&limit=9999", "json"),
+    ("yahoo2_spx", "https://query2.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d", "json"),
+    ("yahoo2_ibov", "https://query2.finance.yahoo.com/v8/finance/chart/%5EBVSP?range=2y&interval=1d", "json"),
+    ("spdji_spx", "https://www.spglobal.com/spdji/en/indices/equity/sp-500/", "html"),
+]
+
+
 def probe(name: str, url: str, ext: str) -> dict:
     started = time.time()
     rec = {"nome": name, "url": url}
@@ -100,7 +113,7 @@ def main() -> None:
     import os
 
     RAW.mkdir(parents=True, exist_ok=True)
-    probes = PROBES_R2 if os.environ.get("PROBE_SET") == "2" else PROBES
+    probes = {"2": PROBES_R2, "3": PROBES_R3}.get(os.environ.get("PROBE_SET", "1"), PROBES)
     results = []
     for p in probes:
         results.append(probe(*p))
