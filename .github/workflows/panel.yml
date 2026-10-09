@@ -1,0 +1,44 @@
+name: Painel diário
+
+on:
+  schedule:
+    - cron: "50 8 * * *"   # 05h50 em Brasília (08h50 UTC), todos os dias
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "Carga histórica completa (demora ~1 h)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: painel
+  cancel-in-progress: false
+
+jobs:
+  painel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pyyaml xlrd
+      - name: Testes das fórmulas
+        run: python -m unittest discover -s tests -v
+      - name: Coleta, cálculo e validação
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python scripts/run_panel.py ${{ inputs.backfill && '--backfill' || '' }}
+      - run: cat output/panel.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Salvar séries e saídas
+        run: |
+          git config user.name "daily-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data output
+          git commit -m "Painel $(TZ=America/Sao_Paulo date +%Y-%m-%d)" || echo "nada a salvar"
+          git pull --rebase -q
+          git push

@@ -1,0 +1,187 @@
+# Cadastro mestre dos indicadores do Painel.
+# Cada série vive em data/series/<id>.csv (data, valor, fonte, coletado_em, metodo).
+#
+# Campos:
+#   tipo: preco (variação em %) | taxa (variação em pontos-base) | relacao (variação em %)
+#   max_idade_dias: idade máxima (dias corridos) da última observação antes de marcar "defasado"
+#   decimais: casas decimais na exibição
+#   salto_max_pct: variação diária acima disso gera alerta de validação (não bloqueia)
+
+indicadores:
+  - id: ptax_venda
+    nome: "USD/BRL PTAX venda"
+    unidade: "R$/US$"
+    tipo: preco
+    fonte: "Banco Central do Brasil — PTAX (Olinda), boletim de fechamento"
+    url: "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/"
+    checagem: "BCB SGS série 1"
+    max_idade_dias: 4
+    decimais: 4
+    salto_max_pct: 5
+
+  - id: ibovespa
+    nome: "Ibovespa"
+    unidade: "pontos"
+    tipo: preco
+    fonte: "B3 — estatísticas históricas do índice (fechamento diário)"
+    url: "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/day/IBOV"
+    max_idade_dias: 4
+    decimais: 0
+    salto_max_pct: 8
+
+  - id: sp500
+    nome: "S&P 500"
+    unidade: "pontos"
+    tipo: preco
+    fonte: "FRED, série SP500 (S&P Dow Jones Indices)"
+    url: "https://fred.stlouisfed.org/series/SP500"
+    max_idade_dias: 4
+    decimais: 0
+    salto_max_pct: 8
+
+  - id: selic_meta
+    nome: "Selic-meta"
+    unidade: "% a.a."
+    tipo: taxa
+    fonte: "Banco Central do Brasil — SGS série 432 (meta Selic)"
+    url: "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados"
+    max_idade_dias: 4
+    decimais: 2
+    salto_max_pct: 15
+
+  - id: fed_funds_efetiva
+    nome: "Fed Funds efetiva (EFFR)"
+    unidade: "% a.a."
+    tipo: taxa
+    fonte: "Federal Reserve Bank of New York — EFFR"
+    url: "https://markets.newyorkfed.org/api/rates/unsecured/effr/"
+    max_idade_dias: 5
+    decimais: 2
+    salto_max_pct: 30
+
+  - id: fed_funds_alvo_sup
+    nome: "Fed Funds — teto do intervalo-alvo"
+    unidade: "% a.a."
+    tipo: taxa
+    fonte: "Federal Reserve Bank of New York — EFFR (campo targetRateTo)"
+    url: "https://markets.newyorkfed.org/api/rates/unsecured/effr/"
+    max_idade_dias: 5
+    decimais: 2
+    salto_max_pct: 30
+
+  - id: fed_funds_alvo_inf
+    nome: "Fed Funds — piso do intervalo-alvo"
+    unidade: "% a.a."
+    tipo: taxa
+    fonte: "Federal Reserve Bank of New York — EFFR (campo targetRateFrom)"
+    url: "https://markets.newyorkfed.org/api/rates/unsecured/effr/"
+    max_idade_dias: 5
+    decimais: 2
+    salto_max_pct: 30
+    oculto: true   # exibido junto com o teto, como intervalo
+
+  - id: treasury_10a
+    nome: "Treasury 10 anos"
+    unidade: "% a.a."
+    tipo: taxa
+    fonte: "U.S. Department of the Treasury — Daily Par Yield Curve, 10 Yr"
+    url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
+    max_idade_dias: 4
+    decimais: 2
+    salto_max_pct: 10
+
+  - id: brent_spot
+    nome: "Brent spot (Europe Brent FOB)"
+    unidade: "US$/barril"
+    tipo: preco
+    fonte: "U.S. EIA — série RBRTE (spot, diário)"
+    url: "https://www.eia.gov/dnav/pet/hist/RBRTED.htm"
+    max_idade_dias: 12   # a EIA publica com alguns dias de atraso
+    decimais: 2
+    salto_max_pct: 12
+
+  - id: bitcoin
+    nome: "Bitcoin"
+    unidade: "US$"
+    tipo: preco
+    fonte: "Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC"
+    url: "https://api.exchange.coinbase.com/products/BTC-USD/candles"
+    max_idade_dias: 3
+    decimais: 0
+    salto_max_pct: 20
+
+  - id: boi_gordo_sp
+    nome: "Boi gordo SP (Indicador CEPEA/ESALQ)"
+    unidade: "R$/@"
+    tipo: preco
+    fonte: "CEPEA/ESALQ, republicado por Notícias Agrícolas"
+    url: "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf"
+    max_idade_dias: 4
+    decimais: 2
+    salto_max_pct: 6
+
+  - id: boi_comum_go_sul
+    nome: "Boi comum GO Região Sul (Scot, bruto à vista)"
+    unidade: "R$/@"
+    tipo: preco
+    fonte: "Scot Consultoria, mercado físico, republicado por Notícias Agrícolas"
+    url: "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria"
+    max_idade_dias: 5
+    decimais: 2
+    salto_max_pct: 6
+
+  - id: boi_comum_to_sul
+    nome: "Boi comum TO Sul (Scot, bruto à vista)"
+    unidade: "R$/@"
+    tipo: preco
+    fonte: "Scot Consultoria, mercado físico, republicado por Notícias Agrícolas"
+    url: "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria"
+    max_idade_dias: 5
+    decimais: 2
+    salto_max_pct: 6
+
+  - id: bezerro_ms
+    nome: "Bezerro MS (Indicador CEPEA/ESALQ)"
+    unidade: "R$/cabeça"
+    tipo: preco
+    fonte: "CEPEA/ESALQ, republicado por Notícias Agrícolas"
+    url: "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/indicador-bezerro-esalq-bmf-bovespa-ms"
+    max_idade_dias: 4
+    decimais: 2
+    salto_max_pct: 6
+
+  - id: rel_troca_cepea
+    nome: "Relação de troca CEPEA (@ de boi SP por bezerro MS)"
+    unidade: "@/bezerro"
+    tipo: relacao
+    fonte: "Cálculo: Bezerro MS CEPEA ÷ Boi gordo SP CEPEA, mesma data (praças diferentes)"
+    url: ""
+    derivado_de: [bezerro_ms, boi_gordo_sp]
+    leitura: "Menor = melhor para quem compra bezerro (terminador); maior = melhor para quem vende (criador)."
+    max_idade_dias: 4
+    decimais: 2
+    salto_max_pct: 8
+
+  - id: soja_paranagua
+    nome: "Soja Paranaguá (Indicador CEPEA/ESALQ)"
+    unidade: "R$/sc 60 kg"
+    tipo: preco
+    fonte: "CEPEA/ESALQ, republicado por Notícias Agrícolas"
+    url: "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-indicador-cepea-esalq-porto-paranagua"
+    max_idade_dias: 4
+    decimais: 2
+    salto_max_pct: 6
+
+  - id: milho_cepea
+    nome: "Milho (Indicador CEPEA/ESALQ, Campinas)"
+    unidade: "R$/sc 60 kg"
+    tipo: preco
+    fonte: "CEPEA/ESALQ, republicado por Notícias Agrícolas"
+    url: "https://www.noticiasagricolas.com.br/cotacoes/milho/indicador-cepea-esalq-milho"
+    max_idade_dias: 4
+    decimais: 2
+    salto_max_pct: 6
+
+# Fora do painel por enquanto (com motivo):
+#   escala_abate e relacao_troca_agrifatto — Agrifatto exige assinatura; substituto em avaliação (P1).
+#   di_futuro — opcional na especificação; entra quando houver leitura material.
