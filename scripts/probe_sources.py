@@ -78,6 +78,12 @@ PROBES_R2: list[tuple[str, str, str]] = [
 
 B3 = "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/"
 
+# Rodada 4: API interna da página de estatísticas da B3 (GetPortfolioDay, parâmetro em base64).
+PROBES_R4: list[tuple[str, str, str]] = [
+    ("b3_ibov_dia_2025", "https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI1In0=", "json"),
+    ("b3_ibov_dia_2026", "https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI2In0=", "json"),
+]
+
 # Rodada 3: S&P 500 e Ibovespa (Stooq exige JS, Yahoo 429, FRED não responde).
 PROBES_R3: list[tuple[str, str, str]] = [
     ("b3_main_js", B3 + "main-es2015.204ca04ae07d2c137636.js", "js"),
@@ -113,7 +119,7 @@ def main() -> None:
     import os
 
     RAW.mkdir(parents=True, exist_ok=True)
-    probes = {"2": PROBES_R2, "3": PROBES_R3}.get(os.environ.get("PROBE_SET", "1"), PROBES)
+    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4}.get(os.environ.get("PROBE_SET", "1"), PROBES)
     results = []
     for p in probes:
         results.append(probe(*p))
