@@ -1,174 +1,59 @@
 {
-  "executado_em_utc": "2026-10-09T23:47:40+00:00",
+  "executado_em_utc": "2026-10-09T23:48:52+00:00",
   "resultados": [
     {
-      "nome": "na_bezerro_ms",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/indicador-bezerro-esalq-bmf-bovespa-ms",
+      "nome": "b3_main_js",
+      "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/main-es2015.204ca04ae07d2c137636.js",
       "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 132115,
-      "segundos": 0.41,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Bezerro Esalq/BM&amp;F Bovespa - MS - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconne"
+      "content_type": "application/javascript",
+      "bytes": 543553,
+      "segundos": 0.55,
+      "trecho": "(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{0:function(t,e,n){t.exports=n(\"zUnb\")},Iab2:function(t,e,n){var r,i;void 0===(i=\"function\"==typeof(r=function(){\"use strict\";function e(t,e,n){var r=new XMLHttpRequest;r.open(\"GET\",t),r.responseType=\"blob\",r.onload=function(){o(r.response,e,n)"
     },
     {
-      "nome": "na_bezerro_ms_data_2025-12-30",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/indicador-bezerro-esalq-bmf-bovespa-ms/2025-12-30",
-      "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 122516,
-      "segundos": 0.34,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Bezerro Esalq/BM&amp;F Bovespa - MS - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconne"
-    },
-    {
-      "nome": "na_soja_data_2025-12-30",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-indicador-cepea-esalq-porto-paranagua/2025-12-30",
-      "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 122291,
-      "segundos": 0.24,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Indicador da Soja ESALQ/B3 - Paranaguá - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"prec"
-    },
-    {
-      "nome": "na_milho_data_2025-12-30",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/milho/indicador-cepea-esalq-milho/2025-12-30",
-      "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 122293,
-      "segundos": 0.26,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Indicador do Milho Esalq/B3 - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href"
-    },
-    {
-      "nome": "na_scot",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria",
-      "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 130326,
+      "nome": "fred_api_sem_chave",
+      "url": "https://api.stlouisfed.org/fred/series/observations?series_id=SP500&file_type=json",
+      "status": 400,
+      "content_type": "application/json; charset=UTF-8",
+      "bytes": 162,
       "segundos": 0.12,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Mercado Físico - Scot Consultoria - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnec"
+      "trecho": "{\"error_code\":400,\"error_message\":\"Bad Request.  Variable api_key is not set.  Read https:\\/\\/fred.stlouisfed.org\\/docs\\/api\\/api_key.html for more information.\"}"
     },
     {
-      "nome": "na_scot_data_2026-09-08",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria/2026-09-08",
+      "nome": "nasdaq_spx",
+      "url": "https://api.nasdaq.com/api/quote/SPX/historical?assetclass=index&fromdate=2025-09-01&todate=2026-10-09&limit=9999",
       "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 121369,
-      "segundos": 0.24,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Mercado Físico - Scot Consultoria - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnec"
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 142,
+      "segundos": 3.3,
+      "trecho": "{\"data\":null,\"message\":null,\"status\":{\"rCode\":400,\"bCodeMessage\":[{\"code\":1001,\"errorMessage\":\"Symbol not exists.\"}],\"developerMessage\":null}}"
     },
     {
-      "nome": "na_scot_data_2025-10-08",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria/2025-10-08",
-      "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 121369,
-      "segundos": 0.34,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Mercado Físico - Scot Consultoria - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnec"
-    },
-    {
-      "nome": "na_imea_boi",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-a-vista-imea",
-      "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 146392,
-      "segundos": 0.27,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Boi à Vista - IMEA - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href=\"https:"
-    },
-    {
-      "nome": "na_reposicao_nelore_macho",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho",
-      "status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 156697,
-      "segundos": 0.3,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Reposição Nelore - Macho - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href="
-    },
-    {
-      "nome": "fred_dgs10_timeout_longo",
-      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
-      "status": null,
-      "erro": "ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=90)",
-      "segundos": 90.36
-    },
-    {
-      "nome": "treasury_yields_2026",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
-      "status": 200,
-      "content_type": "text/csv; charset=UTF-8",
-      "bytes": 15905,
-      "segundos": 0.26,
-      "trecho": "Date,\"1 Mo\",\"1.5 Month\",\"2 Mo\",\"3 Mo\",\"4 Mo\",\"6 Mo\",\"1 Yr\",\"2 Yr\",\"3 Yr\",\"5 Yr\",\"7 Yr\",\"10 Yr\",\"20 Yr\",\"30 Yr\"\n10/09/2026,4.13,4.13,4.13,4.25,4.29,4.32,4.47,4.80,4.89,5.02,5.13,5.24,5.65,5.60\n10/08/2026,4.14,4.14,4.13,4.23,4.29,4.30,4.44,4.75,4.85,4.99,5.11,5.22,5.64,5.60\n10/07/2026,4.07,4.13,4.14,4"
-    },
-    {
-      "nome": "nyfed_effr",
-      "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/last/30.json",
-      "status": 200,
-      "content_type": "application/json;charset=utf-8",
-      "bytes": 8503,
-      "segundos": 0.33,
-      "trecho": "{ \"refRates\": [ { \"effectiveDate\": \"2026-10-08\", \"type\": \"EFFR\" ,\"percentRate\": 3.88 ,\"percentPercentile1\": 3.85 ,\"percentPercentile25\": 3.87 ,\"percentPercentile75\": 3.88 ,\"percentPercentile99\": 3.89 ,\"targetRateFrom\": 3.75 ,\"targetRateTo\": 4.00 ,\"volumeInBillions\": 117 ,\"revisionIndicator\": \"\" }, {"
-    },
-    {
-      "nome": "eia_brent_xls",
-      "url": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls",
-      "status": 200,
-      "content_type": "application/vnd.ms-excel",
-      "bytes": 452096,
-      "segundos": 9.35,
-      "trecho": "��\u0011ࡱ\u001a�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000;\u0000\u0003\u0000��\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000g\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000j\u0003\u0000\u0000\u0001\u0000\u0000\u0000����\u0000\u0000\u0000\u0000k\u0003\u0000\u0000l\u0003\u0000\u0000m\u0003\u0000\u0000n\u0003\u0000\u0000o\u0003\u0000\u0000p\u0003\u0000\u0000q\u0003\u0000\u0000����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������"
-    },
-    {
-      "nome": "stooq_spx",
-      "url": "https://stooq.com/q/d/l/?s=%5Espx&i=d",
-      "status": 200,
-      "content_type": "text/html; charset=utf-8",
-      "bytes": 796,
-      "segundos": 0.67,
-      "trecho": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex,nofollow\"></head><body><noscript>This site requires JavaScript to verify your browser. Please enable JavaScript and reload.</noscript><script nonce=\"Nx4g3CHuYfgVrHTpa2qcvw\">\n(async()=>{const c=\"AAAAAGrJfQyiHAkn97d5"
-    },
-    {
-      "nome": "stooq_ibov",
-      "url": "https://stooq.com/q/d/l/?s=%5Ebvp&i=d",
-      "status": 200,
-      "content_type": "text/html; charset=utf-8",
-      "bytes": 796,
-      "segundos": 0.68,
-      "trecho": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex,nofollow\"></head><body><noscript>This site requires JavaScript to verify your browser. Please enable JavaScript and reload.</noscript><script nonce=\"VtXZHSjhUi43XzqTq8qqIA\">\n(async()=>{const c=\"AAAAAGrJfQ6P-SbwEHZE"
-    },
-    {
-      "nome": "b3_ibov_pagina_dia",
-      "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/day/IBOV?language=pt-br",
-      "status": 200,
-      "content_type": "text/html",
-      "bytes": 2331,
-      "segundos": 0.37,
-      "trecho": "<!doctype html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Estatísticas de Índices</title>\r\n  <base href=\"/indexStatisticsPage/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n  <script type=\"text/javascript\" src=\"/indexStatisticsPage/ruxitagentjs_ICA"
-    },
-    {
-      "nome": "scot_boi_lento",
-      "url": "https://www.scotconsultoria.com.br/cotacoes/boi-gordo/",
+      "nome": "yahoo2_spx",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d",
       "status": 429,
-      "content_type": "",
-      "bytes": 0,
-      "segundos": 1.26,
-      "trecho": ""
+      "content_type": "text/html",
+      "bytes": 19,
+      "segundos": 0.06,
+      "trecho": "Too Many Requests\r\n"
     },
     {
-      "nome": "inmet_a011_dados",
-      "url": "https://apitempo.inmet.gov.br/estacao/2026-09-01/2026-10-08/A011",
-      "status": 204,
-      "content_type": "",
-      "bytes": 0,
-      "segundos": 0.99,
-      "trecho": ""
+      "nome": "yahoo2_ibov",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/%5EBVSP?range=2y&interval=1d",
+      "status": 429,
+      "content_type": "text/html",
+      "bytes": 19,
+      "segundos": 0.06,
+      "trecho": "Too Many Requests\r\n"
     },
     {
-      "nome": "inmet_a055_dados",
-      "url": "https://apitempo.inmet.gov.br/estacao/2026-09-01/2026-10-08/A055",
-      "status": 204,
-      "content_type": "",
-      "bytes": 0,
-      "segundos": 0.69,
-      "trecho": ""
+      "nome": "spdji_spx",
+      "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+      "status": 403,
+      "content_type": "text/html",
+      "bytes": 2011,
+      "segundos": 0.1,
+      "trecho": "<!DOCTYPE html>\n\n<html>\n\n<head>\n\t<meta charset=\"utf-8\" />\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\t<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\" />\n\n\t<title>Error | S&amp</title>\n\t<!-- Boots"
     }
   ]
 }
