@@ -1,59 +1,23 @@
 {
-  "executado_em_utc": "2026-10-09T23:48:52+00:00",
+  "executado_em_utc": "2026-10-09T23:49:49+00:00",
   "resultados": [
     {
-      "nome": "b3_main_js",
-      "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/main-es2015.204ca04ae07d2c137636.js",
-      "status": 200,
-      "content_type": "application/javascript",
-      "bytes": 543553,
-      "segundos": 0.55,
-      "trecho": "(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{0:function(t,e,n){t.exports=n(\"zUnb\")},Iab2:function(t,e,n){var r,i;void 0===(i=\"function\"==typeof(r=function(){\"use strict\";function e(t,e,n){var r=new XMLHttpRequest;r.open(\"GET\",t),r.responseType=\"blob\",r.onload=function(){o(r.response,e,n)"
-    },
-    {
-      "nome": "fred_api_sem_chave",
-      "url": "https://api.stlouisfed.org/fred/series/observations?series_id=SP500&file_type=json",
-      "status": 400,
-      "content_type": "application/json; charset=UTF-8",
-      "bytes": 162,
-      "segundos": 0.12,
-      "trecho": "{\"error_code\":400,\"error_message\":\"Bad Request.  Variable api_key is not set.  Read https:\\/\\/fred.stlouisfed.org\\/docs\\/api\\/api_key.html for more information.\"}"
-    },
-    {
-      "nome": "nasdaq_spx",
-      "url": "https://api.nasdaq.com/api/quote/SPX/historical?assetclass=index&fromdate=2025-09-01&todate=2026-10-09&limit=9999",
+      "nome": "b3_ibov_dia_2025",
+      "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI1In0=",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "bytes": 142,
-      "segundos": 3.3,
-      "trecho": "{\"data\":null,\"message\":null,\"status\":{\"rCode\":400,\"bCodeMessage\":[{\"code\":1001,\"errorMessage\":\"Symbol not exists.\"}],\"developerMessage\":null}}"
+      "bytes": 9796,
+      "segundos": 0.42,
+      "trecho": "{\"min\":{\"day\":0,\"rateValue1\":\"118.532,68\",\"rateValue2\":\"122.799,09\",\"rateValue3\":\"123.046,85\",\"rateValue4\":\"123.931,89\",\"rateValue5\":\"133.397,52\",\"rateValue6\":\"135.699,38\",\"rateValue7\":\"132.129,26\",\"rateValue8\":\"132.437,39\",\"rateValue9\":\"139.863,63\",\"rateValue10\":\"140.680,34\",\"rateValue11\":\"150.454,"
     },
     {
-      "nome": "yahoo2_spx",
-      "url": "https://query2.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d",
-      "status": 429,
-      "content_type": "text/html",
-      "bytes": 19,
-      "segundos": 0.06,
-      "trecho": "Too Many Requests\r\n"
-    },
-    {
-      "nome": "yahoo2_ibov",
-      "url": "https://query2.finance.yahoo.com/v8/finance/chart/%5EBVSP?range=2y&interval=1d",
-      "status": 429,
-      "content_type": "text/html",
-      "bytes": 19,
-      "segundos": 0.06,
-      "trecho": "Too Many Requests\r\n"
-    },
-    {
-      "nome": "spdji_spx",
-      "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
-      "status": 403,
-      "content_type": "text/html",
-      "bytes": 2011,
-      "segundos": 0.1,
-      "trecho": "<!DOCTYPE html>\n\n<html>\n\n<head>\n\t<meta charset=\"utf-8\" />\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\t<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\" />\n\n\t<title>Error | S&amp</title>\n\t<!-- Boots"
+      "nome": "b3_ibov_dia_2026",
+      "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI2In0=",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 9308,
+      "segundos": 0.86,
+      "trecho": "{\"min\":{\"day\":0,\"rateValue1\":\"160.538,69\",\"rateValue2\":\"181.708,23\",\"rateValue3\":\"176.219,40\",\"rateValue4\":\"184.750,42\",\"rateValue5\":\"173.787,49\",\"rateValue6\":\"168.277,55\",\"rateValue7\":\"170.653,45\",\"rateValue8\":\"166.334,86\",\"rateValue9\":\"179.722,48\",\"rateValue10\":\"187.197,46\",\"rateValue11\":\"\",\"rateV"
     }
   ]
 }
