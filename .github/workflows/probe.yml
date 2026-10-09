@@ -1,0 +1,27 @@
+name: Teste de fontes
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python scripts/probe_sources.py
+      - run: cat reports/probe/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Salvar resultado no repositório
+        run: |
+          git config user.name "daily-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/probe
+          git commit -m "Teste de fontes $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nada a salvar"
+          git push
