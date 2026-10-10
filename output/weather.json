@@ -1,0 +1,178 @@
+[
+  {
+    "local": "Fazenda Laçada — Quirinópolis (GO)",
+    "lat": -18.7215,
+    "lon": -50.4246,
+    "gerado_em": "2026-10-10T15:30-03:00",
+    "recente": {
+      "tipo": "estimativa de modelo (Open-Meteo), não estação",
+      "ultimos_7_dias_mm": 30.0,
+      "ultimos_30_dias_mm": 51.0,
+      "dias_com_chuva_7d": 4,
+      "dias_com_chuva_30d": 9,
+      "dias_consecutivos_sem_chuva": 3,
+      "mes_ate_ontem_mm": 40.3,
+      "periodo_mes": "2026-10-01 a 2026-10-09"
+    },
+    "climatologia": {
+      "fonte": "Open-Meteo archive (reanálise ERA5), 1995–2024",
+      "normal_mes_mm": 109.6,
+      "normal_ate_ontem_mm": 22.6
+    },
+    "previsao_7d": {
+      "tipo": "previsão de modelo numérico (Open-Meteo, best match)",
+      "periodo": "2026-10-10 a 2026-10-16",
+      "acumulado_mm": 35.1,
+      "dias_com_chuva": 4,
+      "tmax_max": 34.6,
+      "tmin_min": 21.6,
+      "et0_mm": 33.7,
+      "dias": [
+        {
+          "data": "2026-10-10",
+          "chuva_mm": 0.0,
+          "prob_pct": 24,
+          "tmax": 32.5,
+          "tmin": 22.4,
+          "et0_mm": 5.74
+        },
+        {
+          "data": "2026-10-11",
+          "chuva_mm": 0.0,
+          "prob_pct": 37,
+          "tmax": 32.7,
+          "tmin": 23.2,
+          "et0_mm": 5.34
+        },
+        {
+          "data": "2026-10-12",
+          "chuva_mm": 0.8,
+          "prob_pct": 45,
+          "tmax": 31.9,
+          "tmin": 23.4,
+          "et0_mm": 4.28
+        },
+        {
+          "data": "2026-10-13",
+          "chuva_mm": 5.9,
+          "prob_pct": 82,
+          "tmax": 34.6,
+          "tmin": 22.4,
+          "et0_mm": 5.66
+        },
+        {
+          "data": "2026-10-14",
+          "chuva_mm": 6.3,
+          "prob_pct": 71,
+          "tmax": 31.4,
+          "tmin": 23.0,
+          "et0_mm": 4.41
+        },
+        {
+          "data": "2026-10-15",
+          "chuva_mm": 8.9,
+          "prob_pct": 84,
+          "tmax": 32.6,
+          "tmin": 22.9,
+          "et0_mm": 4.66
+        },
+        {
+          "data": "2026-10-16",
+          "chuva_mm": 13.2,
+          "prob_pct": 97,
+          "tmax": 26.4,
+          "tmin": 21.6,
+          "et0_mm": 3.62
+        }
+      ]
+    }
+  },
+  {
+    "local": "Fazenda Laçada Lagoa Azul — Pium/Lagoa da Confusão (TO)",
+    "lat": -10.29775,
+    "lon": -49.79627,
+    "gerado_em": "2026-10-10T15:30-03:00",
+    "recente": {
+      "tipo": "estimativa de modelo (Open-Meteo), não estação",
+      "ultimos_7_dias_mm": 9.2,
+      "ultimos_30_dias_mm": 39.0,
+      "dias_com_chuva_7d": 3,
+      "dias_com_chuva_30d": 5,
+      "dias_consecutivos_sem_chuva": 4,
+      "mes_ate_ontem_mm": 27.1,
+      "periodo_mes": "2026-10-01 a 2026-10-09"
+    },
+    "climatologia": {
+      "fonte": "Open-Meteo archive (reanálise ERA5), 1995–2024",
+      "normal_mes_mm": 117.0,
+      "normal_ate_ontem_mm": 20.4
+    },
+    "previsao_7d": {
+      "tipo": "previsão de modelo numérico (Open-Meteo, best match)",
+      "periodo": "2026-10-10 a 2026-10-16",
+      "acumulado_mm": 19.4,
+      "dias_com_chuva": 3,
+      "tmax_max": 38.9,
+      "tmin_min": 23.2,
+      "et0_mm": 37.4,
+      "dias": [
+        {
+          "data": "2026-10-10",
+          "chuva_mm": 0.2,
+          "prob_pct": 37,
+          "tmax": 35.6,
+          "tmin": 23.2,
+          "et0_mm": 5.59
+        },
+        {
+          "data": "2026-10-11",
+          "chuva_mm": 0.2,
+          "prob_pct": 55,
+          "tmax": 35.8,
+          "tmin": 23.4,
+          "et0_mm": 5.5
+        },
+        {
+          "data": "2026-10-12",
+          "chuva_mm": 1.0,
+          "prob_pct": 41,
+          "tmax": 36.3,
+          "tmin": 24.3,
+          "et0_mm": 5.43
+        },
+        {
+          "data": "2026-10-13",
+          "chuva_mm": 0.0,
+          "prob_pct": 31,
+          "tmax": 36.8,
+          "tmin": 25.0,
+          "et0_mm": 5.82
+        },
+        {
+          "data": "2026-10-14",
+          "chuva_mm": 0.6,
+          "prob_pct": 38,
+          "tmax": 38.9,
+          "tmin": 25.0,
+          "et0_mm": 5.94
+        },
+        {
+          "data": "2026-10-15",
+          "chuva_mm": 3.9,
+          "prob_pct": 51,
+          "tmax": 35.9,
+          "tmin": 24.1,
+          "et0_mm": 5.46
+        },
+        {
+          "data": "2026-10-16",
+          "chuva_mm": 13.5,
+          "prob_pct": 43,
+          "tmax": 32.5,
+          "tmin": 23.8,
+          "et0_mm": 3.62
+        }
+      ]
+    }
+  }
+]
