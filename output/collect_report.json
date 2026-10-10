@@ -14,7 +14,7 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 21
@@ -36,7 +36,7 @@
     "ok": true,
     "series": {
       "sp500": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 15
@@ -95,7 +95,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 21
+        "recebidos": 20
       }
     }
   },

@@ -4,7 +4,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 4.9892,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -48,7 +48,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 209066.9,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -92,7 +92,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 7811.54,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -134,19 +134,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-09",
+      "data": "2026-10-10",
       "valor": 13.75,
       "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-10-08",
+      "data_ref": "2026-10-09",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-09",
-      "data_ref": "2026-09-09",
+      "alvo": "2026-09-10",
+      "data_ref": "2026-09-10",
       "valor_ref": 14.0,
       "variacao": -25.0,
       "unidade_variacao": "pb"
@@ -159,8 +159,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-09",
-      "data_ref": "2025-10-09",
+      "alvo": "2025-10-10",
+      "data_ref": "2025-10-10",
       "valor_ref": 15.0,
       "variacao": -125.0,
       "unidade_variacao": "pb"
@@ -180,7 +180,7 @@
     "atual": {
       "data": "2026-10-08",
       "valor": 3.88,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-10-07",
@@ -224,7 +224,7 @@
     "atual": {
       "data": "2026-10-08",
       "valor": 4.0,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-10-07",
@@ -268,7 +268,7 @@
     "atual": {
       "data": "2026-10-08",
       "valor": 3.75,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-10-07",
@@ -312,7 +312,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 5.24,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -356,7 +356,7 @@
     "atual": {
       "data": "2026-10-06",
       "valor": 125.44,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-05",
@@ -400,7 +400,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 82544.71,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -444,7 +444,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 377.8,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -488,7 +488,7 @@
     "atual": {
       "data": "2026-10-08",
       "valor": 349.0,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "motivo": "histórico começa em 2026-10-08"
@@ -520,7 +520,7 @@
     "atual": {
       "data": "2026-10-08",
       "valor": 351.0,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "motivo": "histórico começa em 2026-10-08"
@@ -552,7 +552,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 3481.33,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -596,7 +596,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 9.214743250397035,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -640,7 +640,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 154.75,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
@@ -684,7 +684,7 @@
     "atual": {
       "data": "2026-10-09",
       "valor": 67.35,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-10-08",
