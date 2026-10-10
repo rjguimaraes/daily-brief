@@ -7,7 +7,7 @@ on:
   schedule:
     - cron: "17 6 * * *"   # 03h17 em Brasília
     - cron: "17 8 * * *"   # 05h17 em Brasília
-    - cron: "37 9 * * *"   # 06h37 em Brasília (rede de segurança)
+    - cron: "7 9 * * *"    # 06h07 em Brasília (rede de segurança)
   workflow_dispatch:
     inputs:
       backfill:
@@ -38,7 +38,10 @@ jobs:
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python scripts/run_panel.py ${{ inputs.backfill && '--backfill' || '' }}
-      - run: cat output/panel.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Clima das propriedades
+        continue-on-error: true   # falha no clima não derruba o painel
+        run: python scripts/run_weather.py
+      - run: cat output/panel.md output/weather.md >> "$GITHUB_STEP_SUMMARY" || true
       - name: Salvar séries e saídas
         run: |
           git config user.name "daily-brief-bot"
