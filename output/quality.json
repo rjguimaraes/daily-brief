@@ -1,19 +1,21 @@
 {
   "data_referencia": "2026-10-09",
-  "gerado_em_utc": "2026-10-10T00:24:12+00:00",
+  "gerado_em_utc": "2026-10-10T00:28:02+00:00",
   "indicadores": 16,
   "ok": 16,
   "defasados": [],
   "ausentes": [],
-  "comparativos_preenchidos": 42,
-  "comparativos_possiveis": 48,
+  "comparativos_preenchidos": 56,
+  "comparativos_possiveis": 64,
   "comparativos_ausentes": {
     "boi_comum_go_sul": {
+      "d1": "histórico começa em 2026-10-08",
       "m1": "histórico começa em 2026-10-08",
       "ytd": "histórico começa em 2026-10-08",
       "y1": "histórico começa em 2026-10-08"
     },
     "boi_comum_to_sul": {
+      "d1": "histórico começa em 2026-10-08",
       "m1": "histórico começa em 2026-10-08",
       "ytd": "histórico começa em 2026-10-08",
       "y1": "histórico começa em 2026-10-08"
@@ -30,5 +32,9 @@
       }
     ]
   },
-  "divergencias_ptax_olinda_vs_sgs1": []
+  "divergencias_ptax_olinda_vs_sgs1": [
+    {
+      "erro": "checagem SGS 1 indisponível: Expecting value: line 1 column 1 (char 0)"
+    }
+  ]
 }

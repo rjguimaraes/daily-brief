@@ -3,10 +3,10 @@
     "ok": true,
     "series": {
       "ptax_venda": {
-        "novos": 684,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 700
+        "recebidos": 15
       }
     }
   },
@@ -14,10 +14,10 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 992,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 1013
+        "recebidos": 21
       }
     }
   },
@@ -25,10 +25,10 @@
     "ok": true,
     "series": {
       "ibovespa": {
-        "novos": 501,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 695
+        "recebidos": 194
       }
     }
   },
@@ -36,10 +36,10 @@
     "ok": true,
     "series": {
       "sp500": {
-        "novos": 681,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 695
+        "recebidos": 15
       }
     }
   },
@@ -47,22 +47,22 @@
     "ok": true,
     "series": {
       "fed_funds_efetiva": {
-        "novos": 682,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 696
+        "recebidos": 14
       },
       "fed_funds_alvo_sup": {
-        "novos": 682,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 696
+        "recebidos": 14
       },
       "fed_funds_alvo_inf": {
-        "novos": 682,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 696
+        "recebidos": 14
       }
     }
   },
@@ -70,10 +70,10 @@
     "ok": true,
     "series": {
       "treasury_10a": {
-        "novos": 499,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 694
+        "recebidos": 195
       }
     }
   },
@@ -81,10 +81,10 @@
     "ok": true,
     "series": {
       "brent_spot": {
-        "novos": 688,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 700
+        "recebidos": 12
       }
     }
   },
@@ -92,10 +92,10 @@
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 992,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 1013
+        "recebidos": 21
       }
     }
   },
@@ -142,35 +142,6 @@
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 1
-      }
-    }
-  },
-  "CEPEA (NA) histórico": {
-    "ok": true,
-    "series": {
-      "boi_gordo_sp": {
-        "novos": 256,
-        "revisados": [],
-        "futuros_descartados": 0,
-        "recebidos": 266
-      },
-      "bezerro_ms": {
-        "novos": 253,
-        "revisados": [],
-        "futuros_descartados": 0,
-        "recebidos": 263
-      },
-      "soja_paranagua": {
-        "novos": 254,
-        "revisados": [],
-        "futuros_descartados": 0,
-        "recebidos": 264
-      },
-      "milho_cepea": {
-        "novos": 256,
-        "revisados": [],
-        "futuros_descartados": 0,
-        "recebidos": 266
       }
     }
   }

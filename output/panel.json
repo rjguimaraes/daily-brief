@@ -6,6 +6,12 @@
       "valor": 4.9892,
       "idade_dias": 0
     },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 5.0119,
+      "variacao": -0.45292204553162296,
+      "unidade_variacao": "%"
+    },
     "m1": {
       "alvo": "2026-09-09",
       "data_ref": "2026-09-09",
@@ -44,6 +50,12 @@
       "valor": 209066.9,
       "idade_dias": 0
     },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 206220.24,
+      "variacao": 1.3803979667563304,
+      "unidade_variacao": "%"
+    },
     "m1": {
       "alvo": "2026-09-09",
       "data_ref": "2026-09-09",
@@ -78,29 +90,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-08",
-      "valor": 7765.36,
-      "idade_dias": 1
+      "data": "2026-10-09",
+      "valor": 7811.54,
+      "idade_dias": 0
+    },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 7765.36,
+      "variacao": 0.5946923259192216,
+      "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-08",
-      "data_ref": "2026-09-08",
-      "valor_ref": 7673.52,
-      "variacao": 1.1968431697578108,
+      "alvo": "2026-09-09",
+      "data_ref": "2026-09-09",
+      "valor_ref": 7636.36,
+      "variacao": 2.2940249019166137,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 6845.5,
-      "variacao": 13.437440654444522,
+      "variacao": 14.112044408735658,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-08",
-      "data_ref": "2025-10-08",
-      "valor_ref": 6753.72,
-      "variacao": 14.979004163631293,
+      "alvo": "2025-10-09",
+      "data_ref": "2025-10-09",
+      "valor_ref": 6735.11,
+      "variacao": 15.982367028897816,
       "unidade_variacao": "%"
     },
     "id": "sp500",
@@ -119,6 +137,12 @@
       "data": "2026-10-09",
       "valor": 13.75,
       "idade_dias": 0
+    },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 13.75,
+      "variacao": 0.0,
+      "unidade_variacao": "pb"
     },
     "m1": {
       "alvo": "2026-09-09",
@@ -158,6 +182,12 @@
       "valor": 3.88,
       "idade_dias": 1
     },
+    "d1": {
+      "data_ref": "2026-10-07",
+      "valor_ref": 3.88,
+      "variacao": 0.0,
+      "unidade_variacao": "pb"
+    },
     "m1": {
       "alvo": "2026-09-08",
       "data_ref": "2026-09-08",
@@ -195,6 +225,12 @@
       "data": "2026-10-08",
       "valor": 4.0,
       "idade_dias": 1
+    },
+    "d1": {
+      "data_ref": "2026-10-07",
+      "valor_ref": 4.0,
+      "variacao": 0.0,
+      "unidade_variacao": "pb"
     },
     "m1": {
       "alvo": "2026-09-08",
@@ -234,6 +270,12 @@
       "valor": 3.75,
       "idade_dias": 1
     },
+    "d1": {
+      "data_ref": "2026-10-07",
+      "valor_ref": 3.75,
+      "variacao": 0.0,
+      "unidade_variacao": "pb"
+    },
     "m1": {
       "alvo": "2026-09-08",
       "data_ref": "2026-09-08",
@@ -271,6 +313,12 @@
       "data": "2026-10-09",
       "valor": 5.24,
       "idade_dias": 0
+    },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 5.22,
+      "variacao": 2.000000000000046,
+      "unidade_variacao": "pb"
     },
     "m1": {
       "alvo": "2026-09-09",
@@ -310,6 +358,12 @@
       "valor": 125.44,
       "idade_dias": 3
     },
+    "d1": {
+      "data_ref": "2026-10-05",
+      "valor_ref": 125.51,
+      "variacao": -0.055772448410496,
+      "unidade_variacao": "%"
+    },
     "m1": {
       "alvo": "2026-09-06",
       "data_ref": "2026-09-04",
@@ -347,6 +401,12 @@
       "data": "2026-10-09",
       "valor": 82544.71,
       "idade_dias": 0
+    },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 81692.79,
+      "variacao": 1.0428337678270116,
+      "unidade_variacao": "%"
     },
     "m1": {
       "alvo": "2026-09-09",
@@ -386,6 +446,12 @@
       "valor": 377.8,
       "idade_dias": 0
     },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 376.3,
+      "variacao": 0.3986181238373687,
+      "unidade_variacao": "%"
+    },
     "m1": {
       "alvo": "2026-09-09",
       "data_ref": "2026-09-09",
@@ -424,6 +490,9 @@
       "valor": 349.0,
       "idade_dias": 1
     },
+    "d1": {
+      "motivo": "histórico começa em 2026-10-08"
+    },
     "m1": {
       "alvo": "2026-09-08",
       "motivo": "histórico começa em 2026-10-08"
@@ -453,6 +522,9 @@
       "valor": 351.0,
       "idade_dias": 1
     },
+    "d1": {
+      "motivo": "histórico começa em 2026-10-08"
+    },
     "m1": {
       "alvo": "2026-09-08",
       "motivo": "histórico começa em 2026-10-08"
@@ -481,6 +553,12 @@
       "data": "2026-10-09",
       "valor": 3481.33,
       "idade_dias": 0
+    },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 3478.44,
+      "variacao": 0.0830832212141086,
+      "unidade_variacao": "%"
     },
     "m1": {
       "alvo": "2026-09-09",
@@ -520,6 +598,12 @@
       "valor": 9.214743250397035,
       "idade_dias": 0
     },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 9.243794844538932,
+      "variacao": -0.31428211714434884,
+      "unidade_variacao": "%"
+    },
     "m1": {
       "alvo": "2026-09-09",
       "data_ref": "2026-09-09",
@@ -558,6 +642,12 @@
       "valor": 154.75,
       "idade_dias": 0
     },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 154.91,
+      "variacao": -0.10328577883932377,
+      "unidade_variacao": "%"
+    },
     "m1": {
       "alvo": "2026-09-09",
       "data_ref": "2026-09-09",
@@ -595,6 +685,12 @@
       "data": "2026-10-09",
       "valor": 67.35,
       "idade_dias": 0
+    },
+    "d1": {
+      "data_ref": "2026-10-08",
+      "valor_ref": 67.18,
+      "variacao": 0.25305150342362914,
+      "unidade_variacao": "%"
     },
     "m1": {
       "alvo": "2026-09-09",
