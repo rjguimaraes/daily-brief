@@ -1,8 +1,13 @@
 name: Painel diário
 
 on:
+  # O agendamento do GitHub atrasa com frequência (10/10/2026: disparou às 11h46
+  # em vez de 05h50). Três disparos redundantes; a execução é idempotente, então
+  # rodar mais de uma vez só atualiza o que mudou.
   schedule:
-    - cron: "50 8 * * *"   # 05h50 em Brasília (08h50 UTC), todos os dias
+    - cron: "17 6 * * *"   # 03h17 em Brasília
+    - cron: "17 8 * * *"   # 05h17 em Brasília
+    - cron: "37 9 * * *"   # 06h37 em Brasília (rede de segurança)
   workflow_dispatch:
     inputs:
       backfill:
