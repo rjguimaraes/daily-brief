@@ -64,6 +64,16 @@ class TestComputeRow(unittest.TestCase):
         self.assertEqual(r["y1"]["data_ref"], "2025-10-08")
         self.assertAlmostEqual(r["y1"]["variacao"], 65.0)
 
+    def test_dia_anterior(self):
+        s = {date(2026, 10, 2): 100.0, date(2026, 10, 5): 102.0}  # sexta → segunda
+        r = calc.compute_row(s, "preco", date(2026, 10, 5), 4)
+        self.assertEqual(r["d1"]["data_ref"], "2026-10-02")
+        self.assertAlmostEqual(r["d1"]["variacao"], 2.0)
+        r = calc.compute_row({date(2026, 10, 5): 1.0}, "preco", date(2026, 10, 5), 4)
+        self.assertIn("motivo", r["d1"])
+        r = calc.compute_row({date(2026, 10, 2): 13.75, date(2026, 10, 5): 13.50}, "taxa", date(2026, 10, 5), 4)
+        self.assertAlmostEqual(r["d1"]["variacao"], -25.0)
+
     def test_defasado(self):
         r = calc.compute_row(self.s, "preco", date(2026, 10, 20), 4)
         self.assertEqual(r["status"], "defasado")

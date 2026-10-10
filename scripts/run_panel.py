@@ -108,7 +108,8 @@ def build(today: date, collect_report: dict | None) -> dict:
             jumps[ind["id"]] = j
 
     visible = [r for r in rows if not r.get("oculto")]
-    n_cmp = sum(1 for r in visible for k in ("m1", "ytd", "y1") if "variacao" in r.get(k, {}))
+    KEYS = ("d1", "m1", "ytd", "y1")
+    n_cmp = sum(1 for r in visible for k in KEYS if "variacao" in r.get(k, {}))
     quality = {
         "data_referencia": today.isoformat(),
         "gerado_em_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -117,10 +118,10 @@ def build(today: date, collect_report: dict | None) -> dict:
         "defasados": [r["id"] for r in visible if r["status"] == "defasado"],
         "ausentes": [r["id"] for r in visible if r["status"] == "ausente"],
         "comparativos_preenchidos": n_cmp,
-        "comparativos_possiveis": 3 * len(visible),
-        "comparativos_ausentes": {r["id"]: {k: r[k]["motivo"] for k in ("m1", "ytd", "y1")
+        "comparativos_possiveis": len(KEYS) * len(visible),
+        "comparativos_ausentes": {r["id"]: {k: r[k]["motivo"] for k in KEYS
                                             if k in r and "motivo" in r[k]}
-                                  for r in visible if any("motivo" in r.get(k, {}) for k in ("m1", "ytd", "y1"))},
+                                  for r in visible if any("motivo" in r.get(k, {}) for k in KEYS)},
         "fontes_com_falha": {k: v["erro"] for k, v in (collect_report or {}).items() if not v["ok"]},
         "revisoes": {i: s["revisados"] for v in (collect_report or {}).values() if v.get("ok")
                      for i, s in v["series"].items() if s["revisados"]},
@@ -174,15 +175,15 @@ def render_md(rows: list[dict], quality: dict) -> str:
         f"**Painel — referência {fmt_date(quality['data_referencia'])}** · "
         f"comparativos ancorados na data de cada observação",
         "",
-        "| Indicador | Atual | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |",
-        "| --- | --- | --- | --- | --- | --- |",
+        "| Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
     ]
     for r in rows:
         if r.get("oculto"):
             continue
         if r["status"] == "ausente":
             n = note(f"{r['nome']}: {r['motivo']}")
-            lines.append(f"| {r['nome']} | ausente[{n}] | — | — | — | |")
+            lines.append(f"| {r['nome']} | ausente[{n}] | — | — | — | — | |")
             continue
         a = r["atual"]
         val = fmt_num(a["valor"], r["decimais"])
@@ -193,7 +194,7 @@ def render_md(rows: list[dict], quality: dict) -> str:
             name = r["nome"]
         flag = " defasado" if r["status"] == "defasado" else ""
         atual = f"{val} {r['unidade']} ({fmt_date(a['data'])}{flag})"
-        lines.append(f"| {name} | {atual} | {cell(r, 'm1')} | {cell(r, 'ytd')} | {cell(r, 'y1')} | {r.get('leitura') or ''} |")
+        lines.append(f"| {name} | {atual} | {cell(r, 'd1')} | {cell(r, 'm1')} | {cell(r, 'ytd')} | {cell(r, 'y1')} | {r.get('leitura') or ''} |")
     if notes:
         lines += ["", "Notas:"] + [f"{i}. {n}" for i, n in enumerate(notes, 1)]
     lines += ["", f"Fontes: " + "; ".join(sorted({r['fonte'] for r in rows if not r.get('oculto')}))]

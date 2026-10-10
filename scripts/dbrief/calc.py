@@ -2,6 +2,8 @@
 
 Regras (documentadas no plano aprovado):
 - "Atual" = última observação com data <= data de referência da edição.
+- vs. dia anterior = observação válida imediatamente anterior à atual na
+  mesma série (dia útil anterior, para séries de dias úteis).
 - Comparativos ancorados na data da observação atual:
     1 mês  = última observação <= (data atual − 1 mês)
     YTD    = última observação <= 31/12 do ano anterior
@@ -77,6 +79,20 @@ def compute_row(series: dict[date, float], kind: str, ref_date: date, max_age_da
         "status": "defasado" if age > max_age_days else "ok",
         "atual": {"data": cur_d.isoformat(), "valor": cur_v, "idade_dias": age},
     }
+    # vs. dia anterior = observação válida imediatamente anterior à atual
+    i = dates.index(cur_d)
+    if i == 0:
+        row["d1"] = {"motivo": f"histórico começa em {dates[0].isoformat()}"}
+    else:
+        prev_d = dates[i - 1]
+        gap = (cur_d - prev_d).days
+        if gap > MAX_GAP_DIAS:
+            row["d1"] = {"motivo": f"observação anterior distante ({prev_d.isoformat()})"}
+        else:
+            prev_v = series[prev_d]
+            row["d1"] = {"data_ref": prev_d.isoformat(), "valor_ref": prev_v,
+                         "variacao": change(kind, cur_v, prev_v),
+                         "unidade_variacao": "pb" if kind == "taxa" else "%"}
     for key, target in comparison_targets(cur_d).items():
         ref_d = as_of(dates, target)
         if ref_d is None:
