@@ -32,3 +32,8 @@ Proibido: SaaS ou marketplace genérico, "app de X", IA genérica sem vantagem d
 
 ## Fins de semana (em teste)
 Conteúdo mais aberto e exploratório: ensaios, história, ciência, viagens, natureza, cultura.
+
+## Ajuste de 10/10/2026
+- Ideias de negócio no Brasil: incluir sempre o risco institucional (cumprimento de contrato,
+  inadimplência, insegurança jurídica) na seção Desafios e na nota final. Uma ideia que só funciona
+  com clientes conhecidos deve dizer isso.

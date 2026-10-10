@@ -22,3 +22,9 @@ Economia e investimentos · Negócios e empreendedorismo (estratégia, modelos, 
 Terminar mais informado, com uma ideia nova, uma perspectiva que desafie o próprio pensamento e um aprendizado aplicável à vida ou ao trabalho.
 
 O perfil personaliza seleção e profundidade; não filtra informações que contrariem suas preferências. Estrutura, blocos e regras do Daily permanecem.
+
+## Fazenda Laçada — modelo comercial (confirmado em 10/10/2026)
+- Os clientes de touros são **criadores** (compram touro para cobrir vaca). A demanda depende do
+  preço do bezerro, da margem da cria e da retenção de matrizes, não do caixa de recriador/terminador.
+- A fazenda já faz locação de touros em GO e TO com clientes conhecidos; escalar esbarra em
+  insegurança jurídica, inadimplência e risco sanitário.
