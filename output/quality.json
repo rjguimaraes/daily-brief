@@ -1,0 +1,102 @@
+{
+  "data_referencia": "2026-10-09",
+  "gerado_em_utc": "2026-10-10T00:00:17+00:00",
+  "indicadores": 16,
+  "ok": 16,
+  "defasados": [],
+  "ausentes": [],
+  "comparativos_preenchidos": 2,
+  "comparativos_possiveis": 48,
+  "comparativos_ausentes": {
+    "ptax_venda": {
+      "m1": "histórico começa em 2026-09-21",
+      "ytd": "histórico começa em 2026-09-21",
+      "y1": "histórico começa em 2026-09-21"
+    },
+    "ibovespa": {
+      "ytd": "histórico começa em 2026-01-02",
+      "y1": "histórico começa em 2026-01-02"
+    },
+    "sp500": {
+      "m1": "histórico começa em 2026-09-21",
+      "ytd": "histórico começa em 2026-09-21",
+      "y1": "histórico começa em 2026-09-21"
+    },
+    "selic_meta": {
+      "m1": "histórico começa em 2026-09-19",
+      "ytd": "histórico começa em 2026-09-19",
+      "y1": "histórico começa em 2026-09-19"
+    },
+    "fed_funds_efetiva": {
+      "m1": "histórico começa em 2026-09-21",
+      "ytd": "histórico começa em 2026-09-21",
+      "y1": "histórico começa em 2026-09-21"
+    },
+    "fed_funds_alvo_sup": {
+      "m1": "histórico começa em 2026-09-21",
+      "ytd": "histórico começa em 2026-09-21",
+      "y1": "histórico começa em 2026-09-21"
+    },
+    "treasury_10a": {
+      "ytd": "histórico começa em 2026-01-02",
+      "y1": "histórico começa em 2026-01-02"
+    },
+    "brent_spot": {
+      "m1": "histórico começa em 2026-09-21",
+      "ytd": "histórico começa em 2026-09-21",
+      "y1": "histórico começa em 2026-09-21"
+    },
+    "bitcoin": {
+      "m1": "histórico começa em 2026-09-19",
+      "ytd": "histórico começa em 2026-09-19",
+      "y1": "histórico começa em 2026-09-19"
+    },
+    "boi_gordo_sp": {
+      "m1": "histórico começa em 2026-09-28",
+      "ytd": "histórico começa em 2026-09-28",
+      "y1": "histórico começa em 2026-09-28"
+    },
+    "boi_comum_go_sul": {
+      "m1": "histórico começa em 2026-10-08",
+      "ytd": "histórico começa em 2026-10-08",
+      "y1": "histórico começa em 2026-10-08"
+    },
+    "boi_comum_to_sul": {
+      "m1": "histórico começa em 2026-10-08",
+      "ytd": "histórico começa em 2026-10-08",
+      "y1": "histórico começa em 2026-10-08"
+    },
+    "bezerro_ms": {
+      "m1": "histórico começa em 2026-09-28",
+      "ytd": "histórico começa em 2026-09-28",
+      "y1": "histórico começa em 2026-09-28"
+    },
+    "rel_troca_cepea": {
+      "m1": "histórico começa em 2026-09-28",
+      "ytd": "histórico começa em 2026-09-28",
+      "y1": "histórico começa em 2026-09-28"
+    },
+    "soja_paranagua": {
+      "m1": "histórico começa em 2026-09-28",
+      "ytd": "histórico começa em 2026-09-28",
+      "y1": "histórico começa em 2026-09-28"
+    },
+    "milho_cepea": {
+      "m1": "histórico começa em 2026-09-28",
+      "ytd": "histórico começa em 2026-09-28",
+      "y1": "histórico começa em 2026-09-28"
+    }
+  },
+  "fontes_com_falha": {},
+  "revisoes": {},
+  "alertas_salto_diario": {
+    "brent_spot": [
+      {
+        "de": "2026-10-01",
+        "para": "2026-10-02",
+        "variacao_pct": 18.02
+      }
+    ]
+  },
+  "divergencias_ptax_olinda_vs_sgs1": []
+}
