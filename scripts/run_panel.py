@@ -153,13 +153,21 @@ def render_md(rows: list[dict], quality: dict) -> str:
     by_id = {r["id"]: r for r in rows}
     notes: list[str] = []
 
+    def note(text: str) -> int:
+        if text not in notes:
+            notes.append(text)
+        return notes.index(text) + 1
+
     def cell(r: dict, key: str) -> str:
         c = r.get(key, {})
         if "variacao" in c:
             return fmt_change(c)
         if "motivo" in c:
-            notes.append(f"{r['nome']} ({ {'m1': '1 mês', 'ytd': 'YTD', 'y1': '1 ano'}[key] }): {c['motivo']}")
-            return f"—[{len(notes)}]"
+            motivo = c["motivo"]
+            if motivo.startswith("histórico começa"):
+                motivo = f"histórico em formação ({motivo})"
+            nome = r["nome"]
+            return f"—[{note(nome + ': ' + motivo)}]"
         return "—"
 
     lines = [
@@ -173,8 +181,8 @@ def render_md(rows: list[dict], quality: dict) -> str:
         if r.get("oculto"):
             continue
         if r["status"] == "ausente":
-            notes.append(f"{r['nome']}: {r['motivo']}")
-            lines.append(f"| {r['nome']} | ausente[{len(notes)}] | — | — | — | |")
+            n = note(f"{r['nome']}: {r['motivo']}")
+            lines.append(f"| {r['nome']} | ausente[{n}] | — | — | — | |")
             continue
         a = r["atual"]
         val = fmt_num(a["valor"], r["decimais"])
