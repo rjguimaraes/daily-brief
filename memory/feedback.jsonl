@@ -19,3 +19,5 @@
 {"data":"2026-10-09","tipo":"preferencia","texto":"Leitura de 15–20 min com formatos compactos, mantendo os 13 blocos"}
 {"data":"2026-10-09","tipo":"preferencia","texto":"Clima: foco em histórico e projeção; sem critério formal de águas estabelecidas"}
 {"data":"2026-10-09","tipo":"regra","texto":"Valores numéricos das edições anteriores não são dados validados; não importar para o painel"}
+{"data": "2026-10-10", "tipo": "preferencia", "texto": "Entrega diária às 7h30 (não 8h)"}
+{"data": "2026-10-10", "tipo": "preferencia", "texto": "Painel com coluna vs. dia anterior"}

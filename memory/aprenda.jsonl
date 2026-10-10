@@ -4,3 +4,4 @@
 {"data":"2026-10-07","tema":"Quiralidade molecular e síntese assimétrica","categoria":"química","conceitos":["enantiômeros","autocatálise","homoquiralidade da vida","Nobel de Química"],"confiabilidade":"completo"}
 {"data":"2026-10-08","tema":"Fungos que manipulam o comportamento de formigas","categoria":"biologia/evolução","conceitos":["Ophiocordyceps","parasitismo","fenótipo estendido","evolução"],"confiabilidade":"completo"}
 {"data":"2026-10-09","tema":"Paradoxo de Braess","categoria":"matemática/teoria dos jogos","conceitos":["equilíbrio de Nash","otimização local versus global"],"confiabilidade":"completo"}
+{"data": "2026-10-10", "tema": "Ergodicidade e critério de Kelly", "categoria": "matemática/probabilidade/finanças", "conceitos": ["média de conjunto vs. média no tempo", "arrasto de volatilidade", "fração de Kelly", "meio Kelly", "crítica de Doctor, Wakker e Wang (2020)"], "confiabilidade": "completo"}

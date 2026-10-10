@@ -4,3 +4,4 @@
 {"data":"2026-10-07","tecnica":"Transformar processos em SOPs com IA","categoria":"IA/organização","aplicacao":"documentar rotinas enquanto são executadas","confiabilidade":"completo"}
 {"data":"2026-10-08","tecnica":"Mapas off-line do Google Maps","categoria":"ferramentas digitais","aplicacao":"navegação sem conexão","confiabilidade":"completo"}
 {"data":"2026-10-09","tecnica":"Identificação de duplicidades no Excel","categoria":"Excel","aplicacao":"CONT.VALORES, ÚNICO e FILTRAR para conferir IDs","confiabilidade":"completo"}
+{"data": "2026-10-10", "tecnica": "Preço máximo do bezerro (equilíbrio da reposição)", "categoria": "agro/finanças", "aplicacao": "fórmula com custo do capital, ágio do bezerro, sensibilidade ao preço do boi", "confiabilidade": "completo"}
