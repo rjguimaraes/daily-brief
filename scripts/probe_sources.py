@@ -84,6 +84,18 @@ PROBES_R4: list[tuple[str, str, str]] = [
     ("b3_ibov_dia_2026", "https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI2In0=", "json"),
 ]
 
+# Rodada 5: Brent futuro (ICE, 1º vencimento).
+PROBES_R5: list[tuple[str, str, str]] = [
+    ("nasdaq_bz_nmx", "https://api.nasdaq.com/api/quote/BZ%3ANMX/historical?assetclass=commodities&fromdate=2025-09-01&todate=2026-10-11&limit=9999", "json"),
+    ("nasdaq_bz_info", "https://api.nasdaq.com/api/quote/BZ%3ANMX/info?assetclass=commodities", "json"),
+    ("yahoo1_bzf", "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=2y&interval=1d", "json"),
+    ("cme_bz_settlements", "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/424/FUT?strategy=DEFAULT&tradeDate=10/09/2026", "json"),
+    ("na_petroleo", "https://www.noticiasagricolas.com.br/cotacoes/petroleo", "html"),
+    ("na_brent", "https://www.noticiasagricolas.com.br/cotacoes/petroleo/petroleo-brent", "html"),
+    ("eia_futures_xls", "https://www.eia.gov/dnav/pet/xls/PET_PRI_FUT_S1_D.xls", "xls"),
+    ("marketwatch_brn", "https://www.marketwatch.com/investing/future/brn00/download-data?countrycode=uk", "html"),
+]
+
 # Rodada 3: S&P 500 e Ibovespa (Stooq exige JS, Yahoo 429, FRED não responde).
 PROBES_R3: list[tuple[str, str, str]] = [
     ("b3_main_js", B3 + "main-es2015.204ca04ae07d2c137636.js", "js"),
@@ -119,7 +131,7 @@ def main() -> None:
     import os
 
     RAW.mkdir(parents=True, exist_ok=True)
-    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4}.get(os.environ.get("PROBE_SET", "1"), PROBES)
+    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4, "5": PROBES_R5}.get(os.environ.get("PROBE_SET", "1"), PROBES)
     results = []
     for p in probes:
         results.append(probe(*p))
