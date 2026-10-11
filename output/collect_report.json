@@ -14,7 +14,7 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 21
@@ -92,7 +92,7 @@
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20
