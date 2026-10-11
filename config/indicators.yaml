@@ -58,6 +58,7 @@ indicadores:
     max_idade_dias: 5
     decimais: 2
     salto_max_pct: 30
+    oculto: true   # exibida entre parênteses na linha do intervalo-alvo (desde 11/10/2026)
 
   - id: fed_funds_alvo_sup
     nome: "Fed Funds — teto do intervalo-alvo"

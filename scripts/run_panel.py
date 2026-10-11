@@ -191,11 +191,14 @@ def render_md(rows: list[dict], quality: dict) -> str:
         val = fmt_num(a["valor"], r["decimais"])
         if r["id"] == "fed_funds_alvo_sup" and "fed_funds_alvo_inf" in by_id and "atual" in by_id["fed_funds_alvo_inf"]:
             val = f"{fmt_num(by_id['fed_funds_alvo_inf']['atual']['valor'], 2)}–{val}"
+            ef = by_id.get("fed_funds_efetiva", {}).get("atual")
+            extra = f", efetiva {fmt_num(ef['valor'], 2)}%" if ef else ""
             name = "Fed Funds intervalo-alvo"
         else:
             name = r["nome"]
+            extra = ""
         flag = " defasado" if r["status"] == "defasado" else ""
-        atual = f"{val} {r['unidade']} ({fmt_date(a['data'])}{flag})"
+        atual = f"{val} {r['unidade']}{extra} ({fmt_date(a['data'])}{flag})"
         lines.append(f"| {name} | {atual} | {cell(r, 'd1')} | {cell(r, 'm1')} | {cell(r, 'ytd')} | {cell(r, 'y1')} | {r.get('leitura') or ''} |")
     if notes:
         lines += ["", "Notas:"] + [f"{i}. {n}" for i, n in enumerate(notes, 1)]
