@@ -1,23 +1,77 @@
 {
-  "executado_em_utc": "2026-10-09T23:49:49+00:00",
+  "executado_em_utc": "2026-10-11T22:56:16+00:00",
   "resultados": [
     {
-      "nome": "b3_ibov_dia_2025",
-      "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI1In0=",
+      "nome": "nasdaq_bz_nmx",
+      "url": "https://api.nasdaq.com/api/quote/BZ%3ANMX/historical?assetclass=commodities&fromdate=2025-09-01&todate=2026-10-11&limit=9999",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "bytes": 9796,
-      "segundos": 0.42,
-      "trecho": "{\"min\":{\"day\":0,\"rateValue1\":\"118.532,68\",\"rateValue2\":\"122.799,09\",\"rateValue3\":\"123.046,85\",\"rateValue4\":\"123.931,89\",\"rateValue5\":\"133.397,52\",\"rateValue6\":\"135.699,38\",\"rateValue7\":\"132.129,26\",\"rateValue8\":\"132.437,39\",\"rateValue9\":\"139.863,63\",\"rateValue10\":\"140.680,34\",\"rateValue11\":\"150.454,"
+      "bytes": 167,
+      "segundos": 1.23,
+      "trecho": "{\"data\":null,\"message\":null,\"status\":{\"rCode\":400,\"bCodeMessage\":[{\"code\":1007,\"errorMessage\":\"Bad or No parameterassetclass : commodities\"}],\"developerMessage\":null}}"
     },
     {
-      "nome": "b3_ibov_dia_2026",
-      "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI2In0=",
+      "nome": "nasdaq_bz_info",
+      "url": "https://api.nasdaq.com/api/quote/BZ%3ANMX/info?assetclass=commodities",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "bytes": 9308,
-      "segundos": 0.86,
-      "trecho": "{\"min\":{\"day\":0,\"rateValue1\":\"160.538,69\",\"rateValue2\":\"181.708,23\",\"rateValue3\":\"176.219,40\",\"rateValue4\":\"184.750,42\",\"rateValue5\":\"173.787,49\",\"rateValue6\":\"168.277,55\",\"rateValue7\":\"170.653,45\",\"rateValue8\":\"166.334,86\",\"rateValue9\":\"179.722,48\",\"rateValue10\":\"187.197,46\",\"rateValue11\":\"\",\"rateV"
+      "bytes": 167,
+      "segundos": 1.16,
+      "trecho": "{\"data\":null,\"message\":null,\"status\":{\"rCode\":400,\"bCodeMessage\":[{\"code\":1007,\"errorMessage\":\"Bad or No parameterassetclass : commodities\"}],\"developerMessage\":null}}"
+    },
+    {
+      "nome": "yahoo1_bzf",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=2y&interval=1d",
+      "status": 429,
+      "content_type": "text/html",
+      "bytes": 19,
+      "segundos": 0.13,
+      "trecho": "Too Many Requests\r\n"
+    },
+    {
+      "nome": "cme_bz_settlements",
+      "url": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/424/FUT?strategy=DEFAULT&tradeDate=10/09/2026",
+      "status": 403,
+      "content_type": "application/json",
+      "bytes": 602,
+      "segundos": 0.13,
+      "trecho": "{\"message\": \"This IP address is blocked due to suspected web scraping activity associated with it on this CMEgroup.com page. Use of scripts, software, spiders, robots, avatars, agents, tools or other scraping mechanisms is strictly prohibited by CME Group’s website Data Terms of Use. If you are at"
+    },
+    {
+      "nome": "na_petroleo",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/petroleo",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 78865,
+      "segundos": 0.44,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Página Não Encontrada - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href=\"https://www.g"
+    },
+    {
+      "nome": "na_brent",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/petroleo/petroleo-brent",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 78925,
+      "segundos": 0.45,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Página Não Encontrada - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href=\"https://www.g"
+    },
+    {
+      "nome": "eia_futures_xls",
+      "url": "https://www.eia.gov/dnav/pet/xls/PET_PRI_FUT_S1_D.xls",
+      "status": 200,
+      "content_type": "application/vnd.ms-excel",
+      "bytes": 3019264,
+      "segundos": 10.26,
+      "trecho": "��\u0011ࡱ\u001a�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000;\u0000\u0003\u0000��\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000�\u0016\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000�\u0016\u0000\u0000\u0001\u0000\u0000\u0000����\u0000\u0000\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000\u0000\u0017\u0000\u0000\u0001\u0017\u0000\u0000\u0002\u0017\u0000\u0000\u0003\u0017\u0000\u0000\u0004\u0017\u0000\u0000\u0005\u0017\u0000\u0000\u0006\u0017\u0000\u0000\u0007\u0017\u0000\u0000������������������������������������"
+    },
+    {
+      "nome": "marketwatch_brn",
+      "url": "https://www.marketwatch.com/investing/future/brn00/download-data?countrycode=uk",
+      "status": 401,
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 775,
+      "segundos": 0.16,
+      "trecho": "<html lang=\"en\"><head><title>marketwatch.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqA"
     }
   ]
 }

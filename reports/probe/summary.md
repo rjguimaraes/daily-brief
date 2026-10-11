@@ -1,6 +1,12 @@
-# Teste de fontes — 2026-10-09T23:49:49+00:00 UTC
+# Teste de fontes — 2026-10-11T22:56:16+00:00 UTC
 
 | Fonte | Status | Tipo | Bytes |
 | --- | --- | --- | --- |
-| b3_ibov_dia_2025 | 200 | application/json; charset=utf-8 | 9796 |
-| b3_ibov_dia_2026 | 200 | application/json; charset=utf-8 | 9308 |
+| nasdaq_bz_nmx | 200 | application/json; charset=utf-8 | 167 |
+| nasdaq_bz_info | 200 | application/json; charset=utf-8 | 167 |
+| yahoo1_bzf | 429 | text/html | 19 |
+| cme_bz_settlements | 403 | application/json | 602 |
+| na_petroleo | 404 | text/html; charset=UTF-8 | 78865 |
+| na_brent | 404 | text/html; charset=UTF-8 | 78925 |
+| eia_futures_xls | 200 | application/vnd.ms-excel | 3019264 |
+| marketwatch_brn | 401 | text/html;charset=utf-8 | 775 |
