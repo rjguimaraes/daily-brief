@@ -18,8 +18,13 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 1. `git pull`. Ler: `memory/perfil.md`, `memory/criterios_conteudo.md`, os `memory/*.jsonl`
    (últimos 30 dias), `config/indicators.yaml`.
 2. **Painel primeiro.** Ler `output/panel.json`, `output/quality.json`, `output/weather.json`.
-   Se `quality.json` não for de hoje, disparar o workflow `panel.yml` (`gh api .../dispatches`),
-   esperar terminar e dar `git pull`. Nunca digitar, estimar ou completar número do painel: copiar
+   - **Terça a sábado:** se `quality.json` não for de hoje, disparar o workflow `panel.yml`
+     (`gh api .../dispatches`), esperar terminar e dar `git pull`.
+   - **Domingo e segunda:** mercados fechados desde sexta; não gastar esforço atualizando o painel.
+     Só atualizar o Bitcoin: disparar `panel.yml` com o input `only=btc` (ou rodar
+     `python scripts/run_panel.py --only btc`), dar `git pull` e usar o painel resultante. Os demais
+     indicadores aparecem com o fechamento de sexta, com a data visível. Leitura curta, sem análise
+     indicador por indicador. Nunca digitar, estimar ou completar número do painel: copiar
    do JSON. Célula ausente = "—" com o motivo do JSON. Escrever só a coluna Leitura.
 3. Clima: a partir de `output/weather.json`. Rotular sempre: recente = estimativa de modelo;
    normal = ERA5 1995–2024; previsão = modelo. Foco em histórico e projeção; não declarar

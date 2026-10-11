@@ -36,7 +36,7 @@ def load_config() -> list[dict]:
     return yaml.safe_load(CONFIG.read_text(encoding="utf-8"))["indicadores"]
 
 
-def collect(today: date, backfill: bool, log) -> dict:
+def collect(today: date, backfill: bool, log, only: list[str] | None = None) -> dict:
     """Roda cada coletor isolado. Retorna o relatório por fonte."""
     start = HIST_START if backfill else today - timedelta(days=20)
     fred_key = os.environ.get("FRED_API_KEY", "")
@@ -58,6 +58,8 @@ def collect(today: date, backfill: bool, log) -> dict:
                      "Notícias Agrícolas, página por data"))
     fontes = {ind["id"]: ind["fonte"] for ind in load_config()}
     report = {}
+    if only:
+        jobs = [j for j in jobs if any(o.lower() in j[0].lower() for o in only)]
     for name, fn, method in jobs:
         try:
             result = fn()
@@ -206,10 +208,11 @@ def main() -> None:
     ap.add_argument("--backfill", action="store_true")
     ap.add_argument("--only-calc", action="store_true")
     ap.add_argument("--ref-date")
+    ap.add_argument("--only", nargs="*", help="coletar só estas fontes (ex.: btc); o resto vem do histórico")
     args = ap.parse_args()
     today = date.fromisoformat(args.ref_date) if args.ref_date else datetime.now(TZ).date()
 
-    report = None if args.only_calc else collect(today, args.backfill, print)
+    report = None if args.only_calc else collect(today, args.backfill, print, args.only)
     result = build(today, report)
     OUT.mkdir(exist_ok=True)
     (OUT / "panel.json").write_text(json.dumps(result["rows"], ensure_ascii=False, indent=2, default=str), encoding="utf-8")
