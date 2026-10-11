@@ -11,15 +11,8 @@
     }
   },
   "BCB Selic": {
-    "ok": true,
-    "series": {
-      "selic_meta": {
-        "novos": 0,
-        "revisados": [],
-        "futuros_descartados": 0,
-        "recebidos": 21
-      }
-    }
+    "ok": false,
+    "erro": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "B3 Ibovespa": {
     "ok": true,
