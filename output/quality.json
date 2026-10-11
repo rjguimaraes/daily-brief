@@ -1,6 +1,6 @@
 {
   "data_referencia": "2026-10-11",
-  "gerado_em_utc": "2026-10-11T14:58:14+00:00",
+  "gerado_em_utc": "2026-10-11T15:35:08+00:00",
   "indicadores": 16,
   "ok": 16,
   "defasados": [],
@@ -21,9 +21,7 @@
       "y1": "histórico começa em 2026-10-08"
     }
   },
-  "fontes_com_falha": {
-    "BCB Selic": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
+  "fontes_com_falha": {},
   "revisoes": {},
   "alertas_salto_diario": {
     "brent_spot": [
@@ -34,9 +32,5 @@
       }
     ]
   },
-  "divergencias_ptax_olinda_vs_sgs1": [
-    {
-      "erro": "checagem SGS 1 indisponível: Expecting value: line 1 column 1 (char 0)"
-    }
-  ]
+  "divergencias_ptax_olinda_vs_sgs1": []
 }
