@@ -1,4 +1,4 @@
-**Painel — referência 11/10/26** · comparativos ancorados na data de cada observação
+**Painel — referência 12/10/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -6,11 +6,10 @@
 | Ibovespa | 209.067 pontos (09/10/26) | +1,4% | +12,6% | +29,8% | +47,5% |  |
 | S&P 500 | 7.812 pontos (09/10/26) | +0,6% | +2,3% | +14,1% | +16,0% |  |
 | Selic-meta | 13,75 % a.a. (11/10/26) | 0 pb | −25 pb | −125 pb | −125 pb |  |
-| Fed Funds efetiva (EFFR) | 3,88 % a.a. (08/10/26) | 0 pb | +25 pb | +24 pb | −22 pb |  |
-| Fed Funds intervalo-alvo | 3,75–4,00 % a.a. (08/10/26) | 0 pb | +25 pb | +25 pb | −25 pb |  |
+| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (08/10/26) | 0 pb | +25 pb | +25 pb | −25 pb |  |
 | Treasury 10 anos | 5,24 % a.a. (09/10/26) | +2 pb | +41 pb | +106 pb | +110 pb |  |
 | Brent spot (Europe Brent FOB) | 125,44 US$/barril (06/10/26) | −0,1% | +22,7% | +104,5% | +87,0% |  |
-| Bitcoin | 82.911 US$ (10/10/26) | +0,4% | +8,3% | −5,2% | −26,6% |  |
+| Bitcoin | 83.678 US$ (11/10/26) | +0,9% | +8,4% | −4,4% | −24,5% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 377,80 R$/@ (09/10/26) | +0,4% | +8,1% | +18,4% | +22,7% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 349,00 R$/@ (08/10/26) | —[1] | —[1] | —[1] | —[1] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 351,00 R$/@ (08/10/26) | —[2] | —[2] | —[2] | —[2] |  |
@@ -23,4 +22,4 @@ Notas:
 1. Boi comum GO Região Sul (Scot, bruto à vista): histórico em formação (histórico começa em 2026-10-08)
 2. Boi comum TO Sul (Scot, bruto à vista): histórico em formação (histórico começa em 2026-10-08)
 
-Fontes: B3 — estatísticas históricas do índice (fechamento diário); Banco Central do Brasil — PTAX (Olinda), boletim de fechamento; Banco Central do Brasil — SGS série 432 (meta Selic); CEPEA/ESALQ, republicado por Notícias Agrícolas; Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC; Cálculo: Bezerro MS CEPEA ÷ Boi gordo SP CEPEA, mesma data (praças diferentes); FRED, série SP500 (S&P Dow Jones Indices); Federal Reserve Bank of New York — EFFR; Federal Reserve Bank of New York — EFFR (campo targetRateTo); Scot Consultoria, mercado físico, republicado por Notícias Agrícolas; U.S. Department of the Treasury — Daily Par Yield Curve, 10 Yr; U.S. EIA — série RBRTE (spot, diário)
+Fontes: B3 — estatísticas históricas do índice (fechamento diário); Banco Central do Brasil — PTAX (Olinda), boletim de fechamento; Banco Central do Brasil — SGS série 432 (meta Selic); CEPEA/ESALQ, republicado por Notícias Agrícolas; Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC; Cálculo: Bezerro MS CEPEA ÷ Boi gordo SP CEPEA, mesma data (praças diferentes); FRED, série SP500 (S&P Dow Jones Indices); Federal Reserve Bank of New York — EFFR (campo targetRateTo); Scot Consultoria, mercado físico, republicado por Notícias Agrícolas; U.S. Department of the Treasury — Daily Par Yield Curve, 10 Yr; U.S. EIA — série RBRTE (spot, diário)
