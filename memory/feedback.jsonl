@@ -27,3 +27,4 @@
 {"data": "2026-10-10", "tipo": "contexto", "texto": "A Laçada já opera locação de touros em GO e TO com clientes conhecidos. Barreiras para escalar no Brasil: insegurança jurídica e falta de regulação, cumprimento de contrato, inadimplência alta, risco sanitário."}
 {"data": "2026-10-10", "tipo": "regra", "texto": "Ao avaliar ideias de negócio no Brasil, pesar explicitamente enforcement de contrato, inadimplência e insegurança jurídica, não só a economia unitária."}
 {"data":"2026-10-11","tipo":"preferencia","texto":"Domingo e segunda: não atualizar o painel inteiro, só o Bitcoin; demais indicadores com fechamento de sexta"}
+{"data": "2026-10-12", "tipo": "melhorar", "texto": "Brent spot EIA (US$ 125,44 em 06/10, salto de +18% em 02/10) diverge ~20% do futuro (~US$ 103–104). Investigar a série RBRTE/coleta antes de confiar no indicador."}

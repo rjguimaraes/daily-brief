@@ -6,3 +6,4 @@
 {"data":"2026-10-09","tecnica":"Identificação de duplicidades no Excel","categoria":"Excel","aplicacao":"CONT.VALORES, ÚNICO e FILTRAR para conferir IDs","confiabilidade":"completo"}
 {"data": "2026-10-10", "tecnica": "Preço máximo do bezerro (equilíbrio da reposição)", "categoria": "agro/finanças", "aplicacao": "fórmula com custo do capital, ágio do bezerro, sensibilidade ao preço do boi", "confiabilidade": "completo"}
 {"data": "2026-10-11", "tecnica": "Taxa implícita de parcelamento 'sem juros' (30 parcelas de leilão)", "categoria": "finanças/negociação", "aplicacao": "TAXA e VP no Excel; 30 parcelas a Selic 13,75% ≈ 15% de desconto", "confiabilidade": "completo"}
+{"data": "2026-10-12", "tecnica": "DEP em R$ (DEP × bezerros na vida útil × R$/kg) e acurácia como desvio ((σA/2)·√(1−acc²)); diversificar touros jovens", "categoria": "genética/precificação", "aplicacao": "teto de lance, preço de venda/locação de touros, provado vs jovem", "confiabilidade": "completo"}
