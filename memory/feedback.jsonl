@@ -28,3 +28,5 @@
 {"data": "2026-10-10", "tipo": "regra", "texto": "Ao avaliar ideias de negócio no Brasil, pesar explicitamente enforcement de contrato, inadimplência e insegurança jurídica, não só a economia unitária."}
 {"data":"2026-10-11","tipo":"preferencia","texto":"Domingo e segunda: não atualizar o painel inteiro, só o Bitcoin; demais indicadores com fechamento de sexta"}
 {"data": "2026-10-12", "tipo": "melhorar", "texto": "Brent spot EIA (US$ 125,44 em 06/10, salto de +18% em 02/10) diverge ~20% do futuro (~US$ 103–104). Investigar a série RBRTE/coleta antes de confiar no indicador."}
+{"data": "2026-10-13", "tipo": "melhorar", "texto": "Brent spot EIA segue em 06/10 com alerta de salto (+18% em 02/10); investigar série RBRTE ou trocar por futuro."}
+{"data": "2026-10-13", "tipo": "tecnico", "texto": "No conector Claude Docs, 'R$ ... US$' na mesma linha é lido como fórmula inline e a escrita é recusada; escapar como R\\$."}
