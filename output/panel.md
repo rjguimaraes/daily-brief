@@ -6,7 +6,7 @@
 | Ibovespa | 209.067 pontos (09/10/26) | +1,4% | +12,6% | +29,8% | +47,5% |  |
 | S&P 500 | 7.807 pontos (12/10/26) | −0,1% | +2,0% | +14,0% | +19,1% |  |
 | Selic-meta | 13,75 % a.a. (13/10/26) | 0 pb | −25 pb | −125 pb | −125 pb |  |
-| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (08/10/26) | 0 pb | +25 pb | +25 pb | −25 pb |  |
+| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (09/10/26) | 0 pb | +25 pb | +25 pb | −25 pb |  |
 | Treasury 10 anos | 5,24 % a.a. (09/10/26) | +2 pb | +41 pb | +106 pb | +110 pb |  |
 | Brent spot (Europe Brent FOB) | 125,44 US$/barril (06/10/26) | −0,1% | +22,7% | +104,5% | +87,0% |  |
 | Bitcoin | 81.742 US$ (12/10/26) | −2,3% | +5,8% | −6,6% | −29,0% |  |
