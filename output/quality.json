@@ -1,21 +1,19 @@
 {
-  "data_referencia": "2026-10-13",
-  "gerado_em_utc": "2026-10-13T16:54:28+00:00",
+  "data_referencia": "2026-10-14",
+  "gerado_em_utc": "2026-10-14T08:48:30+00:00",
   "indicadores": 15,
   "ok": 15,
   "defasados": [],
   "ausentes": [],
-  "comparativos_preenchidos": 52,
+  "comparativos_preenchidos": 54,
   "comparativos_possiveis": 60,
   "comparativos_ausentes": {
     "boi_comum_go_sul": {
-      "d1": "histórico começa em 2026-10-08",
       "m1": "histórico começa em 2026-10-08",
       "ytd": "histórico começa em 2026-10-08",
       "y1": "histórico começa em 2026-10-08"
     },
     "boi_comum_to_sul": {
-      "d1": "histórico começa em 2026-10-08",
       "m1": "histórico começa em 2026-10-08",
       "ytd": "histórico começa em 2026-10-08",
       "y1": "histórico começa em 2026-10-08"

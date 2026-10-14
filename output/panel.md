@@ -1,22 +1,22 @@
-**Painel — referência 13/10/26** · comparativos ancorados na data de cada observação
+**Painel — referência 14/10/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
 | USD/BRL PTAX venda | 5,0096 R$/US$ (13/10/26) | +0,4% | −1,6% | −9,0% | −8,3% |  |
-| Ibovespa | 209.067 pontos (09/10/26) | +1,4% | +12,6% | +29,8% | +47,5% |  |
-| S&P 500 | 7.807 pontos (12/10/26) | −0,1% | +2,0% | +14,0% | +19,1% |  |
-| Selic-meta | 13,75 % a.a. (13/10/26) | 0 pb | −25 pb | −125 pb | −125 pb |  |
+| Ibovespa | 206.888 pontos (13/10/26) | −1,0% | +10,5% | +28,4% | +45,9% |  |
+| S&P 500 | 7.805 pontos (13/10/26) | −0,0% | +1,9% | +14,0% | +17,3% |  |
+| Selic-meta | 13,75 % a.a. (14/10/26) | 0 pb | −25 pb | −125 pb | −125 pb |  |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (09/10/26) | 0 pb | +25 pb | +25 pb | −25 pb |  |
-| Treasury 10 anos | 5,24 % a.a. (09/10/26) | +2 pb | +41 pb | +106 pb | +110 pb |  |
+| Treasury 10 anos | 5,21 % a.a. (13/10/26) | −3 pb | +25 pb | +103 pb | +116 pb |  |
 | Brent spot (Europe Brent FOB) | 125,44 US$/barril (06/10/26) | −0,1% | +22,7% | +104,5% | +87,0% |  |
-| Bitcoin | 81.742 US$ (12/10/26) | −2,3% | +5,8% | −6,6% | −29,0% |  |
-| Boi gordo SP (Indicador CEPEA/ESALQ) | 377,80 R$/@ (09/10/26) | +0,4% | +8,1% | +18,4% | +22,7% |  |
-| Boi comum GO Região Sul (Scot, bruto à vista) | 349,00 R$/@ (08/10/26) | —[1] | —[1] | —[1] | —[1] |  |
-| Boi comum TO Sul (Scot, bruto à vista) | 351,00 R$/@ (08/10/26) | —[2] | —[2] | —[2] | —[2] |  |
-| Bezerro MS (Indicador CEPEA/ESALQ) | 3.481,33 R$/cabeça (09/10/26) | +0,1% | +2,6% | +13,5% | +18,2% |  |
-| Relação de troca CEPEA (@ de boi SP por bezerro MS) | 9,21 @/bezerro (09/10/26) | −0,3% | −5,1% | −4,1% | −3,7% | Menor = melhor para quem compra bezerro (terminador); maior = melhor para quem vende (criador). |
-| Soja Paranaguá (Indicador CEPEA/ESALQ) | 154,75 R$/sc 60 kg (09/10/26) | −0,1% | −3,4% | +9,7% | +13,2% |  |
-| Milho (Indicador CEPEA/ESALQ, Campinas) | 67,35 R$/sc 60 kg (09/10/26) | +0,3% | −4,5% | −3,1% | +3,3% |  |
+| Bitcoin | 83.102 US$ (13/10/26) | +1,7% | +8,2% | −5,0% | −27,9% |  |
+| Boi gordo SP (Indicador CEPEA/ESALQ) | 378,00 R$/@ (13/10/26) | +0,1% | +8,2% | +18,4% | +22,6% |  |
+| Boi comum GO Região Sul (Scot, bruto à vista) | 349,00 R$/@ (09/10/26) | 0,0% | —[1] | —[1] | —[1] |  |
+| Boi comum TO Sul (Scot, bruto à vista) | 353,00 R$/@ (09/10/26) | +0,6% | —[2] | —[2] | —[2] |  |
+| Bezerro MS (Indicador CEPEA/ESALQ) | 3.484,95 R$/cabeça (13/10/26) | +0,1% | +2,7% | +13,6% | +17,7% |  |
+| Relação de troca CEPEA (@ de boi SP por bezerro MS) | 9,22 @/bezerro (13/10/26) | +0,1% | −5,1% | −4,0% | −4,0% | Menor = melhor para quem compra bezerro (terminador); maior = melhor para quem vende (criador). |
+| Soja Paranaguá (Indicador CEPEA/ESALQ) | 154,15 R$/sc 60 kg (13/10/26) | −0,4% | −4,0% | +9,3% | +11,6% |  |
+| Milho (Indicador CEPEA/ESALQ, Campinas) | 65,59 R$/sc 60 kg (13/10/26) | −2,6% | −6,0% | −5,6% | +0,7% |  |
 
 Notas:
 1. Boi comum GO Região Sul (Scot, bruto à vista): histórico em formação (histórico começa em 2026-10-08)
