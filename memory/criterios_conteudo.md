@@ -37,3 +37,12 @@ Conteúdo mais aberto e exploratório: ensaios, história, ciência, viagens, na
 - Ideias de negócio no Brasil: incluir sempre o risco institucional (cumprimento de contrato,
   inadimplência, insegurança jurídica) na seção Desafios e na nota final. Uma ideia que só funciona
   com clientes conhecidos deve dizer isso.
+
+## Ajuste de 15/10/2026
+- **Ideias & Perspectivas:** o formato de ficha (tese, argumentos, contrapontos em bullets) estava técnico
+  demais e tirava a vontade de ler. Novo formato em prosa: a pergunta por trás do texto, o argumento contado
+  em 2 parágrafos com o caso mais marcante, onde o texto incomoda, onde eu discordo, por que ler.
+- **Fórmulas:** nada de LaTeX (quebra no PDF); fórmula em texto simples.
+- **Ideia de Negócio (FIV, 15/10):** a ideia foi boa, mas para a Laçada faz mais sentido a ponta parecida
+  com a Nelore Vera Cruz: vender parceria em embriões, transferindo embriões das vacas da Laçada em
+  fazendas de terceiros, em vez de montar laboratório próprio de serviço.

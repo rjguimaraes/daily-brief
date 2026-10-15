@@ -28,3 +28,5 @@ O perfil personaliza seleção e profundidade; não filtra informações que con
   preço do bezerro, da margem da cria e da retenção de matrizes, não do caixa de recriador/terminador.
 - A fazenda já faz locação de touros em GO e TO com clientes conhecidos; escalar esbarra em
   insegurança jurídica, inadimplência e risco sanitário.
+- Interesse estratégico (15/10/2026): entrar em parceria de embriões no modelo da Nelore Vera Cruz,
+  transferindo embriões das doadoras da Laçada em vacas de fazendas terceiras.

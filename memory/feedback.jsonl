@@ -33,3 +33,6 @@
 {"data": "2026-10-14", "tipo": "tecnico", "texto": "No Claude Docs, em replace com as:'text' o escape R\\$ entra literal (aparece a barra); usar R$ sem barra em modo texto e R\\$ só em modo markdown."}
 {"data": "2026-10-14", "tipo": "melhorar", "texto": "Brent spot EIA ainda em 06/10 (3º dia seguido); futuro a US$ 105,69 em 13/10. Trocar a fonte ou investigar RBRTE."}
 {"data": "2026-10-15", "tipo": "melhorar", "texto": "Brent spot EIA ainda em 06/10 (4º dia seguido); futuro US$ 106,58 em 14/10. Trocar a fonte ou investigar RBRTE."}
+{"data": "2026-10-15", "tipo": "correcao", "texto": "Fórmulas em bloco LaTeX aparecem como código cru no PDF exportado. Escrever fórmulas em texto simples; nunca ```latex."}
+{"data": "2026-10-15", "tipo": "contexto", "texto": "Ideia de negócio FIV no TO foi boa, mas para a Laçada faz mais sentido o modelo Nelore Vera Cruz: vender parceria em embriões, transferindo embriões das vacas da Laçada em fazendas terceiras."}
+{"data": "2026-10-15", "tipo": "melhorar", "texto": "Ideias & Perspectivas: resumo em ficha técnica tira a vontade de ler e não traz as ideias e questões por trás do texto. Trocar por prosa: pergunta central, argumento contado, onde incomoda, onde discordo, por que ler."}

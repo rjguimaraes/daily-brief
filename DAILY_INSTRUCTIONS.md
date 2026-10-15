@@ -55,9 +55,18 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 11. **Conhecimento Rápido** — O QUE É | COMO USAR/FAZER (exemplo executável com números) | QUANDO É ÚTIL.
 12. **Ideia de Negócio** — formato completo da especificação + por que agora, economia em números
     (fonte vs. hipótese), tamanho com cálculo, vantagem do leitor, hipótese que mata, MVP, nota 1–5.
-13. **Ideias & Perspectivas** — por artigo: título exato, autor, data, tempo de leitura (estimativa
-    marcada), link direto, tese, argumentos, contrapontos (do autor vs. meus), por que ler, provocação.
-    Veículos diferentes. Só indicar artigo cujo texto foi aberto e lido.
+13. **Ideias & Perspectivas** (formato revisto em 15/10/2026) — por artigo, em prosa, não em ficha técnica:
+    título exato com link direto, autor, veículo, data, tempo de leitura (estimativa);
+    **A pergunta por trás do texto** (uma frase); 2 parágrafos curtos contando o argumento como história,
+    com o caso ou número mais marcante; **Onde o texto incomoda** (a ideia que desafia o leitor);
+    **Onde eu discordo** (curto, separado do autor); **Por que ler** (e o que procurar na leitura).
+    Uma frase de abertura ligando os dois textos. Veículos diferentes. Só indicar artigo cujo texto foi
+    aberto e lido. Sem listas de argumentos nem jargão técnico sem explicação.
+
+## Fórmulas
+- Nunca usar bloco ```latex nem notação TeX: na exportação para PDF aparece o código cru.
+  Escrever fórmulas em texto simples (ex.: "NNT = 1 ÷ redução absoluta de risco"), com × e ÷,
+  ou como um passo a passo numerado com números.
 
 ## Regras inegociáveis
 - Nunca inventar dado, link, título, autor, data ou citação. Abrir toda página citada.
