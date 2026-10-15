@@ -2,35 +2,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 5.0096,
+      "data": "2026-10-14",
+      "valor": 5.0441,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-09",
-      "valor_ref": 4.9892,
-      "variacao": 0.4088831876853938,
+      "data_ref": "2026-10-13",
+      "valor_ref": 5.0096,
+      "variacao": 0.6886777387416165,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
-      "valor_ref": 5.0918,
-      "variacao": -1.6143603440826437,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 5.1696,
+      "variacao": -2.4276539770968664,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 5.5024,
-      "variacao": -8.956091887176498,
+      "variacao": -8.329092759523105,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 5.4629,
-      "variacao": -8.297790550806361,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 5.4982,
+      "variacao": -8.259066603615716,
       "unidade_variacao": "%"
     },
     "id": "ptax_venda",
@@ -46,35 +46,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 206887.52,
+      "data": "2026-10-14",
+      "valor": 206505.98,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-09",
-      "valor_ref": 209066.9,
-      "variacao": -1.0424318722858539,
+      "data_ref": "2026-10-13",
+      "valor_ref": 206887.52,
+      "variacao": -0.18441905050627927,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
-      "valor_ref": 187206.89,
-      "variacao": 10.512770122937232,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 185500.88,
+      "variacao": 11.323450325410867,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-30",
       "valor_ref": 161125.37,
-      "variacao": 28.40157946572908,
+      "variacao": 28.16478249204333,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 141783.36,
-      "variacao": 45.91805413554877,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 141682.99,
+      "variacao": 45.75213298364187,
       "unidade_variacao": "%"
     },
     "id": "ibovespa",
@@ -90,35 +90,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 7805.45,
+      "data": "2026-10-14",
+      "valor": 7718.94,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-12",
-      "valor_ref": 7807.24,
-      "variacao": -0.0229274365845078,
+      "data_ref": "2026-10-13",
+      "valor_ref": 7805.45,
+      "variacao": -1.108328155327365,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
-      "valor_ref": 7656.98,
-      "variacao": 1.939015120844001,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 7619.98,
+      "variacao": 1.2986910726799916,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 6845.5,
-      "variacao": 14.023080856036806,
+      "variacao": 12.759330947337656,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 6654.72,
-      "variacao": 17.291937151375247,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 6644.31,
+      "variacao": 16.173688464264902,
       "unidade_variacao": "%"
     },
     "id": "sp500",
@@ -134,19 +134,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-14",
+      "data": "2026-10-15",
       "valor": 13.75,
       "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-10-13",
+      "data_ref": "2026-10-14",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-14",
-      "data_ref": "2026-09-14",
+      "alvo": "2026-09-15",
+      "data_ref": "2026-09-15",
       "valor_ref": 14.0,
       "variacao": -25.0,
       "unidade_variacao": "pb"
@@ -159,8 +159,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-14",
-      "data_ref": "2025-10-14",
+      "alvo": "2025-10-15",
+      "data_ref": "2025-10-15",
       "valor_ref": 15.0,
       "variacao": -125.0,
       "unidade_variacao": "pb"
@@ -180,7 +180,7 @@
     "atual": {
       "data": "2026-10-13",
       "valor": 3.88,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-10-09",
@@ -224,7 +224,7 @@
     "atual": {
       "data": "2026-10-13",
       "valor": 4.0,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-10-09",
@@ -268,7 +268,7 @@
     "atual": {
       "data": "2026-10-13",
       "valor": 3.75,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-10-09",
@@ -310,34 +310,34 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 5.21,
+      "data": "2026-10-14",
+      "valor": 5.19,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-09",
-      "valor_ref": 5.24,
-      "variacao": -3.000000000000025,
+      "data_ref": "2026-10-13",
+      "valor_ref": 5.21,
+      "variacao": -1.9999999999999574,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
-      "valor_ref": 4.96,
-      "variacao": 25.0,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 4.97,
+      "variacao": 22.000000000000064,
       "unidade_variacao": "pb"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 4.18,
-      "variacao": 103.00000000000003,
+      "variacao": 101.00000000000007,
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-10",
-      "valor_ref": 4.05,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 4.03,
       "variacao": 116.00000000000001,
       "unidade_variacao": "pb"
     },
@@ -356,7 +356,7 @@
     "atual": {
       "data": "2026-10-06",
       "valor": 125.44,
-      "idade_dias": 8
+      "idade_dias": 9
     },
     "d1": {
       "data_ref": "2026-10-05",
@@ -398,35 +398,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 83101.99,
+      "data": "2026-10-14",
+      "valor": 81566.29,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-12",
-      "valor_ref": 81742.5,
-      "variacao": 1.6631372908829656,
+      "data_ref": "2026-10-13",
+      "valor_ref": 83101.99,
+      "variacao": -1.84797018699554,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-13",
-      "valor_ref": 76799.85,
-      "variacao": 8.205927485535458,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 78175.01,
+      "variacao": 4.338061485377498,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 87497.94,
-      "variacao": -5.024061137896496,
+      "variacao": -6.7791881728872845,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 115274.03,
-      "variacao": -27.909183013728235,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 113068.0,
+      "variacao": -27.860853645593807,
       "unidade_variacao": "%"
     },
     "id": "bitcoin",
@@ -442,35 +442,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 378.0,
+      "data": "2026-10-14",
+      "valor": 379.4,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-09",
-      "valor_ref": 377.8,
-      "variacao": 0.052938062466911795,
+      "data_ref": "2026-10-13",
+      "valor_ref": 378.0,
+      "variacao": 0.37037037037035425,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
       "valor_ref": 349.5,
-      "variacao": 8.15450643776825,
+      "variacao": 8.55507868383405,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-30",
       "valor_ref": 319.2,
-      "variacao": 18.42105263157896,
+      "variacao": 18.85964912280702,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 308.3,
-      "variacao": 22.60784949724295,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 308.7,
+      "variacao": 22.902494331065746,
       "unidade_variacao": "%"
     },
     "id": "boi_gordo_sp",
@@ -486,18 +486,18 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-09",
+      "data": "2026-10-13",
       "valor": 349.0,
-      "idade_dias": 5
+      "idade_dias": 2
     },
     "d1": {
-      "data_ref": "2026-10-08",
+      "data_ref": "2026-10-09",
       "valor_ref": 349.0,
       "variacao": 0.0,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-09",
+      "alvo": "2026-09-13",
       "motivo": "histórico começa em 2026-10-08"
     },
     "ytd": {
@@ -505,7 +505,7 @@
       "motivo": "histórico começa em 2026-10-08"
     },
     "y1": {
-      "alvo": "2025-10-09",
+      "alvo": "2025-10-13",
       "motivo": "histórico começa em 2026-10-08"
     },
     "id": "boi_comum_go_sul",
@@ -521,18 +521,18 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-09",
-      "valor": 353.0,
-      "idade_dias": 5
+      "data": "2026-10-13",
+      "valor": 356.0,
+      "idade_dias": 2
     },
     "d1": {
-      "data_ref": "2026-10-08",
-      "valor_ref": 351.0,
-      "variacao": 0.5698005698005604,
+      "data_ref": "2026-10-09",
+      "valor_ref": 353.0,
+      "variacao": 0.8498583569405138,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-09",
+      "alvo": "2026-09-13",
       "motivo": "histórico começa em 2026-10-08"
     },
     "ytd": {
@@ -540,7 +540,7 @@
       "motivo": "histórico começa em 2026-10-08"
     },
     "y1": {
-      "alvo": "2025-10-09",
+      "alvo": "2025-10-13",
       "motivo": "histórico começa em 2026-10-08"
     },
     "id": "boi_comum_to_sul",
@@ -556,35 +556,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 3484.95,
+      "data": "2026-10-14",
+      "valor": 3485.9,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-09",
-      "valor_ref": 3481.33,
-      "variacao": 0.10398324778173595,
+      "data_ref": "2026-10-13",
+      "valor_ref": 3484.95,
+      "variacao": 0.027260075467383516,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
-      "valor_ref": 3393.91,
-      "variacao": 2.682451803377228,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 3393.83,
+      "variacao": 2.7128642271416092,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-30",
       "valor_ref": 3066.58,
-      "variacao": 13.642885559809304,
+      "variacao": 13.673864696176196,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 2959.91,
-      "variacao": 17.738377180387243,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 2946.57,
+      "variacao": 18.30365475790494,
       "unidade_variacao": "%"
     },
     "id": "bezerro_ms",
@@ -600,35 +600,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 9.219444444444443,
+      "data": "2026-10-14",
+      "valor": 9.187928307854508,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-09",
-      "valor_ref": 9.214743250397035,
-      "variacao": 0.05101817728025981,
+      "data_ref": "2026-10-13",
+      "valor_ref": 9.219444444444443,
+      "variacao": -0.3418442052538939,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
-      "valor_ref": 9.710758226037196,
-      "variacao": -5.059479086559959,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 9.710529327610873,
+      "variacao": -5.381797450221426,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-30",
       "valor_ref": 9.607080200501253,
-      "variacao": -4.034896638383268,
+      "variacao": -4.362947783290871,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 9.60074602659747,
-      "variacao": -3.9715828446735935,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 9.545092322643344,
+      "variacao": -3.7418602431068537,
       "unidade_variacao": "%"
     },
     "id": "rel_troca_cepea",
@@ -644,35 +644,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 154.15,
+      "data": "2026-10-14",
+      "valor": 154.29,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-09",
-      "valor_ref": 154.75,
-      "variacao": -0.38772213247172393,
+      "data_ref": "2026-10-13",
+      "valor_ref": 154.15,
+      "variacao": 0.09082062925720447,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
-      "valor_ref": 160.55,
-      "variacao": -3.9862971037060158,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 160.44,
+      "variacao": -3.8332086761406203,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-30",
       "valor_ref": 141.01,
-      "variacao": 9.31848805049289,
+      "variacao": 9.417771789234797,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 138.11,
-      "variacao": 11.613930924625283,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 138.26,
+      "variacao": 11.594098076088532,
       "unidade_variacao": "%"
     },
     "id": "soja_paranagua",
@@ -688,35 +688,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-13",
-      "valor": 65.59,
+      "data": "2026-10-14",
+      "valor": 65.43,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-09",
-      "valor_ref": 67.35,
-      "variacao": -2.6132145508537374,
+      "data_ref": "2026-10-13",
+      "valor_ref": 65.59,
+      "variacao": -0.24393962494282384,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-13",
-      "data_ref": "2026-09-11",
-      "valor_ref": 69.77,
-      "variacao": -5.991113659165825,
+      "alvo": "2026-09-14",
+      "data_ref": "2026-09-14",
+      "valor_ref": 69.51,
+      "variacao": -5.869659041864472,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-30",
       "valor_ref": 69.5,
-      "variacao": -5.62589928057553,
+      "variacao": -5.856115107913662,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-13",
-      "data_ref": "2025-10-13",
-      "valor_ref": 65.15,
-      "variacao": 0.6753645433614786,
+      "alvo": "2025-10-14",
+      "data_ref": "2025-10-14",
+      "valor_ref": 64.98,
+      "variacao": 0.6925207756232732,
       "unidade_variacao": "%"
     },
     "id": "milho_cepea",
