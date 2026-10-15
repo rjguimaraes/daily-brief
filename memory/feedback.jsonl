@@ -32,3 +32,4 @@
 {"data": "2026-10-13", "tipo": "tecnico", "texto": "No conector Claude Docs, 'R$ ... US$' na mesma linha é lido como fórmula inline e a escrita é recusada; escapar como R\\$."}
 {"data": "2026-10-14", "tipo": "tecnico", "texto": "No Claude Docs, em replace com as:'text' o escape R\\$ entra literal (aparece a barra); usar R$ sem barra em modo texto e R\\$ só em modo markdown."}
 {"data": "2026-10-14", "tipo": "melhorar", "texto": "Brent spot EIA ainda em 06/10 (3º dia seguido); futuro a US$ 105,69 em 13/10. Trocar a fonte ou investigar RBRTE."}
+{"data": "2026-10-15", "tipo": "melhorar", "texto": "Brent spot EIA ainda em 06/10 (4º dia seguido); futuro US$ 106,58 em 14/10. Trocar a fonte ou investigar RBRTE."}
