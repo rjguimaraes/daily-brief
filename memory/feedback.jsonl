@@ -36,3 +36,5 @@
 {"data": "2026-10-15", "tipo": "correcao", "texto": "Fórmulas em bloco LaTeX aparecem como código cru no PDF exportado. Escrever fórmulas em texto simples; nunca ```latex."}
 {"data": "2026-10-15", "tipo": "contexto", "texto": "Ideia de negócio FIV no TO foi boa, mas para a Laçada faz mais sentido o modelo Nelore Vera Cruz: vender parceria em embriões, transferindo embriões das vacas da Laçada em fazendas terceiras."}
 {"data": "2026-10-15", "tipo": "melhorar", "texto": "Ideias & Perspectivas: resumo em ficha técnica tira a vontade de ler e não traz as ideias e questões por trás do texto. Trocar por prosa: pergunta central, argumento contado, onde incomoda, onde discordo, por que ler."}
+{"data": "2026-10-16", "tipo": "melhorar", "texto": "Brent spot EIA voltou a atualizar (último 14/10, US$ 126,55), mas segue ~US$ 21 acima do futuro (US$ 105,50 em 16/10) e com alerta de salto de +18% em 02/10. Avaliar trocar por futuro ou mostrar os dois."}
+{"data": "2026-10-16", "tipo": "tecnico", "texto": "Agendamento do panel.yml não rodou de novo; quality.json de 15/10 às 05h47; workflow disparado manualmente e concluído às 05h48."}
