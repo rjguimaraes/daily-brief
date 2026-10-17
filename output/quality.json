@@ -1,6 +1,6 @@
 {
   "data_referencia": "2026-10-17",
-  "gerado_em_utc": "2026-10-17T12:15:43+00:00",
+  "gerado_em_utc": "2026-10-17T12:55:11+00:00",
   "indicadores": 15,
   "ok": 15,
   "defasados": [],
@@ -19,9 +19,7 @@
       "y1": "histórico começa em 2026-10-08"
     }
   },
-  "fontes_com_falha": {
-    "B3 Ibovespa": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI2In0="
-  },
+  "fontes_com_falha": {},
   "revisoes": {},
   "alertas_salto_diario": {
     "brent_spot": [

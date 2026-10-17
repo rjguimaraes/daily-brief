@@ -22,8 +22,15 @@
     }
   },
   "B3 Ibovespa": {
-    "ok": false,
-    "erro": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://sistemaswebb3-listados.b3.com.br/indexStatisticsProxy/IndexCall/GetPortfolioDay/eyJpbmRleCI6IklCT1ZFU1BBIiwibGFuZ3VhZ2UiOiJwdC1iciIsInllYXIiOiIyMDI2In0="
+    "ok": true,
+    "series": {
+      "ibovespa": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 198
+      }
+    }
   },
   "FRED S&P 500": {
     "ok": true,
