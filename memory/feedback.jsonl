@@ -40,3 +40,7 @@
 {"data": "2026-10-16", "tipo": "tecnico", "texto": "Agendamento do panel.yml não rodou de novo; quality.json de 15/10 às 05h47; workflow disparado manualmente e concluído às 05h48."}
 {"data": "2026-10-17", "tipo": "tecnico", "texto": "Agendamento do panel.yml não rodou de novo (3º dia); quality.json de 16/10; workflow disparado às 05h48 e concluído 05h49."}
 {"data": "2026-10-17", "tipo": "melhorar", "texto": "Brent spot EIA parado em 14/10 (US$ 126,55) contra futuro US$ 109,86 em 16/10 (gap ~US$ 17). Segue a recomendação de trocar por futuro ou mostrar os dois."}
+{"data": "2026-10-18", "tipo": "tecnico", "texto": "Agendamento do panel.yml não rodou de novo (4º dia); quality.json de 17/10; workflow disparado às 05h49 com only=btc, gerado 05h49. Rodar run_panel.py local falha no Coinbase (proxy 403); usar o workflow."}
+{"data": "2026-10-18", "tipo": "melhorar", "texto": "Brent spot EIA segue parado em 14/10 (US$ 126,55) com futuro ~US$ 110. Segue a recomendação de trocar por futuro ou mostrar os dois."}
+{"data": "2026-10-18", "tipo": "correcao", "texto": "Radar de 15/10 dizia que Flávio não iria ao debate da Band; ele recuou em 14/10. Corrigido na edição de 18/10."}
+{"data": "2026-10-18", "tipo": "tecnico", "texto": "Claude Docs interpreta '$' (R$, US$) e '\\\\[1\\\\]' como matemática e recusa o conteúdo; escapar como R\\\\$ e usar '— (nota 1)'."}
