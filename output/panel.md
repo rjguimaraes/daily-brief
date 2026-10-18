@@ -1,4 +1,4 @@
-**Painel — referência 17/10/26** · comparativos ancorados na data de cada observação
+**Painel — referência 18/10/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,7 @@
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (15/10/26) | 0 pb | +25 pb | +25 pb | −25 pb |  |
 | Treasury 10 anos | 5,09 % a.a. (16/10/26) | −1 pb | +8 pb | +91 pb | +110 pb |  |
 | Brent spot (Europe Brent FOB) | 126,55 US$/barril (14/10/26) | +0,6% | +4,4% | +106,3% | +100,9% |  |
-| Bitcoin | 81.500 US$ (16/10/26) | −0,8% | +7,0% | −6,9% | −24,7% |  |
+| Bitcoin | 81.378 US$ (17/10/26) | −0,1% | +6,6% | −7,0% | −23,6% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 380,70 R$/@ (16/10/26) | +0,1% | +8,1% | +19,3% | +23,1% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 351,00 R$/@ (15/10/26) | +0,6% | —[1] | —[1] | —[1] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 356,00 R$/@ (15/10/26) | 0,0% | —[2] | —[2] | —[2] |  |
