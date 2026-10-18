@@ -1,12 +1,140 @@
 {
+  "BCB PTAX": {
+    "ok": true,
+    "series": {
+      "ptax_venda": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 14
+      }
+    }
+  },
+  "BCB Selic": {
+    "ok": false,
+    "erro": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "B3 Ibovespa": {
+    "ok": true,
+    "series": {
+      "ibovespa": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 198
+      }
+    }
+  },
+  "FRED S&P 500": {
+    "ok": true,
+    "series": {
+      "sp500": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 15
+      }
+    }
+  },
+  "NY Fed EFFR": {
+    "ok": true,
+    "series": {
+      "fed_funds_efetiva": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 13
+      },
+      "fed_funds_alvo_sup": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 13
+      },
+      "fed_funds_alvo_inf": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 13
+      }
+    }
+  },
+  "Tesouro EUA": {
+    "ok": true,
+    "series": {
+      "treasury_10a": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 199
+      }
+    }
+  },
+  "EIA Brent": {
+    "ok": true,
+    "series": {
+      "brent_spot": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 13
+      }
+    }
+  },
   "Coinbase BTC": {
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20
+      }
+    }
+  },
+  "CEPEA (NA) recentes": {
+    "ok": true,
+    "series": {
+      "boi_gordo_sp": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      },
+      "bezerro_ms": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      },
+      "soja_paranagua": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      },
+      "milho_cepea": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      }
+    }
+  },
+  "Scot (NA)": {
+    "ok": true,
+    "series": {
+      "boi_comum_go_sul": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 1
+      },
+      "boi_comum_to_sul": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 1
       }
     }
   }
