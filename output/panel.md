@@ -5,8 +5,8 @@
 | USD/BRL PTAX venda | 5,0826 R$/US$ (16/10/26) | +0,6% | −1,4% | −7,6% | −6,5% |  |
 | Ibovespa | 205.430 pontos (16/10/26) | +0,5% | +10,7% | +27,5% | +44,5% |  |
 | S&P 500 | 7.659 pontos (16/10/26) | −1,1% | +1,4% | +11,9% | +15,5% |  |
-| Selic-meta | 13,75 % a.a. (17/10/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
-| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (15/10/26) | 0 pb | +25 pb | +25 pb | −25 pb |  |
+| Selic-meta | 13,75 % a.a. (19/10/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (16/10/26) | 0 pb | +25 pb | +25 pb | −25 pb |  |
 | Treasury 10 anos | 5,09 % a.a. (16/10/26) | −1 pb | +8 pb | +91 pb | +110 pb |  |
 | Brent spot (Europe Brent FOB) | 126,55 US$/barril (14/10/26) | +0,6% | +4,4% | +106,3% | +100,9% |  |
 | Bitcoin | 82.007 US$ (18/10/26) | +0,8% | +1,4% | −6,3% | −23,5% |  |
