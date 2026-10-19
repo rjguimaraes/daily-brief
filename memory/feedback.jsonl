@@ -44,3 +44,7 @@
 {"data": "2026-10-18", "tipo": "melhorar", "texto": "Brent spot EIA segue parado em 14/10 (US$ 126,55) com futuro ~US$ 110. Segue a recomendação de trocar por futuro ou mostrar os dois."}
 {"data": "2026-10-18", "tipo": "correcao", "texto": "Radar de 15/10 dizia que Flávio não iria ao debate da Band; ele recuou em 14/10. Corrigido na edição de 18/10."}
 {"data": "2026-10-18", "tipo": "tecnico", "texto": "Claude Docs interpreta '$' (R$, US$) e '\\\\[1\\\\]' como matemática e recusa o conteúdo; escapar como R\\\\$ e usar '— (nota 1)'."}
+{"data": "2026-10-19", "tipo": "tecnico", "texto": "Agendamento do panel.yml não rodou de novo (5º dia; nenhuma execução agendada em 19/10 até 05h48); workflow disparado às 05h48 com only=btc, gerado 05h49."}
+{"data": "2026-10-19", "tipo": "tecnico", "texto": "Brent spot EIA segue parado em 14/10 (US$ 126,55) com alerta de salto. Segue a recomendação de trocar por futuro ou mostrar os dois."}
+{"data": "2026-10-19", "tipo": "editorial", "texto": "Ideia de Negócio veio com arroba de 25/09 (R$ 358,80); refeita com o painel (R$ 380,70): margem caiu de R$ 642 para R$ 204/cabeça e nota de 2,5 para 2. Sempre ancorar contas nos números do painel do dia."}
+{"data": "2026-10-19", "tipo": "tecnico", "texto": "Radar de fim de semana fraco: Brasil, Agro e Pecuária com 1 notícia cada; capas de noticiasagricolas, comprerural, beefpoint, farmnews e portaldbo não abriram no WebFetch."}
