@@ -2,35 +2,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-16",
-      "valor": 5.0826,
-      "idade_dias": 3
+      "data": "2026-10-19",
+      "valor": 5.0564,
+      "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-10-15",
-      "valor_ref": 5.0521,
-      "variacao": 0.603709348587711,
+      "data_ref": "2026-10-16",
+      "valor_ref": 5.0826,
+      "variacao": -0.5154842009994942,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-16",
-      "data_ref": "2026-09-16",
-      "valor_ref": 5.1527,
-      "variacao": -1.360451801967899,
+      "alvo": "2026-09-19",
+      "data_ref": "2026-09-18",
+      "valor_ref": 5.1575,
+      "variacao": -1.9602520601066376,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 5.5024,
-      "variacao": -7.629398080837446,
+      "variacao": -8.105553940098865,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-16",
-      "data_ref": "2025-10-16",
-      "valor_ref": 5.4354,
-      "variacao": -6.490782647091276,
+      "alvo": "2025-10-19",
+      "data_ref": "2025-10-17",
+      "valor_ref": 5.439,
+      "variacao": -7.034381320095607,
       "unidade_variacao": "%"
     },
     "id": "ptax_venda",
