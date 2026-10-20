@@ -48,3 +48,6 @@
 {"data": "2026-10-19", "tipo": "tecnico", "texto": "Brent spot EIA segue parado em 14/10 (US$ 126,55) com alerta de salto. Segue a recomendação de trocar por futuro ou mostrar os dois."}
 {"data": "2026-10-19", "tipo": "editorial", "texto": "Ideia de Negócio veio com arroba de 25/09 (R$ 358,80); refeita com o painel (R$ 380,70): margem caiu de R$ 642 para R$ 204/cabeça e nota de 2,5 para 2. Sempre ancorar contas nos números do painel do dia."}
 {"data": "2026-10-19", "tipo": "tecnico", "texto": "Radar de fim de semana fraco: Brasil, Agro e Pecuária com 1 notícia cada; capas de noticiasagricolas, comprerural, beefpoint, farmnews e portaldbo não abriram no WebFetch."}
+{"data": "2026-10-20", "tipo": "tecnico", "texto": "Execução agendada do panel.yml não rodou antes da edição (quality.json de 19/10 16h25; em 19/10 as agendadas só rodaram a partir de 10h25 BRT); workflow disparado às 05h48, gerado 05h49."}
+{"data": "2026-10-20", "tipo": "tecnico", "texto": "Brent spot EIA segue parado em 14/10 (US$ 126,55) com futuro US$ 109,55 em 19/10. Segue a recomendação de trocar por futuro ou mostrar os dois."}
+{"data": "2026-10-20", "tipo": "editorial", "texto": "Candidato guardado para Ideias & Perspectivas de agro: 'Will farm animals always suffer?' (Gould e Flynn-Do, Works in Progress, 12/08/2026); conferir data antes de usar."}
