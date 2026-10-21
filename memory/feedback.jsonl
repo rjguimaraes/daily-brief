@@ -51,3 +51,7 @@
 {"data": "2026-10-20", "tipo": "tecnico", "texto": "Execução agendada do panel.yml não rodou antes da edição (quality.json de 19/10 16h25; em 19/10 as agendadas só rodaram a partir de 10h25 BRT); workflow disparado às 05h48, gerado 05h49."}
 {"data": "2026-10-20", "tipo": "tecnico", "texto": "Brent spot EIA segue parado em 14/10 (US$ 126,55) com futuro US$ 109,55 em 19/10. Segue a recomendação de trocar por futuro ou mostrar os dois."}
 {"data": "2026-10-20", "tipo": "editorial", "texto": "Candidato guardado para Ideias & Perspectivas de agro: 'Will farm animals always suffer?' (Gould e Flynn-Do, Works in Progress, 12/08/2026); conferir data antes de usar."}
+{"data": "2026-10-21", "tipo": "tecnico", "texto": "Execução agendada do panel.yml não rodou antes da edição (quality.json de 20/10 às 05h47); workflow disparado às 05h47, gerado 05h48."}
+{"data": "2026-10-21", "tipo": "tecnico", "texto": "Brent spot EIA segue parado em 14/10 (US$ 126,55); fechamento do futuro de 20/10 não encontrado em fonte aberta. Segue a recomendação de trocar por futuro ou mostrar os dois."}
+{"data": "2026-10-21", "tipo": "tecnico", "texto": "Claude Docs: em replace com as:'text' não escapar '$' (R\\$ vira texto literal); escapar só em as:'markdown'."}
+{"data": "2026-10-21", "tipo": "editorial", "texto": "Reservas lidas para Ideias & Perspectivas: 'Measuring the Swarm Economy' (Gavin Morrison, Palladium, 20/10/2026) e 'Why it's so hard to fight mass migration' (Alicia Nieves, UnHerd, 12/10/2026)."}
