@@ -1,77 +1,75 @@
 {
-  "executado_em_utc": "2026-10-11T22:56:16+00:00",
+  "executado_em_utc": "2026-10-21T13:13:59+00:00",
   "resultados": [
     {
-      "nome": "nasdaq_bz_nmx",
-      "url": "https://api.nasdaq.com/api/quote/BZ%3ANMX/historical?assetclass=commodities&fromdate=2025-09-01&todate=2026-10-11&limit=9999",
+      "nome": "lbma_gold_pm",
+      "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 4545,
+      "segundos": 0.1,
+      "trecho": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    {
+      "nome": "lbma_gold_am",
+      "url": "https://prices.lbma.org.uk/json/gold_am.json",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 4545,
+      "segundos": 0.07,
+      "trecho": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    {
+      "nome": "nasdaq_gc_cmx",
+      "url": "https://api.nasdaq.com/api/quote/GC%3ACMX/historical?assetclass=commodities&fromdate=2025-09-01&todate=2026-10-21&limit=9999",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "bytes": 167,
+      "segundos": 2.19,
+      "trecho": "{\"data\":null,\"message\":null,\"status\":{\"rCode\":400,\"bCodeMessage\":[{\"code\":1007,\"errorMessage\":\"Bad or No parameterassetclass : commodities\"}],\"developerMessage\":null}}"
+    },
+    {
+      "nome": "nasdaq_gld",
+      "url": "https://api.nasdaq.com/api/quote/GLD/historical?assetclass=etf&fromdate=2025-09-01&todate=2026-10-21&limit=9999",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 31179,
       "segundos": 1.23,
-      "trecho": "{\"data\":null,\"message\":null,\"status\":{\"rCode\":400,\"bCodeMessage\":[{\"code\":1007,\"errorMessage\":\"Bad or No parameterassetclass : commodities\"}],\"developerMessage\":null}}"
+      "trecho": "{\"data\":{\"symbol\":\"GLD\",\"totalRecords\":286,\"tradesTable\":{\"asOf\":null,\"headers\":{\"date\":\"Date\",\"close\":\"Close/Last\",\"volume\":\"Volume\",\"open\":\"Open\",\"high\":\"High\",\"low\":\"Low\"},\"rows\":[{\"date\":\"10/20/2026\",\"close\":\"377.65\",\"volume\":\"6,038,333\",\"open\":\"377.91\",\"high\":\"380.88\",\"low\":\"377.26\"},{\"date\":\"1"
     },
     {
-      "nome": "nasdaq_bz_info",
-      "url": "https://api.nasdaq.com/api/quote/BZ%3ANMX/info?assetclass=commodities",
+      "nome": "metals_live_gold",
+      "url": "https://api.metals.live/v1/spot/gold",
+      "status": null,
+      "erro": "SSLError: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)')))",
+      "segundos": 0.23
+    },
+    {
+      "nome": "goldprice_org",
+      "url": "https://data-asg.goldprice.org/dbXRates/USD",
+      "status": 403,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 10,
+      "segundos": 0.31,
+      "trecho": "Forbidden\n"
+    },
+    {
+      "nome": "coinbase_paxg",
+      "url": "https://api.exchange.coinbase.com/products/PAXG-USD/candles?granularity=86400",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "bytes": 167,
-      "segundos": 1.16,
-      "trecho": "{\"data\":null,\"message\":null,\"status\":{\"rCode\":400,\"bCodeMessage\":[{\"code\":1007,\"errorMessage\":\"Bad or No parameterassetclass : commodities\"}],\"developerMessage\":null}}"
+      "bytes": 18879,
+      "segundos": 0.09,
+      "trecho": "[[1792540800,4110.7,4141.67,4116.93,4136.47,117.33043],[1792454400,4109.55,4153.34,4129.22,4117.38,328.83452],[1792368000,4128.23,4181.04,4175.83,4128.45,252.36096],[1792281600,4140.01,4175.41,4150.03,4174.26,145.97335],[1792195200,4141.88,4161.23,4157,4150.23,80.5411],[1792108800,4144.76,4188.72,41"
     },
     {
-      "nome": "yahoo1_bzf",
-      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=2y&interval=1d",
+      "nome": "yahoo2_gcf",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/GC%3DF?range=2y&interval=1d",
       "status": 429,
       "content_type": "text/html",
       "bytes": 19,
-      "segundos": 0.13,
+      "segundos": 0.12,
       "trecho": "Too Many Requests\r\n"
-    },
-    {
-      "nome": "cme_bz_settlements",
-      "url": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/424/FUT?strategy=DEFAULT&tradeDate=10/09/2026",
-      "status": 403,
-      "content_type": "application/json",
-      "bytes": 602,
-      "segundos": 0.13,
-      "trecho": "{\"message\": \"This IP address is blocked due to suspected web scraping activity associated with it on this CMEgroup.com page. Use of scripts, software, spiders, robots, avatars, agents, tools or other scraping mechanisms is strictly prohibited by CME Group’s website Data Terms of Use. If you are at"
-    },
-    {
-      "nome": "na_petroleo",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/petroleo",
-      "status": 404,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 78865,
-      "segundos": 0.44,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Página Não Encontrada - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href=\"https://www.g"
-    },
-    {
-      "nome": "na_brent",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/petroleo/petroleo-brent",
-      "status": 404,
-      "content_type": "text/html; charset=UTF-8",
-      "bytes": 78925,
-      "segundos": 0.45,
-      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Página Não Encontrada - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href=\"https://www.g"
-    },
-    {
-      "nome": "eia_futures_xls",
-      "url": "https://www.eia.gov/dnav/pet/xls/PET_PRI_FUT_S1_D.xls",
-      "status": 200,
-      "content_type": "application/vnd.ms-excel",
-      "bytes": 3019264,
-      "segundos": 10.26,
-      "trecho": "��\u0011ࡱ\u001a�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000;\u0000\u0003\u0000��\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000/\u0000\u0000\u0000�\u0016\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000�\u0016\u0000\u0000\u0001\u0000\u0000\u0000����\u0000\u0000\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000�\u0016\u0000\u0000\u0000\u0017\u0000\u0000\u0001\u0017\u0000\u0000\u0002\u0017\u0000\u0000\u0003\u0017\u0000\u0000\u0004\u0017\u0000\u0000\u0005\u0017\u0000\u0000\u0006\u0017\u0000\u0000\u0007\u0017\u0000\u0000������������������������������������"
-    },
-    {
-      "nome": "marketwatch_brn",
-      "url": "https://www.marketwatch.com/investing/future/brn00/download-data?countrycode=uk",
-      "status": 401,
-      "content_type": "text/html;charset=utf-8",
-      "bytes": 775,
-      "segundos": 0.16,
-      "trecho": "<html lang=\"en\"><head><title>marketwatch.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqA"
     }
   ]
 }
