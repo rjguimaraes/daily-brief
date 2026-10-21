@@ -96,6 +96,18 @@ PROBES_R5: list[tuple[str, str, str]] = [
     ("marketwatch_brn", "https://www.marketwatch.com/investing/future/brn00/download-data?countrycode=uk", "html"),
 ]
 
+# Rodada 6 (21/10/2026): ouro (pedido do leitor: ETF de ouro nos investimentos da família).
+PROBES_R6: list[tuple[str, str, str]] = [
+    ("lbma_gold_pm", "https://prices.lbma.org.uk/json/gold_pm.json", "json"),
+    ("lbma_gold_am", "https://prices.lbma.org.uk/json/gold_am.json", "json"),
+    ("nasdaq_gc_cmx", "https://api.nasdaq.com/api/quote/GC%3ACMX/historical?assetclass=commodities&fromdate=2025-09-01&todate=2026-10-21&limit=9999", "json"),
+    ("nasdaq_gld", "https://api.nasdaq.com/api/quote/GLD/historical?assetclass=etf&fromdate=2025-09-01&todate=2026-10-21&limit=9999", "json"),
+    ("metals_live_gold", "https://api.metals.live/v1/spot/gold", "json"),
+    ("goldprice_org", "https://data-asg.goldprice.org/dbXRates/USD", "json"),
+    ("coinbase_paxg", "https://api.exchange.coinbase.com/products/PAXG-USD/candles?granularity=86400", "json"),
+    ("yahoo2_gcf", "https://query2.finance.yahoo.com/v8/finance/chart/GC%3DF?range=2y&interval=1d", "json"),
+]
+
 # Rodada 3: S&P 500 e Ibovespa (Stooq exige JS, Yahoo 429, FRED não responde).
 PROBES_R3: list[tuple[str, str, str]] = [
     ("b3_main_js", B3 + "main-es2015.204ca04ae07d2c137636.js", "js"),
@@ -131,7 +143,7 @@ def main() -> None:
     import os
 
     RAW.mkdir(parents=True, exist_ok=True)
-    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4, "5": PROBES_R5}.get(os.environ.get("PROBE_SET", "1"), PROBES)
+    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4, "5": PROBES_R5, "6": PROBES_R6}.get(os.environ.get("PROBE_SET", "1"), PROBES)
     results = []
     for p in probes:
         results.append(probe(*p))
