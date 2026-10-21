@@ -399,6 +399,50 @@
     "status": "ok",
     "atual": {
       "data": "2026-10-20",
+      "valor": 377.65,
+      "idade_dias": 1
+    },
+    "d1": {
+      "data_ref": "2026-10-19",
+      "valor_ref": 379.69,
+      "variacao": -0.5372804129684772,
+      "unidade_variacao": "%"
+    },
+    "m1": {
+      "alvo": "2026-09-20",
+      "data_ref": "2026-09-18",
+      "valor_ref": 401.17,
+      "variacao": -5.862851160355964,
+      "unidade_variacao": "%"
+    },
+    "ytd": {
+      "alvo": "2025-12-31",
+      "data_ref": "2025-12-31",
+      "valor_ref": 396.31,
+      "variacao": -4.708435315788151,
+      "unidade_variacao": "%"
+    },
+    "y1": {
+      "alvo": "2025-10-20",
+      "data_ref": "2025-10-20",
+      "valor_ref": 403.15,
+      "variacao": -6.325189135557485,
+      "unidade_variacao": "%"
+    },
+    "id": "ouro_gld",
+    "nome": "Ouro — ETF GLD (SPDR Gold Shares)",
+    "unidade": "US$/cota",
+    "tipo": "preco",
+    "fonte": "Nasdaq — histórico do GLD (NYSE Arca), fechamento diário; referência do ouro em dólar",
+    "url": "https://www.nasdaq.com/market-activity/etf/gld/historical",
+    "decimais": 2,
+    "leitura": null,
+    "oculto": null
+  },
+  {
+    "status": "ok",
+    "atual": {
+      "data": "2026-10-20",
       "valor": 82938.26,
       "idade_dias": 1
     },

@@ -9,6 +9,7 @@
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (20/10/26) | 0 pb | 0 pb | +25 pb | −25 pb |  |
 | Treasury 10 anos | 5,12 % a.a. (20/10/26) | −3 pb | +11 pb | +94 pb | +112 pb |  |
 | Brent spot (Europe Brent FOB) | 126,55 US$/barril (14/10/26) | +0,6% | +4,4% | +106,3% | +100,9% |  |
+| Ouro — ETF GLD (SPDR Gold Shares) | 377,65 US$/cota (20/10/26) | −0,5% | −5,9% | −4,7% | −6,3% |  |
 | Bitcoin | 82.938 US$ (20/10/26) | +1,3% | +2,2% | −5,2% | −25,0% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 380,45 R$/@ (20/10/26) | −0,1% | +7,8% | +19,2% | +22,6% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 351,00 R$/@ (19/10/26) | 0,0% | —[1] | —[1] | —[1] |  |
@@ -22,4 +23,4 @@ Notas:
 1. Boi comum GO Região Sul (Scot, bruto à vista): histórico em formação (histórico começa em 2026-10-08)
 2. Boi comum TO Sul (Scot, bruto à vista): histórico em formação (histórico começa em 2026-10-08)
 
-Fontes: B3 — estatísticas históricas do índice (fechamento diário); Banco Central do Brasil — PTAX (Olinda), boletim de fechamento; Banco Central do Brasil — SGS série 432 (meta Selic); CEPEA/ESALQ, republicado por Notícias Agrícolas; Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC; Cálculo: Bezerro MS CEPEA ÷ Boi gordo SP CEPEA, mesma data (praças diferentes); FRED, série SP500 (S&P Dow Jones Indices); Federal Reserve Bank of New York — EFFR (campo targetRateTo); Scot Consultoria, mercado físico, republicado por Notícias Agrícolas; U.S. Department of the Treasury — Daily Par Yield Curve, 10 Yr; U.S. EIA — série RBRTE (spot, diário)
+Fontes: B3 — estatísticas históricas do índice (fechamento diário); Banco Central do Brasil — PTAX (Olinda), boletim de fechamento; Banco Central do Brasil — SGS série 432 (meta Selic); CEPEA/ESALQ, republicado por Notícias Agrícolas; Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC; Cálculo: Bezerro MS CEPEA ÷ Boi gordo SP CEPEA, mesma data (praças diferentes); FRED, série SP500 (S&P Dow Jones Indices); Federal Reserve Bank of New York — EFFR (campo targetRateTo); Nasdaq — histórico do GLD (NYSE Arca), fechamento diário; referência do ouro em dólar; Scot Consultoria, mercado físico, republicado por Notícias Agrícolas; U.S. Department of the Treasury — Daily Par Yield Curve, 10 Yr; U.S. EIA — série RBRTE (spot, diário)

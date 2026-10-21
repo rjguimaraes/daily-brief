@@ -1,12 +1,12 @@
 {
   "data_referencia": "2026-10-21",
-  "gerado_em_utc": "2026-10-21T14:04:15+00:00",
-  "indicadores": 15,
-  "ok": 15,
+  "gerado_em_utc": "2026-10-21T14:04:44+00:00",
+  "indicadores": 16,
+  "ok": 16,
   "defasados": [],
   "ausentes": [],
-  "comparativos_preenchidos": 54,
-  "comparativos_possiveis": 60,
+  "comparativos_preenchidos": 58,
+  "comparativos_possiveis": 64,
   "comparativos_ausentes": {
     "boi_comum_go_sul": {
       "m1": "histórico começa em 2026-10-08",

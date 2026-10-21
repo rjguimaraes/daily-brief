@@ -1,1 +1,13 @@
-{}
+{
+  "Nasdaq GLD ouro": {
+    "ok": true,
+    "series": {
+      "ouro_gld": {
+        "novos": 276,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 276
+      }
+    }
+  }
+}
