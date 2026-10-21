@@ -157,6 +157,37 @@ def eia_brent(start: date, end: date) -> dict[str, Points]:
     return {"brent_spot": pts}
 
 
+# --------------------------------------------------------------------- Ouro
+def nasdaq_gld(start: date, end: date) -> dict[str, Points]:
+    """Fechamento diário do ETF GLD (SPDR Gold Shares) pela API pública da Nasdaq.
+
+    Referência do ouro escolhida em 21/10/2026: LBMA, goldprice.org e Yahoo bloqueiam
+    o executor do GitHub (teste de fontes, rodada 6). Uma requisição só; sempre busca
+    ~400 dias para que YTD e 12 meses existam mesmo sem carga histórica. O pregão do
+    dia corrente (Nova York) é descartado, pois pode estar incompleto.
+    """
+    from zoneinfo import ZoneInfo
+
+    s = _session()
+    s.headers["Accept"] = "application/json"
+    today_ny = datetime.now(ZoneInfo("America/New_York")).date()
+    frm = min(start, end - timedelta(days=400))
+    r = _get(s, "https://api.nasdaq.com/api/quote/GLD/historical",
+             params={"assetclass": "etf", "fromdate": frm.isoformat(),
+                     "todate": end.isoformat(), "limit": 9999})
+    data = (r.json() or {}).get("data") or {}
+    rows = ((data.get("tradesTable") or {}).get("rows")) or []
+    pts: Points = []
+    for row in rows:
+        d = datetime.strptime(row["date"], "%m/%d/%Y").date()
+        if d >= today_ny:
+            continue
+        pts.append((d, float(row["close"].replace("$", "").replace(",", ""))))
+    if not pts:
+        raise RuntimeError("Nasdaq GLD sem dados (resposta vazia ou layout mudou)")
+    return {"ouro_gld": sorted(pts)}
+
+
 # --------------------------------------------------------------------- Bitcoin
 def coinbase_btc(start: date, end: date) -> dict[str, Points]:
     """Candle diário UTC; o valor é o fechamento (00:00 UTC do dia seguinte).

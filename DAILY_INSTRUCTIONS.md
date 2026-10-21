@@ -35,6 +35,8 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
    extensão do painel. Nenhum veículo com mais de 1/3 das notícias.
 5. Descoberta: Aprenda, Conhecimento Rápido, Ideia de Negócio, 2 artigos — seguindo
    `memory/criterios_conteudo.md` (padrão ousado e prático) e sem repetir os últimos 30 dias.
+   Diversidade (21/10/2026): rodízio de áreas do perfil; M&A/avaliação no máximo 1 vez a cada 14 dias
+   (o leitor não trabalha com M&A); ver "Ajuste de 21/10/2026" em `criterios_conteudo.md`.
 6. Escrever o documento: criar o esqueleto (título, byline, um bloco pendente por seção) e preencher
    uma seção por chamada.
 7. Auditoria (checklist abaixo). Corrigir antes de publicar.

@@ -1,6 +1,7 @@
 # Perfil do leitor — referência de curadoria (recebido em 09/10/2026)
 
-- Brasileiro, Administração (Insper); consultoria estratégica, M&A, finanças, agronegócio.
+- Brasileiro, Administração (Insper). Trabalhou em consultoria estratégica (área de M&A performance); **não trabalha mais com M&A** (corrigido em 21/10/2026). Hoje o foco profissional é a fazenda.
+- M&A e avaliação de empresas são um interesse, não o dia a dia: aparecem de vez em quando, nunca como lente padrão.
 - Hoje: desenvolvimento e gestão da Fazenda Laçada (pecuária e genética Nelore, negócio familiar).
 - Curioso, analítico, pragmático. Valoriza liberdade individual, empreendedorismo, responsabilidade, eficiência, inovação e pensamento crítico.
 - Quer conhecer correntes econômicas, políticas e filosóficas diversas; gosta de argumentos bem construídos, evidência e perspectivas que desafiem suas convicções.

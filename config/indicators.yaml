@@ -101,6 +101,16 @@ indicadores:
     decimais: 2
     salto_max_pct: 12
 
+  - id: ouro_gld
+    nome: "Ouro — ETF GLD (SPDR Gold Shares)"
+    unidade: "US$/cota"
+    tipo: preco
+    fonte: "Nasdaq — histórico do GLD (NYSE Arca), fechamento diário; referência do ouro em dólar"
+    url: "https://www.nasdaq.com/market-activity/etf/gld/historical"
+    max_idade_dias: 4
+    decimais: 2
+    salto_max_pct: 6
+
   - id: bitcoin
     nome: "Bitcoin"
     unidade: "US$"

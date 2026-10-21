@@ -13,7 +13,7 @@ Obrigatório, além do formato existente:
 - **Por que agora:** a mudança concreta (regra, tecnologia, custo, comportamento) que abre a janela, com fonte.
 - **Economia em números:** ticket, margem, custo de aquisição, capital inicial e prazo de retorno. Cada número marcado como "fonte" ou "hipótese".
 - **Tamanho:** ordem de grandeza do mercado endereçável, com o cálculo mostrado.
-- **Por que este leitor:** quando houver, a vantagem injusta dele (rede agro, Fazenda Laçada, M&A, acesso a capital). Não forçar.
+- **Por que este leitor:** quando houver, a vantagem injusta dele (rede agro, Fazenda Laçada, experiência em consultoria estratégica, acesso a capital). Não forçar; não supor que ele atua em M&A.
 - **Hipótese que mata a ideia** e **primeiro passo de 7 dias** com custo baixo.
 - **Nota final de 1 a 5** em atratividade, com uma frase de justificativa.
 
@@ -28,7 +28,7 @@ Proibido: SaaS ou marketplace genérico, "app de X", IA genérica sem vantagem d
 ## Conhecimento Rápido
 - Barra: algo que um especialista usa e a maioria não sabe. Nada de dica de app ou atalho de celular.
 - Deve ter um exemplo executável com números (fórmula, cálculo, roteiro, cláusula, protocolo).
-- Prioridade a áreas onde o leitor decide com dinheiro: negociação, finanças, avaliação de empresas, gestão rural, genética, contratos, saúde baseada em evidência.
+- Áreas em rodízio: negociação, finanças pessoais e investimentos, gestão rural, genética, contratos, saúde baseada em evidência, treino e desempenho físico, sono e atenção, estatística do dia a dia, escrita e comunicação, viagem e aventura (navegação, segurança, logística). Avaliação de empresas/M&A entra só no rodízio (ver Diversidade).
 
 ## Fins de semana (em teste)
 Conteúdo mais aberto e exploratório: ensaios, história, ciência, viagens, natureza, cultura.
@@ -46,3 +46,20 @@ Conteúdo mais aberto e exploratório: ensaios, história, ciência, viagens, na
 - **Ideia de Negócio (FIV, 15/10):** a ideia foi boa, mas para a Laçada faz mais sentido a ponta parecida
   com a Nelore Vera Cruz: vender parceria em embriões, transferindo embriões das vacas da Laçada em
   fazendas de terceiros, em vez de montar laboratório próprio de serviço.
+
+## Ajuste de 21/10/2026 — Diversidade (Aprenda e Conhecimento Rápido)
+Feedback: "não sei por que você fala tanto de M&A; não trabalho com M&A (já trabalhei em consultoria
+estratégica na área de M&A performance). Me interesso pelo tema, mas não quero ler todos os dias; quero
+o aprendizado mais diverso, com outros temas que me interessam."
+- **M&A, avaliação de empresas, valuation e contratos societários:** no máximo 1 vez a cada 14 dias
+  somando Aprenda, Conhecimento Rápido e o enquadramento das outras seções. Não usar M&A como exemplo
+  ou aplicação padrão em "Onde isso aparece na sua vida" nem em "Por que este leitor".
+- **Rodízio de áreas:** Aprenda e Conhecimento Rápido não repetem a mesma área do perfil em 7 dias, e
+  os dois do mesmo dia são de áreas diferentes. Áreas do perfil: economia; negócios (estratégia,
+  marketing, psicologia do consumidor); agro e pecuária; política, geopolítica e instituições;
+  tecnologia e ciência (IA, energia, biotecnologia, física, biologia); ideias e cultura (história,
+  filosofia); desenvolvimento pessoal (psicologia, neurociência, saúde, longevidade, desempenho físico,
+  atenção); estilo de vida (viagens, natureza, esportes de aventura, culturas).
+- **Agro/pecuária no Aprenda:** no máximo 2 vezes por semana (Radar e Ideia já cobrem bastante).
+- Antes de escolher, ler os últimos 14 dias de `aprenda.jsonl` e `conhecimento_rapido.jsonl` e registrar
+  a área (campo `area`/`categoria`) para o rodízio funcionar.

@@ -48,7 +48,8 @@ def collect(today: date, backfill: bool, log, only: list[str] | None = None) -> 
         ("NY Fed EFFR", lambda: col.nyfed_effr(start, today), "NY Fed EFFR search"),
         ("Tesouro EUA", lambda: col.treasury_10y(start, today), "Daily Par Yield Curve 10 Yr"),
         ("EIA Brent", lambda: col.eia_brent(start, today), "EIA RBRTEd.xls"),
-        ("Coinbase BTC", lambda: col.coinbase_btc(start, today), "Coinbase candles 86400 close"),
+        ("Nasdaq GLD ouro", lambda: col.nasdaq_gld(start, today), "Nasdaq API historical GLD close"),
+        ("Coinbase BTC",lambda: col.coinbase_btc(start, today), "Coinbase candles 86400 close"),
         ("CEPEA (NA) recentes", col.na_cepea_recent, "Notícias Agrícolas, página do indicador"),
         ("Scot (NA)", col.na_scot_today, "Notícias Agrícolas, tabela Scot, bruto à vista"),
     ]
