@@ -6,7 +6,7 @@
 | Ibovespa | 204.120 pontos (22/10/26) | −1,2% | +8,9% | +26,7% | +40,9% |  |
 | S&P 500 | 7.757 pontos (21/10/26) | +0,6% | −0,1% | +13,3% | +15,2% |  |
 | Selic-meta | 13,75 % a.a. (23/10/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
-| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (21/10/26) | 0 pb | 0 pb | +25 pb | −25 pb |  |
+| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (22/10/26) | 0 pb | 0 pb | +25 pb | −25 pb |  |
 | Treasury 10 anos | 4,96 % a.a. (22/10/26) | −17 pb | 0 pb | +78 pb | +99 pb |  |
 | Brent spot (Europe Brent FOB) | 115,22 US$/barril (20/10/26) | −3,0% | −3,7% | +87,8% | +89,8% |  |
 | Ouro — ETF GLD (SPDR Gold Shares) | 369,00 US$/cota (22/10/26) | −2,6% | −7,8% | −6,9% | −2,2% |  |
