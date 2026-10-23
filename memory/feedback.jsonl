@@ -60,3 +60,6 @@
 {"data": "2026-10-22", "tipo": "tecnico", "texto": "Execução agendada do panel.yml não rodou antes da edição (quality.json de 21/10 14h27); workflow disparado às 05h48, gerado 05h49. Painel 16/16 com ouro (GLD) pela primeira vez."}
 {"data": "2026-10-22", "tipo": "tecnico", "texto": "Brent spot EIA voltou a atualizar (20/10, US$ 115,22); alerta de salto de 02/10 permanece."}
 {"data": "2026-10-22", "tipo": "editorial", "texto": "Reserva lida para Ideias & Perspectivas: 'Thomas Mann's other fatherland' (Mateusz Stróżyński, Engelsberg Ideas, 21/10/2026)."}
+{"data": "2026-10-23", "tipo": "tecnico", "texto": "Execução agendada do panel.yml não rodou antes da edição (quality.json de 22/10); workflow disparado às 05h48, gerado 05h48. S&P 500 (FRED) em 21/10; CEPEA e Scot em 21/10; Brent EIA em 20/10."}
+{"data": "2026-10-23", "tipo": "tecnico", "texto": "Claude Docs interpreta 'R$ ... US$' como fórmula TeX inline; escapar $ como \\$ no markdown enviado."}
+{"data": "2026-10-23", "tipo": "editorial", "texto": "Reservas lidas para Ideias & Perspectivas: 'Measuring the Swarm Economy' (Gavin Morrison, Palladium, 20/10/2026); 'When The Present Eats The Future' (Nathan Gardels, Noema, 16/10/2026); 'Come to Brazil' (Tyler Cowen, Works in Progress, 19/10/2026)."}
