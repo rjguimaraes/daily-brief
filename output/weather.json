@@ -3,7 +3,7 @@
     "local": "Fazenda Laçada — Quirinópolis (GO)",
     "lat": -18.7215,
     "lon": -50.4246,
-    "gerado_em": "2026-10-24T09:45-03:00",
+    "gerado_em": "2026-10-24T10:15-03:00",
     "recente": {
       "tipo": "estimativa de modelo (Open-Meteo), não estação",
       "ultimos_7_dias_mm": 7.6,
@@ -31,7 +31,7 @@
         {
           "data": "2026-10-24",
           "chuva_mm": 1.7,
-          "prob_pct": 76,
+          "prob_pct": 15,
           "tmax": 33.4,
           "tmin": 22.0,
           "et0_mm": 5.01
@@ -39,7 +39,7 @@
         {
           "data": "2026-10-25",
           "chuva_mm": 2.9,
-          "prob_pct": 47,
+          "prob_pct": 71,
           "tmax": 33.9,
           "tmin": 23.2,
           "et0_mm": 6.39
@@ -47,7 +47,7 @@
         {
           "data": "2026-10-26",
           "chuva_mm": 0.3,
-          "prob_pct": 25,
+          "prob_pct": 29,
           "tmax": 27.7,
           "tmin": 21.7,
           "et0_mm": 5.09
@@ -55,7 +55,7 @@
         {
           "data": "2026-10-27",
           "chuva_mm": 0.0,
-          "prob_pct": 25,
+          "prob_pct": 15,
           "tmax": 30.5,
           "tmin": 20.7,
           "et0_mm": 5.72
@@ -63,7 +63,7 @@
         {
           "data": "2026-10-28",
           "chuva_mm": 9.0,
-          "prob_pct": 80,
+          "prob_pct": 71,
           "tmax": 29.0,
           "tmin": 22.4,
           "et0_mm": 3.17
@@ -71,7 +71,7 @@
         {
           "data": "2026-10-29",
           "chuva_mm": 29.2,
-          "prob_pct": 89,
+          "prob_pct": 94,
           "tmax": 28.2,
           "tmin": 22.4,
           "et0_mm": 3.27
@@ -79,7 +79,7 @@
         {
           "data": "2026-10-30",
           "chuva_mm": 11.3,
-          "prob_pct": 94,
+          "prob_pct": 95,
           "tmax": 29.0,
           "tmin": 22.1,
           "et0_mm": 3.68
@@ -91,7 +91,7 @@
     "local": "Fazenda Laçada Lagoa Azul — Pium/Lagoa da Confusão (TO)",
     "lat": -10.29775,
     "lon": -49.79627,
-    "gerado_em": "2026-10-24T09:45-03:00",
+    "gerado_em": "2026-10-24T10:15-03:00",
     "recente": {
       "tipo": "estimativa de modelo (Open-Meteo), não estação",
       "ultimos_7_dias_mm": 37.0,
