@@ -3,7 +3,7 @@
     "local": "Fazenda Laçada — Quirinópolis (GO)",
     "lat": -18.7215,
     "lon": -50.4246,
-    "gerado_em": "2026-10-24T05:48-03:00",
+    "gerado_em": "2026-10-24T08:09-03:00",
     "recente": {
       "tipo": "estimativa de modelo (Open-Meteo), não estação",
       "ultimos_7_dias_mm": 7.6,
@@ -79,7 +79,7 @@
         {
           "data": "2026-10-30",
           "chuva_mm": 19.8,
-          "prob_pct": 95,
+          "prob_pct": 94,
           "tmax": 29.0,
           "tmin": 22.1,
           "et0_mm": 3.67
@@ -91,7 +91,7 @@
     "local": "Fazenda Laçada Lagoa Azul — Pium/Lagoa da Confusão (TO)",
     "lat": -10.29775,
     "lon": -49.79627,
-    "gerado_em": "2026-10-24T05:48-03:00",
+    "gerado_em": "2026-10-24T08:09-03:00",
     "recente": {
       "tipo": "estimativa de modelo (Open-Meteo), não estação",
       "ultimos_7_dias_mm": 37.0,
@@ -159,7 +159,7 @@
         {
           "data": "2026-10-29",
           "chuva_mm": 1.7,
-          "prob_pct": 82,
+          "prob_pct": 83,
           "tmax": 32.8,
           "tmin": 23.0,
           "et0_mm": 4.36
@@ -167,7 +167,7 @@
         {
           "data": "2026-10-30",
           "chuva_mm": 7.2,
-          "prob_pct": 45,
+          "prob_pct": 44,
           "tmax": 32.9,
           "tmin": 23.3,
           "et0_mm": 4.39
