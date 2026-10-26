@@ -1,9 +1,11 @@
 {
-  "data_referencia": "2026-10-25",
-  "gerado_em_utc": "2026-10-25T13:40:54+00:00",
+  "data_referencia": "2026-10-26",
+  "gerado_em_utc": "2026-10-26T08:49:17+00:00",
   "indicadores": 16,
-  "ok": 16,
-  "defasados": [],
+  "ok": 15,
+  "defasados": [
+    "sp500"
+  ],
   "ausentes": [],
   "comparativos_preenchidos": 58,
   "comparativos_possiveis": 64,
