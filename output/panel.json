@@ -90,35 +90,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-23",
-      "valor": 7623.68,
-      "idade_dias": 4
+      "data": "2026-10-26",
+      "valor": 7676.77,
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-22",
-      "valor_ref": 7663.43,
-      "variacao": -0.5186972413136148,
+      "data_ref": "2026-10-23",
+      "valor_ref": 7623.68,
+      "variacao": 0.6963828492276614,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-23",
-      "data_ref": "2026-09-23",
-      "valor_ref": 7706.03,
-      "variacao": -1.0686436465988214,
+      "alvo": "2026-09-26",
+      "data_ref": "2026-09-25",
+      "valor_ref": 7743.41,
+      "variacao": -0.8606027576997688,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 6845.5,
-      "variacao": 11.367759842232129,
+      "variacao": 12.143305821342487,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-23",
-      "data_ref": "2025-10-23",
-      "valor_ref": 6738.44,
-      "variacao": 13.137165278610485,
+      "alvo": "2025-10-26",
+      "data_ref": "2025-10-24",
+      "valor_ref": 6791.69,
+      "variacao": 13.031807988880551,
       "unidade_variacao": "%"
     },
     "id": "sp500",
