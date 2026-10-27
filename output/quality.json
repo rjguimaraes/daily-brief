@@ -1,11 +1,9 @@
 {
-  "data_referencia": "2026-10-26",
-  "gerado_em_utc": "2026-10-26T16:04:39+00:00",
+  "data_referencia": "2026-10-27",
+  "gerado_em_utc": "2026-10-27T08:49:27+00:00",
   "indicadores": 16,
-  "ok": 15,
-  "defasados": [
-    "sp500"
-  ],
+  "ok": 16,
+  "defasados": [],
   "ausentes": [],
   "comparativos_preenchidos": 58,
   "comparativos_possiveis": 64,
@@ -24,6 +22,20 @@
   "fontes_com_falha": {},
   "revisoes": {},
   "alertas_salto_diario": {
+    "ptax_venda": [
+      {
+        "de": "2026-10-23",
+        "para": "2026-10-26",
+        "variacao_pct": 9.19
+      }
+    ],
+    "ibovespa": [
+      {
+        "de": "2026-10-23",
+        "para": "2026-10-26",
+        "variacao_pct": -13.88
+      }
+    ],
     "brent_spot": [
       {
         "de": "2026-10-01",
@@ -32,9 +44,5 @@
       }
     ]
   },
-  "divergencias_ptax_olinda_vs_sgs1": [
-    {
-      "erro": "checagem SGS 1 indisponível: Expecting value: line 1 column 1 (char 0)"
-    }
-  ]
+  "divergencias_ptax_olinda_vs_sgs1": []
 }
