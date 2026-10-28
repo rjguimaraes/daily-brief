@@ -1,6 +1,6 @@
 {
   "data_referencia": "2026-10-28",
-  "gerado_em_utc": "2026-10-28T15:11:23+00:00",
+  "gerado_em_utc": "2026-10-28T15:57:11+00:00",
   "indicadores": 16,
   "ok": 16,
   "defasados": [],
@@ -20,7 +20,7 @@
     }
   },
   "fontes_com_falha": {
-    "B3 Ibovespa": "TypeError: 'NoneType' object is not iterable"
+    "BCB Selic": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "revisoes": {},
   "alertas_salto_diario": {

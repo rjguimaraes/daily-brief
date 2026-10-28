@@ -11,19 +11,19 @@
     }
   },
   "BCB Selic": {
+    "ok": false,
+    "erro": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "B3 Ibovespa": {
     "ok": true,
     "series": {
-      "selic_meta": {
+      "ibovespa": {
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 21
+        "recebidos": 205
       }
     }
-  },
-  "B3 Ibovespa": {
-    "ok": false,
-    "erro": "TypeError: 'NoneType' object is not iterable"
   },
   "FRED S&P 500": {
     "ok": true,
