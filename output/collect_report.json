@@ -3,7 +3,7 @@
     "ok": true,
     "series": {
       "ptax_venda": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 13
@@ -14,7 +14,7 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 21
@@ -25,7 +25,7 @@
     "ok": true,
     "series": {
       "ibovespa": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 206
@@ -36,7 +36,7 @@
     "ok": true,
     "series": {
       "sp500": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 14
@@ -47,22 +47,22 @@
     "ok": true,
     "series": {
       "fed_funds_efetiva": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 12
+        "recebidos": 13
       },
       "fed_funds_alvo_sup": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 12
+        "recebidos": 13
       },
       "fed_funds_alvo_inf": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 12
+        "recebidos": 13
       }
     }
   },
@@ -70,7 +70,7 @@
     "ok": true,
     "series": {
       "treasury_10a": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 207
@@ -81,7 +81,7 @@
     "ok": true,
     "series": {
       "brent_spot": {
-        "novos": 5,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 13
@@ -92,7 +92,7 @@
     "ok": true,
     "series": {
       "ouro_gld": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 276
@@ -103,7 +103,7 @@
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20
@@ -114,25 +114,25 @@
     "ok": true,
     "series": {
       "boi_gordo_sp": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 10
       },
       "bezerro_ms": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 10
       },
       "soja_paranagua": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 10
       },
       "milho_cepea": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 10
@@ -143,13 +143,13 @@
     "ok": true,
     "series": {
       "boi_comum_go_sul": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 1
       },
       "boi_comum_to_sul": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 1
