@@ -1,6 +1,6 @@
 {
-  "data_referencia": "2026-10-28",
-  "gerado_em_utc": "2026-10-28T15:57:11+00:00",
+  "data_referencia": "2026-10-29",
+  "gerado_em_utc": "2026-10-29T08:49:54+00:00",
   "indicadores": 16,
   "ok": 16,
   "defasados": [],
@@ -19,9 +19,7 @@
       "y1": "histórico começa em 2026-10-08"
     }
   },
-  "fontes_com_falha": {
-    "BCB Selic": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
+  "fontes_com_falha": {},
   "revisoes": {},
   "alertas_salto_diario": {
     "ptax_venda": [
