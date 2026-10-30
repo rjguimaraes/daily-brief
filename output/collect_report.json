@@ -47,19 +47,19 @@
     "ok": true,
     "series": {
       "fed_funds_efetiva": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 13
       },
       "fed_funds_alvo_sup": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 13
       },
       "fed_funds_alvo_inf": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 13
