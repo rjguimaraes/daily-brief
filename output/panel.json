@@ -88,37 +88,37 @@
     "oculto": null
   },
   {
-    "status": "defasado",
+    "status": "ok",
     "atual": {
-      "data": "2026-10-28",
-      "valor": 7743.98,
-      "idade_dias": 5
+      "data": "2026-10-30",
+      "valor": 7580.07,
+      "idade_dias": 3
     },
     "d1": {
-      "data_ref": "2026-10-27",
-      "valor_ref": 7722.6,
-      "variacao": 0.27684976562296626,
+      "data_ref": "2026-10-29",
+      "valor_ref": 7720.39,
+      "variacao": -1.8175247623500979,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-28",
-      "data_ref": "2026-09-28",
-      "valor_ref": 7683.69,
-      "variacao": 0.7846490423221164,
+      "alvo": "2026-09-30",
+      "data_ref": "2026-09-30",
+      "valor_ref": 7651.54,
+      "variacao": -0.9340603329525909,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 6845.5,
-      "variacao": 13.125118691110949,
+      "variacao": 10.730698999342625,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-28",
-      "data_ref": "2025-10-28",
-      "valor_ref": 6890.89,
-      "variacao": 12.379968335004609,
+      "alvo": "2025-10-30",
+      "data_ref": "2025-10-30",
+      "valor_ref": 6822.34,
+      "variacao": 11.106599788342407,
       "unidade_variacao": "%"
     },
     "id": "sp500",
