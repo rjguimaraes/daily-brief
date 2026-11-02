@@ -36,7 +36,7 @@
     "ok": true,
     "series": {
       "sp500": {
-        "novos": 2,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 14
