@@ -134,19 +134,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-01",
+      "data": "2026-11-02",
       "valor": 13.75,
-      "idade_dias": 1
+      "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-10-31",
+      "data_ref": "2026-11-01",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-10-01",
-      "data_ref": "2026-10-01",
+      "alvo": "2026-10-02",
+      "data_ref": "2026-10-02",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -159,8 +159,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-11-01",
-      "data_ref": "2025-11-01",
+      "alvo": "2025-11-02",
+      "data_ref": "2025-11-02",
       "valor_ref": 15.0,
       "variacao": -125.0,
       "unidade_variacao": "pb"
@@ -178,19 +178,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-29",
+      "data": "2026-10-30",
       "valor": 3.88,
-      "idade_dias": 4
+      "idade_dias": 3
     },
     "d1": {
-      "data_ref": "2026-10-28",
+      "data_ref": "2026-10-29",
       "valor_ref": 3.88,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-29",
-      "data_ref": "2026-09-29",
+      "alvo": "2026-09-30",
+      "data_ref": "2026-09-30",
       "valor_ref": 3.88,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -203,10 +203,10 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-29",
-      "data_ref": "2025-10-29",
-      "valor_ref": 4.12,
-      "variacao": -24.00000000000002,
+      "alvo": "2025-10-30",
+      "data_ref": "2025-10-30",
+      "valor_ref": 3.87,
+      "variacao": 0.9999999999999787,
       "unidade_variacao": "pb"
     },
     "id": "fed_funds_efetiva",
@@ -222,19 +222,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-29",
+      "data": "2026-10-30",
       "valor": 4.0,
-      "idade_dias": 4
+      "idade_dias": 3
     },
     "d1": {
-      "data_ref": "2026-10-28",
+      "data_ref": "2026-10-29",
       "valor_ref": 4.0,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-29",
-      "data_ref": "2026-09-29",
+      "alvo": "2026-09-30",
+      "data_ref": "2026-09-30",
       "valor_ref": 4.0,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -247,10 +247,10 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-29",
-      "data_ref": "2025-10-29",
-      "valor_ref": 4.25,
-      "variacao": -25.0,
+      "alvo": "2025-10-30",
+      "data_ref": "2025-10-30",
+      "valor_ref": 4.0,
+      "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "id": "fed_funds_alvo_sup",
@@ -266,19 +266,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-29",
+      "data": "2026-10-30",
       "valor": 3.75,
-      "idade_dias": 4
+      "idade_dias": 3
     },
     "d1": {
-      "data_ref": "2026-10-28",
+      "data_ref": "2026-10-29",
       "valor_ref": 3.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-29",
-      "data_ref": "2026-09-29",
+      "alvo": "2026-09-30",
+      "data_ref": "2026-09-30",
       "valor_ref": 3.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -291,10 +291,10 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-29",
-      "data_ref": "2025-10-29",
-      "valor_ref": 4.0,
-      "variacao": -25.0,
+      "alvo": "2025-10-30",
+      "data_ref": "2025-10-30",
+      "valor_ref": 3.75,
+      "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "id": "fed_funds_alvo_inf",
