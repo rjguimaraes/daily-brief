@@ -178,19 +178,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-30",
+      "data": "2026-11-02",
       "valor": 3.88,
-      "idade_dias": 4
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-29",
+      "data_ref": "2026-10-30",
       "valor_ref": 3.88,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-30",
-      "data_ref": "2026-09-30",
+      "alvo": "2026-10-02",
+      "data_ref": "2026-10-02",
       "valor_ref": 3.88,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -203,10 +203,10 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-30",
-      "data_ref": "2025-10-30",
-      "valor_ref": 3.87,
-      "variacao": 0.9999999999999787,
+      "alvo": "2025-11-02",
+      "data_ref": "2025-10-31",
+      "valor_ref": 3.86,
+      "variacao": 2.0000000000000018,
       "unidade_variacao": "pb"
     },
     "id": "fed_funds_efetiva",
@@ -222,19 +222,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-30",
+      "data": "2026-11-02",
       "valor": 4.0,
-      "idade_dias": 4
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-29",
+      "data_ref": "2026-10-30",
       "valor_ref": 4.0,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-30",
-      "data_ref": "2026-09-30",
+      "alvo": "2026-10-02",
+      "data_ref": "2026-10-02",
       "valor_ref": 4.0,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -247,8 +247,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-30",
-      "data_ref": "2025-10-30",
+      "alvo": "2025-11-02",
+      "data_ref": "2025-10-31",
       "valor_ref": 4.0,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -266,19 +266,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-30",
+      "data": "2026-11-02",
       "valor": 3.75,
-      "idade_dias": 4
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-29",
+      "data_ref": "2026-10-30",
       "valor_ref": 3.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-30",
-      "data_ref": "2026-09-30",
+      "alvo": "2026-10-02",
+      "data_ref": "2026-10-02",
       "valor_ref": 3.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -291,8 +291,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-30",
-      "data_ref": "2025-10-30",
+      "alvo": "2025-11-02",
+      "data_ref": "2025-10-31",
       "valor_ref": 3.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
