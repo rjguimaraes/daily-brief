@@ -4,7 +4,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 5.4212,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -48,7 +48,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 167921.8,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -92,7 +92,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 7580.07,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -134,19 +134,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-02",
+      "data": "2026-11-03",
       "valor": 13.75,
       "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-11-01",
+      "data_ref": "2026-11-02",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-10-02",
-      "data_ref": "2026-10-02",
+      "alvo": "2026-10-03",
+      "data_ref": "2026-10-03",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -159,8 +159,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-11-02",
-      "data_ref": "2025-11-02",
+      "alvo": "2025-11-03",
+      "data_ref": "2025-11-03",
       "valor_ref": 15.0,
       "variacao": -125.0,
       "unidade_variacao": "pb"
@@ -180,7 +180,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 3.88,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -224,7 +224,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 4.0,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -268,7 +268,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 3.75,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -310,35 +310,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-30",
-      "valor": 4.94,
-      "idade_dias": 3
+      "data": "2026-11-02",
+      "valor": 4.91,
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-29",
-      "valor_ref": 4.98,
-      "variacao": -4.0000000000000036,
+      "data_ref": "2026-10-30",
+      "valor_ref": 4.94,
+      "variacao": -3.000000000000025,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-09-30",
-      "data_ref": "2026-09-30",
-      "valor_ref": 5.29,
-      "variacao": -34.999999999999964,
+      "alvo": "2026-10-02",
+      "data_ref": "2026-10-02",
+      "valor_ref": 5.28,
+      "variacao": -37.000000000000014,
       "unidade_variacao": "pb"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 4.18,
-      "variacao": 76.00000000000007,
+      "variacao": 73.00000000000004,
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-10-30",
-      "data_ref": "2025-10-30",
+      "alvo": "2025-11-02",
+      "data_ref": "2025-10-31",
       "valor_ref": 4.11,
-      "variacao": 83.0,
+      "variacao": 79.99999999999999,
       "unidade_variacao": "pb"
     },
     "id": "treasury_10a",
@@ -356,7 +356,7 @@
     "atual": {
       "data": "2026-10-27",
       "valor": 123.1,
-      "idade_dias": 6
+      "idade_dias": 7
     },
     "d1": {
       "data_ref": "2026-10-26",
@@ -398,35 +398,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-10-30",
-      "valor": 355.78,
-      "idade_dias": 3
+      "data": "2026-11-02",
+      "valor": 361.65,
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-29",
-      "valor_ref": 368.57,
-      "variacao": -3.4701684890251605,
+      "data_ref": "2026-10-30",
+      "valor_ref": 355.78,
+      "variacao": 1.6498960031480214,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-09-30",
-      "data_ref": "2026-09-30",
-      "valor_ref": 380.84,
-      "variacao": -6.580191156391136,
+      "alvo": "2026-10-02",
+      "data_ref": "2026-10-02",
+      "valor_ref": 380.14,
+      "variacao": -4.863997474614623,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 396.31,
-      "variacao": -10.226842623199017,
+      "variacao": -8.745678887739405,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-10-30",
-      "data_ref": "2025-10-30",
-      "valor_ref": 370.13,
-      "variacao": -3.8770161835031014,
+      "alvo": "2025-11-02",
+      "data_ref": "2025-10-31",
+      "valor_ref": 368.12,
+      "variacao": -1.7575790503096878,
       "unidade_variacao": "%"
     },
     "id": "ouro_gld",
@@ -442,35 +442,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-01",
-      "valor": 78230.55,
+      "data": "2026-11-02",
+      "valor": 76674.13,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-10-31",
-      "valor_ref": 77423.98,
-      "variacao": 1.0417573470131725,
+      "data_ref": "2026-11-01",
+      "valor_ref": 78230.55,
+      "variacao": -1.9895296658402617,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-10-01",
-      "data_ref": "2026-10-01",
-      "valor_ref": 84848.73,
-      "variacao": -7.799975320785579,
+      "alvo": "2026-10-02",
+      "data_ref": "2026-10-02",
+      "valor_ref": 84504.88,
+      "variacao": -9.266624602034812,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 87497.94,
-      "variacao": -10.59155221254352,
+      "variacao": -12.370359805042263,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-11-01",
-      "data_ref": "2025-11-01",
-      "valor_ref": 110052.25,
-      "variacao": -28.915083517147533,
+      "alvo": "2025-11-02",
+      "data_ref": "2025-11-02",
+      "valor_ref": 110536.01,
+      "variacao": -30.634252131952287,
       "unidade_variacao": "%"
     },
     "id": "bitcoin",
@@ -488,7 +488,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 389.9,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -532,7 +532,7 @@
     "atual": {
       "data": "2026-10-29",
       "valor": 366.0,
-      "idade_dias": 4
+      "idade_dias": 5
     },
     "d1": {
       "data_ref": "2026-10-28",
@@ -567,7 +567,7 @@
     "atual": {
       "data": "2026-10-29",
       "valor": 363.0,
-      "idade_dias": 4
+      "idade_dias": 5
     },
     "d1": {
       "data_ref": "2026-10-28",
@@ -602,7 +602,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 3572.96,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -646,7 +646,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 9.163785586047705,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -690,7 +690,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 158.88,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",
@@ -734,7 +734,7 @@
     "atual": {
       "data": "2026-10-30",
       "valor": 65.64,
-      "idade_dias": 3
+      "idade_dias": 4
     },
     "d1": {
       "data_ref": "2026-10-29",

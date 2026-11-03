@@ -6,7 +6,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 14
+        "recebidos": 13
       }
     }
   },
@@ -14,7 +14,7 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 21
@@ -39,7 +39,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 14
+        "recebidos": 13
       }
     }
   },
@@ -50,19 +50,19 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 14
+        "recebidos": 13
       },
       "fed_funds_alvo_sup": {
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 14
+        "recebidos": 13
       },
       "fed_funds_alvo_inf": {
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 14
+        "recebidos": 13
       }
     }
   },
@@ -70,10 +70,10 @@
     "ok": true,
     "series": {
       "treasury_10a": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 209
+        "recebidos": 210
       }
     }
   },
@@ -84,7 +84,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 11
+        "recebidos": 10
       }
     }
   },
@@ -92,10 +92,10 @@
     "ok": true,
     "series": {
       "ouro_gld": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 275
+        "recebidos": 276
       }
     }
   },
@@ -103,7 +103,7 @@
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20
