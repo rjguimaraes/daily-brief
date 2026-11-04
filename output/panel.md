@@ -2,9 +2,9 @@
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
-| USD/BRL PTAX venda | 5,4935 R$/US$ (03/11/26) | +1,3% | +5,2% | −0,2% | +2,7% |  |
+| USD/BRL PTAX venda | 5,4778 R$/US$ (04/11/26) | −0,3% | +4,9% | −0,4% | +1,7% |  |
 | Ibovespa | 165.529 pontos (03/11/26) | −1,4% | −13,8% | +2,7% | +10,0% |  |
-| S&P 500 | 7.541 pontos (02/11/26) | −0,5% | −2,3% | +10,2% | +10,3% |  |
+| S&P 500 | 7.569 pontos (03/11/26) | +0,4% | −2,0% | +10,6% | +10,5% |  |
 | Selic-meta | 13,75 % a.a. (04/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (03/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
 | Treasury 10 anos | 4,95 % a.a. (03/11/26) | +4 pb | −33 pb | +77 pb | +82 pb |  |
