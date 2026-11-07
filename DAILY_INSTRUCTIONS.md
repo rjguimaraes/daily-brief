@@ -27,8 +27,8 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
      indicador por indicador. Nunca digitar, estimar ou completar número do painel: copiar
    do JSON. Célula ausente = "—" com o motivo do JSON. Escrever só a coluna Leitura.
 3. Clima: a partir de `output/weather.json`. Rotular sempre: recente = estimativa de modelo;
-   normal = ERA5 1995–2024; previsão = modelo. Foco em histórico e projeção; não declarar
-   "águas estabelecidas" com base em evento isolado.
+   normal = ERA5 1995–2024; previsão = modelo. Apresentar só os números (histórico e projeção),
+   sem análise ou implicação operacional (ajuste de 07/11/2026).
 4. Radar: pesquisar notícias das últimas 24–48 h (WebSearch). Até 3 por categoria (Mundo, Brasil,
    Política, Agro, Pecuária); uma excelente vale mais que três medianas — dizer quando uma categoria
    tiver menos. Não repetir evento central de `memory/radar.jsonl` sem fato novo. O Radar não é
@@ -47,8 +47,11 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 ## Formato de cada bloco (como na edição de 10/10)
 1. **Abertura** — 2 parágrafos: a leitura central do dia, ligando os fatos.
 2. **Painel** — tabela: Indicador | Atual (data) | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura.
-3. **Fazenda — clima** — tabela por propriedade: recente | próximos 7 dias | distribuição; e uma
-   linha de implicação operacional.
+3. **Fazenda — clima** — tabela por propriedade: recente | próximos 7 dias | distribuição, com a nota
+   de rótulos (estimativa de modelo / ERA5 / previsão). **Só os dados, sem análise nem implicação
+   operacional** (07/11/2026: os dados são de grade de modelo próxima às fazendas, não medição na
+   propriedade, então interpretá-los não agrega valor). Na Weekly, idem: evolução semanal em números,
+   sem leitura.
 4–8. **Radar** — por notícia: manchete em negrito; O que aconteceu; Por que importa (marcar
    "leitura minha" quando for interpretação); Fonte com link direto da matéria.
 9. **Hoje em 3 pontos** — Fazenda Laçada, Investimentos, Tema a monitorar. Interpretação, não manchete.
@@ -80,7 +83,7 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 
 ## Checklist antes de publicar
 - Painel: números idênticos ao `panel.json`; datas visíveis; taxas em pb; ausências com motivo.
-- Clima: locais corretos; histórico, normal e previsão separados e rotulados.
+- Clima: locais corretos; histórico, normal e previsão separados e rotulados; nenhuma análise.
 - Radar: links abertos; nada repetido sem novidade; diversidade de temas e veículos.
 - Aprenda/Conhecimento/Ideia: fontes conferidas; contas refeitas em código; hipóteses marcadas.
 - Artigos: título, autor, data e link conferidos na página; contrapontos próprios separados.
