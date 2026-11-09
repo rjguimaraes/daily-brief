@@ -2,11 +2,11 @@
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
-| USD/BRL PTAX venda | 5,5013 R$/US$ (06/11/26) | +0,7% | +10,7% | −0,0% | +2,9% |  |
+| USD/BRL PTAX venda | 5,5146 R$/US$ (09/11/26) | +0,2% | +10,5% | +0,2% | +2,9% |  |
 | Ibovespa | 168.498 pontos (06/11/26) | +1,4% | −18,1% | +4,6% | +9,9% |  |
 | S&P 500 | 7.354 pontos (05/11/26) | −4,4% | −5,4% | +7,4% | +8,2% |  |
-| Selic-meta | 13,75 % a.a. (08/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
-| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (05/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
+| Selic-meta | 13,75 % a.a. (09/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (06/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
 | Treasury 10 anos | 4,86 % a.a. (06/11/26) | +2 pb | −41 pb | +68 pb | +75 pb |  |
 | Brent spot (Europe Brent FOB) | 107,03 US$/barril (03/11/26) | −0,3% | −21,0% | +74,5% | +62,7% |  |
 | Ouro — ETF GLD (SPDR Gold Shares) | 372,52 US$/cota (06/11/26) | −0,8% | −2,6% | −6,0% | +1,8% |  |
