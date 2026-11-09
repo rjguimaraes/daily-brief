@@ -530,18 +530,18 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-05",
+      "data": "2026-11-06",
       "valor": 368.0,
-      "idade_dias": 4
+      "idade_dias": 3
     },
     "d1": {
-      "data_ref": "2026-11-04",
-      "valor_ref": 366.0,
-      "variacao": 0.5464480874316946,
+      "data_ref": "2026-11-05",
+      "valor_ref": 368.0,
+      "variacao": 0.0,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-10-05",
+      "alvo": "2026-10-06",
       "motivo": "histórico começa em 2026-10-08"
     },
     "ytd": {
@@ -549,7 +549,7 @@
       "motivo": "histórico começa em 2026-10-08"
     },
     "y1": {
-      "alvo": "2025-11-05",
+      "alvo": "2025-11-06",
       "motivo": "histórico começa em 2026-10-08"
     },
     "id": "boi_comum_go_sul",
@@ -565,18 +565,18 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-05",
+      "data": "2026-11-06",
       "valor": 369.0,
-      "idade_dias": 4
+      "idade_dias": 3
     },
     "d1": {
-      "data_ref": "2026-11-04",
+      "data_ref": "2026-11-05",
       "valor_ref": 369.0,
       "variacao": 0.0,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-10-05",
+      "alvo": "2026-10-06",
       "motivo": "histórico começa em 2026-10-08"
     },
     "ytd": {
@@ -584,7 +584,7 @@
       "motivo": "histórico começa em 2026-10-08"
     },
     "y1": {
-      "alvo": "2025-11-05",
+      "alvo": "2025-11-06",
       "motivo": "histórico começa em 2026-10-08"
     },
     "id": "boi_comum_to_sul",
