@@ -109,6 +109,17 @@ PROBES_R6: list[tuple[str, str, str]] = [
 ]
 
 # Rodada 3: S&P 500 e Ibovespa (Stooq exige JS, Yahoo 429, FRED não responde).
+# Rodada 7 (10/11/2026): bezerro por estado (GO/TO) para substituir o bezerro MS.
+PROBES_R7: list[tuple[str, str, str]] = [
+    ("na_reposicao_nelore_macho_hoje", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho", "html"),
+    ("na_reposicao_nelore_macho_2025-11-10", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho/2025-11-10", "html"),
+    ("na_reposicao_nelore_macho_2025-12-30", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho/2025-12-30", "html"),
+    ("na_macho_nelore_bezerro_12m", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses", "html"),
+    ("na_macho_nelore_bezerro_12m_2025-12-30", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2025-12-30", "html"),
+    ("na_macho_nelore_desmama_8m", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-desmama-8-meses", "html"),
+    ("na_bezerra_nelore_12m", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/bezerra-nelore-femea-12-meses", "html"),
+]
+
 PROBES_R3: list[tuple[str, str, str]] = [
     ("b3_main_js", B3 + "main-es2015.204ca04ae07d2c137636.js", "js"),
     ("fred_api_sem_chave", "https://api.stlouisfed.org/fred/series/observations?series_id=SP500&file_type=json", "json"),
@@ -143,7 +154,7 @@ def main() -> None:
     import os
 
     RAW.mkdir(parents=True, exist_ok=True)
-    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4, "5": PROBES_R5, "6": PROBES_R6}.get(os.environ.get("PROBE_SET", "1"), PROBES)
+    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4, "5": PROBES_R5, "6": PROBES_R6, "7": PROBES_R7}.get(os.environ.get("PROBE_SET", "1"), PROBES)
     results = []
     for p in probes:
         results.append(probe(*p))
