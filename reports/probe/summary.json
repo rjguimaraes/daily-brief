@@ -1,75 +1,68 @@
 {
-  "executado_em_utc": "2026-10-21T13:13:59+00:00",
+  "executado_em_utc": "2026-11-10T11:56:38+00:00",
   "resultados": [
     {
-      "nome": "lbma_gold_pm",
-      "url": "https://prices.lbma.org.uk/json/gold_pm.json",
-      "status": 403,
+      "nome": "na_reposicao_nelore_macho_hoje",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho",
+      "status": 200,
       "content_type": "text/html; charset=UTF-8",
-      "bytes": 4545,
-      "segundos": 0.1,
-      "trecho": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+      "bytes": 155439,
+      "segundos": 0.71,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Reposição Nelore - Macho - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href="
     },
     {
-      "nome": "lbma_gold_am",
-      "url": "https://prices.lbma.org.uk/json/gold_am.json",
-      "status": 403,
+      "nome": "na_reposicao_nelore_macho_2025-11-10",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho/2025-11-10",
+      "status": 200,
       "content_type": "text/html; charset=UTF-8",
-      "bytes": 4545,
-      "segundos": 0.07,
-      "trecho": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+      "bytes": 120985,
+      "segundos": 0.54,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Reposição Nelore - Macho - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href="
     },
     {
-      "nome": "nasdaq_gc_cmx",
-      "url": "https://api.nasdaq.com/api/quote/GC%3ACMX/historical?assetclass=commodities&fromdate=2025-09-01&todate=2026-10-21&limit=9999",
+      "nome": "na_reposicao_nelore_macho_2025-12-30",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho/2025-12-30",
       "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "bytes": 167,
-      "segundos": 2.19,
-      "trecho": "{\"data\":null,\"message\":null,\"status\":{\"rCode\":400,\"bCodeMessage\":[{\"code\":1007,\"errorMessage\":\"Bad or No parameterassetclass : commodities\"}],\"developerMessage\":null}}"
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 120985,
+      "segundos": 0.24,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Reposição Nelore - Macho - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <link rel=\"preconnect\" href="
     },
     {
-      "nome": "nasdaq_gld",
-      "url": "https://api.nasdaq.com/api/quote/GLD/historical?assetclass=etf&fromdate=2025-09-01&todate=2026-10-21&limit=9999",
+      "nome": "na_macho_nelore_bezerro_12m",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses",
       "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "bytes": 31179,
-      "segundos": 1.23,
-      "trecho": "{\"data\":{\"symbol\":\"GLD\",\"totalRecords\":286,\"tradesTable\":{\"asOf\":null,\"headers\":{\"date\":\"Date\",\"close\":\"Close/Last\",\"volume\":\"Volume\",\"open\":\"Open\",\"high\":\"High\",\"low\":\"Low\"},\"rows\":[{\"date\":\"10/20/2026\",\"close\":\"377.65\",\"volume\":\"6,038,333\",\"open\":\"377.91\",\"high\":\"380.88\",\"low\":\"377.26\"},{\"date\":\"1"
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 121889,
+      "segundos": 0.24,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Macho Nelore Reposição - Bezerro (12 M 240 kg 8@) - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <li"
     },
     {
-      "nome": "metals_live_gold",
-      "url": "https://api.metals.live/v1/spot/gold",
-      "status": null,
-      "erro": "SSLError: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)')))",
-      "segundos": 0.23
-    },
-    {
-      "nome": "goldprice_org",
-      "url": "https://data-asg.goldprice.org/dbXRates/USD",
-      "status": 403,
-      "content_type": "text/plain; charset=utf-8",
-      "bytes": 10,
-      "segundos": 0.31,
-      "trecho": "Forbidden\n"
-    },
-    {
-      "nome": "coinbase_paxg",
-      "url": "https://api.exchange.coinbase.com/products/PAXG-USD/candles?granularity=86400",
+      "nome": "na_macho_nelore_bezerro_12m_2025-12-30",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2025-12-30",
       "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "bytes": 18879,
-      "segundos": 0.09,
-      "trecho": "[[1792540800,4110.7,4141.67,4116.93,4136.47,117.33043],[1792454400,4109.55,4153.34,4129.22,4117.38,328.83452],[1792368000,4128.23,4181.04,4175.83,4128.45,252.36096],[1792281600,4140.01,4175.41,4150.03,4174.26,145.97335],[1792195200,4141.88,4161.23,4157,4150.23,80.5411],[1792108800,4144.76,4188.72,41"
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 117308,
+      "segundos": 0.61,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Macho Nelore Reposição - Bezerro (12 M 240 kg 8@) - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <li"
     },
     {
-      "nome": "yahoo2_gcf",
-      "url": "https://query2.finance.yahoo.com/v8/finance/chart/GC%3DF?range=2y&interval=1d",
-      "status": 429,
-      "content_type": "text/html",
-      "bytes": 19,
-      "segundos": 0.12,
-      "trecho": "Too Many Requests\r\n"
+      "nome": "na_macho_nelore_desmama_8m",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-desmama-8-meses",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 121875,
+      "segundos": 0.27,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Macho Nelore Reposição - Desmama (8 M 195 kg 6,5@) - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <l"
+    },
+    {
+      "nome": "na_bezerra_nelore_12m",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/bezerra-nelore-femea-12-meses",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 121882,
+      "segundos": 0.25,
+      "trecho": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n  <head>\n    <title>Cotação: Fêmea Nelore Reposição - Bezerra (12 M 210 Kg 7@) - Notícias Agrícolas</title>\n\n    <link rel=\"preconnect\" href=\"https://cdn.noticiasagricolas.com.br/\">\n    <link rel=\"preconnect\" href=\"https://www.googletagmanager.com/\">\n    <l"
     }
   ]
 }
