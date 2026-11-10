@@ -63,3 +63,23 @@ o aprendizado mais diverso, com outros temas que me interessam."
 - **Agro/pecuária no Aprenda:** no máximo 2 vezes por semana (Radar e Ideia já cobrem bastante).
 - Antes de escolher, ler os últimos 14 dias de `aprenda.jsonl` e `conhecimento_rapido.jsonl` e registrar
   a área (campo `area`/`categoria`) para o rodízio funcionar.
+
+## Ajuste de 10/11/2026 — Aprenda mais "mastigado"
+Feedback: "nos Aprendas consigo entender e absorver pouco quando o assunto é apresentado de forma muito
+técnica e só com números e resultados de estudo. Quero que mastigue melhor para eu conseguir aumentar a
+interpretação."
+- **Explicar antes de provar.** O texto existe para o leitor entender o mecanismo e saber usá-lo; os
+  estudos são apoio, não o centro. Ordem: um caso concreto ou cena do dia a dia → a ideia em uma frase
+  simples → o mecanismo passo a passo, em linguagem comum, com uma analogia → só então a evidência.
+- **Evidência traduzida, e pouca.** No máximo 3 estudos, escolhidos pelo que ensinam. Para cada um: o
+  que fizeram (uma frase), o que acharam (um número, o mais significativo) e **"o que isso quer dizer"**
+  em palavras simples. Nada de listas de percentuais, p-valores, tamanhos de amostra ou nomes de revistas
+  sem necessidade; os detalhes vão para as fontes.
+- **Todo número precisa de leitura.** Depois de cada número, dizer em linguagem comum o que ele significa
+  ("ou seja, de cada 10 pessoas, 1 mudou de ideia").
+- **Termo técnico só com tradução** na mesma frase, na primeira vez que aparece.
+- **Debate em linguagem simples:** "o que a ciência ainda discute" em 1 parágrafo, sem catálogo de réplicas.
+- **Fechar a interpretação:** "Em resumo" com 3 frases (o que acontece, por que acontece, quando não
+  acontece) antes de "Onde isso aparece na sua vida", que deve ter um exemplo trabalhado passo a passo.
+- Teste antes de publicar: um leitor inteligente, fora da área, consegue explicar a ideia para outra
+  pessoa depois de ler uma vez? Se não, reescrever.

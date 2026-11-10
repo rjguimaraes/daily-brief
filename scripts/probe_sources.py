@@ -116,6 +116,12 @@ PROBES_R7: list[tuple[str, str, str]] = [
     ("na_reposicao_nelore_macho_2025-12-30", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho/2025-12-30", "html"),
     ("na_macho_nelore_bezerro_12m", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses", "html"),
     ("na_macho_nelore_bezerro_12m_2025-12-30", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2025-12-30", "html"),
+    ("na_scot_bezerro_12m_2026-11-06", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2026-11-06", "html"),
+    ("na_scot_bezerro_12m_2026-11-05", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2026-11-05", "html"),
+    ("na_scot_bezerro_12m_2026-11-03", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2026-11-03", "html"),
+    ("na_scot_bezerro_12m_2026-10-09", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2026-10-09", "html"),
+    ("na_scot_bezerro_12m_2026-01-05", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2026-01-05", "html"),
+    ("na_scot_bezerro_12m_2025-11-10", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-bezerro-12-meses/2025-11-10", "html"),
     ("na_macho_nelore_desmama_8m", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/macho-nelore-desmama-8-meses", "html"),
     ("na_bezerra_nelore_12m", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/bezerra-nelore-femea-12-meses", "html"),
 ]

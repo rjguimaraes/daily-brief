@@ -55,8 +55,12 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 4–8. **Radar** — por notícia: manchete em negrito; O que aconteceu; Por que importa (marcar
    "leitura minha" quando for interpretação); Fonte com link direto da matéria.
 9. **Hoje em 3 pontos** — Fazenda Laçada, Investimentos, Tema a monitorar. Interpretação, não manchete.
-10. **Aprenda** — provocação, fenômeno, mecanismo, evidências e debate, limitações, "Onde isso
-    aparece na sua vida", ideia para guardar, fontes primárias.
+10. **Aprenda** (formato revisto em 10/11/2026: mais explicado, menos técnico) — caso ou cena de abertura;
+    a ideia em uma frase simples; o mecanismo passo a passo com analogia; o que a evidência mostra (até 3
+    estudos, cada um com "o que isso quer dizer" em palavras simples); o que ainda se discute e quando não
+    vale; "Em resumo" (3 frases); "Onde isso aparece na sua vida" com exemplo trabalhado; ideia para
+    guardar; fontes primárias. Todo número com leitura em linguagem comum; termo técnico sempre traduzido.
+    Ver "Ajuste de 10/11/2026" em `criterios_conteudo.md`.
 11. **Conhecimento Rápido** — O QUE É | COMO USAR/FAZER (exemplo executável com números) | QUANDO É ÚTIL.
 12. **Ideia de Negócio** — formato completo da especificação + por que agora, economia em números
     (fonte vs. hipótese), tamanho com cálculo, vantagem do leitor, hipótese que mata, MVP, nota 1–5.
