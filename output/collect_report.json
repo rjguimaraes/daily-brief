@@ -3,10 +3,10 @@
     "ok": true,
     "series": {
       "ptax_venda": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 13
+        "recebidos": 14
       }
     }
   },
