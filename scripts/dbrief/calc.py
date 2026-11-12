@@ -64,10 +64,12 @@ def comparison_targets(cur_date: date) -> dict[str, date]:
     }
 
 
-def compute_row(series: dict[date, float], kind: str, ref_date: date, max_age_days: int) -> dict:
+def compute_row(series: dict[date, float], kind: str, ref_date: date, max_age_days: int,
+                max_gap: int = MAX_GAP_DIAS) -> dict:
     """Calcula atual + 3 comparativos para uma série {data: valor}.
 
     Retorna dicionário com valores, datas usadas e motivos de ausência.
+    `max_gap` permite séries mensais (ex.: IPCA, um ponto por mês).
     """
     dates = sorted(series)
     cur_d = as_of(dates, ref_date)
@@ -86,7 +88,7 @@ def compute_row(series: dict[date, float], kind: str, ref_date: date, max_age_da
     else:
         prev_d = dates[i - 1]
         gap = (cur_d - prev_d).days
-        if gap > MAX_GAP_DIAS:
+        if gap > max_gap:
             row["d1"] = {"motivo": f"observação anterior distante ({prev_d.isoformat()})"}
         else:
             prev_v = series[prev_d]
@@ -99,9 +101,9 @@ def compute_row(series: dict[date, float], kind: str, ref_date: date, max_age_da
             row[key] = {"alvo": target.isoformat(), "motivo": f"histórico começa em {dates[0].isoformat()}"}
             continue
         gap = (target - ref_d).days
-        if gap > MAX_GAP_DIAS:
+        if gap > max_gap:
             row[key] = {"alvo": target.isoformat(),
-                        "motivo": f"sem observação nos {MAX_GAP_DIAS} dias anteriores a {target.isoformat()}"}
+                        "motivo": f"sem observação nos {max_gap} dias anteriores a {target.isoformat()}"}
             continue
         ref_v = series[ref_d]
         row[key] = {
@@ -114,9 +116,9 @@ def compute_row(series: dict[date, float], kind: str, ref_date: date, max_age_da
     return row
 
 
-def ratio_series(num: dict[date, float], den: dict[date, float]) -> dict[date, float]:
-    """Relação num/den apenas nas datas em que ambas existem (mesma data)."""
-    return {d: num[d] / den[d] for d in sorted(set(num) & set(den)) if den[d]}
+def ratio_series(num: dict[date, float], den: dict[date, float], factor: float = 1.0) -> dict[date, float]:
+    """Relação (num × factor) / den apenas nas datas em que ambas existem (mesma data)."""
+    return {d: num[d] * factor / den[d] for d in sorted(set(num) & set(den)) if den[d]}
 
 
 def daily_jumps(series: dict[date, float], limit_pct: float, since: date) -> list[dict]:

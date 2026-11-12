@@ -83,3 +83,12 @@ interpretação."
   acontece) antes de "Onde isso aparece na sua vida", que deve ter um exemplo trabalhado passo a passo.
 - Teste antes de publicar: um leitor inteligente, fora da área, consegue explicar a ideia para outra
   pessoa depois de ler uma vez? Se não, reescrever.
+
+## Ajuste de 12/11/2026 — Espanhol (bloco novo)
+Pedido: "estou estudando espanhol e quero que vc me de todo dia uma dica, seja uma regra gramatical ou
+alguma outra coisa importante no meu aprendizado, e 3 novas palavras para ampliar meu vocabulário. Meu
+nível é iniciante/intermediário, mas gosto do desafio."
+- Dica útil para quem fala português: priorizar o que um brasileiro erra (falsos cognatos, ser/estar,
+  acentuação, pretérito perfeito × indefinido, por/para, subjuntivo).
+- Palavras de uso real, não de lista escolar; uma por dia pode ser desafio (B2/C1).
+- Registrar em `memory/espanhol.jsonl` (data, dica, nível, palavras) para não repetir e para progredir.

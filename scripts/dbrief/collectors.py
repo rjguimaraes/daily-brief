@@ -75,6 +75,12 @@ def bcb_selic(start: date, end: date) -> dict[str, Points]:
     return {"selic_meta": bcb_sgs(432, start, end)}
 
 
+def bcb_ipca(start: date, end: date) -> dict[str, Points]:
+    """IPCA (IBGE) via SGS: 13522 = acumulado em 12 meses, 433 = variação mensal.
+    A data de cada ponto é o 1º dia do mês de referência."""
+    return {"ipca_12m": bcb_sgs(13522, start, end), "ipca_mensal": bcb_sgs(433, start, end)}
+
+
 # --------------------------------------------------------------------- B3
 def b3_ibovespa(start: date, end: date) -> dict[str, Points]:
     s = _session()
@@ -209,6 +215,48 @@ def coinbase_btc(start: date, end: date) -> dict[str, Points]:
     return {"bitcoin": sorted(pts.items())}
 
 
+# --------------------------------------------------------------------- Banco Mundial
+WB_PAGE = "https://www.worldbank.org/en/research/commodity-markets"
+WB_FALLBACK = ("https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/"
+               "related/CMO-Historical-Data-Monthly.xlsx")
+
+
+def parse_wb_fertilizers(content: bytes) -> Points:
+    """Planilha 'Monthly Indices' do Pink Sheet: coluna 'Fertilizers' (2010 = 100).
+    Linhas '2026M10' viram 01/10/2026."""
+    import openpyxl  # import tardio: só esta fonte precisa
+
+    wb = openpyxl.load_workbook(io.BytesIO(content), read_only=True, data_only=True)
+    rows = list(wb["Monthly Indices"].iter_rows(values_only=True))
+    col = None
+    for r in rows[:12]:
+        for i, v in enumerate(r):
+            if isinstance(v, str) and v.strip().lower().startswith("fertilizers"):
+                col = i
+    if col is None:
+        raise RuntimeError("coluna 'Fertilizers' não encontrada no Pink Sheet")
+    out: Points = []
+    for r in rows:
+        if r and isinstance(r[0], str) and re.fullmatch(r"\d{4}M\d{2}", r[0]) and isinstance(r[col], (int, float)):
+            out.append((date(int(r[0][:4]), int(r[0][5:]), 1), float(r[col])))
+    if not out:
+        raise RuntimeError("Pink Sheet sem valores de fertilizantes")
+    return out
+
+
+def worldbank_fertilizers(start: date) -> dict[str, Points]:
+    s = _session()
+    url = WB_FALLBACK
+    try:
+        m = re.search(r'https://thedocs\.worldbank\.org/[^"\']+CMO-Historical-Data-Monthly\.xlsx', _get(s, WB_PAGE).text)
+        if m:
+            url = m.group(0)
+    except Exception:  # noqa: BLE001 — a página pode falhar; o link conhecido segue valendo
+        pass
+    pts = parse_wb_fertilizers(_get(s, url).content)
+    return {"fertilizantes_bm": [p for p in pts if p[0] >= start]}
+
+
 # --------------------------------------------------------------------- Notícias Agrícolas
 NA = "https://www.noticiasagricolas.com.br/cotacoes"
 NA_CEPEA = {
@@ -296,6 +344,58 @@ def na_cepea_backfill(start: date, end: date, only: list[str] | None = None,
             if n % 50 == 0:
                 log(f"[backfill] {ind}: {n}/{len(days)}")
             time.sleep(1.0)
+    return out
+
+
+# Datagro, reposição Nelore macho (R$/kg vivo, por estado), via Notícias Agrícolas.
+NA_DATAGRO_MACHO = f"{NA}/boi-gordo/reposicao-nelore-macho"
+DATAGRO_ROWS = {("Tocantins", "Bezerro"): "bezerro_to"}
+_FECH = re.compile(r'class="fechamento">\s*Fechamento:\s*(\d{2}/\d{2}/\d{4})')
+
+
+def parse_na_datagro(html: str) -> dict[str, Points]:
+    """Cada bloco 'Fechamento: dd/mm/aaaa' seguido de uma tabela Estado | Desmama |
+    Bezerro | Garrote | Boi Magro. Devolve os pontos das células de interesse."""
+    out: dict[str, Points] = {v: [] for v in DATAGRO_ROWS.values()}
+    marks = list(_FECH.finditer(html))
+    for k, m in enumerate(marks):
+        d = datetime.strptime(m.group(1), "%d/%m/%Y").date()
+        chunk = html[m.end(): marks[k + 1].start() if k + 1 < len(marks) else len(html)]
+        t = _TABLE.search(chunk)
+        if not t:
+            continue
+        heads = [_clean(h) for h in _TH.findall(t.group(1))]
+        if not heads or heads[0] != "Estado":
+            raise RuntimeError(f"cabeçalho inesperado na tabela Datagro: {heads}")
+        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", t.group(1), re.S):
+            cells = [_clean(c) for c in _TD.findall(tr)]
+            for (estado, col), ind in DATAGRO_ROWS.items():
+                if cells and cells[0] == estado and col in heads:
+                    out[ind].append((d, br_number(cells[heads.index(col)])))
+    if not any(out.values()):
+        raise RuntimeError("nenhum valor Datagro encontrado")
+    return out
+
+
+def na_datagro_recent() -> dict[str, Points]:
+    return parse_na_datagro(_get(_session(), NA_DATAGRO_MACHO).text)
+
+
+def na_datagro_backfill(start: date, end: date, log: Callable[[str], None] = print) -> dict[str, Points]:
+    """Uma consulta por dia útil (página por data); fica só o ponto da própria data."""
+    s = _session()
+    out: dict[str, Points] = {v: [] for v in DATAGRO_ROWS.values()}
+    days = [start + timedelta(n) for n in range((end - start).days + 1)]
+    days = [d for d in days if d.weekday() < 5]
+    for n, d in enumerate(days):
+        try:
+            for ind, pts in parse_na_datagro(_get(s, f"{NA_DATAGRO_MACHO}/{d.isoformat()}").text).items():
+                out[ind].extend(p for p in pts if p[0] == d)
+        except Exception as exc:  # noqa: BLE001
+            log(f"[backfill datagro] {d}: {exc}")
+        if n % 50 == 0:
+            log(f"[backfill datagro] {n}/{len(days)}")
+        time.sleep(1.0)
     return out
 
 

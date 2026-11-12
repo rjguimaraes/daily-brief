@@ -43,20 +43,26 @@ def collect(today: date, backfill: bool, log, only: list[str] | None = None) -> 
     jobs = [
         ("BCB PTAX", lambda: col.bcb_ptax(start, today), "olinda PTAX CotacaoDolarPeriodo, cotacaoVenda"),
         ("BCB Selic", lambda: col.bcb_selic(start, today), "SGS 432"),
+        ("BCB IPCA", lambda: col.bcb_ipca(min(start, today - timedelta(days=500)), today), "SGS 13522 (12 meses) e 433 (mensal)"),
         ("B3 Ibovespa", lambda: col.b3_ibovespa(start, today), "B3 GetPortfolioDay"),
         ("FRED S&P 500", lambda: col.fred_sp500(start, today, fred_key), "FRED API SP500"),
         ("NY Fed EFFR", lambda: col.nyfed_effr(start, today), "NY Fed EFFR search"),
         ("Tesouro EUA", lambda: col.treasury_10y(start, today), "Daily Par Yield Curve 10 Yr"),
         ("EIA Brent", lambda: col.eia_brent(start, today), "EIA RBRTEd.xls"),
         ("Nasdaq GLD ouro", lambda: col.nasdaq_gld(start, today), "Nasdaq API historical GLD close"),
+        ("Banco Mundial fertilizantes", lambda: col.worldbank_fertilizers(today - timedelta(days=500)), "Pink Sheet, Monthly Indices, Fertilizers"),
         ("Coinbase BTC",lambda: col.coinbase_btc(start, today), "Coinbase candles 86400 close"),
         ("CEPEA (NA) recentes", col.na_cepea_recent, "Notícias Agrícolas, página do indicador"),
         ("Scot (NA)", col.na_scot_today, "Notícias Agrícolas, tabela Scot, bruto à vista"),
+        ("Datagro reposição (NA) recentes", col.na_datagro_recent, "Notícias Agrícolas, tabela Datagro reposição macho"),
     ]
     if backfill:
         jobs.append(("CEPEA (NA) histórico",
                      lambda: col.na_cepea_backfill(NA_BACKFILL_START, today, log=log),
                      "Notícias Agrícolas, página por data"))
+        jobs.append(("Datagro reposição (NA) histórico",
+                     lambda: col.na_datagro_backfill(NA_BACKFILL_START, today, log=log),
+                     "Notícias Agrícolas, tabela Datagro por data"))
     fontes = {ind["id"]: ind["fonte"] for ind in load_config()}
     report = {}
     if only:
@@ -96,15 +102,17 @@ def build(today: date, collect_report: dict | None) -> dict:
     for ind in cfg:
         if ind.get("derivado_de"):
             num, den = ind["derivado_de"]
-            ratio = calc.ratio_series(series[num], series[den])
+            ratio = calc.ratio_series(series[num], series[den], ind.get("fator", 1.0))
             store.upsert(ind["id"], [(d, round(v, 6)) for d, v in ratio.items()],
                          ind["fonte"], "derivado", today)
             series[ind["id"]] = ratio
 
     rows, jumps = [], {}
     for ind in cfg:
-        r = calc.compute_row(series[ind["id"]], ind["tipo"], today, ind["max_idade_dias"])
-        r.update({k: ind.get(k) for k in ("id", "nome", "unidade", "tipo", "fonte", "url", "decimais", "leitura", "oculto")})
+        r = calc.compute_row(series[ind["id"]], ind["tipo"], today, ind["max_idade_dias"],
+                             ind.get("max_gap_dias", calc.MAX_GAP_DIAS))
+        r.update({k: ind.get(k) for k in ("id", "nome", "unidade", "tipo", "fonte", "url", "decimais",
+                                          "leitura", "oculto", "periodicidade")})
         rows.append(r)
         j = calc.daily_jumps(series[ind["id"]], ind["salto_max_pct"], today - timedelta(days=30))
         if j:
@@ -143,6 +151,14 @@ def fmt_num(v: float, dec: int) -> str:
 def fmt_date(iso: str) -> str:
     d = date.fromisoformat(iso)
     return f"{d:%d/%m/%y}"
+
+
+MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+
+
+def fmt_month(iso: str) -> str:
+    d = date.fromisoformat(iso)
+    return f"{MESES[d.month - 1]}/{d:%y}"
 
 
 def fmt_change(c: dict) -> str:
@@ -195,11 +211,19 @@ def render_md(rows: list[dict], quality: dict) -> str:
             ef = by_id.get("fed_funds_efetiva", {}).get("atual")
             extra = f", efetiva {fmt_num(ef['valor'], 2)}%" if ef else ""
             name = "Fed Funds intervalo-alvo"
+        elif r["id"] == "ipca_12m":
+            name = r["nome"]
+            mens = by_id.get("ipca_mensal", {}).get("atual")
+            extra = ""
+            if mens and mens["data"] == a["data"]:
+                v = mens["valor"]
+                extra = f"; no mês {'+' if v > 0 else ('−' if v < 0 else '')}{fmt_num(abs(v), 2)}%"
         else:
             name = r["nome"]
             extra = ""
         flag = " defasado" if r["status"] == "defasado" else ""
-        atual = f"{val} {r['unidade']}{extra} ({fmt_date(a['data'])}{flag})"
+        quando = fmt_month(a["data"]) if r.get("periodicidade") == "mensal" else fmt_date(a["data"])
+        atual = f"{val} {r['unidade']}{extra} ({quando}{flag})"
         lines.append(f"| {name} | {atual} | {cell(r, 'd1')} | {cell(r, 'm1')} | {cell(r, 'ytd')} | {cell(r, 'y1')} | {r.get('leitura') or ''} |")
     if notes:
         lines += ["", "Notas:"] + [f"{i}. {n}" for i, n in enumerate(notes, 1)]

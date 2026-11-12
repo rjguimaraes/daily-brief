@@ -5,9 +5,9 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 
 ## Entrega
 - Até **07h30 (America/Sao_Paulo)**, todos os dias.
-- Terça a domingo: Daily (formato abaixo). Sábado e domingo: mesmos 13 blocos, mas Aprenda, Ideia e
+- Terça a domingo: Daily (formato abaixo). Sábado e domingo: mesmos 14 blocos, mas Aprenda, Ideia e
   Ideias & Perspectivas mais abertos e exploratórios (história, ciência, cultura, viagens, natureza).
-- Segunda-feira: Weekly Brief (13 blocos + últimos 7 dias, próximos 7 dias com agenda, evolução
+- Segunda-feira: Weekly Brief (14 blocos + últimos 7 dias, próximos 7 dias com agenda, evolução
   semanal dos indicadores e do clima, síntese para a Fazenda, 5 leituras em Ideias & Perspectivas).
 - Formato: **documento no Claude** (conector Claude Docs), título `Daily Brief — DD/MM/AAAA`
   (`Weekly Brief — DD/MM/AAAA` na segunda). Português do Brasil. Leitura de 15–20 min.
@@ -33,7 +33,7 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
    Política, Agro, Pecuária); uma excelente vale mais que três medianas — dizer quando uma categoria
    tiver menos. Não repetir evento central de `memory/radar.jsonl` sem fato novo. O Radar não é
    extensão do painel. Nenhum veículo com mais de 1/3 das notícias.
-5. Descoberta: Aprenda, Conhecimento Rápido, Ideia de Negócio, 2 artigos — seguindo
+5. Descoberta: Aprenda, Conhecimento Rápido, Espanhol, Ideia de Negócio, 2 artigos — seguindo
    `memory/criterios_conteudo.md` (padrão ousado e prático) e sem repetir os últimos 30 dias.
    Diversidade (21/10/2026): rodízio de áreas do perfil; M&A/avaliação no máximo 1 vez a cada 14 dias
    (o leitor não trabalha com M&A); ver "Ajuste de 21/10/2026" em `criterios_conteudo.md`.
@@ -45,8 +45,14 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
    exportar o documento em Markdown para `editions/AAAA-MM-DD.md`; commit e push.
 
 ## Formato de cada bloco (como na edição de 10/10)
+São 14 blocos desde 12/11/2026 (entrou o Espanhol, antes da Ideia de Negócio). Se o prompt da tarefa
+falar em 13 blocos, vale este arquivo.
 1. **Abertura** — 2 parágrafos: a leitura central do dia, ligando os fatos.
 2. **Painel** — tabela: Indicador | Atual (data) | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura.
+   Séries mensais (IPCA, fertilizantes do Banco Mundial) mostram o mês de referência; nelas "vs. dia
+   anterior" é vs. mês anterior. Fertilizantes: o índice é preço internacional em dólar; na Leitura, dar o
+   contexto Brasil (ureia/KCl/MAP CFR e formulados, quando houver notícia datada). Bezerro TO (Datagro) e
+   ágio TO entraram em 12/11/2026; o bezerro MS e a relação CEPEA ficam até o leitor decidir retirá-los.
 3. **Fazenda — clima** — tabela por propriedade: recente | próximos 7 dias | distribuição, com a nota
    de rótulos (estimativa de modelo / ERA5 / previsão). **Só os dados, sem análise nem implicação
    operacional** (07/11/2026: os dados são de grade de modelo próxima às fazendas, não medição na
@@ -62,9 +68,19 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
     guardar; fontes primárias. Todo número com leitura em linguagem comum; termo técnico sempre traduzido.
     Ver "Ajuste de 10/11/2026" em `criterios_conteudo.md`.
 11. **Conhecimento Rápido** — O QUE É | COMO USAR/FAZER (exemplo executável com números) | QUANDO É ÚTIL.
-12. **Ideia de Negócio** — formato completo da especificação + por que agora, economia em números
+12. **Espanhol** (desde 12/11/2026; nível do leitor: iniciante/intermediário, gosta de desafio) —
+    **Dica do dia**: uma regra gramatical ou outro ponto importante (pronúncia, falso cognato, expressão,
+    diferença Espanha × América Latina, armadilha comum de brasileiro), explicada em português, curta, com
+    3 a 4 exemplos em espanhol e tradução; quando for regra, um mini-exercício de 2 frases com resposta no fim.
+    **3 palavras novas**: palavra (classe, gênero), pronúncia aproximada quando diferir do português,
+    significado, uma frase-exemplo útil (de preferência do mundo do leitor: campo, negócios, viagem) e,
+    se houver, o falso amigo em português. Subir a dificuldade aos poucos (padrão: B1, uma palavra B2/C1
+    como desafio). Não repetir dica nem palavra de `memory/espanhol.jsonl`; seguir uma progressão
+    (ex.: ser/estar → pretéritos → subjuntivo → pronomes oblíquos → por/para → conectores). Conferir regra
+    e exemplos com fonte confiável (RAE/DLE, Instituto Cervantes); citar o link do DLE das 3 palavras.
+13. **Ideia de Negócio** — formato completo da especificação + por que agora, economia em números
     (fonte vs. hipótese), tamanho com cálculo, vantagem do leitor, hipótese que mata, MVP, nota 1–5.
-13. **Ideias & Perspectivas** (formato revisto em 15/10/2026) — por artigo, em prosa, não em ficha técnica:
+14. **Ideias & Perspectivas** (formato revisto em 15/10/2026) — por artigo, em prosa, não em ficha técnica:
     título exato com link direto, autor, veículo, data, tempo de leitura (estimativa);
     **A pergunta por trás do texto** (uma frase); 2 parágrafos curtos contando o argumento como história,
     com o caso ou número mais marcante; **Onde o texto incomoda** (a ideia que desafia o leitor);
@@ -91,4 +107,5 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 - Radar: links abertos; nada repetido sem novidade; diversidade de temas e veículos.
 - Aprenda/Conhecimento/Ideia: fontes conferidas; contas refeitas em código; hipóteses marcadas.
 - Artigos: título, autor, data e link conferidos na página; contrapontos próprios separados.
-- Os 13 blocos presentes.
+- Espanhol: regra e exemplos conferidos; 3 palavras novas, sem repetir `memory/espanhol.jsonl`.
+- Os 14 blocos presentes.

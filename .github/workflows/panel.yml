@@ -34,7 +34,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests pyyaml xlrd
+      - run: pip install requests pyyaml xlrd openpyxl
       - name: Testes das fórmulas
         run: python -m unittest discover -s tests -v
       - name: Coleta, cálculo e validação

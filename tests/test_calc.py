@@ -124,3 +124,19 @@ class TestStore(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestNovos(unittest.TestCase):
+    def test_serie_mensal_com_gap(self):
+        s = {date(2025, 10, 1): 5.17, date(2025, 12, 1): 4.26, date(2026, 9, 1): 4.60, date(2026, 10, 1): 4.73}
+        r = calc.compute_row(s, "taxa", date(2026, 11, 12), 75, max_gap=40)
+        self.assertEqual(r["status"], "ok")
+        self.assertAlmostEqual(r["d1"]["variacao"], 13.0)
+        self.assertAlmostEqual(r["ytd"]["variacao"], 47.0)
+        self.assertAlmostEqual(r["y1"]["variacao"], -44.0)
+        r7 = calc.compute_row(s, "taxa", date(2026, 11, 12), 75)
+        self.assertIn("motivo", r7["ytd"])
+
+    def test_ratio_fator(self):
+        r = calc.ratio_series({date(2026, 11, 9): 18.75}, {date(2026, 11, 9): 375.0}, 30)
+        self.assertAlmostEqual(r[date(2026, 11, 9)], 1.5)
