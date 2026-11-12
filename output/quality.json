@@ -1,18 +1,25 @@
 {
   "data_referencia": "2026-11-12",
-  "gerado_em_utc": "2026-11-12T08:49:20+00:00",
-  "indicadores": 16,
-  "ok": 16,
+  "gerado_em_utc": "2026-11-12T10:49:13+00:00",
+  "indicadores": 20,
+  "ok": 18,
   "defasados": [],
-  "ausentes": [],
-  "comparativos_preenchidos": 60,
-  "comparativos_possiveis": 64,
+  "ausentes": [
+    "ipca_12m",
+    "fertilizantes_bm"
+  ],
+  "comparativos_preenchidos": 66,
+  "comparativos_possiveis": 80,
   "comparativos_ausentes": {
     "boi_comum_go_sul": {
       "ytd": "histórico começa em 2026-10-08",
       "y1": "histórico começa em 2026-10-08"
     },
     "boi_comum_to_sul": {
+      "ytd": "histórico começa em 2026-10-08",
+      "y1": "histórico começa em 2026-10-08"
+    },
+    "rel_bezerro_boi_to": {
       "ytd": "histórico começa em 2026-10-08",
       "y1": "histórico começa em 2026-10-08"
     }
@@ -32,6 +39,40 @@
         "de": "2026-10-23",
         "para": "2026-10-26",
         "variacao_pct": -13.88
+      }
+    ],
+    "bezerro_to": [
+      {
+        "de": "2026-10-20",
+        "para": "2026-10-21",
+        "variacao_pct": 12.05
+      },
+      {
+        "de": "2026-10-29",
+        "para": "2026-10-30",
+        "variacao_pct": -11.06
+      },
+      {
+        "de": "2026-11-03",
+        "para": "2026-11-04",
+        "variacao_pct": 14.55
+      }
+    ],
+    "rel_bezerro_boi_to": [
+      {
+        "de": "2026-10-20",
+        "para": "2026-10-21",
+        "variacao_pct": 12.05
+      },
+      {
+        "de": "2026-10-29",
+        "para": "2026-10-30",
+        "variacao_pct": -11.06
+      },
+      {
+        "de": "2026-11-03",
+        "para": "2026-11-04",
+        "variacao_pct": 13.62
       }
     ]
   },

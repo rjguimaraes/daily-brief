@@ -41,7 +41,8 @@
     "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/",
     "decimais": 4,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -85,7 +86,8 @@
     "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/day/IBOV",
     "decimais": 0,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -129,7 +131,8 @@
     "url": "https://fred.stlouisfed.org/series/SP500",
     "decimais": 0,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -173,7 +176,36 @@
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
+  },
+  {
+    "status": "ausente",
+    "motivo": "série sem observações até a data de referência",
+    "id": "ipca_12m",
+    "nome": "IPCA acumulado em 12 meses",
+    "unidade": "%",
+    "tipo": "taxa",
+    "fonte": "IBGE — IPCA, via Banco Central do Brasil (SGS 13522 e 433)",
+    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados",
+    "decimais": 2,
+    "leitura": "Série mensal: \"vs. dia anterior\" e \"vs. ~1 mês\" comparam com o mês anterior.",
+    "oculto": null,
+    "periodicidade": "mensal"
+  },
+  {
+    "status": "ausente",
+    "motivo": "série sem observações até a data de referência",
+    "id": "ipca_mensal",
+    "nome": "IPCA — variação no mês",
+    "unidade": "%",
+    "tipo": "taxa",
+    "fonte": "IBGE — IPCA, via Banco Central do Brasil (SGS 433)",
+    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados",
+    "decimais": 2,
+    "leitura": null,
+    "oculto": true,
+    "periodicidade": "mensal"
   },
   {
     "status": "ok",
@@ -217,7 +249,8 @@
     "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/",
     "decimais": 2,
     "leitura": null,
-    "oculto": true
+    "oculto": true,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -261,7 +294,8 @@
     "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -305,7 +339,8 @@
     "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/",
     "decimais": 2,
     "leitura": null,
-    "oculto": true
+    "oculto": true,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -349,7 +384,8 @@
     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -393,7 +429,8 @@
     "url": "https://www.eia.gov/dnav/pet/hist/RBRTED.htm",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -437,7 +474,8 @@
     "url": "https://www.nasdaq.com/market-activity/etf/gld/historical",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -481,7 +519,8 @@
     "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles",
     "decimais": 0,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -525,7 +564,8 @@
     "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -563,7 +603,8 @@
     "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -601,7 +642,8 @@
     "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -645,7 +687,92 @@
     "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/indicador-bezerro-esalq-bmf-bovespa-ms",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
+  },
+  {
+    "status": "ok",
+    "atual": {
+      "data": "2026-11-11",
+      "valor": 18.35,
+      "idade_dias": 1
+    },
+    "d1": {
+      "data_ref": "2026-11-10",
+      "valor_ref": 18.5,
+      "variacao": -0.8108108108108025,
+      "unidade_variacao": "%"
+    },
+    "m1": {
+      "alvo": "2026-10-11",
+      "data_ref": "2026-10-09",
+      "valor_ref": 18.73,
+      "variacao": -2.028830752802979,
+      "unidade_variacao": "%"
+    },
+    "ytd": {
+      "alvo": "2025-12-31",
+      "data_ref": "2025-12-30",
+      "valor_ref": 15.48,
+      "variacao": 18.54005167958657,
+      "unidade_variacao": "%"
+    },
+    "y1": {
+      "alvo": "2025-11-11",
+      "data_ref": "2025-11-11",
+      "valor_ref": 14.46,
+      "variacao": 26.901798063623783,
+      "unidade_variacao": "%"
+    },
+    "id": "bezerro_to",
+    "nome": "Bezerro Nelore TO (Datagro, estado)",
+    "unidade": "R$/kg vivo",
+    "tipo": "preco",
+    "fonte": "Datagro, reposição Nelore macho, republicado por Notícias Agrícolas",
+    "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho",
+    "decimais": 2,
+    "leitura": null,
+    "oculto": null,
+    "periodicidade": null
+  },
+  {
+    "status": "ok",
+    "atual": {
+      "data": "2026-11-10",
+      "valor": 1.4959568733153639,
+      "idade_dias": 2
+    },
+    "d1": {
+      "data_ref": "2026-11-09",
+      "valor_ref": 1.5161725067385445,
+      "variacao": -1.333333333333342,
+      "unidade_variacao": "%"
+    },
+    "m1": {
+      "alvo": "2026-10-10",
+      "data_ref": "2026-10-09",
+      "valor_ref": 1.591784702549575,
+      "variacao": -6.020150154774262,
+      "unidade_variacao": "%"
+    },
+    "ytd": {
+      "alvo": "2025-12-31",
+      "motivo": "histórico começa em 2026-10-08"
+    },
+    "y1": {
+      "alvo": "2025-11-10",
+      "motivo": "histórico começa em 2026-10-08"
+    },
+    "id": "rel_bezerro_boi_to",
+    "nome": "Ágio do bezerro TO (@ de bezerro ÷ @ de boi TO Sul)",
+    "unidade": "×",
+    "tipo": "relacao",
+    "fonte": "Cálculo: Bezerro TO Datagro (R$/kg vivo × 30 kg por @) ÷ Boi comum TO Sul Scot (R$/@), mesma data",
+    "url": "",
+    "decimais": 2,
+    "leitura": "Quantas arrobas de boi valem uma arroba de bezerro. Maior = melhor para quem vende bezerro (criador).",
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -689,7 +816,22 @@
     "url": "",
     "decimais": 2,
     "leitura": "Menor = melhor para quem compra bezerro (terminador); maior = melhor para quem vende (criador).",
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
+  },
+  {
+    "status": "ausente",
+    "motivo": "série sem observações até a data de referência",
+    "id": "fertilizantes_bm",
+    "nome": "Fertilizantes — índice Banco Mundial (ureia, DAP, TSP, KCl, rocha fosfática)",
+    "unidade": "pontos (2010 = 100)",
+    "tipo": "preco",
+    "fonte": "Banco Mundial — Pink Sheet, índice mensal de fertilizantes (US$, preço internacional)",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "decimais": 1,
+    "leitura": "Preço internacional em dólar, mensal; o adubo no Brasil segue este índice com defasagem, câmbio e frete.",
+    "oculto": null,
+    "periodicidade": "mensal"
   },
   {
     "status": "ok",
@@ -733,7 +875,8 @@
     "url": "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-indicador-cepea-esalq-porto-paranagua",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   },
   {
     "status": "ok",
@@ -777,6 +920,7 @@
     "url": "https://www.noticiasagricolas.com.br/cotacoes/milho/indicador-cepea-esalq-milho",
     "decimais": 2,
     "leitura": null,
-    "oculto": null
+    "oculto": null,
+    "periodicidade": null
   }
 ]
