@@ -126,6 +126,24 @@ PROBES_R7: list[tuple[str, str, str]] = [
     ("na_bezerra_nelore_12m", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/bezerra-nelore-femea-12-meses", "html"),
 ]
 
+# Rodada 8 (12/11/2026): IPCA, preço de fertilizante (NPK) e histórico de bezerro TO / Scot por data.
+PROBES_R8: list[tuple[str, str, str]] = [
+    ("bcb_sgs433_ipca_mensal", "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2024&dataFinal=31/12/2026", "json"),
+    ("bcb_sgs13522_ipca_12m", "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados?formato=json&dataInicial=01/01/2024&dataFinal=31/12/2026", "json"),
+    ("conab_download_arquivos", "https://portaldeinformacoes.conab.gov.br/download-arquivos.html", "html"),
+    ("conab_precos_insumos", "https://portaldeinformacoes.conab.gov.br/precos-insumos.html", "html"),
+    ("conab_insumos_txt", "https://portaldeinformacoes.conab.gov.br/downloads/arquivos/PrecosInsumos.txt", "txt"),
+    ("conab_insumos_txt2", "https://portaldeinformacoes.conab.gov.br/downloads/arquivos/PrecoInsumo.txt", "txt"),
+    ("worldbank_cmo_monthly", "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx", "xlsx"),
+    ("na_fertilizantes", "https://www.noticiasagricolas.com.br/cotacoes/fertilizantes", "html"),
+    ("na_cotacoes_index", "https://www.noticiasagricolas.com.br/cotacoes/", "html"),
+    ("agrolink_fertilizantes", "https://www.agrolink.com.br/cotacoes/insumos/fertilizantes", "html"),
+    ("na_scot_boi_2025-11-10", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria/2025-11-10", "html"),
+    ("na_scot_boi_2026-09-15", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria/2026-09-15", "html"),
+    ("na_reposicao_macho_2025-09-15", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho/2025-09-15", "html"),
+    ("na_reposicao_macho_2024-11-11", "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho/2024-11-11", "html"),
+]
+
 PROBES_R3: list[tuple[str, str, str]] = [
     ("b3_main_js", B3 + "main-es2015.204ca04ae07d2c137636.js", "js"),
     ("fred_api_sem_chave", "https://api.stlouisfed.org/fred/series/observations?series_id=SP500&file_type=json", "json"),
@@ -160,7 +178,7 @@ def main() -> None:
     import os
 
     RAW.mkdir(parents=True, exist_ok=True)
-    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4, "5": PROBES_R5, "6": PROBES_R6, "7": PROBES_R7}.get(os.environ.get("PROBE_SET", "1"), PROBES)
+    probes = {"2": PROBES_R2, "3": PROBES_R3, "4": PROBES_R4, "5": PROBES_R5, "6": PROBES_R6, "7": PROBES_R7, "8": PROBES_R8}.get(os.environ.get("PROBE_SET", "1"), PROBES)
     results = []
     for p in probes:
         results.append(probe(*p))
