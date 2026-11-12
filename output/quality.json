@@ -1,6 +1,6 @@
 {
   "data_referencia": "2026-11-12",
-  "gerado_em_utc": "2026-11-12T10:53:29+00:00",
+  "gerado_em_utc": "2026-11-12T15:22:36+00:00",
   "indicadores": 20,
   "ok": 20,
   "defasados": [],
@@ -21,7 +21,10 @@
       "y1": "histórico começa em 2026-10-08"
     }
   },
-  "fontes_com_falha": {},
+  "fontes_com_falha": {
+    "BCB Selic": "RuntimeError: falha após 3 tentativas: HTTP 503 em https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados",
+    "BCB IPCA": "RuntimeError: falha após 3 tentativas: HTTP 503 em https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados"
+  },
   "revisoes": {},
   "alertas_salto_diario": {
     "ptax_venda": [
@@ -73,5 +76,9 @@
       }
     ]
   },
-  "divergencias_ptax_olinda_vs_sgs1": []
+  "divergencias_ptax_olinda_vs_sgs1": [
+    {
+      "erro": "checagem SGS 1 indisponível: falha após 3 tentativas: HTTP 503 em https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados"
+    }
+  ]
 }
