@@ -2,11 +2,11 @@
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
-| USD/BRL PTAX venda | 5,5606 R$/US$ (11/11/26) | −0,4% | +11,5% | +1,1% | +5,5% |  |
+| USD/BRL PTAX venda | 5,6143 R$/US$ (12/11/26) | +1,0% | +12,5% | +2,0% | +6,2% |  |
 | Ibovespa | 172.060 pontos (11/11/26) | +0,4% | −17,7% | +6,8% | +9,1% |  |
 | S&P 500 | 7.619 pontos (11/11/26) | +1,3% | −2,5% | +11,3% | +11,3% |  |
 | Selic-meta | 13,75 % a.a. (12/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
-| IPCA acumulado em 12 meses | 4,58 %; no mês +0,82% (set/26) | +36 pb | +36 pb | +32 pb | −59 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
+| IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (10/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
 | Treasury 10 anos | 4,98 % a.a. (10/11/26) | +10 pb | −26 pb | +80 pb | +85 pb |  |
 | Brent spot (Europe Brent FOB) | 107,03 US$/barril (03/11/26) | −0,3% | −21,0% | +74,5% | +62,7% |  |

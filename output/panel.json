@@ -2,35 +2,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-11",
-      "valor": 5.5606,
-      "idade_dias": 1
+      "data": "2026-11-12",
+      "valor": 5.6143,
+      "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-11-10",
-      "valor_ref": 5.584,
-      "variacao": -0.41905444126073554,
+      "data_ref": "2026-11-11",
+      "valor_ref": 5.5606,
+      "variacao": 0.9657231234039498,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-10-11",
+      "alvo": "2026-10-12",
       "data_ref": "2026-10-09",
       "valor_ref": 4.9892,
-      "variacao": 11.452737913894007,
+      "variacao": 12.529062775595289,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 5.5024,
-      "variacao": 1.057720267519624,
+      "variacao": 2.0336580401279614,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-11-11",
-      "data_ref": "2025-11-11",
-      "valor_ref": 5.2729,
-      "variacao": 5.4562005727398555,
+      "alvo": "2025-11-12",
+      "data_ref": "2025-11-12",
+      "valor_ref": 5.2885,
+      "variacao": 6.160537014276257,
       "unidade_variacao": "%"
     },
     "id": "ptax_venda",
@@ -182,35 +182,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-09-01",
-      "valor": 4.58,
-      "idade_dias": 72
+      "data": "2026-10-01",
+      "valor": 4.63,
+      "idade_dias": 42
     },
     "d1": {
-      "data_ref": "2026-08-01",
-      "valor_ref": 4.22,
-      "variacao": 36.00000000000003,
+      "data_ref": "2026-09-01",
+      "valor_ref": 4.58,
+      "variacao": 4.999999999999982,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-08-01",
-      "data_ref": "2026-08-01",
-      "valor_ref": 4.22,
-      "variacao": 36.00000000000003,
+      "alvo": "2026-09-01",
+      "data_ref": "2026-09-01",
+      "valor_ref": 4.58,
+      "variacao": 4.999999999999982,
       "unidade_variacao": "pb"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-01",
       "valor_ref": 4.26,
-      "variacao": 32.00000000000003,
+      "variacao": 37.000000000000014,
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-09-01",
-      "data_ref": "2025-09-01",
-      "valor_ref": 5.17,
-      "variacao": -58.999999999999986,
+      "alvo": "2025-10-01",
+      "data_ref": "2025-10-01",
+      "valor_ref": 4.68,
+      "variacao": -4.999999999999982,
       "unidade_variacao": "pb"
     },
     "id": "ipca_12m",
@@ -227,35 +227,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-09-01",
-      "valor": 0.82,
-      "idade_dias": 72
+      "data": "2026-10-01",
+      "valor": 0.14,
+      "idade_dias": 42
     },
     "d1": {
-      "data_ref": "2026-08-01",
-      "valor_ref": -0.32,
-      "variacao": 113.99999999999999,
+      "data_ref": "2026-09-01",
+      "valor_ref": 0.82,
+      "variacao": -68.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-08-01",
-      "data_ref": "2026-08-01",
-      "valor_ref": -0.32,
-      "variacao": 113.99999999999999,
+      "alvo": "2026-09-01",
+      "data_ref": "2026-09-01",
+      "valor_ref": 0.82,
+      "variacao": -68.0,
       "unidade_variacao": "pb"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-01",
       "valor_ref": 0.33,
-      "variacao": 48.99999999999999,
+      "variacao": -19.0,
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-09-01",
-      "data_ref": "2025-09-01",
-      "valor_ref": 0.48,
-      "variacao": 34.0,
+      "alvo": "2025-10-01",
+      "data_ref": "2025-10-01",
+      "valor_ref": 0.09,
+      "variacao": 5.000000000000002,
       "unidade_variacao": "pb"
     },
     "id": "ipca_mensal",
