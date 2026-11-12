@@ -180,8 +180,39 @@
     "periodicidade": null
   },
   {
-    "status": "ausente",
-    "motivo": "série sem observações até a data de referência",
+    "status": "ok",
+    "atual": {
+      "data": "2026-09-01",
+      "valor": 4.58,
+      "idade_dias": 72
+    },
+    "d1": {
+      "data_ref": "2026-08-01",
+      "valor_ref": 4.22,
+      "variacao": 36.00000000000003,
+      "unidade_variacao": "pb"
+    },
+    "m1": {
+      "alvo": "2026-08-01",
+      "data_ref": "2026-08-01",
+      "valor_ref": 4.22,
+      "variacao": 36.00000000000003,
+      "unidade_variacao": "pb"
+    },
+    "ytd": {
+      "alvo": "2025-12-31",
+      "data_ref": "2025-12-01",
+      "valor_ref": 4.26,
+      "variacao": 32.00000000000003,
+      "unidade_variacao": "pb"
+    },
+    "y1": {
+      "alvo": "2025-09-01",
+      "data_ref": "2025-09-01",
+      "valor_ref": 5.17,
+      "variacao": -58.999999999999986,
+      "unidade_variacao": "pb"
+    },
     "id": "ipca_12m",
     "nome": "IPCA acumulado em 12 meses",
     "unidade": "%",
@@ -194,8 +225,39 @@
     "periodicidade": "mensal"
   },
   {
-    "status": "ausente",
-    "motivo": "série sem observações até a data de referência",
+    "status": "ok",
+    "atual": {
+      "data": "2026-09-01",
+      "valor": 0.82,
+      "idade_dias": 72
+    },
+    "d1": {
+      "data_ref": "2026-08-01",
+      "valor_ref": -0.32,
+      "variacao": 113.99999999999999,
+      "unidade_variacao": "pb"
+    },
+    "m1": {
+      "alvo": "2026-08-01",
+      "data_ref": "2026-08-01",
+      "valor_ref": -0.32,
+      "variacao": 113.99999999999999,
+      "unidade_variacao": "pb"
+    },
+    "ytd": {
+      "alvo": "2025-12-31",
+      "data_ref": "2025-12-01",
+      "valor_ref": 0.33,
+      "variacao": 48.99999999999999,
+      "unidade_variacao": "pb"
+    },
+    "y1": {
+      "alvo": "2025-09-01",
+      "data_ref": "2025-09-01",
+      "valor_ref": 0.48,
+      "variacao": 34.0,
+      "unidade_variacao": "pb"
+    },
     "id": "ipca_mensal",
     "nome": "IPCA — variação no mês",
     "unidade": "%",
@@ -820,8 +882,39 @@
     "periodicidade": null
   },
   {
-    "status": "ausente",
-    "motivo": "série sem observações até a data de referência",
+    "status": "ok",
+    "atual": {
+      "data": "2026-10-01",
+      "valor": 148.2,
+      "idade_dias": 42
+    },
+    "d1": {
+      "data_ref": "2026-09-01",
+      "valor_ref": 147.0,
+      "variacao": 0.8163265306122325,
+      "unidade_variacao": "%"
+    },
+    "m1": {
+      "alvo": "2026-09-01",
+      "data_ref": "2026-09-01",
+      "valor_ref": 147.0,
+      "variacao": 0.8163265306122325,
+      "unidade_variacao": "%"
+    },
+    "ytd": {
+      "alvo": "2025-12-31",
+      "data_ref": "2025-12-01",
+      "valor_ref": 132.9,
+      "variacao": 11.512415349887117,
+      "unidade_variacao": "%"
+    },
+    "y1": {
+      "alvo": "2025-10-01",
+      "data_ref": "2025-10-01",
+      "valor_ref": 139.6,
+      "variacao": 6.160458452722062,
+      "unidade_variacao": "%"
+    },
     "id": "fertilizantes_bm",
     "nome": "Fertilizantes — índice Banco Mundial (ureia, DAP, TSP, KCl, rocha fosfática)",
     "unidade": "pontos (2010 = 100)",

@@ -1,14 +1,11 @@
 {
   "data_referencia": "2026-11-12",
-  "gerado_em_utc": "2026-11-12T10:49:13+00:00",
+  "gerado_em_utc": "2026-11-12T10:53:29+00:00",
   "indicadores": 20,
-  "ok": 18,
+  "ok": 20,
   "defasados": [],
-  "ausentes": [
-    "ipca_12m",
-    "fertilizantes_bm"
-  ],
-  "comparativos_preenchidos": 66,
+  "ausentes": [],
+  "comparativos_preenchidos": 74,
   "comparativos_possiveis": 80,
   "comparativos_ausentes": {
     "boi_comum_go_sul": {
