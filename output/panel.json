@@ -2,35 +2,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-12",
-      "valor": 5.6143,
-      "idade_dias": 1
+      "data": "2026-11-13",
+      "valor": 5.6518,
+      "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-11-11",
-      "valor_ref": 5.5606,
-      "variacao": 0.9657231234039498,
+      "data_ref": "2026-11-12",
+      "valor_ref": 5.6143,
+      "variacao": 0.6679372317118792,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-10-12",
-      "data_ref": "2026-10-09",
-      "valor_ref": 4.9892,
-      "variacao": 12.529062775595289,
+      "alvo": "2026-10-13",
+      "data_ref": "2026-10-13",
+      "valor_ref": 5.0096,
+      "variacao": 12.81938677738741,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 5.5024,
-      "variacao": 2.0336580401279614,
+      "variacao": 2.7151788310555425,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-11-12",
-      "data_ref": "2025-11-12",
-      "valor_ref": 5.2885,
-      "variacao": 6.160537014276257,
+      "alvo": "2025-11-13",
+      "data_ref": "2025-11-13",
+      "valor_ref": 5.282,
+      "variacao": 7.00113593335856,
       "unidade_variacao": "%"
     },
     "id": "ptax_venda",
@@ -92,35 +92,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-11",
-      "valor": 7619.38,
-      "idade_dias": 2
+      "data": "2026-11-12",
+      "valor": 7592.4,
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-11-10",
-      "valor_ref": 7520.93,
-      "variacao": 1.3090136459187773,
+      "data_ref": "2026-11-11",
+      "valor_ref": 7619.38,
+      "variacao": -0.35409705251608914,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-10-11",
-      "data_ref": "2026-10-09",
-      "valor_ref": 7811.54,
-      "variacao": -2.4599502786902483,
+      "alvo": "2026-10-12",
+      "data_ref": "2026-10-12",
+      "valor_ref": 7807.24,
+      "variacao": -2.751804735092045,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 6845.5,
-      "variacao": 11.304944854283839,
+      "variacao": 10.910817325250166,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-11-11",
-      "data_ref": "2025-11-11",
-      "valor_ref": 6846.61,
-      "variacao": 11.286899648147042,
+      "alvo": "2025-11-12",
+      "data_ref": "2025-11-12",
+      "valor_ref": 6850.92,
+      "variacao": 10.823071937783535,
       "unidade_variacao": "%"
     },
     "id": "sp500",
