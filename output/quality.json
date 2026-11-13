@@ -1,6 +1,6 @@
 {
-  "data_referencia": "2026-11-12",
-  "gerado_em_utc": "2026-11-12T17:32:38+00:00",
+  "data_referencia": "2026-11-13",
+  "gerado_em_utc": "2026-11-13T08:50:44+00:00",
   "indicadores": 20,
   "ok": 20,
   "defasados": [],
@@ -40,6 +40,13 @@
         "de": "2026-10-23",
         "para": "2026-10-26",
         "variacao_pct": -13.88
+      }
+    ],
+    "brent_spot": [
+      {
+        "de": "2026-11-03",
+        "para": "2026-11-04",
+        "variacao_pct": -14.19
       }
     ],
     "bezerro_to": [

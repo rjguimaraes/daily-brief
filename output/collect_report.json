@@ -6,7 +6,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 14
+        "recebidos": 13
       }
     }
   },
@@ -14,7 +14,7 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 21
@@ -28,13 +28,13 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 17
+        "recebidos": 16
       },
       "ipca_mensal": {
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 17
+        "recebidos": 16
       }
     }
   },
@@ -42,10 +42,10 @@
     "ok": true,
     "series": {
       "ibovespa": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 215
+        "recebidos": 216
       }
     }
   },
@@ -56,7 +56,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 14
+        "recebidos": 13
       }
     }
   },
@@ -67,19 +67,19 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 13
+        "recebidos": 12
       },
       "fed_funds_alvo_sup": {
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 13
+        "recebidos": 12
       },
       "fed_funds_alvo_inf": {
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 13
+        "recebidos": 12
       }
     }
   },
@@ -87,10 +87,10 @@
     "ok": true,
     "series": {
       "treasury_10a": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 216
+        "recebidos": 217
       }
     }
   },
@@ -98,10 +98,10 @@
     "ok": true,
     "series": {
       "brent_spot": {
-        "novos": 0,
+        "novos": 6,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 8
+        "recebidos": 13
       }
     }
   },
@@ -109,7 +109,7 @@
     "ok": true,
     "series": {
       "ouro_gld": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 276
@@ -131,7 +131,7 @@
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20

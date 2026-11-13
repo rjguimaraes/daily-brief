@@ -1,17 +1,17 @@
-**Painel — referência 12/11/26** · comparativos ancorados na data de cada observação
+**Painel — referência 13/11/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
 | USD/BRL PTAX venda | 5,6143 R$/US$ (12/11/26) | +1,0% | +12,5% | +2,0% | +6,2% |  |
-| Ibovespa | 172.060 pontos (11/11/26) | +0,4% | −17,7% | +6,8% | +9,1% |  |
+| Ibovespa | 171.324 pontos (12/11/26) | −0,4% | −18,1% | +6,3% | +8,7% |  |
 | S&P 500 | 7.619 pontos (11/11/26) | +1,3% | −2,5% | +11,3% | +11,3% |  |
-| Selic-meta | 13,75 % a.a. (12/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Selic-meta | 13,75 % a.a. (13/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (10/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
-| Treasury 10 anos | 4,98 % a.a. (10/11/26) | +10 pb | −26 pb | +80 pb | +85 pb |  |
-| Brent spot (Europe Brent FOB) | 107,03 US$/barril (03/11/26) | −0,3% | −21,0% | +74,5% | +62,7% |  |
-| Ouro — ETF GLD (SPDR Gold Shares) | 365,17 US$/cota (11/11/26) | −1,1% | −5,0% | −7,9% | −3,9% |  |
-| Bitcoin | 73.928 US$ (11/11/26) | +0,3% | −11,7% | −15,5% | −28,2% |  |
+| Treasury 10 anos | 5,10 % a.a. (12/11/26) | +12 pb | −14 pb | +92 pb | +102 pb |  |
+| Brent spot (Europe Brent FOB) | 92,14 US$/barril (11/11/26) | +2,2% | −29,1% | +50,2% | +44,3% |  |
+| Ouro — ETF GLD (SPDR Gold Shares) | 354,89 US$/cota (12/11/26) | −2,8% | −7,1% | −10,5% | −8,1% |  |
+| Bitcoin | 71.370 US$ (12/11/26) | −3,5% | −12,7% | −18,4% | −29,8% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 394,15 R$/@ (11/11/26) | +0,2% | +4,3% | +23,5% | +22,3% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 368,00 R$/@ (10/11/26) | 0,0% | +5,4% | —[1] | —[1] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 371,00 R$/@ (10/11/26) | 0,0% | +5,1% | —[2] | —[2] |  |
