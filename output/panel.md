@@ -1,17 +1,17 @@
-**Painel — referência 13/11/26** · comparativos ancorados na data de cada observação
+**Painel — referência 14/11/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
 | USD/BRL PTAX venda | 5,6518 R$/US$ (13/11/26) | +0,7% | +12,8% | +2,7% | +7,0% |  |
-| Ibovespa | 171.324 pontos (12/11/26) | −0,4% | −18,1% | +6,3% | +8,7% |  |
-| S&P 500 | 7.592 pontos (12/11/26) | −0,4% | −2,8% | +10,9% | +10,8% |  |
-| Selic-meta | 13,75 % a.a. (13/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Ibovespa | 172.458 pontos (13/11/26) | +0,7% | −16,6% | +7,0% | +9,7% |  |
+| S&P 500 | 7.562 pontos (13/11/26) | −0,4% | −3,1% | +10,5% | +12,2% |  |
+| Selic-meta | 13,75 % a.a. (14/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (12/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
-| Treasury 10 anos | 5,10 % a.a. (12/11/26) | +12 pb | −14 pb | +92 pb | +102 pb |  |
+| Treasury 10 anos | 5,15 % a.a. (13/11/26) | +5 pb | −6 pb | +97 pb | +104 pb |  |
 | Brent spot (Europe Brent FOB) | 92,14 US$/barril (11/11/26) | +2,2% | −29,1% | +50,2% | +44,3% |  |
-| Ouro — ETF GLD (SPDR Gold Shares) | 354,89 US$/cota (12/11/26) | −2,8% | −7,1% | −10,5% | −8,1% |  |
-| Bitcoin | 71.370 US$ (12/11/26) | −3,5% | −12,7% | −18,4% | −29,8% |  |
+| Ouro — ETF GLD (SPDR Gold Shares) | 355,45 US$/cota (13/11/26) | +0,2% | −6,9% | −10,3% | −7,2% |  |
+| Bitcoin | 68.237 US$ (13/11/26) | −4,4% | −17,9% | −22,0% | −31,5% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 394,15 R$/@ (11/11/26) | +0,2% | +4,3% | +23,5% | +22,3% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 368,00 R$/@ (10/11/26) | 0,0% | +5,4% | —[1] | —[1] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 371,00 R$/@ (10/11/26) | 0,0% | +5,1% | —[2] | —[2] |  |
