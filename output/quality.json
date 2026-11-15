@@ -1,6 +1,6 @@
 {
-  "data_referencia": "2026-11-14",
-  "gerado_em_utc": "2026-11-14T15:45:43+00:00",
+  "data_referencia": "2026-11-15",
+  "gerado_em_utc": "2026-11-15T08:48:35+00:00",
   "indicadores": 20,
   "ok": 20,
   "defasados": [],
@@ -21,11 +21,7 @@
       "y1": "histórico começa em 2026-10-08"
     }
   },
-  "fontes_com_falha": {
-    "CEPEA (NA) recentes": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf",
-    "Scot (NA)": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria",
-    "Datagro reposição (NA) recentes": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho"
-  },
+  "fontes_com_falha": {},
   "revisoes": {},
   "alertas_salto_diario": {
     "ptax_venda": [
