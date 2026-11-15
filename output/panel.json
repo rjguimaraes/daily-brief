@@ -137,19 +137,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-14",
+      "data": "2026-11-15",
       "valor": 13.75,
-      "idade_dias": 1
+      "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-11-13",
+      "data_ref": "2026-11-14",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-10-14",
-      "data_ref": "2026-10-14",
+      "alvo": "2026-10-15",
+      "data_ref": "2026-10-15",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -162,8 +162,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-11-14",
-      "data_ref": "2025-11-14",
+      "alvo": "2025-11-15",
+      "data_ref": "2025-11-15",
       "valor_ref": 15.0,
       "variacao": -125.0,
       "unidade_variacao": "pb"

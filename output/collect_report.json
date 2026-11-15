@@ -1,13 +1,153 @@
 {
+  "BCB PTAX": {
+    "ok": true,
+    "series": {
+      "ptax_venda": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 14
+      }
+    }
+  },
+  "BCB Selic": {
+    "ok": true,
+    "series": {
+      "selic_meta": {
+        "novos": 1,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 21
+      }
+    }
+  },
+  "BCB IPCA": {
+    "ok": true,
+    "series": {
+      "ipca_12m": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 16
+      },
+      "ipca_mensal": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 16
+      }
+    }
+  },
+  "B3 Ibovespa": {
+    "ok": true,
+    "series": {
+      "ibovespa": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 217
+      }
+    }
+  },
+  "FRED S&P 500": {
+    "ok": true,
+    "series": {
+      "sp500": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 15
+      }
+    }
+  },
+  "NY Fed EFFR": {
+    "ok": true,
+    "series": {
+      "fed_funds_efetiva": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 13
+      },
+      "fed_funds_alvo_sup": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 13
+      },
+      "fed_funds_alvo_inf": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 13
+      }
+    }
+  },
+  "Tesouro EUA": {
+    "ok": true,
+    "series": {
+      "treasury_10a": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 218
+      }
+    }
+  },
+  "EIA Brent": {
+    "ok": true,
+    "series": {
+      "brent_spot": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 13
+      }
+    }
+  },
+  "Nasdaq GLD ouro": {
+    "ok": true,
+    "series": {
+      "ouro_gld": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 275
+      }
+    }
+  },
+  "Banco Mundial fertilizantes": {
+    "ok": true,
+    "series": {
+      "fertilizantes_bm": {
+        "novos": 0,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 15
+      }
+    }
+  },
   "Coinbase BTC": {
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20
       }
     }
+  },
+  "CEPEA (NA) recentes": {
+    "ok": false,
+    "erro": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf"
+  },
+  "Scot (NA)": {
+    "ok": false,
+    "erro": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria"
+  },
+  "Datagro reposição (NA) recentes": {
+    "ok": false,
+    "erro": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho"
   }
 }
