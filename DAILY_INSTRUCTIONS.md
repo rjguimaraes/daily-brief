@@ -39,6 +39,11 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
    Política, Agro, Pecuária); uma excelente vale mais que três medianas — dizer quando uma categoria
    tiver menos. Não repetir evento central de `memory/radar.jsonl` sem fato novo. O Radar não é
    extensão do painel. Nenhum veículo com mais de 1/3 das notícias.
+   **Diversidade (15/11/2026, ver "Ajuste de 15/11/2026" em `criterios_conteudo.md`):** começar pela varredura
+   das manchetes gerais do dia (não perder evento grande fora da agenda); famílias de tema repetidas na semana
+   (petróleo/Hormuz, juros EUA, 6x1, fiscal, dívida rural, safra) só com virada de fato e no máximo 1 por
+   família; cotas mínimas por edição: 1 tecnologia/ciência, 1 caso de sucesso com lição transferível, 1 agro ou
+   pecuária internacional ("pode acontecer no Brasil?"); Brasil + Política com no máximo metade de economia.
 5. Descoberta: Aprenda, Conhecimento Rápido, Espanhol, Ideia de Negócio, 2 artigos — seguindo
    `memory/criterios_conteudo.md` (padrão ousado e prático) e sem repetir os últimos 30 dias.
    Diversidade (21/10/2026): rodízio de áreas do perfil; M&A/avaliação no máximo 1 vez a cada 14 dias

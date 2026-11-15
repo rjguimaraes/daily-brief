@@ -92,3 +92,38 @@ nível é iniciante/intermediário, mas gosto do desafio."
   acentuação, pretérito perfeito × indefinido, por/para, subjuntivo).
 - Palavras de uso real, não de lista escolar; uma por dia pode ser desafio (B2/C1).
 - Registrar em `memory/espanhol.jsonl` (data, dica, nível, palavras) para não repetir e para progredir.
+
+## Ajuste de 15/11/2026 — Radar mais diverso e menos repetitivo
+Feedback: "acho as notícias pouco variadas e muito repetitivas no tema. No Mundo tem sido até ok, mas ainda repete
+muito sobre petróleo, indicadores financeiros nos EUA e ataque de navios em Hormuz; você não me trouxe, por exemplo,
+a notícia de que todos os voos nos EUA foram cancelados [ground stop nacional da FAA em 14/11/2026]. Brasil e
+Política muito focados em 6x1 e falando muito só de economia. No Agro fala muito de renegociação de dívida e projeção
+de safra. Não que eu não queira ver essas notícias — quando forem relevantes, tem que trazer —, mas quero mais
+diversidade, coisas novas, diferentes, relevantes e amplas que afetam a minha vida, o mundo e a tomada de decisão:
+novas tecnologias, mercados diferentes, matéria sobre algo de sucesso num tema que faça sentido para mim, análise da
+evolução de mercados agropecuários pelo mundo (como a China está se desenvolvendo, o que acontece na Índia ou em
+outro lugar e pode acontecer no Brasil). Sair mais da caixinha, sem deixar de trazer o que é importante."
+
+Regras:
+1. **Varredura do grande fato do dia primeiro.** Antes de buscar por tema, olhar as manchetes principais de
+   agências e jornais gerais (Reuters, AP, BBC, NYT/WSJ, G1, Folha, Estadão) das últimas 24–48 h. Evento grande e
+   inesperado (apagão, desastre, ruptura tecnológica, decisão histórica) entra mesmo fora da agenda acompanhada.
+2. **Teto para temas recorrentes.** Antes de escolher, agrupar os últimos 7 dias de `radar.jsonl` em famílias
+   (ex.: petróleo/Hormuz/Irã; juros e indicadores dos EUA; 6x1; ajuste fiscal/PLP 299; dívida e crédito rural;
+   projeção de safra; cotação do boi). Família que apareceu 2+ vezes na semana só volta com virada de fato
+   (decisão tomada, número que muda o quadro) e no máximo 1 notícia por família na edição. Pendência sem fato novo
+   vai para "Hoje em 3 pontos" ou fica de fora.
+3. **Cotas mínimas por edição (no Radar inteiro):**
+   - 1 notícia de tecnologia, ciência ou inovação (IA, energia, biotecnologia, saúde, espaço, materiais);
+   - 1 caso de sucesso com lição transferível (empresa, produtor, cooperativa, cidade, política pública) num tema
+     que converse com o leitor;
+   - 1 notícia de agro/pecuária internacional com a pergunta "isso pode acontecer no Brasil?" (China, Índia, EUA,
+     Austrália, Argentina, UE, África): evolução de mercados, rebanhos, tecnologia, consumo, política agrícola.
+4. **Brasil não é só economia.** Em Brasil + Política, no máximo metade das notícias de economia/fiscal/juros;
+   o resto: sociedade, ciência, infraestrutura, saúde, educação, empresas e inovação, segurança, meio ambiente,
+   estados e municípios. Política inclui geopolítica e instituições fora de Brasília.
+5. **Agro e Pecuária mais amplos:** tecnologia (biológicos, genética e reprodução, máquinas, drones,
+   rastreabilidade), mercados globais de carne, grãos e genética, logística, consumo e varejo de alimentos,
+   sanidade global. Renegociação de dívida, crédito e safra só quando o fato muda uma decisão.
+6. **Teste antes de publicar o Radar:** contar famílias repetidas da semana e conferir as 3 cotas; se faltar,
+   trocar a notícia mais fraca por uma que cumpra a cota. Dizer no status quando uma cota não foi cumprida.
