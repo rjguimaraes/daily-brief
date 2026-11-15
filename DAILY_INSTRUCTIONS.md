@@ -11,6 +11,12 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
   semanal dos indicadores e do clima, síntese para a Fazenda, 5 leituras em Ideias & Perspectivas).
 - Formato: **documento no Claude** (conector Claude Docs), título `Daily Brief — DD/MM/AAAA`
   (`Weekly Brief — DD/MM/AAAA` na segunda). Português do Brasil. Leitura de 15–20 min.
+- **E-mail com PDF (desde 15/11/2026):** depois de publicar e auditar, exportar o documento em PDF (A4) pelo
+  Claude Docs (`export`, format pdf; o arquivo vem em `data.bytes_b64`), gravar o PDF na pasta scratchpad da
+  sessão e enviar pelo conector Gmail (`send_message`) para rjg.guimaraes@gmail.com, com assunto igual ao título
+  (`Daily Brief — DD/MM/AAAA` ou `Weekly Brief — DD/MM/AAAA`), o PDF anexado por referência
+  (`sha256:<hash>:<caminho absoluto>`; caminho fora do scratchpad/diretório de trabalho é recusado), o link do
+  documento no corpo e uma linha sobre o que faltou. Se o envio falhar, avisar na notificação final e seguir.
 - Modelo de referência (estrutura, tom, nível de verificação): a edição de teste de 10/10/2026,
   link em `editions/index.jsonl`.
 
@@ -43,6 +49,8 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 8. Persistir: acrescentar registros do dia em cada `memory/*.jsonl` e uma linha em
    `editions/index.jsonl` (data, URL do documento, data de referência do painel, qualidade);
    exportar o documento em Markdown para `editions/AAAA-MM-DD.md`; commit e push.
+9. Enviar o PDF por e-mail (ver "E-mail com PDF" em Entrega) e registrar o envio em `editions/index.jsonl`
+   (campo `email`).
 
 ## Formato de cada bloco (como na edição de 10/10)
 São 14 blocos desde 12/11/2026 (entrou o Espanhol, antes da Ideia de Negócio). Se o prompt da tarefa
