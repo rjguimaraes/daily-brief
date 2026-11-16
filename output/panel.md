@@ -1,4 +1,4 @@
-**Painel — referência 15/11/26** · comparativos ancorados na data de cada observação
+**Painel — referência 16/11/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,17 +11,17 @@
 | Treasury 10 anos | 5,15 % a.a. (13/11/26) | +5 pb | −6 pb | +97 pb | +104 pb |  |
 | Brent spot (Europe Brent FOB) | 92,14 US$/barril (11/11/26) | +2,2% | −29,1% | +50,2% | +44,3% |  |
 | Ouro — ETF GLD (SPDR Gold Shares) | 355,45 US$/cota (13/11/26) | +0,2% | −6,9% | −10,3% | −7,2% |  |
-| Bitcoin | 64.119 US$ (14/11/26) | −6,0% | −21,4% | −26,7% | −32,2% |  |
-| Boi gordo SP (Indicador CEPEA/ESALQ) | 394,15 R$/@ (11/11/26) | +0,2% | +4,3% | +23,5% | +22,3% |  |
-| Boi comum GO Região Sul (Scot, bruto à vista) | 368,00 R$/@ (10/11/26) | 0,0% | +5,4% | —[1] | —[1] |  |
-| Boi comum TO Sul (Scot, bruto à vista) | 371,00 R$/@ (10/11/26) | 0,0% | +5,1% | —[2] | —[2] |  |
-| Bezerro MS (Indicador CEPEA/ESALQ) | 3.608,98 R$/cabeça (11/11/26) | +0,2% | +3,7% | +17,7% | +20,8% |  |
+| Bitcoin | 65.315 US$ (15/11/26) | +1,9% | −20,5% | −25,4% | −31,6% |  |
+| Boi gordo SP (Indicador CEPEA/ESALQ) | 394,15 R$/@ (11/11/26 defasado) | +0,2% | +4,3% | +23,5% | +22,3% |  |
+| Boi comum GO Região Sul (Scot, bruto à vista) | 368,00 R$/@ (10/11/26 defasado) | 0,0% | +5,4% | —[1] | —[1] |  |
+| Boi comum TO Sul (Scot, bruto à vista) | 371,00 R$/@ (10/11/26 defasado) | 0,0% | +5,1% | —[2] | —[2] |  |
+| Bezerro MS (Indicador CEPEA/ESALQ) | 3.608,98 R$/cabeça (11/11/26 defasado) | +0,2% | +3,7% | +17,7% | +20,8% |  |
 | Bezerro Nelore TO (Datagro, estado) | 18,35 R$/kg vivo (11/11/26) | −0,8% | −2,0% | +18,5% | +26,9% |  |
-| Ágio do bezerro TO (@ de bezerro ÷ @ de boi TO Sul) | 1,50 × (10/11/26) | −1,3% | −6,0% | —[3] | —[3] | Quantas arrobas de boi valem uma arroba de bezerro. Maior = melhor para quem vende bezerro (criador). |
-| Relação de troca CEPEA (@ de boi SP por bezerro MS) | 9,16 @/bezerro (11/11/26) | −0,1% | −0,6% | −4,7% | −1,3% | Menor = melhor para quem compra bezerro (terminador); maior = melhor para quem vende (criador). |
+| Ágio do bezerro TO (@ de bezerro ÷ @ de boi TO Sul) | 1,50 × (10/11/26 defasado) | −1,3% | −6,0% | —[3] | —[3] | Quantas arrobas de boi valem uma arroba de bezerro. Maior = melhor para quem vende bezerro (criador). |
+| Relação de troca CEPEA (@ de boi SP por bezerro MS) | 9,16 @/bezerro (11/11/26 defasado) | −0,1% | −0,6% | −4,7% | −1,3% | Menor = melhor para quem compra bezerro (terminador); maior = melhor para quem vende (criador). |
 | Fertilizantes — índice Banco Mundial (ureia, DAP, TSP, KCl, rocha fosfática) | 148,2 pontos (2010 = 100) (out/26) | +0,8% | +0,8% | +11,5% | +6,2% | Preço internacional em dólar, mensal; o adubo no Brasil segue este índice com defasagem, câmbio e frete. |
-| Soja Paranaguá (Indicador CEPEA/ESALQ) | 160,41 R$/sc 60 kg (11/11/26) | +0,3% | +3,7% | +13,8% | +15,5% |  |
-| Milho (Indicador CEPEA/ESALQ, Campinas) | 67,30 R$/sc 60 kg (11/11/26) | +0,2% | −0,1% | −3,2% | −0,1% |  |
+| Soja Paranaguá (Indicador CEPEA/ESALQ) | 160,41 R$/sc 60 kg (11/11/26 defasado) | +0,3% | +3,7% | +13,8% | +15,5% |  |
+| Milho (Indicador CEPEA/ESALQ, Campinas) | 67,30 R$/sc 60 kg (11/11/26 defasado) | +0,2% | −0,1% | −3,2% | −0,1% |  |
 
 Notas:
 1. Boi comum GO Região Sul (Scot, bruto à vista): histórico em formação (histórico começa em 2026-10-08)
