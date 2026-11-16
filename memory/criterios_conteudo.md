@@ -127,3 +127,11 @@ Regras:
    sanidade global. Renegociação de dívida, crédito e safra só quando o fato muda uma decisão.
 6. **Teste antes de publicar o Radar:** contar famílias repetidas da semana e conferir as 3 cotas; se faltar,
    trocar a notícia mais fraca por uma que cumpra a cota. Dizer no status quando uma cota não foi cumprida.
+
+## Ajuste de 16/11/2026 — Relatórios do agro (seção nova do Weekly)
+Pedido: "gostei do exemplo hoje do relatório de pecuária do Rabobank que você mencionou, acho que podemos começar a
+monitorar relatórios relevantes do tipo sobre agro, principalmente Brasil, para ver qual é a relevância e se eu
+deveria aprofundar a leitura deles." Escolhas do leitor: seção no Weekly (não no Daily) e formato triagem +
+veredito (tese, 2–3 números, o que muda para a Laçada, relevância 1–5, ler inteiro / ler só a seção X / pular).
+Formato completo em `DAILY_INSTRUCTIONS.md` ("Weekly: Relatórios do agro"); fontes em `config/relatorios_agro.yaml`;
+registro em `memory/relatorios.jsonl`.

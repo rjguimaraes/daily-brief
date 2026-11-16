@@ -1,0 +1,71 @@
+# Fontes de relatórios setoriais para a seção "Relatórios do agro" do Weekly (desde 16/11/2026).
+# prioridade: alta = varrer toda segunda; media = quando houver notícia ou na semana típica de publicação.
+# A periodicidade é aproximada; conferir a data na página antes de citar.
+
+brasil:
+  - fonte: "Itaú BBA — Agro Mensal / relatórios de pecuária"
+    tema: [pecuaria, graos, credito]
+    periodicidade: mensal
+    prioridade: alta
+  - fonte: "Rabobank Brasil — Agro Mensal e relatórios de proteína animal"
+    tema: [pecuaria, insumos, graos]
+    periodicidade: mensal
+    prioridade: alta
+  - fonte: "CEPEA/ESALQ — Boletim do boi, PIB do agro, custos de produção (Ativos do Campo/CNA)"
+    tema: [pecuaria, renda, custos]
+    periodicidade: mensal/trimestral
+    prioridade: alta
+  - fonte: "Conab — Boletim de safra de grãos; Prohort; custos de produção"
+    tema: [graos, custos]
+    periodicidade: mensal
+    prioridade: media
+  - fonte: "Imea (MT) — boletins de bovinocultura e confinamento"
+    tema: [pecuaria, confinamento]
+    periodicidade: semanal/mensal
+    prioridade: alta
+  - fonte: "Abiec — Beef Report / exportações"
+    tema: [pecuaria, exportacao]
+    periodicidade: anual + notas mensais
+    prioridade: media
+  - fonte: "Embrapa (Gado de Corte, Cerrados) — comunicados técnicos e boletins"
+    tema: [genetica, reproducao, pastagem, tecnologia]
+    periodicidade: irregular
+    prioridade: media
+  - fonte: "ABCZ / ANCP / Asbia — relatórios de registros, PMGZ, venda de sêmen e IATF"
+    tema: [genetica, reproducao]
+    periodicidade: anual/semestral
+    prioridade: alta
+  - fonte: "Datagro Pecuária, Scot Consultoria, Agrifatto, StoneX — relatórios e cartas de mercado"
+    tema: [pecuaria, reposicao]
+    periodicidade: semanal/mensal (parte fechada: usar "via imprensa")
+    prioridade: media
+  - fonte: "BCB — Relatório de Estabilidade Financeira e dados do crédito rural (Sicor); MAPA — Plano Safra e balanço do crédito"
+    tema: [credito]
+    periodicidade: semestral/mensal
+    prioridade: media
+  - fonte: "MapBiomas, INPE — relatórios de fogo, pastagem e uso da terra"
+    tema: [fogo, pastagem, ambiental]
+    periodicidade: anual/mensal
+    prioridade: media
+  - fonte: "IBGE — Pesquisa Trimestral do Abate, PPM, LSPA, Censo Agro"
+    tema: [pecuaria, graos]
+    periodicidade: trimestral/anual
+    prioridade: media
+
+internacional:
+  - fonte: "Rabobank — Global Beef Quarterly e Global Animal Protein Outlook"
+    tema: [pecuaria, mercado_global]
+    periodicidade: trimestral
+    prioridade: alta
+  - fonte: "USDA — Livestock, Dairy, and Poultry Outlook; Cattle on Feed; Livestock and Products: Brazil (FAS GAIN)"
+    tema: [pecuaria, mercado_global]
+    periodicidade: mensal/semestral
+    prioridade: alta
+  - fonte: "OCDE-FAO Agricultural Outlook; FAO Food Outlook / Meat Market Review"
+    tema: [mercado_global]
+    periodicidade: anual/semestral
+    prioridade: media
+  - fonte: "MLA (Austrália) — projeções do rebanho; CME/Steiner (EUA) — ciclo do gado"
+    tema: [pecuaria, mercado_global]
+    periodicidade: trimestral
+    prioridade: media

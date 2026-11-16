@@ -8,7 +8,8 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 - Terça a domingo: Daily (formato abaixo). Sábado e domingo: mesmos 14 blocos, mas Aprenda, Ideia e
   Ideias & Perspectivas mais abertos e exploratórios (história, ciência, cultura, viagens, natureza).
 - Segunda-feira: Weekly Brief (14 blocos + últimos 7 dias, próximos 7 dias com agenda, evolução
-  semanal dos indicadores e do clima, síntese para a Fazenda, 5 leituras em Ideias & Perspectivas).
+  semanal dos indicadores e do clima, síntese para a Fazenda, **Relatórios do agro** (desde 16/11/2026,
+  ver abaixo), 5 leituras em Ideias & Perspectivas).
 - Formato: **documento no Claude** (conector Claude Docs), título `Daily Brief — DD/MM/AAAA`
   (`Weekly Brief — DD/MM/AAAA` na segunda). Português do Brasil. Leitura de 15–20 min.
 - **E-mail com PDF (desde 15/11/2026):** depois de publicar e auditar, exportar o documento em PDF (A4) pelo
@@ -101,6 +102,24 @@ falar em 13 blocos, vale este arquivo.
     Uma frase de abertura ligando os dois textos. Veículos diferentes. Só indicar artigo cujo texto foi
     aberto e lido. Sem listas de argumentos nem jargão técnico sem explicação.
 
+### Weekly: Relatórios do agro (desde 16/11/2026)
+Seção só da segunda-feira, depois da "Síntese da semana para a Fazenda". Pedido do leitor: monitorar relatórios
+setoriais relevantes, sobretudo do Brasil, para saber se vale aprofundar a leitura (gatilho: o Global Beef
+Quarterly do Rabobank citado na edição de 16/11).
+- **Janela:** relatórios publicados nos últimos 7 dias (segunda a domingo anteriores). Fontes e periodicidade
+  em `config/relatorios_agro.yaml`; varrer as prioritárias toda semana e as demais quando houver notícia.
+- **Seleção:** de 2 a 5 relatórios, priorizando pecuária de corte, genética/reprodução, mercado de bezerro e
+  reposição, crédito e insumos do Centro-Oeste/Tocantins. Brasil primeiro; internacional só se mexer com preço,
+  demanda ou tecnologia que chega aqui. Semana sem relatório bom: dizer, não preencher.
+- **Por relatório (triagem + veredito):** título exato com link direto (PDF ou página), instituição, data,
+  número de páginas quando houver; **Tese central** (1 frase); **2–3 números** que sustentam a tese (com a
+  página ou seção); **O que muda para a Laçada** (marcar "leitura minha"); **Relevância 1–5**; **Veredito**:
+  *ler inteiro*, *ler só a seção/página X* ou *pular*, com o motivo em uma frase.
+- **Regras:** abrir o relatório ou a página oficial; se só houver cobertura de imprensa (relatório fechado ou PDF
+  que não abriu), dizer "via imprensa" e limitar a nota a 3. Não repetir relatório de `memory/relatorios.jsonl`
+  sem edição nova. Registrar cada um em `memory/relatorios.jsonl` (data, título, instituição, url, relevância,
+  veredito). O leitor pode responder com o que leu; usar isso para calibrar as notas.
+
 ## Fórmulas
 - Nunca usar bloco ```latex nem notação TeX: na exportação para PDF aparece o código cru.
   Escrever fórmulas em texto simples (ex.: "NNT = 1 ÷ redução absoluta de risco"), com × e ÷,
@@ -121,4 +140,4 @@ falar em 13 blocos, vale este arquivo.
 - Aprenda/Conhecimento/Ideia: fontes conferidas; contas refeitas em código; hipóteses marcadas.
 - Artigos: título, autor, data e link conferidos na página; contrapontos próprios separados.
 - Espanhol: regra e exemplos conferidos; 3 palavras novas, sem repetir `memory/espanhol.jsonl`.
-- Os 14 blocos presentes.
+- Os 14 blocos presentes (Weekly: também Relatórios do agro).
