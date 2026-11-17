@@ -146,3 +146,41 @@ tenha relação direta ou indireta com o nosso projeto de compra de terras lá."
   projeto de compra de terra. Formato e fontes em `DAILY_INSTRUCTIONS.md` (bloco 12).
 - Dia sem notícia boa do Paraguai: no lugar, uma curiosidade ou aprendizado prático sobre investir em terra ou
   trabalhar com fazenda no Paraguai, com fonte (pedido do leitor, 17/11/2026).
+
+## Ajuste de 17/11/2026 — Revisão das 45 ideias de negócio (feedback do leitor)
+Feedback ideia a ideia em `memory/ideias_feedback.jsonl`. Ler antes de escolher a ideia do dia.
+
+**Contexto que muda tudo:** a família está muito cética com o Brasil (reeleição de Lula, aumento de impostos, piora
+da segurança jurídica). Para investir no Brasil, a ideia tem de ser muito boa e quase descorrelacionada do
+crescimento da economia brasileira. Ideias com pé no Paraguai (projeto de terra) ou fora do Brasil ganham peso.
+
+**O que agradou (fazer mais disso):**
+- Destravar burocracia cara e morosa com conhecimento técnico + IA: regularização ambiental, licenças, crédito
+  bloqueado (ideia 38, "a melhor de todas"). Serviços em que o cliente já sente a dor e já paga caro.
+- Estruturas com garantia forte e boa engenharia de contrato (CPR, FIDC): 42 (arrendamento), 9 (barter de touro,
+  checar se existe CPR pecuária), 34 (custódia de garantias, mercado que ainda vai se formar).
+- Usar a genética da Laçada no longo prazo: 29 (prenhez parceira, estruturar em 2027), 24 (exportação de genética
+  para Paraguai/Bolívia, horizonte longo).
+- Investimento passivo com assento em conselho em setor técnico em crescimento (12, FIV), e roll-up só se houver
+  sócio operador confiável (22).
+- Negócio de consumo simples com demanda visível e fila (17, lava-rápido por assinatura); produto que encanta
+  quem prova, desde que sem barreira regulatória pesada (3).
+
+**O que não agradou (evitar):**
+- Depender de o pecuarista pagar por algo novo, preventivo ou "de valor agregado": brasileiro desconfia de
+  modelos novos, prêmio por qualidade é baixo e frigoríficos concentram o mercado (8, 14, 39, 41, 44, 45).
+- Risco de crédito ou cobrança de pessoa física/produtor no Brasil (13, 18, 26): calote, RJ de produtor, "rolo".
+- Competir com quem tem a credencial técnica ou regulatória: veterinários, financeiras, corretoras (12, 23, 45).
+- Capital intensivo, indústria, mineração, margem baixa ou muitos players (10, 11, 30, 36, 43); tecnologia que
+  pode baratear e depreciar o investimento (20); setor de onde todos estão saindo (37).
+- Risco sanitário ou jurídico na própria fazenda: animais de terceiros, locação de touro (7, 28).
+- Mercado pulverizado/pequeno, barreira de entrada baixa ou ideia batida (1, 2, 4, 5); fora da escala ou
+  da localização da família (16, 21 — "a pior ideia").
+
+**Regras novas:**
+1. Na seção "Por que este leitor", dizer explicitamente como a ideia se protege do risco Brasil (receita em dólar,
+   contrato com garantia real, cliente que já paga pela dor, operação no Paraguai) ou admitir que não se protege.
+2. Explicar o modelo em linguagem simples no primeiro parágrafo: 5 ideias não foram entendidas (19, 25, 31, 32, 40).
+   Teste: o leitor consegue repetir em uma frase quem paga, por quê e quanto?
+3. Não repetir famílias rejeitadas acima sem fato novo que resolva a objeção.
+4. Fila de aprofundamento (não são a ideia do dia; trazer quando o leitor pedir): 38 (prioridade), 42, 9, 29, 34.

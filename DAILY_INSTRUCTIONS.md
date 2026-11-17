@@ -121,7 +121,8 @@ falar em 13 blocos, vale este arquivo.
       explicação em espanhol simples com um número ou caso concreto, **Para el proyecto** e *Fuente* aberta
       (lei, órgão oficial, estudo ou matéria). Não repetir tema de `memory/espanhol.jsonl` (campo `paraguay`,
       com `tipo`: "noticia" ou "aprendizaje").
-13. **Ideia de Negócio** — formato completo da especificação + por que agora, economia em números
+13. **Ideia de Negócio** — antes de escolher, ler `memory/ideias_feedback.jsonl` e o "Ajuste de 17/11/2026 — Revisão das
+    45 ideias" em `criterios_conteudo.md` (risco Brasil, o que agradou/não agradou). Formato completo da especificação + por que agora, economia em números
     (fonte vs. hipótese), tamanho com cálculo, vantagem do leitor, hipótese que mata, MVP, nota 1–5.
 14. **Ideias & Perspectivas** (formato revisto em 15/10/2026) — por artigo, em prosa, não em ficha técnica:
     título exato com link direto, autor, veículo, data, tempo de leitura (estimativa);
