@@ -12,8 +12,11 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
   ver abaixo), 5 leituras em Ideias & Perspectivas).
 - Formato: **documento no Claude** (conector Claude Docs), título `Daily Brief — DD/MM/AAAA`
   (`Weekly Brief — DD/MM/AAAA` na segunda). Português do Brasil. Leitura de 15–20 min.
-- **E-mail com PDF (desde 15/11/2026):** depois de publicar e auditar, exportar o documento em PDF (A4) pelo
-  Claude Docs (`export`, format pdf; o arquivo vem em `data.bytes_b64`), gravar o PDF na pasta scratchpad da
+- **E-mail com PDF (desde 15/11/2026):** depois de publicar e auditar, gerar o PDF (A4) **em tema escuro**
+  (desde 17/11/2026: fundo #191919, texto #efefef, como o Claude em modo escuro): exportar o documento pelo
+  Claude Docs em **HTML** (`export`, format html; vem em `data.bytes_b64`), decodificar e rodar
+  `python scripts/dark_pdf.py <export.html> <saida.pdf> "<título>"` (Playwright/Chromium; não usar o export pdf
+  do Docs, que sai claro). Conferir 1–2 páginas renderizadas. Gravar o PDF na pasta scratchpad da
   sessão e enviar pelo conector Gmail (`send_message`) para rjg.guimaraes@gmail.com, com assunto igual ao título
   (`Daily Brief — DD/MM/AAAA` ou `Weekly Brief — DD/MM/AAAA`), o PDF anexado por referência
   (`sha256:<hash>:<caminho absoluto>`; caminho fora do scratchpad/diretório de trabalho é recusado), o link do
