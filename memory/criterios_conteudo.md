@@ -184,3 +184,13 @@ crescimento da economia brasileira. Ideias com pé no Paraguai (projeto de terra
    Teste: o leitor consegue repetir em uma frase quem paga, por quê e quanto?
 3. Não repetir famílias rejeitadas acima sem fato novo que resolva a objeção.
 4. Fila de aprofundamento (não são a ideia do dia; trazer quando o leitor pedir): 38 (prioridade), 42, 9, 29, 34.
+
+## Ajuste de 17/11/2026 — Conhecimento Rápido: metade dos dias sobre IA
+Pedido: "no Conhecimento Rápido, quero que 50% dos dias sejam relacionados a como utilizar melhor IA: aprender
+técnicas, o que posso fazer com IA na minha realidade, como otimizar meu uso e meu dia, funcionalidades que ainda
+nunca explorei, integrações e plugins interessantes. Quero aprofundar meu conhecimento e passar a tirar mais proveito."
+- Alternar: um dia IA, um dia o rodízio normal de áreas (o rodízio de 7 dias vale só para os dias sem IA).
+- A barra continua: algo que um usuário avançado usa e a maioria não sabe; nada de dica genérica ("seja específico").
+- Sempre um passo a passo executável (prompt pronto ou caminho de configuração) aplicado à fazenda, ao projeto
+  Paraguai, aos investimentos ou à rotina dele. Não repetir subtema de IA dos últimos 30 dias.
+- No dia de IA, o Aprenda fica em outra área (pode ser tecnologia só se o tema for bem diferente).

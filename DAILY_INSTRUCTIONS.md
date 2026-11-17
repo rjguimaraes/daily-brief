@@ -85,6 +85,19 @@ falar em 13 blocos, vale este arquivo.
     guardar; fontes primárias. Todo número com leitura em linguagem comum; termo técnico sempre traduzido.
     Ver "Ajuste de 10/11/2026" em `criterios_conteudo.md`.
 11. **Conhecimento Rápido** — O QUE É | COMO USAR/FAZER (exemplo executável com números) | QUANDO É ÚTIL.
+    **Desde 17/11/2026, dias alternados são de IA** (metade das edições; ver `memory/conhecimento_rapido.jsonl`,
+    campo `categoria`: se a edição anterior não foi de IA, hoje é). Objetivo do leitor: aprofundar o conhecimento e
+    tirar mais proveito da IA no dia a dia. Temas em rodízio: técnicas de prompt e de trabalho com IA (dar contexto,
+    exemplos, papéis, revisão adversarial, dividir tarefas); funcionalidades do Claude que ele talvez nunca usou
+    (Projetos, memória, skills, tarefas agendadas, docs/artifacts, pesquisa, modo Cowork, Claude in Chrome, Excel,
+    Claude Code); conectores, integrações e plugins (Gmail, Drive, Calendar, GitHub, MCP, planilhas, WhatsApp/automação);
+    usos na realidade dele (fazenda: controle de rebanho, planilhas de custo, laudos e contratos, leilões, CPR;
+    estudo do projeto Paraguai; investimentos; e-mail e agenda; espanhol); rotinas para otimizar o dia; limites e
+    riscos (alucinação, privacidade, conferir números). O COMO USAR vira um **passo a passo executável**: um prompt
+    pronto para copiar, ou o caminho exato de cliques/configuração, com um exemplo do mundo dele e o resultado
+    esperado. Funcionalidades e preços mudam: conferir na documentação oficial (docs.claude.com,
+    support.claude.com ou a do fornecedor) e citar o link; não prometer recurso que não foi verificado. Pode
+    comparar com outras ferramentas quando útil, sem virar propaganda. Registrar `categoria` "IA" e `subtema`.
 12. **Espanhol** (desde 12/11/2026; nível do leitor: iniciante/intermediário, gosta de desafio; título da seção
     "## 12. Español"). **Desde 17/11/2026, imersão gradual:** subtítulos em espanhol e, quando possível, as
     explicações também, em espanhol simples (B1). Português só onde a explicação ficaria confusa, para a
