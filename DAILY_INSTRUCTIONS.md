@@ -85,16 +85,35 @@ falar em 13 blocos, vale este arquivo.
     guardar; fontes primárias. Todo número com leitura em linguagem comum; termo técnico sempre traduzido.
     Ver "Ajuste de 10/11/2026" em `criterios_conteudo.md`.
 11. **Conhecimento Rápido** — O QUE É | COMO USAR/FAZER (exemplo executável com números) | QUANDO É ÚTIL.
-12. **Espanhol** (desde 12/11/2026; nível do leitor: iniciante/intermediário, gosta de desafio) —
-    **Dica do dia**: uma regra gramatical ou outro ponto importante (pronúncia, falso cognato, expressão,
-    diferença Espanha × América Latina, armadilha comum de brasileiro), explicada em português, curta, com
-    3 a 4 exemplos em espanhol e tradução; quando for regra, um mini-exercício de 2 frases com resposta no fim.
-    **3 palavras novas**: palavra (classe, gênero), pronúncia aproximada quando diferir do português,
-    significado, uma frase-exemplo útil (de preferência do mundo do leitor: campo, negócios, viagem) e,
-    se houver, o falso amigo em português. Subir a dificuldade aos poucos (padrão: B1, uma palavra B2/C1
-    como desafio). Não repetir dica nem palavra de `memory/espanhol.jsonl`; seguir uma progressão
-    (ex.: ser/estar → pretéritos → subjuntivo → pronomes oblíquos → por/para → conectores). Conferir regra
-    e exemplos com fonte confiável (RAE/DLE, Instituto Cervantes); citar o link do DLE das 3 palavras.
+12. **Espanhol** (desde 12/11/2026; nível do leitor: iniciante/intermediário, gosta de desafio; título da seção
+    "## 12. Español"). **Desde 17/11/2026, imersão gradual:** subtítulos em espanhol e, quando possível, as
+    explicações também, em espanhol simples (B1). Português só onde a explicação ficaria confusa, para a
+    tradução das frases-exemplo e para apontar o contraste com o português. Aumentar a proporção de espanhol
+    aos poucos. Três partes, nesta ordem:
+    - **Consejo del día**: uma regra gramatical ou outro ponto importante (pronúncia, falso cognato, expressão,
+      diferença Espanha × América Latina — com atenção ao espanhol do Paraguai/Rio da Prata —, armadilha comum de
+      brasileiro), curta, com 3 a 4 exemplos em espanhol e tradução; quando for regra, **Miniejercicio** de 2
+      frases com **Respuestas** no fim da seção.
+    - **Tres palabras nuevas**: palavra (classe, gênero), pronúncia aproximada quando diferir do português,
+      significado (em espanhol simples + tradução), uma frase-exemplo útil (campo, negócios, viagem, terra) e,
+      se houver, o falso amigo em português. Subir a dificuldade aos poucos (padrão: B1, uma palavra B2/C1 como
+      desafio). Não repetir dica nem palavra de `memory/espanhol.jsonl`; seguir uma progressão
+      (ex.: ser/estar → pretéritos → subjuntivo → pronomes oblíquos → por/para → conectores → imperfeito do
+      subjuntivo → voseo). Conferir regra e exemplos com fonte confiável (RAE/DLE, Instituto Cervantes); citar
+      o link do DLE das 3 palavras.
+    - **Noticia de Paraguay** (desde 17/11/2026): todos os dias, uma notícia paraguaia das últimas 24–72 h com
+      relação direta ou indireta com o projeto da família de comprar terra no Paraguai (ver `memory/perfil.md`,
+      "Projeto Paraguai"): preço e mercado de terras, pecuária e exportação de carne (Senacsa, ARP, frigoríficos,
+      mercados abertos), Chaco e Corredor Bioceánico, leis de terra e de estrangeiros (franja de seguridad
+      fronteriza, Indert, títulos, invasões/"carperos"), impostos e regime de investimento (IRAGRO, Ley 60/90),
+      licenciamento ambiental (MADES, desmatamento no Chaco), clima e água, câmbio, segurança jurídica e
+      política econômica. Formato: **manchete original em espanhol** (negrito), **Resumen** em espanhol simples
+      (3–4 frases, com números e datas), **Para el proyecto** (1–2 frases, marcar "lectura mía" quando for
+      interpretação) e *Fuente* com link direto da matéria aberta (preferir ABC Color, La Nación, Última Hora,
+      5días, MarketData, Valor Agro, Agencia IP; fontes oficiais quando houver). Palavras difíceis da notícia
+      podem ganhar tradução entre parênteses. Não repetir o evento central dos registros anteriores sem fato
+      novo; registrar em `memory/espanhol.jsonl` (campo `paraguay`: manchete, tema, url). Sem notícia boa nas
+      72 h: dizer em uma linha, não preencher.
 13. **Ideia de Negócio** — formato completo da especificação + por que agora, economia em números
     (fonte vs. hipótese), tamanho com cálculo, vantagem do leitor, hipótese que mata, MVP, nota 1–5.
 14. **Ideias & Perspectivas** (formato revisto em 15/10/2026) — por artigo, em prosa, não em ficha técnica:
@@ -142,5 +161,6 @@ Quarterly do Rabobank citado na edição de 16/11).
 - Radar: links abertos; nada repetido sem novidade; diversidade de temas e veículos.
 - Aprenda/Conhecimento/Ideia: fontes conferidas; contas refeitas em código; hipóteses marcadas.
 - Artigos: título, autor, data e link conferidos na página; contrapontos próprios separados.
-- Espanhol: regra e exemplos conferidos; 3 palavras novas, sem repetir `memory/espanhol.jsonl`.
+- Espanhol: subtítulos em espanhol; regra e exemplos conferidos; 3 palavras novas, sem repetir `memory/espanhol.jsonl`;
+  Noticia de Paraguay com link aberto e relação com o projeto explicada.
 - Os 14 blocos presentes (Weekly: também Relatórios do agro).

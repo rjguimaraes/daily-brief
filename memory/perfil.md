@@ -31,3 +31,12 @@ O perfil personaliza seleção e profundidade; não filtra informações que con
   insegurança jurídica, inadimplência e risco sanitário.
 - Interesse estratégico (15/10/2026): entrar em parceria de embriões no modelo da Nelore Vera Cruz,
   transferindo embriões das doadoras da Laçada em vacas de fazendas terceiras.
+
+## Projeto Paraguai — internacionalização da Laçada (informado em nov/2026)
+- A família estuda comprar terra no exterior para pecuária (e talvez agricultura), reduzindo a exposição ao Brasil
+  por insegurança jurídica. Paraguai é o favorito; Uruguai e Bolívia também em estudo (Bolívia o menos atraente).
+- Alvo: no mínimo 5.000 ha de terra bruta ou parcialmente aberta; começar com recria-engorda, preparar para cria e
+  depois levar a genética da Laçada. Retorno operacional + valorização da terra, horizonte de 10 a 20 anos.
+- Rafael e/ou o irmão tocariam a operação; Rafael aceita se mudar por alguns anos. Um tio tem fazenda no Paraguai.
+- Decisão sobre aprofundar até o começo de dez/2026; aquisição até no máximo o 2º semestre de 2027.
+- Uso no Daily: "Noticia de Paraguay" (bloco 12) e, quando relevante, Radar/Ideia. Não citar valores de capital.

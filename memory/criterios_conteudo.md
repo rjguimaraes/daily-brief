@@ -135,3 +135,12 @@ deveria aprofundar a leitura deles." Escolhas do leitor: seção no Weekly (não
 veredito (tese, 2–3 números, o que muda para a Laçada, relevância 1–5, ler inteiro / ler só a seção X / pular).
 Formato completo em `DAILY_INSTRUCTIONS.md` ("Weekly: Relatórios do agro"); fontes em `config/relatorios_agro.yaml`;
 registro em `memory/relatorios.jsonl`.
+
+## Ajuste de 17/11/2026 — Espanhol em espanhol + Notícia do Paraguai
+Pedido: "seção espanhol: comece a trocar o nome das subseções e até algumas explicações (quando possível) de
+português para espanhol. Quero que adicione também todos os dias a manchete e resumo de uma notícia do Paraguai que
+tenha relação direta ou indireta com o nosso projeto de compra de terras lá."
+- Imersão gradual: subtítulos em espanhol; explicações em espanhol simples quando não prejudicar o entendimento;
+  português como apoio (traduções, contrastes, pontos difíceis).
+- "Noticia de Paraguay" diária dentro da seção Espanhol: manchete original, resumo em espanhol e a ligação com o
+  projeto de compra de terra. Formato e fontes em `DAILY_INSTRUCTIONS.md` (bloco 12).
