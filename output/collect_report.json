@@ -6,7 +6,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 14
+        "recebidos": 13
       }
     }
   },
@@ -14,7 +14,7 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 21
@@ -42,10 +42,10 @@
     "ok": true,
     "series": {
       "ibovespa": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 217
+        "recebidos": 218
       }
     }
   },
@@ -53,7 +53,7 @@
     "ok": true,
     "series": {
       "sp500": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 14
@@ -67,19 +67,19 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 13
+        "recebidos": 12
       },
       "fed_funds_alvo_sup": {
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 13
+        "recebidos": 12
       },
       "fed_funds_alvo_inf": {
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 13
+        "recebidos": 12
       }
     }
   },
@@ -87,10 +87,10 @@
     "ok": true,
     "series": {
       "treasury_10a": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 218
+        "recebidos": 219
       }
     }
   },
@@ -101,7 +101,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 12
+        "recebidos": 11
       }
     }
   },
@@ -109,10 +109,10 @@
     "ok": true,
     "series": {
       "ouro_gld": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 275
+        "recebidos": 276
       }
     }
   },
@@ -131,7 +131,7 @@
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20
