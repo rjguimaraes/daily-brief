@@ -144,3 +144,5 @@ tenha relação direta ou indireta com o nosso projeto de compra de terras lá."
   português como apoio (traduções, contrastes, pontos difíceis).
 - "Noticia de Paraguay" diária dentro da seção Espanhol: manchete original, resumo em espanhol e a ligação com o
   projeto de compra de terra. Formato e fontes em `DAILY_INSTRUCTIONS.md` (bloco 12).
+- Dia sem notícia boa do Paraguai: no lugar, uma curiosidade ou aprendizado prático sobre investir em terra ou
+  trabalhar com fazenda no Paraguai, com fonte (pedido do leitor, 17/11/2026).

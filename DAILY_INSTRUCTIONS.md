@@ -113,7 +113,14 @@ falar em 13 blocos, vale este arquivo.
       5días, MarketData, Valor Agro, Agencia IP; fontes oficiais quando houver). Palavras difíceis da notícia
       podem ganhar tradução entre parênteses. Não repetir o evento central dos registros anteriores sem fato
       novo; registrar em `memory/espanhol.jsonl` (campo `paraguay`: manchete, tema, url). Sem notícia boa nas
-      72 h: dizer em uma linha, não preencher.
+      72 h (ajuste de 17/11/2026): trocar por **Dato curioso / Aprendizaje sobre Paraguay**: uma curiosidade ou
+      aprendizado prático sobre investir em terra ou trabalhar com fazenda no Paraguai (ex.: como funciona a
+      escritura e o registro de imóveis, o que é a franja de seguridad fronteriza, IRAGRO na prática, custo de
+      abrir área no Chaco, raças e sistemas usados lá, sazonalidade do gado, mão de obra e legislação trabalhista,
+      contratos de arrendamento/aparcería, logística até frigoríficos e portos). Mesmo formato: título em espanhol,
+      explicação em espanhol simples com um número ou caso concreto, **Para el proyecto** e *Fuente* aberta
+      (lei, órgão oficial, estudo ou matéria). Não repetir tema de `memory/espanhol.jsonl` (campo `paraguay`,
+      com `tipo`: "noticia" ou "aprendizaje").
 13. **Ideia de Negócio** — formato completo da especificação + por que agora, economia em números
     (fonte vs. hipótese), tamanho com cálculo, vantagem do leitor, hipótese que mata, MVP, nota 1–5.
 14. **Ideias & Perspectivas** (formato revisto em 15/10/2026) — por artigo, em prosa, não em ficha técnica:
