@@ -203,3 +203,6 @@ entre 5 a 10 minutos. O tamanho da notícia ficou bom."
   Palavras: 3–4 linhas cada (significado curto + tradução, 1 exemplo, falso amigo em meia linha, link DLE).
 - Fontes de conferência numa linha só, no fim. Referência do que foi longo demais: a edição de 18/11
   (≈840 palavras sem a notícia, que teve ≈320).
+- (18/11, mesmo dia) Miniejercicio passa a 4 frases: 2 da regra do dia + 2 de repaso de palavras já ensinadas
+  (repetição espaçada: 3, 7, 14+ dias; registrar em `espanhol.jsonl` o campo `repaso`). Vocabulário: no máximo 1 de
+  agro/pecuária/negócios por dia; 2 gerais do dia a dia.
