@@ -202,4 +202,4 @@ entre 5 a 10 minutos. O tamanho da notícia ficou bom."
 - Consejo: uma regra, 2–3 frases de explicação, 3 exemplos, 1 armadilha no máximo (≈150 palavras).
   Palavras: 3–4 linhas cada (significado curto + tradução, 1 exemplo, falso amigo em meia linha, link DLE).
 - Fontes de conferência numa linha só, no fim. Referência do que foi longo demais: a edição de 18/11
-  (≈1.300 palavras sem a notícia).
+  (≈840 palavras sem a notícia, que teve ≈320).
