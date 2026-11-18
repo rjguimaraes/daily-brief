@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | USD/BRL PTAX venda | 5,8102 R$/US$ (18/11/26) | +0,4% | +14,3% | +5,6% | +8,9% |  |
 | Ibovespa | 169.817 pontos (17/11/26) | +0,3% | −17,3% | +5,4% | +8,2% |  |
-| S&P 500 | 7.417 pontos (16/11/26) | −1,9% | −3,2% | +8,3% | +10,1% |  |
+| S&P 500 | 7.341 pontos (17/11/26) | −1,0% | −4,2% | +7,2% | +10,0% |  |
 | Selic-meta | 13,75 % a.a. (18/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (17/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
