@@ -27,7 +27,8 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 ## Ordem de trabalho
 1. `git pull`. Ler: `memory/perfil.md`, `memory/criterios_conteudo.md`, os `memory/*.jsonl`
    (últimos 30 dias), `config/indicators.yaml`.
-2. **Painel primeiro.** Ler `output/panel.json`, `output/quality.json`, `output/weather.json`.
+2. **Painel primeiro.** (Desde 18/11/2026, os preços do agro — CEPEA, Scot, Datagro — chegam pelo notebook do leitor: o Notícias Agrícolas bloqueia o Actions com 403. Ver `scripts/windows/LEIA-ME.md`. No Brief, esses indicadores trazem a data da última coleta do notebook; não é falha a reportar como nova, só dizer a data.)
+   Ler `output/panel.json`, `output/quality.json`, `output/weather.json`.
    - **Terça a sábado:** se `quality.json` não for de hoje, disparar o workflow `panel.yml`
      (`gh api .../dispatches`), esperar terminar e dar `git pull`.
    - **Domingo e segunda:** mercados fechados desde sexta; não gastar esforço atualizando o painel.

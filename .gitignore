@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .venv/
+output/painel-*.pdf
+output/panel_email.html

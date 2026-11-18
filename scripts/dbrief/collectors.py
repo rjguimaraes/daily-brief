@@ -403,3 +403,48 @@ def na_scot_today() -> dict[str, Points]:
     s = _session()
     ref, vals = parse_na_scot(_get(s, NA_SCOT).text)
     return {k: [(ref, v)] for k, v in vals.items()}
+
+
+# --------------------------------------------------------------------- Agro via notebook
+# Desde 18/11/2026: o Notícias Agrícolas recusa (403) acessos vindos do GitHub Actions.
+# O notebook do leitor (rede residencial) baixa as mesmas páginas e envia um .zip para
+# data/agro_inbox/. Nomes dos arquivos: <tipo>__<AAAA-MM-DD|recente>.html, com tipo em
+# AGRO_KINDS. O parse usa exatamente os mesmos parsers da coleta direta.
+AGRO_KINDS = (*NA_CEPEA, "scot", "datagro")
+
+
+def agro_from_inbox(zip_path: str, log: Callable[[str], None] = print) -> dict[str, Points]:
+    import zipfile
+
+    out: dict[str, set] = {k: set() for k in (*NA_CEPEA, *SCOT_ROWS.values(), *DATAGRO_ROWS.values())}
+    lidos, erros = 0, []
+    with zipfile.ZipFile(zip_path) as z:
+        for name in sorted(z.namelist()):
+            base = name.rsplit("/", 1)[-1]
+            m = re.fullmatch(r"(\w+?)__(recente|\d{4}-\d{2}-\d{2})\.html", base)
+            if not m or m.group(1) not in AGRO_KINDS:
+                continue
+            kind, tag = m.groups()
+            day = None if tag == "recente" else date.fromisoformat(tag)
+            html = z.read(name).decode("utf-8", errors="replace")
+            try:
+                if kind in NA_CEPEA:
+                    pts = parse_na_closes(html)
+                    out[kind].update(p for p in pts if day is None or p[0] == day)
+                elif kind == "scot":
+                    ref, vals = parse_na_scot(html)
+                    if day is None or ref == day:
+                        for ind, v in vals.items():
+                            out[ind].add((ref, v))
+                else:
+                    for ind, pts in parse_na_datagro(html).items():
+                        out[ind].update(p for p in pts if day is None or p[0] == day)
+                lidos += 1
+            except Exception as exc:  # noqa: BLE001 — página sem tabela (feriado, dia sem cotação)
+                erros.append(f"{base}: {exc}")
+    for e in erros[:20]:
+        log(f"[agro inbox] {e}")
+    if not lidos:
+        raise RuntimeError(f"nenhuma página do agro legível no pacote ({len(erros)} com erro)")
+    log(f"[agro inbox] {lidos} páginas lidas, {len(erros)} sem dado")
+    return {k: sorted(v) for k, v in out.items() if v}

@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import traceback
 from datetime import date, datetime, timedelta, timezone
@@ -36,7 +37,8 @@ def load_config() -> list[dict]:
     return yaml.safe_load(CONFIG.read_text(encoding="utf-8"))["indicadores"]
 
 
-def collect(today: date, backfill: bool, log, only: list[str] | None = None) -> dict:
+def collect(today: date, backfill: bool, log, only: list[str] | None = None,
+            agro_inbox: str | None = None) -> dict:
     """Roda cada coletor isolado. Retorna o relatório por fonte."""
     start = HIST_START if backfill else today - timedelta(days=20)
     fred_key = os.environ.get("FRED_API_KEY", "")
@@ -56,6 +58,11 @@ def collect(today: date, backfill: bool, log, only: list[str] | None = None) -> 
         ("Scot (NA)", col.na_scot_today, "Notícias Agrícolas, tabela Scot, bruto à vista"),
         ("Datagro reposição (NA) recentes", col.na_datagro_recent, "Notícias Agrícolas, tabela Datagro reposição macho"),
     ]
+    if agro_inbox:
+        # Páginas baixadas pelo notebook do leitor substituem a coleta direta (403 no Actions).
+        jobs = [j for j in jobs if "(NA)" not in j[0]]
+        jobs.append(("Agro via notebook", lambda: col.agro_from_inbox(agro_inbox, log=log),
+                     "Notícias Agrícolas, páginas baixadas pelo notebook do leitor (rede residencial)"))
     if backfill:
         jobs.append(("CEPEA (NA) histórico",
                      lambda: col.na_cepea_backfill(NA_BACKFILL_START, today, log=log),
@@ -237,10 +244,13 @@ def main() -> None:
     ap.add_argument("--only-calc", action="store_true")
     ap.add_argument("--ref-date")
     ap.add_argument("--only", nargs="*", help="coletar só estas fontes (ex.: btc); o resto vem do histórico")
+    ap.add_argument("--agro-inbox", help="zip com páginas do agro enviadas pelo notebook (data/agro_inbox/)")
     args = ap.parse_args()
+    if args.agro_inbox and not re.fullmatch(r"data/agro_inbox/[\w.-]+\.zip", args.agro_inbox):
+        ap.error("--agro-inbox deve ser data/agro_inbox/<nome>.zip")
     today = date.fromisoformat(args.ref_date) if args.ref_date else datetime.now(TZ).date()
 
-    report = None if args.only_calc else collect(today, args.backfill, print, args.only)
+    report = None if args.only_calc else collect(today, args.backfill, print, args.only, args.agro_inbox)
     result = build(today, report)
     OUT.mkdir(exist_ok=True)
     (OUT / "panel.json").write_text(json.dumps(result["rows"], ensure_ascii=False, indent=2, default=str), encoding="utf-8")
