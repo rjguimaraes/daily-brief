@@ -145,8 +145,17 @@ falar em 13 blocos, vale este arquivo.
       (lei, órgão oficial, estudo ou matéria). Não repetir tema de `memory/espanhol.jsonl` (campo `paraguay`,
       com `tipo`: "noticia" ou "aprendizaje").
 13. **Ideia de Negócio** — antes de escolher, ler `memory/ideias_feedback.jsonl` e o "Ajuste de 17/11/2026 — Revisão das
-    45 ideias" em `criterios_conteudo.md` (risco Brasil, o que agradou/não agradou). Formato completo da especificação + por que agora, economia em números
-    (fonte vs. hipótese), tamanho com cálculo, vantagem do leitor, hipótese que mata, MVP, nota 1–5.
+    45 ideias" e o "Ajuste de 18/11/2026 — Ideia em formato pitch" em `criterios_conteudo.md` (risco Brasil, o que
+    agradou/não agradou). **Desde 18/11/2026, só um pitch de no máximo 1,5 página (≈450–550 palavras)**; a versão
+    completa (economia detalhada, rampa de 3 anos, tamanho com cálculo, desafios, MVP dia a dia) só quando o leitor
+    pedir para aprofundar. Estrutura do pitch, nesta ordem:
+    - **Em uma frase:** quem paga, por quê e quanto (arquétipo entre parênteses).
+    - **Por que agora:** 2 bullets, cada um com fonte aberta.
+    - **Os números:** 4 a 5 linhas (ticket, margem, capital inicial, prazo de retorno, ordem de grandeza do mercado),
+      cada número marcado "fonte" ou "hipótese"; contas conferidas em código.
+    - **Por que nós:** 2 a 3 frases, incluindo como se protege do risco Brasil (ou admitir que não se protege).
+    - **O que mata a ideia:** 1 frase. **Primeiro passo (7 dias, custo baixo):** 1 a 2 frases.
+    - **Nota 1–5:** 1 frase de justificativa.
 14. **Ideias & Perspectivas** (formato revisto em 15/10/2026) — por artigo, em prosa, não em ficha técnica:
     título exato com link direto, autor, veículo, data, tempo de leitura (estimativa);
     **A pergunta por trás do texto** (uma frase); 2 parágrafos curtos contando o argumento como história,

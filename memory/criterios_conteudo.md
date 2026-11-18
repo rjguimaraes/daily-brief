@@ -206,3 +206,19 @@ entre 5 a 10 minutos. O tamanho da notícia ficou bom."
 - (18/11, mesmo dia) Miniejercicio passa a 4 frases: 2 da regra do dia + 2 de repaso de palavras já ensinadas
   (repetição espaçada: 3, 7, 14+ dias; registrar em `espanhol.jsonl` o campo `repaso`). Vocabulário: no máximo 1 de
   agro/pecuária/negócios por dia; 2 gerais do dia a dia.
+
+## Ajuste de 18/11/2026 — Ideia em formato pitch + barreira de know-how local
+Feedback: "podemos diminuir um pouco o tamanho da seção ideias de negócios; hoje está tomando 3,5 páginas. Quero
+apenas um pitch inicial de no máximo 1,5 página; depois, se eu me interessar, peço para aprofundar." E sobre a ideia
+de 18/11 (Título Limpio PY): "o business é bom, mas a barreira de entrada é bem alta pra gente que é do Brasil: não
+tem nada, ninguém e nem expertise para montar e administrar um serviço de consultoria no Paraguai que depende de
+know-how do ambiente legal e burocrático paraguaio. Essas barreiras podem ser superadas com muito estudo, mas ainda
+assim é algo distante. Num caso de investimento internacional, algo que dependa menos de know-how do ambiente
+jurídico e regulatório de um país que não conhecemos seria muito mais factível."
+- Formato: pitch de no máximo 1,5 página (estrutura no bloco 13 de `DAILY_INSTRUCTIONS.md`). Aprofundar só a pedido.
+- **Ideias fora do Brasil:** a vantagem tem de vir do que a família já sabe fazer (pecuária, genética, gestão de
+  fazenda, rede de compradores e criadores brasileiros), não do domínio do direito, da burocracia ou da regulação
+  local. Se o negócio exige know-how jurídico/regulatório de um país que eles não conhecem, descartar ou dizer
+  explicitamente como essa parte vira um serviço comprado (despachante, escritório local) sem ser o coração do negócio.
+- Teste antes de publicar uma ideia internacional: "a família conseguiria tocar isso nos primeiros 12 meses com o
+  que já sabe, contratando de terceiros só o jurídico/contábil padrão?" Se não, trocar de ideia.
