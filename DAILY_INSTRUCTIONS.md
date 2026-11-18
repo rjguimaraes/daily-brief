@@ -103,12 +103,16 @@ falar em 13 blocos, vale este arquivo.
     "## 12. Español"). **Desde 17/11/2026, imersão gradual:** subtítulos em espanhol e, quando possível, as
     explicações também, em espanhol simples (B1). Português só onde a explicação ficaria confusa, para a
     tradução das frases-exemplo e para apontar o contraste com o português. Aumentar a proporção de espanhol
-    aos poucos. Três partes, nesta ordem:
-    - **Consejo del día**: uma regra gramatical ou outro ponto importante (pronúncia, falso cognato, expressão,
+    aos poucos. **Tamanho (18/11/2026): a seção inteira se lê e se anota em 5 a 10 minutos** — cerca de
+    500 a 650 palavras no total, das quais a Noticia de Paraguay fica como está (o tamanho dela agradou).
+    Consejo + palavras + respostas: até ~350 palavras. Fontes de conferência numa linha curta no fim, não
+    em parágrafo. Três partes, nesta ordem:
+    - **Consejo del día** (até ~150 palavras): uma regra só, explicada em 2 a 3 frases, 3 exemplos curtos
+      com tradução, no máximo 1 armadilha de brasileiro. Uma regra gramatical ou outro ponto importante (pronúncia, falso cognato, expressão,
       diferença Espanha × América Latina — com atenção ao espanhol do Paraguai/Rio da Prata —, armadilha comum de
       brasileiro), curta, com 3 a 4 exemplos em espanhol e tradução; quando for regra, **Miniejercicio** de 2
       frases com **Respuestas** no fim da seção.
-    - **Tres palabras nuevas**: palavra (classe, gênero), pronúncia aproximada quando diferir do português,
+    - **Tres palabras nuevas** (até ~50 palavras cada, 3 a 4 linhas): palavra (classe, gênero), pronúncia aproximada quando diferir do português,
       significado (em espanhol simples + tradução), uma frase-exemplo útil (campo, negócios, viagem, terra) e,
       se houver, o falso amigo em português. Subir a dificuldade aos poucos (padrão: B1, uma palavra B2/C1 como
       desafio). Não repetir dica nem palavra de `memory/espanhol.jsonl`; seguir uma progressão

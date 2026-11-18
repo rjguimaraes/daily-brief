@@ -194,3 +194,12 @@ nunca explorei, integrações e plugins interessantes. Quero aprofundar meu conh
 - Sempre um passo a passo executável (prompt pronto ou caminho de configuração) aplicado à fazenda, ao projeto
   Paraguai, aos investimentos ou à rotina dele. Não repetir subtema de IA dos últimos 30 dias.
 - No dia de IA, o Aprenda fica em outra área (pode ser tecnologia só se o tema for bem diferente).
+
+## Ajuste de 18/11/2026 — Español mais curto
+Feedback: "seção de aprenda espanhol está muito longa, tomou muito tempo para ler e tomar notas; tem que ser algo
+entre 5 a 10 minutos. O tamanho da notícia ficou bom."
+- Seção inteira em 5–10 min (≈500–650 palavras). Notícia do Paraguai mantém o tamanho de 18/11.
+- Consejo: uma regra, 2–3 frases de explicação, 3 exemplos, 1 armadilha no máximo (≈150 palavras).
+  Palavras: 3–4 linhas cada (significado curto + tradução, 1 exemplo, falso amigo em meia linha, link DLE).
+- Fontes de conferência numa linha só, no fim. Referência do que foi longo demais: a edição de 18/11
+  (≈1.300 palavras sem a notícia).
