@@ -13,6 +13,7 @@ $tok | ConvertFrom-SecureString | Set-Content (Join-Path $State 'token.txt')
 $src = Join-Path $PSScriptRoot 'coletar_agro.ps1'
 $dst = Join-Path $State 'coletar_agro.ps1'
 Copy-Item $src $dst -Force
+Unblock-File -Path $dst -ErrorAction SilentlyContinue
 
 $action  = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$dst`""
 $tLogon  = New-ScheduledTaskTrigger -AtLogOn -User "$env:USERDOMAIN\$env:USERNAME"

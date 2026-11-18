@@ -49,6 +49,14 @@ jobs:
         continue-on-error: true   # falha no clima não derruba o painel
         run: python scripts/run_weather.py
       - run: cat output/panel.md output/weather.md >> "$GITHUB_STEP_SUMMARY" || true
+      # Coleta do agro pelo notebook do leitor (desde 18/11/2026): PDF do painel + marcador
+      # output/agro_update.json; o e-mail sai por uma tarefa agendada do Claude (~20h).
+      - name: PDF do painel (coleta do notebook)
+        if: ${{ inputs.agro_inbox != '' }}
+        continue-on-error: true
+        run: |
+          pip install markdown playwright && python -m playwright install --with-deps chromium
+          python scripts/make_panel_pdf.py
       - name: Salvar séries e saídas
         env:
           AGRO_INBOX: ${{ inputs.agro_inbox }}
@@ -60,15 +68,3 @@ jobs:
           git commit -m "Painel $(TZ=America/Sao_Paulo date +%Y-%m-%d)" || echo "nada a salvar"
           git pull --rebase -q
           git push
-      # Coleta do agro pelo notebook do leitor (desde 18/11/2026): manda o painel em PDF por e-mail.
-      - name: Preparar PDF do painel
-        if: ${{ inputs.agro_inbox != '' }}
-        run: pip install markdown playwright && python -m playwright install --with-deps chromium
-      - name: Enviar painel por e-mail
-        if: ${{ inputs.agro_inbox != '' }}
-        continue-on-error: true
-        env:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          PANEL_EMAIL_TO: ${{ secrets.PANEL_EMAIL_TO }}
-        run: python scripts/send_panel_email.py
