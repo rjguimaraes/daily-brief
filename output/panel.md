@@ -1,17 +1,17 @@
-**Painel — referência 17/11/26** · comparativos ancorados na data de cada observação
+**Painel — referência 18/11/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
 | USD/BRL PTAX venda | 5,7851 R$/US$ (17/11/26) | +0,9% | +13,8% | +5,1% | +8,9% |  |
-| Ibovespa | 169.295 pontos (16/11/26) | −1,8% | −17,6% | +5,1% | +7,3% |  |
+| Ibovespa | 169.817 pontos (17/11/26) | +0,3% | −17,3% | +5,4% | +8,2% |  |
 | S&P 500 | 7.417 pontos (16/11/26) | −1,9% | −3,2% | +8,3% | +10,1% |  |
-| Selic-meta | 13,75 % a.a. (17/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Selic-meta | 13,75 % a.a. (18/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (16/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
-| Treasury 10 anos | 5,12 % a.a. (16/11/26) | −3 pb | +3 pb | +94 pb | +98 pb |  |
+| Treasury 10 anos | 5,10 % a.a. (17/11/26) | −2 pb | +1 pb | +92 pb | +97 pb |  |
 | Brent spot (Europe Brent FOB) | 92,14 US$/barril (11/11/26) | +2,2% | −29,1% | +50,2% | +44,3% |  |
-| Ouro — ETF GLD (SPDR Gold Shares) | 352,93 US$/cota (16/11/26) | −0,7% | −7,6% | −10,9% | −6,1% |  |
-| Bitcoin | 64.817 US$ (16/11/26) | −0,8% | −20,5% | −25,9% | −31,2% |  |
+| Ouro — ETF GLD (SPDR Gold Shares) | 352,48 US$/cota (17/11/26) | −0,1% | −7,7% | −11,1% | −5,2% |  |
+| Bitcoin | 64.873 US$ (17/11/26) | +0,1% | −20,3% | −25,9% | −29,6% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 394,15 R$/@ (11/11/26 defasado) | +0,2% | +4,3% | +23,5% | +22,3% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 368,00 R$/@ (10/11/26 defasado) | 0,0% | +5,4% | —[1] | —[1] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 371,00 R$/@ (10/11/26 defasado) | 0,0% | +5,1% | —[2] | —[2] |  |
