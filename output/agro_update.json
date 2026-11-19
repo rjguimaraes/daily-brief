@@ -15,5 +15,6 @@
     "Milho (Indicador CEPEA/ESALQ, Campinas)": "19/11"
   },
   "pdf": "output/painel_agro.pdf",
-  "email_enviado": false
+  "email_enviado": true,
+  "email_id": "1a1f61fcf08b5f81"
 }
