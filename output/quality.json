@@ -1,6 +1,6 @@
 {
-  "data_referencia": "2026-11-18",
-  "gerado_em_utc": "2026-11-18T17:59:07+00:00",
+  "data_referencia": "2026-11-19",
+  "gerado_em_utc": "2026-11-19T08:51:04+00:00",
   "indicadores": 20,
   "ok": 20,
   "defasados": [],
@@ -84,9 +84,5 @@
       }
     ]
   },
-  "divergencias_ptax_olinda_vs_sgs1": [
-    {
-      "erro": "checagem SGS 1 indisponível: Expecting value: line 1 column 1 (char 0)"
-    }
-  ]
+  "divergencias_ptax_olinda_vs_sgs1": []
 }

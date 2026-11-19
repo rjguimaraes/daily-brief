@@ -1,17 +1,17 @@
-**Painel — referência 18/11/26** · comparativos ancorados na data de cada observação
+**Painel — referência 19/11/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
 | USD/BRL PTAX venda | 5,8102 R$/US$ (18/11/26) | +0,4% | +14,3% | +5,6% | +8,9% |  |
-| Ibovespa | 169.817 pontos (17/11/26) | +0,3% | −17,3% | +5,4% | +8,2% |  |
-| S&P 500 | 7.341 pontos (17/11/26) | −1,0% | −4,2% | +7,2% | +10,0% |  |
-| Selic-meta | 13,75 % a.a. (18/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Ibovespa | 167.538 pontos (18/11/26) | −1,3% | −18,4% | +4,0% | +7,0% |  |
+| S&P 500 | 7.324 pontos (18/11/26) | −0,2% | −4,4% | +7,0% | +10,7% |  |
+| Selic-meta | 13,75 % a.a. (19/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (17/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
-| Treasury 10 anos | 5,10 % a.a. (17/11/26) | −2 pb | +1 pb | +92 pb | +97 pb |  |
-| Brent spot (Europe Brent FOB) | 92,14 US$/barril (11/11/26) | +2,2% | −29,1% | +50,2% | +44,3% |  |
-| Ouro — ETF GLD (SPDR Gold Shares) | 352,48 US$/cota (17/11/26) | −0,1% | −7,7% | −11,1% | −5,2% |  |
-| Bitcoin | 64.873 US$ (17/11/26) | +0,1% | −20,3% | −25,9% | −29,6% |  |
+| Treasury 10 anos | 5,07 % a.a. (18/11/26) | −3 pb | −2 pb | +89 pb | +95 pb |  |
+| Brent spot (Europe Brent FOB) | 92,94 US$/barril (17/11/26) | +0,0% | −22,1% | +51,5% | +47,2% |  |
+| Ouro — ETF GLD (SPDR Gold Shares) | 341,19 US$/cota (18/11/26) | −3,2% | −10,7% | −13,9% | −8,9% |  |
+| Bitcoin | 62.982 US$ (18/11/26) | −2,9% | −23,2% | −28,0% | −32,2% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 395,30 R$/@ (17/11/26) | +0,3% | +3,8% | +23,8% | +23,0% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 376,00 R$/@ (16/11/26) | +2,2% | +7,1% | —[1] | —[1] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 373,00 R$/@ (16/11/26) | +0,5% | +4,8% | —[2] | —[2] |  |
