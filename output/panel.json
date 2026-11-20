@@ -272,19 +272,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-18",
+      "data": "2026-11-19",
       "valor": 3.88,
-      "idade_dias": 2
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-11-17",
+      "data_ref": "2026-11-18",
       "valor_ref": 3.88,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-10-18",
-      "data_ref": "2026-10-16",
+      "alvo": "2026-10-19",
+      "data_ref": "2026-10-19",
       "valor_ref": 3.88,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -297,8 +297,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-11-18",
-      "data_ref": "2025-11-18",
+      "alvo": "2025-11-19",
+      "data_ref": "2025-11-19",
       "valor_ref": 3.88,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -317,19 +317,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-18",
+      "data": "2026-11-19",
       "valor": 4.0,
-      "idade_dias": 2
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-11-17",
+      "data_ref": "2026-11-18",
       "valor_ref": 4.0,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-10-18",
-      "data_ref": "2026-10-16",
+      "alvo": "2026-10-19",
+      "data_ref": "2026-10-19",
       "valor_ref": 4.0,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -342,8 +342,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-11-18",
-      "data_ref": "2025-11-18",
+      "alvo": "2025-11-19",
+      "data_ref": "2025-11-19",
       "valor_ref": 4.0,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -362,19 +362,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-18",
+      "data": "2026-11-19",
       "valor": 3.75,
-      "idade_dias": 2
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-11-17",
+      "data_ref": "2026-11-18",
       "valor_ref": 3.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-10-18",
-      "data_ref": "2026-10-16",
+      "alvo": "2026-10-19",
+      "data_ref": "2026-10-19",
       "valor_ref": 3.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -387,8 +387,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-11-18",
-      "data_ref": "2025-11-18",
+      "alvo": "2025-11-19",
+      "data_ref": "2025-11-19",
       "valor_ref": 3.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"

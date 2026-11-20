@@ -7,7 +7,7 @@
 | S&P 500 | 7.324 pontos (18/11/26) | −0,2% | −4,4% | +7,0% | +10,7% |  |
 | Selic-meta | 13,75 % a.a. (20/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
-| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (18/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
+| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (19/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
 | Treasury 10 anos | 5,04 % a.a. (19/11/26) | −3 pb | −11 pb | +86 pb | +91 pb |  |
 | Brent spot (Europe Brent FOB) | 92,94 US$/barril (17/11/26) | +0,0% | −22,1% | +51,5% | +47,2% |  |
 | Ouro — ETF GLD (SPDR Gold Shares) | 335,18 US$/cota (19/11/26) | −1,8% | −11,7% | −15,4% | −10,6% |  |
