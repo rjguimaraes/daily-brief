@@ -1,6 +1,6 @@
 {
-  "data_referencia": "2026-11-20",
-  "gerado_em_utc": "2026-11-20T17:45:42+00:00",
+  "data_referencia": "2026-11-21",
+  "gerado_em_utc": "2026-11-21T08:50:13+00:00",
   "indicadores": 20,
   "ok": 20,
   "defasados": [],
@@ -51,11 +51,6 @@
     ],
     "bezerro_to": [
       {
-        "de": "2026-10-20",
-        "para": "2026-10-21",
-        "variacao_pct": 12.05
-      },
-      {
         "de": "2026-10-29",
         "para": "2026-10-30",
         "variacao_pct": -11.06
@@ -67,11 +62,6 @@
       }
     ],
     "rel_bezerro_boi_to": [
-      {
-        "de": "2026-10-20",
-        "para": "2026-10-21",
-        "variacao_pct": 12.05
-      },
       {
         "de": "2026-10-29",
         "para": "2026-10-30",

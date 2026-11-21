@@ -1,17 +1,17 @@
-**Painel — referência 20/11/26** · comparativos ancorados na data de cada observação
+**Painel — referência 21/11/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
 | USD/BRL PTAX venda | 5,8889 R$/US$ (19/11/26) | +1,4% | +16,5% | +7,0% | +10,4% |  |
 | Ibovespa | 166.376 pontos (19/11/26) | −0,7% | −18,9% | +3,3% | +7,1% |  |
 | S&P 500 | 7.176 pontos (19/11/26) | −2,0% | −6,7% | +4,8% | +8,0% |  |
-| Selic-meta | 13,75 % a.a. (20/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Selic-meta | 13,75 % a.a. (21/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (19/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
-| Treasury 10 anos | 5,04 % a.a. (19/11/26) | −3 pb | −11 pb | +86 pb | +91 pb |  |
+| Treasury 10 anos | 4,92 % a.a. (20/11/26) | −12 pb | −20 pb | +74 pb | +82 pb |  |
 | Brent spot (Europe Brent FOB) | 92,94 US$/barril (17/11/26) | +0,0% | −22,1% | +51,5% | +47,2% |  |
-| Ouro — ETF GLD (SPDR Gold Shares) | 335,18 US$/cota (19/11/26) | −1,8% | −11,7% | −15,4% | −10,6% |  |
-| Bitcoin | 61.913 US$ (19/11/26) | −1,7% | −24,3% | −29,2% | −32,3% |  |
+| Ouro — ETF GLD (SPDR Gold Shares) | 322,87 US$/cota (20/11/26) | −3,7% | −14,5% | −18,5% | −13,9% |  |
+| Bitcoin | 58.815 US$ (20/11/26) | −5,0% | −29,1% | −32,8% | −32,0% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 395,50 R$/@ (19/11/26) | +0,0% | +3,9% | +23,9% | +23,0% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 381,00 R$/@ (18/11/26) | +1,3% | +8,5% | —[1] | —[1] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 378,00 R$/@ (18/11/26) | +1,3% | +6,2% | —[2] | —[2] |  |
