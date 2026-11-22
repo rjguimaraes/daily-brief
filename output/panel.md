@@ -5,7 +5,7 @@
 | USD/BRL PTAX venda | 5,8889 R$/US$ (19/11/26) | +1,4% | +16,5% | +7,0% | +10,4% |  |
 | Ibovespa | 166.376 pontos (19/11/26) | −0,7% | −18,9% | +3,3% | +7,1% |  |
 | S&P 500 | 7.176 pontos (19/11/26) | −2,0% | −6,7% | +4,8% | +8,0% |  |
-| Selic-meta | 13,75 % a.a. (21/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Selic-meta | 13,75 % a.a. (22/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (19/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
 | Treasury 10 anos | 4,92 % a.a. (20/11/26) | −12 pb | −20 pb | +74 pb | +82 pb |  |
