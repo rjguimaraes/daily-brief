@@ -242,3 +242,8 @@ que seja mais relevante e impactante."
   humanos/campo), não só mecanismo descoberto em laboratório.
 - Se não houver notícia diferente que passe no teste, trazer menos notícias ou uma notícia importante da agenda
   principal com fato novo, e dizer no status que a cota não foi cumprida por falta de notícia relevante.
+
+## Ajuste de 23/11/2026 — Conhecimento Rápido de IA vira trilha
+Pedido do leitor: entender o nível dele hoje e desenhar uma curva de aprendizado. Diagnóstico e os 17 módulos em
+`memory/trilha_ia.md`. Formato escolhido: misto em trilha (conceito + prática, subindo de nível). Começa pelo "mapa do
+possível", porque a maior frustração dele é não saber o que dá para fazer.

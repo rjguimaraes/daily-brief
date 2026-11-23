@@ -102,6 +102,10 @@ falar em 13 blocos, vale este arquivo.
     esperado. Funcionalidades e preços mudam: conferir na documentação oficial (docs.claude.com,
     support.claude.com ou a do fornecedor) e citar o link; não prometer recurso que não foi verificado. Pode
     comparar com outras ferramentas quando útil, sem virar propaganda. Registrar `categoria` "IA" e `subtema`.
+    **Trilha de IA (desde 23/11/2026):** nos dias de IA, seguir `memory/trilha_ia.md` — diagnóstico do nível do leitor
+    e 17 módulos em 5 níveis (mapa do possível → entender a máquina → técnicas → conectar → construir), formato misto
+    (conceito + prática de 10–20 min), um módulo por dia de IA, em ordem; registrar `trilha_modulo` (número) em
+    `memory/conhecimento_rapido.jsonl`. A trilha prevalece sobre o rodízio livre de temas de IA descrito acima.
 12. **Espanhol** (desde 12/11/2026; nível do leitor: iniciante/intermediário, gosta de desafio; título da seção
     "## 12. Español"). **Desde 17/11/2026, imersão gradual:** subtítulos em espanhol e, quando possível, as
     explicações também, em espanhol simples (B1). Português só onde a explicação ficaria confusa, para a
