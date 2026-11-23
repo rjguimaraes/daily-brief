@@ -407,21 +407,21 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-20",
+      "data": "2026-11-23",
       "valor": 4.92,
-      "idade_dias": 3
+      "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-11-19",
-      "valor_ref": 5.04,
-      "variacao": -12.00000000000001,
+      "data_ref": "2026-11-20",
+      "valor_ref": 4.92,
+      "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-10-20",
-      "data_ref": "2026-10-20",
-      "valor_ref": 5.12,
-      "variacao": -20.000000000000018,
+      "alvo": "2026-10-23",
+      "data_ref": "2026-10-23",
+      "valor_ref": 5.0,
+      "variacao": -8.000000000000007,
       "unidade_variacao": "pb"
     },
     "ytd": {
@@ -432,10 +432,10 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-11-20",
-      "data_ref": "2025-11-20",
-      "valor_ref": 4.1,
-      "variacao": 82.00000000000003,
+      "alvo": "2025-11-23",
+      "data_ref": "2025-11-21",
+      "valor_ref": 4.06,
+      "variacao": 86.00000000000003,
       "unidade_variacao": "pb"
     },
     "id": "treasury_10a",

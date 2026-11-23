@@ -87,10 +87,10 @@
     "ok": true,
     "series": {
       "treasury_10a": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 223
+        "recebidos": 224
       }
     }
   },
