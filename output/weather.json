@@ -3,7 +3,7 @@
     "local": "Fazenda Laçada — Quirinópolis (GO)",
     "lat": -18.7215,
     "lon": -50.4246,
-    "gerado_em": "2026-11-23T07:49-03:00",
+    "gerado_em": "2026-11-23T15:20-03:00",
     "recente": {
       "tipo": "estimativa de modelo (Open-Meteo), não estação",
       "ultimos_7_dias_mm": 31.8,
@@ -22,64 +22,64 @@
     "previsao_7d": {
       "tipo": "previsão de modelo numérico (Open-Meteo, best match)",
       "periodo": "2026-11-23 a 2026-11-29",
-      "acumulado_mm": 92.2,
+      "acumulado_mm": 102.8,
       "dias_com_chuva": 7,
-      "tmax_max": 32.0,
-      "tmin_min": 23.1,
-      "et0_mm": 28.1,
+      "tmax_max": 31.6,
+      "tmin_min": 23.3,
+      "et0_mm": 27.6,
       "dias": [
         {
           "data": "2026-11-23",
-          "chuva_mm": 1.6,
-          "prob_pct": 80,
-          "tmax": 32.0,
-          "tmin": 24.6,
-          "et0_mm": 4.85
+          "chuva_mm": 5.5,
+          "prob_pct": 90,
+          "tmax": 31.6,
+          "tmin": 23.9,
+          "et0_mm": 4.56
         },
         {
           "data": "2026-11-24",
-          "chuva_mm": 6.0,
-          "prob_pct": 89,
-          "tmax": 30.4,
-          "tmin": 23.8,
-          "et0_mm": 3.83
+          "chuva_mm": 5.9,
+          "prob_pct": 99,
+          "tmax": 31.1,
+          "tmin": 23.7,
+          "et0_mm": 4.6
         },
         {
           "data": "2026-11-25",
-          "chuva_mm": 9.6,
-          "prob_pct": 92,
-          "tmax": 31.5,
-          "tmin": 23.7,
-          "et0_mm": 4.69
+          "chuva_mm": 12.0,
+          "prob_pct": 86,
+          "tmax": 31.3,
+          "tmin": 24.4,
+          "et0_mm": 4.2
         },
         {
           "data": "2026-11-26",
-          "chuva_mm": 22.1,
-          "prob_pct": 92,
-          "tmax": 30.4,
-          "tmin": 23.4,
-          "et0_mm": 4.35
+          "chuva_mm": 26.7,
+          "prob_pct": 88,
+          "tmax": 28.9,
+          "tmin": 23.8,
+          "et0_mm": 3.57
         },
         {
           "data": "2026-11-27",
-          "chuva_mm": 13.4,
-          "prob_pct": 93,
-          "tmax": 28.8,
-          "tmin": 23.6,
-          "et0_mm": 2.81
+          "chuva_mm": 15.1,
+          "prob_pct": 90,
+          "tmax": 28.7,
+          "tmin": 23.5,
+          "et0_mm": 2.78
         },
         {
           "data": "2026-11-28",
-          "chuva_mm": 22.3,
-          "prob_pct": 92,
-          "tmax": 29.1,
-          "tmin": 23.1,
-          "et0_mm": 3.66
+          "chuva_mm": 21.2,
+          "prob_pct": 94,
+          "tmax": 29.7,
+          "tmin": 23.3,
+          "et0_mm": 3.99
         },
         {
           "data": "2026-11-29",
-          "chuva_mm": 17.2,
-          "prob_pct": 92,
+          "chuva_mm": 16.4,
+          "prob_pct": 98,
           "tmax": 29.6,
           "tmin": 23.4,
           "et0_mm": 3.87
@@ -91,7 +91,7 @@
     "local": "Fazenda Laçada Lagoa Azul — Pium/Lagoa da Confusão (TO)",
     "lat": -10.29775,
     "lon": -49.79627,
-    "gerado_em": "2026-11-23T07:49-03:00",
+    "gerado_em": "2026-11-23T15:20-03:00",
     "recente": {
       "tipo": "estimativa de modelo (Open-Meteo), não estação",
       "ultimos_7_dias_mm": 54.4,
@@ -110,64 +110,64 @@
     "previsao_7d": {
       "tipo": "previsão de modelo numérico (Open-Meteo, best match)",
       "periodo": "2026-11-23 a 2026-11-29",
-      "acumulado_mm": 20.8,
+      "acumulado_mm": 16.9,
       "dias_com_chuva": 4,
       "tmax_max": 35.2,
       "tmin_min": 23.5,
-      "et0_mm": 36.7,
+      "et0_mm": 35.9,
       "dias": [
         {
           "data": "2026-11-23",
-          "chuva_mm": 0.1,
-          "prob_pct": 39,
-          "tmax": 34.3,
+          "chuva_mm": 1.7,
+          "prob_pct": 29,
+          "tmax": 33.6,
           "tmin": 23.7,
-          "et0_mm": 5.82
+          "et0_mm": 5.06
         },
         {
           "data": "2026-11-24",
-          "chuva_mm": 4.5,
-          "prob_pct": 63,
+          "chuva_mm": 0.4,
+          "prob_pct": 51,
           "tmax": 34.4,
-          "tmin": 23.9,
-          "et0_mm": 5.42
+          "tmin": 24.4,
+          "et0_mm": 5.65
         },
         {
           "data": "2026-11-25",
-          "chuva_mm": 2.8,
-          "prob_pct": 57,
-          "tmax": 35.2,
-          "tmin": 24.4,
-          "et0_mm": 5.26
-        },
-        {
-          "data": "2026-11-26",
-          "chuva_mm": 0.8,
-          "prob_pct": 51,
-          "tmax": 34.8,
-          "tmin": 24.4,
+          "chuva_mm": 0.4,
+          "prob_pct": 67,
+          "tmax": 34.4,
+          "tmin": 24.5,
           "et0_mm": 5.54
         },
         {
+          "data": "2026-11-26",
+          "chuva_mm": 0.6,
+          "prob_pct": 63,
+          "tmax": 35.2,
+          "tmin": 24.8,
+          "et0_mm": 5.39
+        },
+        {
           "data": "2026-11-27",
-          "chuva_mm": 0.0,
-          "prob_pct": 29,
-          "tmax": 34.1,
-          "tmin": 24.5,
-          "et0_mm": 5.36
+          "chuva_mm": 1.5,
+          "prob_pct": 24,
+          "tmax": 34.5,
+          "tmin": 24.6,
+          "et0_mm": 5.45
         },
         {
           "data": "2026-11-28",
-          "chuva_mm": 5.0,
-          "prob_pct": 61,
-          "tmax": 35.2,
+          "chuva_mm": 4.8,
+          "prob_pct": 55,
+          "tmax": 34.7,
           "tmin": 23.7,
-          "et0_mm": 5.62
+          "et0_mm": 5.13
         },
         {
           "data": "2026-11-29",
-          "chuva_mm": 7.6,
-          "prob_pct": 85,
+          "chuva_mm": 7.5,
+          "prob_pct": 62,
           "tmax": 31.8,
           "tmin": 23.5,
           "et0_mm": 3.67
