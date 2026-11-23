@@ -44,6 +44,9 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
    Política, Agro, Pecuária); uma excelente vale mais que três medianas — dizer quando uma categoria
    tiver menos. Não repetir evento central de `memory/radar.jsonl` sem fato novo. O Radar não é
    extensão do painel. Nenhum veículo com mais de 1/3 das notícias.
+   **Relevância (23/11/2026, ver "Ajuste de 23/11/2026" em `criterios_conteudo.md`):** notícia diferente, curiosidade ou
+   inovação só entra se passar no teste de relevância (muda regra/preço/risco para ele, tem grande escala ou é tecnologia
+   que ele usa ou que muda o setor dele); diferente não basta. Vale sobretudo para Radar Brasil e para as cotas.
    **Diversidade (15/11/2026, ver "Ajuste de 15/11/2026" em `criterios_conteudo.md`):** começar pela varredura
    das manchetes gerais do dia (não perder evento grande fora da agenda); famílias de tema repetidas na semana
    (petróleo/Hormuz, juros EUA, 6x1, fiscal, dívida rural, safra) só com virada de fato e no máximo 1 por

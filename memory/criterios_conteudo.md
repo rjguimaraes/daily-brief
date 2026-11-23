@@ -222,3 +222,23 @@ jurídico e regulatório de um país que não conhecemos seria muito mais factí
   explicitamente como essa parte vira um serviço comprado (despachante, escritório local) sem ser o coração do negócio.
 - Teste antes de publicar uma ideia internacional: "a família conseguiria tocar isso nos primeiros 12 meses com o
   que já sabe, contratando de terceiros só o jurídico/contábil padrão?" Se não, trocar de ideia.
+
+## Ajuste de 23/11/2026 — Diversidade só com relevância (Radar Brasil)
+Feedback sobre o Radar Brasil de 23/11 (estudo da Unicamp sobre fibra e intestino em camundongos; GAC montando carros
+em Catalão-GO; escola de Manacapuru filtrando água com osso de pirarucu): "apesar de cumprirem o que alinhamos de às
+vezes trazer notícias diferentes, curiosidades e inovações, elas são completamente irrelevantes para mim. Traga algo
+que seja mais relevante e impactante."
+- A regra de 15/11 (sair da caixinha, não só economia) continua, mas **diferente não basta: tem de ser relevante e de
+  grande impacto**. Curiosidade, estudo em fase de laboratório/animal, iniciativa de escala de escola ou cidade pequena
+  e notícia de empresa sem efeito na vida dele não entram só para cumprir cota ou diversidade.
+- **Teste de relevância (toda notícia fora da agenda principal, sobretudo em Brasil):** responder sim a pelo menos uma:
+  (1) muda uma regra, um preço, um custo ou um risco que afeta a fazenda, os investimentos, o projeto Paraguai ou a vida
+  dele (segurança, saúde com efeito prático, impostos, energia, logística, terra, justiça); (2) tem escala nacional ou
+  setorial grande (milhões de pessoas, bilhões de reais, um setor inteiro); (3) é uma tecnologia ou modelo que ele pode
+  usar ou que muda o setor dele nos próximos anos. Se só "é interessante", fica de fora.
+- **Caso de sucesso:** precisa de escala e números verificáveis (receita, produtividade, resultado medido) e lição que
+  ele aplicaria em negócio ou gestão; projeto piloto sem resultado medido não serve.
+- **Ciência/inovação:** preferir o que já chega ao mundo real (aprovação, lançamento, adoção em escala, resultado em
+  humanos/campo), não só mecanismo descoberto em laboratório.
+- Se não houver notícia diferente que passe no teste, trazer menos notícias ou uma notícia importante da agenda
+  principal com fato novo, e dizer no status que a cota não foi cumprida por falta de notícia relevante.
