@@ -147,6 +147,20 @@ falar em 13 blocos, vale este arquivo.
       explicação em espanhol simples com um número ou caso concreto, **Para el proyecto** e *Fuente* aberta
       (lei, órgão oficial, estudo ou matéria). Não repetir tema de `memory/espanhol.jsonl` (campo `paraguay`,
       com `tipo`: "noticia" ou "aprendizaje").
+    **Repetição pedida em 23/11/2026 (temporária):** o leitor não conseguiu ler as seções Español de 19, 20, 21 e 22/11.
+    Nas próximas edições, uma por dia e em ordem, a seção 12 inteira é a repetição de uma delas, no lugar do conteúdo
+    novo: a fila é 2026-11-19 → 2026-11-20 → 2026-11-21 → 2026-11-22. Cada edição repete a data mais antiga da fila
+    que ainda não aparece no campo `repeticao_de` de `memory/espanhol.jsonl` (assim, um dia pulado não perde nenhuma).
+    - Copiar de `editions/AAAA-MM-DD.md` (bloco "## 12. Español") o Consejo del día, o Miniejercicio, as Tres palabras
+      nuevas e as Respuestas como foram publicados (pode corrigir erro óbvio), com uma linha no topo: "*Repetição da
+      seção de DD/11, a pedido.*"
+    - **Noticia de Paraguay:** se a notícia daquela data continua relevante e não houve fato muito novo sobre o tema,
+      repeti-la (pode acrescentar uma linha "Actualización" se houver detalhe novo); se perdeu relevância ou houve
+      novidade maior, trazer uma notícia nova do dia no formato normal, sem repetir os eventos já registrados.
+    - Registrar em `memory/espanhol.jsonl` uma linha com `"repeticao_de": "AAAA-MM-DD"`, as mesmas `palavras` e
+      `dica` da data repetida e, no campo `paraguay`, a notícia usada (com `"tipo": "repetida"` ou a nova).
+    - Quando as 4 datas estiverem em `repeticao_de`, a seção volta ao normal (progressão anotada em 23/11: seguir +
+      gerundio / volver a + infinitivo, ou estar + gerundio), e este parágrafo pode ser apagado.
 13. **Ideia de Negócio** — antes de escolher, ler `memory/ideias_feedback.jsonl` e o "Ajuste de 17/11/2026 — Revisão das
     45 ideias" e o "Ajuste de 18/11/2026 — Ideia em formato pitch" em `criterios_conteudo.md` (risco Brasil, o que
     agradou/não agradou). **Desde 18/11/2026, só um pitch de no máximo 1,5 página (≈450–550 palavras)**; a versão
