@@ -1,4 +1,4 @@
-**Painel — referência 22/11/26** · comparativos ancorados na data de cada observação
+**Painel — referência 23/11/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,7 @@
 | Treasury 10 anos | 4,92 % a.a. (20/11/26) | −12 pb | −20 pb | +74 pb | +82 pb |  |
 | Brent spot (Europe Brent FOB) | 92,94 US$/barril (17/11/26) | +0,0% | −22,1% | +51,5% | +47,2% |  |
 | Ouro — ETF GLD (SPDR Gold Shares) | 322,87 US$/cota (20/11/26) | −3,7% | −14,5% | −18,5% | −13,9% |  |
-| Bitcoin | 60.086 US$ (21/11/26) | +2,2% | −28,5% | −31,3% | −29,4% |  |
+| Bitcoin | 61.163 US$ (22/11/26) | +1,8% | −24,8% | −30,1% | −27,8% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 395,50 R$/@ (19/11/26) | +0,0% | +3,9% | +23,9% | +23,0% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 381,00 R$/@ (18/11/26) | +1,3% | +8,5% | —[1] | —[1] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 378,00 R$/@ (18/11/26) | +1,3% | +6,2% | —[2] | —[2] |  |
