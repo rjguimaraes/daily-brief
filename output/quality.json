@@ -1,9 +1,18 @@
 {
-  "data_referencia": "2026-11-23",
-  "gerado_em_utc": "2026-11-23T21:15:20+00:00",
+  "data_referencia": "2026-11-24",
+  "gerado_em_utc": "2026-11-24T08:50:31+00:00",
   "indicadores": 20,
-  "ok": 20,
-  "defasados": [],
+  "ok": 12,
+  "defasados": [
+    "boi_gordo_sp",
+    "boi_comum_go_sul",
+    "boi_comum_to_sul",
+    "bezerro_ms",
+    "rel_bezerro_boi_to",
+    "rel_troca_cepea",
+    "soja_paranagua",
+    "milho_cepea"
+  ],
   "ausentes": [],
   "comparativos_preenchidos": 74,
   "comparativos_possiveis": 80,
