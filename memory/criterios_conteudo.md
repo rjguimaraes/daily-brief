@@ -247,3 +247,13 @@ que seja mais relevante e impactante."
 Pedido do leitor: entender o nível dele hoje e desenhar uma curva de aprendizado. Diagnóstico e os 17 módulos em
 `memory/trilha_ia.md`. Formato escolhido: misto em trilha (conceito + prática, subindo de nível). Começa pelo "mapa do
 possível", porque a maior frustração dele é não saber o que dá para fazer.
+
+## Ajuste de 24/11/2026 — Não perder a manchete do dia
+Feedback: o Radar Mundo de 24/11 dizia que "nenhum outro fato internacional passou no teste de relevância", mas a
+principal notícia global do dia (Jensen Huang reconduzido à Nvidia após intervenção de Trump, 23/11) ficou de fora.
+As outras duas notícias de Mundo agradaram.
+- Causas: a varredura e a escrita ficaram no mesmo agente; Reuters/AP/BBC e CNN não abriram (bloqueio a robôs) e o
+  agente se apoiou em resumos secundários; o teste de relevância de 23/11 foi aplicado ao grande fato do dia.
+- Regra: varredura de capas como etapa própria (passo 4 de `DAILY_INSTRUCTIONS.md`), lista das 10 maiores notícias,
+  "regra das capas" (destaque em 2+ veículos = entra obrigatoriamente) e o teste de relevância só para notícias
+  diferentes/curiosidades. O status lista as capas checadas e onde entraram as 3 maiores manchetes.

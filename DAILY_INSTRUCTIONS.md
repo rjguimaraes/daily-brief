@@ -40,7 +40,25 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
 3. Clima: a partir de `output/weather.json`. Rotular sempre: recente = estimativa de modelo;
    normal = ERA5 1995–2024; previsão = modelo. Apresentar só os números (histórico e projeção),
    sem análise ou implicação operacional (ajuste de 07/11/2026).
-4. Radar: pesquisar notícias das últimas 24–48 h (WebSearch). Até 3 por categoria (Mundo, Brasil,
+4. **Varredura das manchetes do dia (obrigatória, ANTES de qualquer seção do Radar; desde 24/11/2026).** Em 24/11
+   a principal manchete global (Jensen Huang reconduzido à Nvidia por pressão de Trump) ficou fora da edição: o agente
+   não conseguiu abrir Reuters/AP/BBC, apoiou-se em resumos secundários e aplicou o teste de relevância a ela.
+   Regras:
+   - Fazer a varredura como uma etapa separada (um subagente só para isso, antes dos de Radar), cujo produto é a
+     **lista das 10 maiores notícias do dia**, em ordem, com veículo e link. Os agentes de Radar recebem essa lista.
+   - Fontes: as capas de pelo menos 6 veículos globais e 3 brasileiros. Muitos sites bloqueiam leitura automatizada
+     (CNN, NBC, Reuters, NYT): por isso, além de tentar abrir as capas (AP News, BBC, Guardian, Al Jazeera, PBS
+     NewsHour, Washington Post, Bloomberg, FT, G1, Folha, Estadão), rodar WebSearch em modo extended com consultas
+     do tipo "top news today <data>", "biggest stories <data>", "breaking news <data>", "principais notícias <data>",
+     "markets today <data>" (o que moveu as bolsas é quase sempre manchete) e em espanhol. Um link que não abre não
+     desqualifica a notícia: procurar a mesma história em outro veículo que abra (ex.: AP republicada pela PBS).
+   - **Regra das capas:** notícia que aparece como manchete ou destaque em 2+ desses veículos é "grande fato do dia"
+     e **entra obrigatoriamente** (Mundo, Brasil ou Política). O teste de relevância de 23/11 NÃO se aplica a ela: ele
+     vale para notícias "diferentes"/curiosidades, não para o fato mais importante do dia. Ela só fica de fora se já
+     saiu no Brief sem fato novo, e então o status diz isso.
+   - No status da edição, listar as capas efetivamente checadas e as 3 maiores manchetes do dia, dizendo onde cada
+     uma entrou. Nunca escrever "nenhum outro fato passou no teste" sem essa lista.
+5. Radar: pesquisar notícias das últimas 24–48 h (WebSearch). Até 3 por categoria (Mundo, Brasil,
    Política, Agro, Pecuária); uma excelente vale mais que três medianas — dizer quando uma categoria
    tiver menos. Não repetir evento central de `memory/radar.jsonl` sem fato novo. O Radar não é
    extensão do painel. Nenhum veículo com mais de 1/3 das notícias.
@@ -52,17 +70,17 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
    (petróleo/Hormuz, juros EUA, 6x1, fiscal, dívida rural, safra) só com virada de fato e no máximo 1 por
    família; cotas mínimas por edição: 1 tecnologia/ciência, 1 caso de sucesso com lição transferível, 1 agro ou
    pecuária internacional ("pode acontecer no Brasil?"); Brasil + Política com no máximo metade de economia.
-5. Descoberta: Aprenda, Conhecimento Rápido, Espanhol, Ideia de Negócio, 2 artigos — seguindo
+6. Descoberta: Aprenda, Conhecimento Rápido, Espanhol, Ideia de Negócio, 2 artigos — seguindo
    `memory/criterios_conteudo.md` (padrão ousado e prático) e sem repetir os últimos 30 dias.
    Diversidade (21/10/2026): rodízio de áreas do perfil; M&A/avaliação no máximo 1 vez a cada 14 dias
    (o leitor não trabalha com M&A); ver "Ajuste de 21/10/2026" em `criterios_conteudo.md`.
-6. Escrever o documento: criar o esqueleto (título, byline, um bloco pendente por seção) e preencher
+7. Escrever o documento: criar o esqueleto (título, byline, um bloco pendente por seção) e preencher
    uma seção por chamada.
-7. Auditoria (checklist abaixo). Corrigir antes de publicar.
-8. Persistir: acrescentar registros do dia em cada `memory/*.jsonl` e uma linha em
+8. Auditoria (checklist abaixo). Corrigir antes de publicar.
+9. Persistir: acrescentar registros do dia em cada `memory/*.jsonl` e uma linha em
    `editions/index.jsonl` (data, URL do documento, data de referência do painel, qualidade);
    exportar o documento em Markdown para `editions/AAAA-MM-DD.md`; commit e push.
-9. Enviar o PDF por e-mail (ver "E-mail com PDF" em Entrega) e registrar o envio em `editions/index.jsonl`
+10. Enviar o PDF por e-mail (ver "E-mail com PDF" em Entrega) e registrar o envio em `editions/index.jsonl`
    (campo `email`).
 
 ## Formato de cada bloco (como na edição de 10/10)
@@ -220,6 +238,8 @@ Quarterly do Rabobank citado na edição de 16/11).
 - Painel: números idênticos ao `panel.json`; datas visíveis; taxas em pb; ausências com motivo.
 - Clima: locais corretos; histórico, normal e previsão separados e rotulados; nenhuma análise.
 - Radar: links abertos; nada repetido sem novidade; diversidade de temas e veículos.
+- Manchetes do dia: as 3 maiores notícias da varredura (capas de 2+ veículos) estão no Brief ou têm justificativa no status;
+  status lista as capas checadas.
 - Aprenda/Conhecimento/Ideia: fontes conferidas; contas refeitas em código; hipóteses marcadas.
 - Artigos: título, autor, data e link conferidos na página; contrapontos próprios separados.
 - Espanhol: subtítulos em espanhol; regra e exemplos conferidos; 3 palavras novas, sem repetir `memory/espanhol.jsonl`;
