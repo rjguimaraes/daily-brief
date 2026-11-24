@@ -100,12 +100,34 @@ falar em 13 blocos, vale este arquivo.
 4–8. **Radar** — por notícia: manchete em negrito; O que aconteceu; Por que importa (marcar
    "leitura minha" quando for interpretação); Fonte com link direto da matéria.
 9. **Hoje em 3 pontos** — Fazenda Laçada, Investimentos, Tema a monitorar. Interpretação, não manchete.
-10. **Aprenda** (formato revisto em 10/11/2026: mais explicado, menos técnico) — caso ou cena de abertura;
-    a ideia em uma frase simples; o mecanismo passo a passo com analogia; o que a evidência mostra (até 3
-    estudos, cada um com "o que isso quer dizer" em palavras simples); o que ainda se discute e quando não
-    vale; "Em resumo" (3 frases); "Onde isso aparece na sua vida" com exemplo trabalhado; ideia para
-    guardar; fontes primárias. Todo número com leitura em linguagem comum; termo técnico sempre traduzido.
-    Ver "Ajuste de 10/11/2026" em `criterios_conteudo.md`.
+10. **Aprenda** (formato revisto em 24/11/2026: mais curto e direto; substitui o de 10/11). Título "## 10. Aprenda — <tema>".
+    **Tamanho: 450 a 650 palavras** (leitura de 3–4 min). Referência do que ficou grande demais: a seção de 24/11
+    (~1.550 palavras, 3 estudos detalhados mais 3 citados). Estrutura, nesta ordem, com estes subtítulos em negrito:
+    - **O que é:** a ideia em 2–3 frases simples, com um exemplo concreto do dia a dia.
+    - **Como funciona:** o mecanismo em 3 a 5 passos curtos, com uma analogia. Termo técnico sempre traduzido.
+    - **Quando acontece:** em que situações o efeito aparece (e com que força), em 2–3 frases.
+    - **Principais aplicações:** 2 a 3 bullets práticos (fazenda, gestão, investimentos, saúde, família, decisões),
+      cada um em 1–2 frases. Sem exemplo trabalhado longo.
+    - **Exceções:** quando não vale, onde a ideia é exagerada ou ainda discutida, em 2–3 bullets.
+    - **Para ir além:** 1 a 3 temas derivados que seria legal aprender a partir deste, cada um com uma linha dizendo
+      por que é interessante. Só para curiosidade: **não** viram o Aprenda do dia seguinte.
+    - *Fontes:* numa linha só, no fim (1 a 3 fontes boas e abertas).
+    Evidência: no máximo 1 estudo ou número central, citado em uma frase com a leitura em linguagem comum; nada de
+    catálogo de estudos, amostras, p-valores ou "o que a evidência mostra" em bloco próprio. A comprovação existe para
+    dar confiança, não para ser o conteúdo. Ver "Ajuste de 24/11/2026 — Aprenda mais curto" em `criterios_conteudo.md`.
+    **Série pedida em 24/11/2026 (prioridade sobre o rodízio de áreas):** transtorno bipolar, em 3 Aprendas seguidos a
+    partir de 25/11, para o leitor entender e conviver melhor com um familiar próximo que tem o transtorno em grau
+    alto. (1) O que é e como funciona a cabeça de quem tem bipolaridade: mania/hipomania, depressão, episódios mistos,
+    ciclos, insight (por que a pessoa muitas vezes não percebe), o que é doença e o que não é, tratamento.
+    (2) Como conviver sem se afetar: limites, comunicação que não escala conflito, separar a pessoa do episódio,
+    cuidar de si, apoio para familiares (psicoeducação familiar, grupos). (3) Como ajudar numa crise: sinais de alerta
+    precoce, plano de crise combinado com antecedência e com o psiquiatra, o que dizer e o que evitar, quando buscar
+    ajuda urgente (SAMU 192, pronto-socorro/CAPS; risco de suicídio: CVV 188) e como agir se a pessoa recusa
+    tratamento. Regras da série: fontes confiáveis (NIMH, NHS, Associação Brasileira de Psiquiatria, Ministério da
+    Saúde, guias como NICE/CANMAT, Mayo Clinic); linguagem humana, sem estigma e sem tom clínico frio; nada de
+    diagnóstico, dose ou troca de remédio (isso é com o psiquiatra); mesmo formato curto acima, adaptando "Principais
+    aplicações" para "Na prática, com o seu familiar". Registrar em `aprenda.jsonl` com `"serie":"bipolaridade"` e
+    `"parte"`: 1, 2 ou 3; a série termina quando as 3 partes estiverem registradas, e este parágrafo pode ser apagado.
 11. **Conhecimento Rápido** — O QUE É | COMO USAR/FAZER (exemplo executável com números) | QUANDO É ÚTIL.
     **Desde 17/11/2026, dias alternados são de IA** (metade das edições; ver `memory/conhecimento_rapido.jsonl`,
     campo `categoria`: se a edição anterior não foi de IA, hoje é). Objetivo do leitor: aprofundar o conhecimento e

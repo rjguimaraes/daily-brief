@@ -257,3 +257,15 @@ As outras duas notícias de Mundo agradaram.
 - Regra: varredura de capas como etapa própria (passo 4 de `DAILY_INSTRUCTIONS.md`), lista das 10 maiores notícias,
   "regra das capas" (destaque em 2+ veículos = entra obrigatoriamente) e o teste de relevância só para notícias
   diferentes/curiosidades. O status lista as capas checadas e onde entraram as 3 maiores manchetes.
+
+## Ajuste de 24/11/2026 — Aprenda mais curto
+Feedback: "a seção Aprenda está muito grande. Podemos ir mais direto ao ponto e menos detalhista, sem trazer muitos
+estudos e comprovações exageradas. Quero entender o que, como, quando, principais aplicações, exceções, e um ou alguns
+possíveis aprofundamentos ou derivadas que seria legal aprender a partir do tema (só para curiosidade, não precisa
+trazer na Daily seguinte)."
+- Substitui a estrutura do "Ajuste de 10/11/2026" (o espírito de explicar antes de provar e traduzir termo técnico
+  continua). Nova estrutura e tamanho (450–650 palavras) no bloco 10 de `DAILY_INSTRUCTIONS.md`.
+- Evidência: no máximo 1 estudo ou número central, em uma frase. Sem bloco "o que a evidência mostra".
+- "Para ir além": 1–3 derivadas só para curiosidade; não pautam o Aprenda seguinte.
+- Pedido no mesmo dia: série de 3 Aprendas sobre transtorno bipolar (entender, conviver, ajudar na crise), para lidar
+  melhor com um familiar próximo; detalhes no bloco 10.
