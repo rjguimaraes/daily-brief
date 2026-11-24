@@ -1,20 +1,19 @@
 {
   "data_brt": "2026-11-24",
-  "gerado_em": "2026-11-24T08:16-03:00",
+  "gerado_em": "2026-11-24T19:31-03:00",
   "titulo": "Painel atualizado — 24/11/2026",
-  "novos": 6,
+  "novos": 8,
   "datas_agro": {
-    "Boi gordo SP (Indicador CEPEA/ESALQ)": "23/11",
-    "Boi comum GO Região Sul (Scot, bruto à vista)": "19/11",
-    "Boi comum TO Sul (Scot, bruto à vista)": "19/11",
-    "Bezerro MS (Indicador CEPEA/ESALQ)": "23/11",
-    "Bezerro Nelore TO (Datagro, estado)": "19/11",
-    "Ágio do bezerro TO (@ de bezerro ÷ @ de boi TO Sul)": "19/11",
-    "Relação de troca CEPEA (@ de boi SP por bezerro MS)": "23/11",
-    "Soja Paranaguá (Indicador CEPEA/ESALQ)": "23/11",
-    "Milho (Indicador CEPEA/ESALQ, Campinas)": "23/11"
+    "Boi gordo SP (Indicador CEPEA/ESALQ)": "24/11",
+    "Boi comum GO Região Sul (Scot, bruto à vista)": "23/11",
+    "Boi comum TO Sul (Scot, bruto à vista)": "23/11",
+    "Bezerro MS (Indicador CEPEA/ESALQ)": "24/11",
+    "Bezerro Nelore TO (Datagro, estado)": "24/11",
+    "Ágio do bezerro TO (@ de bezerro ÷ @ de boi TO Sul)": "23/11",
+    "Relação de troca CEPEA (@ de boi SP por bezerro MS)": "24/11",
+    "Soja Paranaguá (Indicador CEPEA/ESALQ)": "24/11",
+    "Milho (Indicador CEPEA/ESALQ, Campinas)": "24/11"
   },
   "pdf": "output/painel_agro.pdf",
-  "email_enviado": true,
-  "email_id": "1a20d5add6a39733"
+  "email_enviado": false
 }
