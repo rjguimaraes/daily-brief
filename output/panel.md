@@ -9,7 +9,7 @@
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (24/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
 | Treasury 10 anos | 4,91 % a.a. (24/11/26) | −1 pb | −9 pb | +73 pb | +87 pb |  |
-| Brent spot (Europe Brent FOB) | 92,94 US$/barril (17/11/26) | +0,0% | −22,1% | +51,5% | +47,2% |  |
+| Brent spot (Europe Brent FOB) | 91,80 US$/barril (24/11/26) | +0,7% | −28,4% | +49,6% | +41,6% |  |
 | Brent futuro (1º vencimento) | ausente[1] | — | — | — | — | |
 | Ouro — ETF GLD (SPDR Gold Shares) | 325,45 US$/cota (24/11/26) | −2,3% | −11,2% | −17,9% | −14,4% |  |
 | Bitcoin | 59.741 US$ (24/11/26) | −2,4% | −26,0% | −31,7% | −32,3% |  |

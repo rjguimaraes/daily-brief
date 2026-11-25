@@ -452,35 +452,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-17",
-      "valor": 92.94,
-      "idade_dias": 8
+      "data": "2026-11-24",
+      "valor": 91.8,
+      "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-11-16",
-      "valor_ref": 92.9,
-      "variacao": 0.04305705059202136,
+      "data_ref": "2026-11-23",
+      "valor_ref": 91.2,
+      "variacao": 0.6578947368421018,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-10-17",
-      "data_ref": "2026-10-16",
-      "valor_ref": 119.33,
-      "variacao": -22.11514288108607,
+      "alvo": "2026-10-24",
+      "data_ref": "2026-10-23",
+      "valor_ref": 128.3,
+      "variacao": -28.448947778643806,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 61.35,
-      "variacao": 51.49144254278728,
+      "variacao": 49.63325183374083,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-11-17",
-      "data_ref": "2025-11-17",
-      "valor_ref": 63.16,
-      "variacao": 47.150094996833445,
+      "alvo": "2025-11-24",
+      "data_ref": "2025-11-24",
+      "valor_ref": 64.83,
+      "variacao": 41.601110596945865,
       "unidade_variacao": "%"
     },
     "id": "brent_spot",
