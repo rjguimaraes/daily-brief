@@ -24,7 +24,7 @@ import dark_pdf  # noqa: E402
 OUT = Path("output")
 TZ = ZoneInfo("America/Sao_Paulo")
 AGRO = ["boi_gordo_sp", "boi_comum_go_sul", "boi_comum_to_sul", "bezerro_ms", "bezerro_to",
-        "rel_bezerro_boi_to", "rel_troca_cepea", "soja_paranagua", "milho_cepea"]
+        "rel_bezerro_boi_to", "rel_troca_cepea", "soja_paranagua", "milho_cepea", "brent_futuro"]
 
 
 def main() -> None:

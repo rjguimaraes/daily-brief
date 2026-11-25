@@ -127,6 +127,17 @@ indicadores:
     decimais: 2
     salto_max_pct: 12
 
+  - id: brent_futuro
+    nome: "Brent futuro (1º vencimento)"
+    unidade: "US$/barril"
+    tipo: preco
+    fonte: "Yahoo Finance — BZ=F (Brent, 1º vencimento), fechamento diário, baixado pelo notebook do leitor"
+    url: "https://finance.yahoo.com/quote/BZ%3DF/history/"
+    max_idade_dias: 4    # coleta da noite anterior; fim de semana e feriado nos EUA
+    decimais: 2
+    salto_max_pct: 12
+    leitura: "Preço citado no noticiário; coleta do notebook na noite anterior. O spot da EIA (linha acima) sai uma vez por semana."
+
   - id: ouro_gld
     nome: "Ouro — ETF GLD (SPDR Gold Shares)"
     unidade: "US$/cota"

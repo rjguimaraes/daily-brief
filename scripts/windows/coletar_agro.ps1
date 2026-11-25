@@ -1,5 +1,5 @@
 ﻿# Daily Brief - coleta do agro pelo notebook (Windows PowerShell 5.1+)
-# Baixa as paginas do Noticias Agricolas (CEPEA, Scot, Datagro) pela internet de casa,
+# Baixa as paginas do Noticias Agricolas (CEPEA, Scot, Datagro) e o Brent futuro (Yahoo) pela internet de casa,
 # envia um .zip para data/agro_inbox/ do repositorio e dispara o workflow panel.yml,
 # que recalcula o painel e manda o PDF por e-mail se houver dado novo.
 # Roda pelo Agendador de Tarefas (ao fazer logon e as 19h30). Log em %LOCALAPPDATA%\DailyBrief\log.txt
@@ -69,6 +69,20 @@ try {
     foreach ($d in $dias) {
       $iso = $d.ToString('yyyy-MM-dd')
       Baixar "$Base/$($Pages[$k])/$iso" (Join-Path $tmp "$($k)__$iso.html")
+    }
+  }
+  # Brent futuro (desde 25/11/2026): grafico diario do Yahoo Finance (BZ=F), 2 anos, para o painel.
+  # O spot da EIA sai so uma vez por semana; no GitHub Actions o Yahoo responde 429.
+  $brent = Join-Path $tmp 'brent_futuro__recente.json'
+  foreach ($h in @('query1', 'query2')) {
+    try {
+      Invoke-WebRequest -Uri "https://$h.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=2y&interval=1d" -OutFile $brent -UseBasicParsing -UserAgent $UA -TimeoutSec 60
+      $ok++; Log "brent futuro baixado ($h)"; break
+    } catch {
+      $code = $null; try { $code = [int]$_.Exception.Response.StatusCode } catch {}
+      Log "falha $code no brent futuro ($h)"
+      if (Test-Path $brent) { Remove-Item $brent -Force }
+      Start-Sleep -Seconds 2
     }
   }
   Log "paginas baixadas: $ok; falhas: $falhas (403: $bloqueios); dias: $($dias.Count)"

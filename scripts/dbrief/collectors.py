@@ -410,25 +410,72 @@ def na_scot_today() -> dict[str, Points]:
 # O notebook do leitor (rede residencial) baixa as mesmas páginas e envia um .zip para
 # data/agro_inbox/. Nomes dos arquivos: <tipo>__<AAAA-MM-DD|recente>.html, com tipo em
 # AGRO_KINDS. O parse usa exatamente os mesmos parsers da coleta direta.
-AGRO_KINDS = (*NA_CEPEA, "scot", "datagro")
+AGRO_KINDS = (*NA_CEPEA, "scot", "datagro", "brent_futuro")
+
+
+# --------------------------------------------------------------------- Brent futuro (notebook)
+# Desde 25/11/2026: o Brent spot da EIA sai uma vez por semana e chega ao Brief com 7–12 dias
+# de atraso. O notebook baixa também o gráfico diário do Brent futuro (Yahoo Finance, BZ=F,
+# 1º vencimento) junto com o agro; no Actions o Yahoo responde 429. Arquivo no pacote:
+# brent_futuro__recente.json.
+def parse_yahoo_chart(text: str) -> Points:
+    """Fechamentos diários do endpoint v8/finance/chart do Yahoo.
+
+    A data de cada barra é tirada no fuso da bolsa. Barras sem fechamento (null) são
+    descartadas, e a barra do dia em curso também, se o pregão ainda não terminou
+    (regularMarketTime antes do fim do período regular): só entra fechamento.
+    """
+    from zoneinfo import ZoneInfo
+
+    data = json.loads(text)
+    chart = data.get("chart") or {}
+    if chart.get("error"):
+        raise RuntimeError(f"Yahoo: {chart['error']}")
+    res = (chart.get("result") or [None])[0]
+    if not res or not res.get("timestamp"):
+        raise RuntimeError("Yahoo: resposta sem série")
+    meta = res.get("meta", {})
+    tz = ZoneInfo(meta.get("exchangeTimezoneName") or "America/New_York")
+    closes = res["indicators"]["quote"][0]["close"]
+
+    def day_of(ts: int) -> date:
+        dt = datetime.fromtimestamp(ts, tz)
+        # barra marcada no início da sessão (noite anterior) pertence ao dia seguinte
+        return (dt + timedelta(hours=12)).date() if dt.hour >= 12 else dt.date()
+
+    pts: dict[date, float] = {}
+    for ts, c in zip(res["timestamp"], closes):
+        if c is None:
+            continue
+        pts[day_of(ts)] = round(float(c), 2)
+    rmt = meta.get("regularMarketTime")
+    end = ((meta.get("currentTradingPeriod") or {}).get("regular") or {}).get("end")
+    if pts and rmt and end and rmt < end:
+        last = max(pts)
+        if last == day_of(rmt):
+            del pts[last]   # pregão aberto: valor intradiário, não fechamento
+    return sorted(pts.items())
 
 
 def agro_from_inbox(zip_path: str, log: Callable[[str], None] = print) -> dict[str, Points]:
     import zipfile
 
-    out: dict[str, set] = {k: set() for k in (*NA_CEPEA, *SCOT_ROWS.values(), *DATAGRO_ROWS.values())}
+    out: dict[str, set] = {k: set() for k in (*NA_CEPEA, *SCOT_ROWS.values(), *DATAGRO_ROWS.values(),
+                                              "brent_futuro")}
     lidos, erros = 0, []
     with zipfile.ZipFile(zip_path) as z:
         for name in sorted(z.namelist()):
             base = name.rsplit("/", 1)[-1]
-            m = re.fullmatch(r"(\w+?)__(recente|\d{4}-\d{2}-\d{2})\.html", base)
+            m = re.fullmatch(r"(\w+?)__(recente|\d{4}-\d{2}-\d{2})\.(?:html|json)", base)
             if not m or m.group(1) not in AGRO_KINDS:
                 continue
             kind, tag = m.groups()
             day = None if tag == "recente" else date.fromisoformat(tag)
             html = z.read(name).decode("utf-8", errors="replace")
             try:
-                if kind in NA_CEPEA:
+                if kind == "brent_futuro":
+                    out[kind].update(parse_yahoo_chart(html))
+                elif kind in NA_CEPEA:
                     pts = parse_na_closes(html)
                     out[kind].update(p for p in pts if day is None or p[0] == day)
                 elif kind == "scot":
