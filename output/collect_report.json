@@ -98,7 +98,7 @@
     "ok": true,
     "series": {
       "brent_spot": {
-        "novos": 5,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 14
@@ -132,7 +132,28 @@
     "series": {
       "bitcoin": {
         "novos": 0,
-        "revisados": [],
+        "revisados": [
+          {
+            "data": "2026-11-05",
+            "antes": 75969.06,
+            "depois": 75962.45
+          },
+          {
+            "data": "2026-11-13",
+            "antes": 68236.54,
+            "depois": 64113.26
+          },
+          {
+            "data": "2026-11-14",
+            "antes": 64118.79,
+            "depois": 64117.21
+          },
+          {
+            "data": "2026-11-17",
+            "antes": 64873.18,
+            "depois": 64873.19
+          }
+        ],
         "futuros_descartados": 0,
         "recebidos": 20
       }
