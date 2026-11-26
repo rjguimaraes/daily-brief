@@ -3,10 +3,10 @@
     "ok": true,
     "series": {
       "ptax_venda": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 13
+        "recebidos": 14
       }
     }
   },
@@ -14,7 +14,7 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 21
@@ -42,7 +42,7 @@
     "ok": true,
     "series": {
       "ibovespa": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 224
@@ -87,7 +87,7 @@
     "ok": true,
     "series": {
       "treasury_10a": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 226
@@ -109,7 +109,7 @@
     "ok": true,
     "series": {
       "ouro_gld": {
-        "novos": 1,
+        "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 276
@@ -131,24 +131,8 @@
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 1,
-        "revisados": [
-          {
-            "data": "2026-11-13",
-            "antes": 64113.26,
-            "depois": 68236.54
-          },
-          {
-            "data": "2026-11-14",
-            "antes": 64117.21,
-            "depois": 64118.79
-          },
-          {
-            "data": "2026-11-17",
-            "antes": 64873.19,
-            "depois": 64873.18
-          }
-        ],
+        "novos": 0,
+        "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20
       }

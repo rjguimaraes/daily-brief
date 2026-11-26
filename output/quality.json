@@ -1,6 +1,6 @@
 {
   "data_referencia": "2026-11-26",
-  "gerado_em_utc": "2026-11-26T08:50:37+00:00",
+  "gerado_em_utc": "2026-11-26T17:00:29+00:00",
   "indicadores": 21,
   "ok": 20,
   "defasados": [],
@@ -28,25 +28,7 @@
     "Scot (NA)": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria",
     "Datagro reposição (NA) recentes": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho"
   },
-  "revisoes": {
-    "bitcoin": [
-      {
-        "data": "2026-11-13",
-        "antes": 64113.26,
-        "depois": 68236.54
-      },
-      {
-        "data": "2026-11-14",
-        "antes": 64117.21,
-        "depois": 64118.79
-      },
-      {
-        "data": "2026-11-17",
-        "antes": 64873.19,
-        "depois": 64873.18
-      }
-    ]
-  },
+  "revisoes": {},
   "alertas_salto_diario": {
     "brent_spot": [
       {
