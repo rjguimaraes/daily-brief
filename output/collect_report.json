@@ -42,10 +42,10 @@
     "ok": true,
     "series": {
       "ibovespa": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 224
+        "recebidos": 225
       }
     }
   },
@@ -138,16 +138,51 @@
       }
     }
   },
-  "CEPEA (NA) recentes": {
-    "ok": false,
-    "erro": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf"
-  },
-  "Scot (NA)": {
-    "ok": false,
-    "erro": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-scot-consultoria"
-  },
-  "Datagro reposição (NA) recentes": {
-    "ok": false,
-    "erro": "RuntimeError: falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/reposicao-nelore-macho"
+  "Agro via notebook": {
+    "ok": true,
+    "series": {
+      "boi_gordo_sp": {
+        "novos": 2,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      },
+      "bezerro_ms": {
+        "novos": 2,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      },
+      "soja_paranagua": {
+        "novos": 2,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      },
+      "milho_cepea": {
+        "novos": 2,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      },
+      "boi_comum_go_sul": {
+        "novos": 1,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 1
+      },
+      "boi_comum_to_sul": {
+        "novos": 1,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 1
+      },
+      "bezerro_to": {
+        "novos": 2,
+        "revisados": [],
+        "futuros_descartados": 0,
+        "recebidos": 10
+      }
+    }
   }
 }
