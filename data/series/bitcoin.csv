@@ -1046,11 +1046,11 @@ data,valor,fonte,coletado_em,metodo
 2026-11-10,73697.87,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-11T08:50:16+00:00,Coinbase candles 86400 close
 2026-11-11,73927.63,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-12T08:49:13+00:00,Coinbase candles 86400 close
 2026-11-12,71369.9,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-13T08:49:14+00:00,Coinbase candles 86400 close
-2026-11-13,64113.26,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-25T19:08:16+00:00,Coinbase candles 86400 close
-2026-11-14,64117.21,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-25T19:08:16+00:00,Coinbase candles 86400 close
+2026-11-13,68236.54,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-26T08:49:06+00:00,Coinbase candles 86400 close
+2026-11-14,64118.79,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-26T08:49:06+00:00,Coinbase candles 86400 close
 2026-11-15,65315.35,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-16T08:49:23+00:00,Coinbase candles 86400 close
 2026-11-16,64816.79,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-17T08:48:51+00:00,Coinbase candles 86400 close
-2026-11-17,64873.19,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-25T19:08:16+00:00,Coinbase candles 86400 close
+2026-11-17,64873.18,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-26T08:49:06+00:00,Coinbase candles 86400 close
 2026-11-18,62981.71,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-19T08:49:33+00:00,Coinbase candles 86400 close
 2026-11-19,61913.23,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-20T08:48:49+00:00,Coinbase candles 86400 close
 2026-11-20,58814.99,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-21T08:48:42+00:00,Coinbase candles 86400 close
@@ -1058,3 +1058,4 @@ data,valor,fonte,coletado_em,metodo
 2026-11-22,61163.01,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-23T08:49:14+00:00,Coinbase candles 86400 close
 2026-11-23,61189.97,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-24T08:49:00+00:00,Coinbase candles 86400 close
 2026-11-24,59740.87,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-25T08:49:36+00:00,Coinbase candles 86400 close
+2026-11-25,60383.51,"Coinbase Exchange — BTC-USD, candle diário, fechamento 00:00 UTC",2026-11-26T08:49:06+00:00,Coinbase candles 86400 close

@@ -1,6 +1,6 @@
 {
-  "data_referencia": "2026-11-25",
-  "gerado_em_utc": "2026-11-25T19:09:46+00:00",
+  "data_referencia": "2026-11-26",
+  "gerado_em_utc": "2026-11-26T08:50:37+00:00",
   "indicadores": 21,
   "ok": 20,
   "defasados": [],
@@ -31,42 +31,23 @@
   "revisoes": {
     "bitcoin": [
       {
-        "data": "2026-11-05",
-        "antes": 75969.06,
-        "depois": 75962.45
-      },
-      {
         "data": "2026-11-13",
-        "antes": 68236.54,
-        "depois": 64113.26
+        "antes": 64113.26,
+        "depois": 68236.54
       },
       {
         "data": "2026-11-14",
-        "antes": 64118.79,
-        "depois": 64117.21
+        "antes": 64117.21,
+        "depois": 64118.79
       },
       {
         "data": "2026-11-17",
-        "antes": 64873.18,
-        "depois": 64873.19
+        "antes": 64873.19,
+        "depois": 64873.18
       }
     ]
   },
   "alertas_salto_diario": {
-    "ptax_venda": [
-      {
-        "de": "2026-10-23",
-        "para": "2026-10-26",
-        "variacao_pct": 9.19
-      }
-    ],
-    "ibovespa": [
-      {
-        "de": "2026-10-23",
-        "para": "2026-10-26",
-        "variacao_pct": -13.88
-      }
-    ],
     "brent_spot": [
       {
         "de": "2026-11-03",

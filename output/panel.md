@@ -1,18 +1,18 @@
-**Painel — referência 25/11/26** · comparativos ancorados na data de cada observação
+**Painel — referência 26/11/26** · comparativos ancorados na data de cada observação
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
 | USD/BRL PTAX venda | 5,8825 R$/US$ (25/11/26) | +0,4% | +16,8% | +6,9% | +9,3% |  |
-| Ibovespa | 164.090 pontos (24/11/26) | −0,4% | −20,0% | +1,8% | +5,7% |  |
+| Ibovespa | 166.685 pontos (25/11/26) | +1,6% | −18,7% | +3,5% | +6,9% |  |
 | S&P 500 | 7.201 pontos (24/11/26) | −0,5% | −5,5% | +5,2% | +7,4% |  |
-| Selic-meta | 13,75 % a.a. (25/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
+| Selic-meta | 13,75 % a.a. (26/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
 | Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (24/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
-| Treasury 10 anos | 4,91 % a.a. (24/11/26) | −1 pb | −9 pb | +73 pb | +87 pb |  |
+| Treasury 10 anos | 4,85 % a.a. (25/11/26) | −6 pb | −15 pb | +67 pb | +84 pb |  |
 | Brent spot (Europe Brent FOB) | 91,80 US$/barril (24/11/26) | +0,7% | −28,4% | +49,6% | +41,6% |  |
 | Brent futuro (1º vencimento) | ausente[1] | — | — | — | — | |
-| Ouro — ETF GLD (SPDR Gold Shares) | 325,45 US$/cota (24/11/26) | −2,3% | −11,2% | −17,9% | −14,4% |  |
-| Bitcoin | 59.741 US$ (24/11/26) | −2,4% | −26,0% | −31,7% | −32,3% |  |
+| Ouro — ETF GLD (SPDR Gold Shares) | 327,45 US$/cota (25/11/26) | +0,6% | −10,7% | −17,4% | −13,8% |  |
+| Bitcoin | 60.384 US$ (25/11/26) | +1,1% | −24,6% | −31,0% | −30,9% |  |
 | Boi gordo SP (Indicador CEPEA/ESALQ) | 395,45 R$/@ (24/11/26) | +0,1% | +3,7% | +23,9% | +22,6% |  |
 | Boi comum GO Região Sul (Scot, bruto à vista) | 381,00 R$/@ (23/11/26) | 0,0% | +5,5% | —[2] | —[2] |  |
 | Boi comum TO Sul (Scot, bruto à vista) | 381,00 R$/@ (23/11/26) | 0,0% | +7,0% | —[3] | —[3] |  |
