@@ -269,3 +269,11 @@ trazer na Daily seguinte)."
 - "Para ir além": 1–3 derivadas só para curiosidade; não pautam o Aprenda seguinte.
 - Pedido no mesmo dia: série de 3 Aprendas sobre transtorno bipolar (entender, conviver, ajudar na crise), para lidar
   melhor com um familiar próximo; detalhes no bloco 10.
+
+## Ajuste de 26/11/2026 — Nota "Também nas capas" e tragédias
+Feedback: "gostei bastante da seção: Também nas capas, fora do Radar por falta de espaço (máximo de 3 por seção). A única
+notícia que eu não curti foi essa última da tragédia do Egito; se for só tragédia sem efeito pra mim, eu não quero ver."
+- A nota "Também nas capas" vira parte fixa do Radar (formato no passo 4 de `DAILY_INSTRUCTIONS.md`).
+- Tragédia sem efeito para o leitor (acidente, incêndio, desastre local, crime) fica fora do Brief, mesmo que esteja
+  nas capas de 2+ veículos: a regra das capas não vale para ela. Entra só se mudar preço, logística, segurança,
+  mercado ou política que o afete.

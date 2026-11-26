@@ -56,6 +56,11 @@ Lido pela tarefa agendada antes de cada edição. Mudou uma preferência? Atuali
      e **entra obrigatoriamente** (Mundo, Brasil ou Política). O teste de relevância de 23/11 NÃO se aplica a ela: ele
      vale para notícias "diferentes"/curiosidades, não para o fato mais importante do dia. Ela só fica de fora se já
      saiu no Brief sem fato novo, e então o status diz isso.
+   - **Nota "Também nas capas" (26/11/2026, o leitor gostou):** ao fim do Radar Mundo (ou da seção que couber), em itálico,
+     "*Também nas capas, fora do Radar por falta de espaço (máximo de 3 por seção):*" e 1 bullet curto por grande manchete
+     que não coube (o fato em 1–2 frases, com link ou "não aberto; via ..."). **Tragédia sem efeito para o leitor
+     (acidente, incêndio, desastre local, crime) não entra nem na nota nem no Radar**: só entra se mudar algo para ele
+     (preço, logística, segurança, mercado, política). Ela pode ser citada no status como "fora por não ter efeito".
    - No status da edição, listar as capas efetivamente checadas e as 3 maiores manchetes do dia, dizendo onde cada
      uma entrou. Nunca escrever "nenhum outro fato passou no teste" sem essa lista.
 5. Radar: pesquisar notícias das últimas 24–48 h (WebSearch). Até 3 por categoria (Mundo, Brasil,
