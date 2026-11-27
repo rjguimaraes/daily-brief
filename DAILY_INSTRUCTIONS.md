@@ -120,19 +120,6 @@ falar em 13 blocos, vale este arquivo.
     Evidência: no máximo 1 estudo ou número central, citado em uma frase com a leitura em linguagem comum; nada de
     catálogo de estudos, amostras, p-valores ou "o que a evidência mostra" em bloco próprio. A comprovação existe para
     dar confiança, não para ser o conteúdo. Ver "Ajuste de 24/11/2026 — Aprenda mais curto" em `criterios_conteudo.md`.
-    **Série pedida em 24/11/2026 (prioridade sobre o rodízio de áreas):** transtorno bipolar, em 3 Aprendas seguidos a
-    partir de 25/11, para o leitor entender e conviver melhor com um familiar próximo que tem o transtorno em grau
-    alto. (1) O que é e como funciona a cabeça de quem tem bipolaridade: mania/hipomania, depressão, episódios mistos,
-    ciclos, insight (por que a pessoa muitas vezes não percebe), o que é doença e o que não é, tratamento.
-    (2) Como conviver sem se afetar: limites, comunicação que não escala conflito, separar a pessoa do episódio,
-    cuidar de si, apoio para familiares (psicoeducação familiar, grupos). (3) Como ajudar numa crise: sinais de alerta
-    precoce, plano de crise combinado com antecedência e com o psiquiatra, o que dizer e o que evitar, quando buscar
-    ajuda urgente (SAMU 192, pronto-socorro/CAPS; risco de suicídio: CVV 188) e como agir se a pessoa recusa
-    tratamento. Regras da série: fontes confiáveis (NIMH, NHS, Associação Brasileira de Psiquiatria, Ministério da
-    Saúde, guias como NICE/CANMAT, Mayo Clinic); linguagem humana, sem estigma e sem tom clínico frio; nada de
-    diagnóstico, dose ou troca de remédio (isso é com o psiquiatra); mesmo formato curto acima, adaptando "Principais
-    aplicações" para "Na prática, com o seu familiar". Registrar em `aprenda.jsonl` com `"serie":"bipolaridade"` e
-    `"parte"`: 1, 2 ou 3; a série termina quando as 3 partes estiverem registradas, e este parágrafo pode ser apagado.
 11. **Conhecimento Rápido** — O QUE É | COMO USAR/FAZER (exemplo executável com números) | QUANDO É ÚTIL.
     **Desde 17/11/2026, dias alternados são de IA** (metade das edições; ver `memory/conhecimento_rapido.jsonl`,
     campo `categoria`: se a edição anterior não foi de IA, hoje é). Objetivo do leitor: aprofundar o conhecimento e
@@ -196,20 +183,8 @@ falar em 13 blocos, vale este arquivo.
       explicação em espanhol simples com um número ou caso concreto, **Para el proyecto** e *Fuente* aberta
       (lei, órgão oficial, estudo ou matéria). Não repetir tema de `memory/espanhol.jsonl` (campo `paraguay`,
       com `tipo`: "noticia" ou "aprendizaje").
-    **Repetição pedida em 23/11/2026 (temporária):** o leitor não conseguiu ler as seções Español de 19, 20, 21 e 22/11.
-    Nas próximas edições, uma por dia e em ordem, a seção 12 inteira é a repetição de uma delas, no lugar do conteúdo
-    novo: a fila é 2026-11-19 → 2026-11-20 → 2026-11-21 → 2026-11-22. Cada edição repete a data mais antiga da fila
-    que ainda não aparece no campo `repeticao_de` de `memory/espanhol.jsonl` (assim, um dia pulado não perde nenhuma).
-    - Copiar de `editions/AAAA-MM-DD.md` (bloco "## 12. Español") o Consejo del día, o Miniejercicio, as Tres palabras
-      nuevas e as Respuestas como foram publicados (pode corrigir erro óbvio), com uma linha no topo: "*Repetição da
-      seção de DD/11, a pedido.*"
-    - **Noticia de Paraguay:** se a notícia daquela data continua relevante e não houve fato muito novo sobre o tema,
-      repeti-la (pode acrescentar uma linha "Actualización" se houver detalhe novo); se perdeu relevância ou houve
-      novidade maior, trazer uma notícia nova do dia no formato normal, sem repetir os eventos já registrados.
-    - Registrar em `memory/espanhol.jsonl` uma linha com `"repeticao_de": "AAAA-MM-DD"`, as mesmas `palavras` e
-      `dica` da data repetida e, no campo `paraguay`, a notícia usada (com `"tipo": "repetida"` ou a nova).
-    - Quando as 4 datas estiverem em `repeticao_de`, a seção volta ao normal (progressão anotada em 23/11: seguir +
-      gerundio / volver a + infinitivo, ou estar + gerundio), e este parágrafo pode ser apagado.
+    **Progressão (retomada em 28/11/2026, após a repetição a pedido de 19–22/11):** seguir + gerundio / volver a +
+    infinitivo, ou estar + gerundio.
 13. **Ideia de Negócio** — antes de escolher, ler `memory/ideias_feedback.jsonl` e o "Ajuste de 17/11/2026 — Revisão das
     45 ideias" e o "Ajuste de 18/11/2026 — Ideia em formato pitch" em `criterios_conteudo.md` (risco Brasil, o que
     agradou/não agradou). **Desde 18/11/2026, só um pitch de no máximo 1,5 página (≈450–550 palavras)**; a versão
