@@ -2,12 +2,12 @@
 
 | Indicador | Atual | vs. dia anterior | vs. ~1 mês | YTD | vs. ~1 ano | Leitura |
 | --- | --- | --- | --- | --- | --- | --- |
-| USD/BRL PTAX venda | 5,7446 R$/US$ (26/11/26) | −2,3% | +4,4% | +4,4% | +7,0% |  |
+| USD/BRL PTAX venda | 5,5430 R$/US$ (27/11/26) | −3,5% | +3,9% | +0,7% | +3,6% |  |
 | Ibovespa | 176.800 pontos (26/11/26) | +6,1% | +0,1% | +9,7% | +11,5% |  |
-| S&P 500 | 7.201 pontos (24/11/26) | −0,5% | −5,5% | +5,2% | +7,4% |  |
+| S&P 500 | 7.183 pontos (25/11/26) | −0,3% | −5,8% | +4,9% | +6,2% |  |
 | Selic-meta | 13,75 % a.a. (27/11/26) | 0 pb | 0 pb | −125 pb | −125 pb |  |
 | IPCA acumulado em 12 meses | 4,63 %; no mês +0,14% (out/26) | +5 pb | +5 pb | +37 pb | −5 pb | Série mensal: "vs. dia anterior" e "vs. ~1 mês" comparam com o mês anterior. |
-| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (24/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
+| Fed Funds intervalo-alvo | 3,75–4,00 % a.a., efetiva 3,88% (25/11/26) | 0 pb | 0 pb | +25 pb | 0 pb |  |
 | Treasury 10 anos | 4,85 % a.a. (25/11/26) | −6 pb | −15 pb | +67 pb | +84 pb |  |
 | Brent spot (Europe Brent FOB) | 91,80 US$/barril (24/11/26) | +0,7% | −28,4% | +49,6% | +41,6% |  |
 | Brent futuro (1º vencimento) | ausente[1] | — | — | — | — | |
