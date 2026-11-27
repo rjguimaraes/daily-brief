@@ -4,7 +4,7 @@
     "atual": {
       "data": "2026-11-26",
       "valor": 5.7446,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-11-25",
@@ -49,7 +49,7 @@
     "atual": {
       "data": "2026-11-26",
       "valor": 176799.84,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-11-25",
@@ -94,7 +94,7 @@
     "atual": {
       "data": "2026-11-24",
       "valor": 7201.09,
-      "idade_dias": 2
+      "idade_dias": 3
     },
     "d1": {
       "data_ref": "2026-11-23",
@@ -137,19 +137,19 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-26",
+      "data": "2026-11-27",
       "valor": 13.75,
       "idade_dias": 0
     },
     "d1": {
-      "data_ref": "2026-11-25",
+      "data_ref": "2026-11-26",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
     },
     "m1": {
-      "alvo": "2026-10-26",
-      "data_ref": "2026-10-26",
+      "alvo": "2026-10-27",
+      "data_ref": "2026-10-27",
       "valor_ref": 13.75,
       "variacao": 0.0,
       "unidade_variacao": "pb"
@@ -162,8 +162,8 @@
       "unidade_variacao": "pb"
     },
     "y1": {
-      "alvo": "2025-11-26",
-      "data_ref": "2025-11-26",
+      "alvo": "2025-11-27",
+      "data_ref": "2025-11-27",
       "valor_ref": 15.0,
       "variacao": -125.0,
       "unidade_variacao": "pb"
@@ -184,7 +184,7 @@
     "atual": {
       "data": "2026-10-01",
       "valor": 4.63,
-      "idade_dias": 56
+      "idade_dias": 57
     },
     "d1": {
       "data_ref": "2026-09-01",
@@ -229,7 +229,7 @@
     "atual": {
       "data": "2026-10-01",
       "valor": 0.14,
-      "idade_dias": 56
+      "idade_dias": 57
     },
     "d1": {
       "data_ref": "2026-09-01",
@@ -274,7 +274,7 @@
     "atual": {
       "data": "2026-11-24",
       "valor": 3.88,
-      "idade_dias": 2
+      "idade_dias": 3
     },
     "d1": {
       "data_ref": "2026-11-23",
@@ -319,7 +319,7 @@
     "atual": {
       "data": "2026-11-24",
       "valor": 4.0,
-      "idade_dias": 2
+      "idade_dias": 3
     },
     "d1": {
       "data_ref": "2026-11-23",
@@ -364,7 +364,7 @@
     "atual": {
       "data": "2026-11-24",
       "valor": 3.75,
-      "idade_dias": 2
+      "idade_dias": 3
     },
     "d1": {
       "data_ref": "2026-11-23",
@@ -409,7 +409,7 @@
     "atual": {
       "data": "2026-11-25",
       "valor": 4.85,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-11-24",
@@ -454,7 +454,7 @@
     "atual": {
       "data": "2026-11-24",
       "valor": 91.8,
-      "idade_dias": 2
+      "idade_dias": 3
     },
     "d1": {
       "data_ref": "2026-11-23",
@@ -513,7 +513,7 @@
     "atual": {
       "data": "2026-11-25",
       "valor": 327.45,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-11-24",
@@ -556,35 +556,35 @@
   {
     "status": "ok",
     "atual": {
-      "data": "2026-11-25",
-      "valor": 60383.51,
+      "data": "2026-11-26",
+      "valor": 60495.57,
       "idade_dias": 1
     },
     "d1": {
-      "data_ref": "2026-11-24",
-      "valor_ref": 59740.87,
-      "variacao": 1.0757124896239256,
+      "data_ref": "2026-11-25",
+      "valor_ref": 60383.51,
+      "variacao": 0.18558046725007937,
       "unidade_variacao": "%"
     },
     "m1": {
-      "alvo": "2026-10-25",
-      "data_ref": "2026-10-25",
-      "valor_ref": 80053.16,
-      "variacao": -24.570735246428754,
+      "alvo": "2026-10-26",
+      "data_ref": "2026-10-26",
+      "valor_ref": 80008.79,
+      "variacao": -24.388845275625336,
       "unidade_variacao": "%"
     },
     "ytd": {
       "alvo": "2025-12-31",
       "data_ref": "2025-12-31",
       "valor_ref": 87497.94,
-      "variacao": -30.988649561349668,
+      "variacao": -30.860577974750036,
       "unidade_variacao": "%"
     },
     "y1": {
-      "alvo": "2025-11-25",
-      "data_ref": "2025-11-25",
-      "valor_ref": 87325.01,
-      "variacao": -30.851986160665767,
+      "alvo": "2025-11-26",
+      "data_ref": "2025-11-26",
+      "valor_ref": 90468.84,
+      "variacao": -33.131042688289135,
       "unidade_variacao": "%"
     },
     "id": "bitcoin",
@@ -603,7 +603,7 @@
     "atual": {
       "data": "2026-11-26",
       "valor": 396.7,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-11-25",
@@ -648,7 +648,7 @@
     "atual": {
       "data": "2026-11-25",
       "valor": 381.0,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-11-23",
@@ -687,7 +687,7 @@
     "atual": {
       "data": "2026-11-25",
       "valor": 383.0,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-11-23",
@@ -726,7 +726,7 @@
     "atual": {
       "data": "2026-11-26",
       "valor": 3677.24,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-11-25",
@@ -771,7 +771,7 @@
     "atual": {
       "data": "2026-11-26",
       "valor": 18.42,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-11-25",
@@ -816,7 +816,7 @@
     "atual": {
       "data": "2026-11-25",
       "valor": 1.387206266318538,
-      "idade_dias": 1
+      "idade_dias": 2
     },
     "d1": {
       "data_ref": "2026-11-23",
@@ -855,7 +855,7 @@
     "atual": {
       "data": "2026-11-26",
       "valor": 9.26957398537938,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-11-25",
@@ -900,7 +900,7 @@
     "atual": {
       "data": "2026-10-01",
       "valor": 148.2,
-      "idade_dias": 56
+      "idade_dias": 57
     },
     "d1": {
       "data_ref": "2026-09-01",
@@ -945,7 +945,7 @@
     "atual": {
       "data": "2026-11-26",
       "valor": 169.18,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-11-25",
@@ -990,7 +990,7 @@
     "atual": {
       "data": "2026-11-26",
       "valor": 68.0,
-      "idade_dias": 0
+      "idade_dias": 1
     },
     "d1": {
       "data_ref": "2026-11-25",
