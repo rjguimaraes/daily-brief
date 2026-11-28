@@ -277,3 +277,41 @@ notícia que eu não curti foi essa última da tragédia do Egito; se for só tr
 - Tragédia sem efeito para o leitor (acidente, incêndio, desastre local, crime) fica fora do Brief, mesmo que esteja
   nas capas de 2+ veículos: a regra das capas não vale para ela. Entra só se mudar preço, logística, segurança,
   mercado ou política que o afete.
+
+
+## Ajuste de 28/11/2026 — Temas do Aprenda (pedido do leitor)
+Pedido: "tenho curtido ler e aprender sobre temas da psicologia, como: estados não usuais de consciência, respiração como
+ferramenta para acessar estados não usuais, medo, psicologia transpessoal, diferentes linhas da psicologia, o que é
+filosofia e quais são as linhas de pensamento mais relevantes (de forma interessante, para alguém que odiava filosofia na
+escola), a busca pela espiritualidade, aprender um pouco sobre diferentes religiões e crenças do mundo de uma forma
+interessante, entender como o mundo foi moldado para chegar onde estamos hoje. Pode incluir temas como esses dentro dos
+temas do Aprenda."
+- **Frequência:** cerca de 3 dos 7 Aprendas da semana vêm destas quatro famílias, em rodízio (não repetir a mesma família
+  em dias seguidos, nem o mesmo subtema em 30 dias). Os outros dias seguem o rodízio normal de áreas. Estas famílias têm
+  prioridade sobre a regra de "mesma área em 7 dias" (ex.: duas de ideias e cultura na semana podem).
+- **Famílias e ideias de subtemas:**
+  1. *Psicologia e consciência:* estados não usuais de consciência (o que são, como a ciência os estuda: meditação,
+     fluxo, sonho lúcido, privação sensorial, psicodélicos em pesquisa clínica); a respiração como ferramenta (respiração
+     lenta e o nervo vago, tummo/Wim Hof, respiração holotrópica de Grof, o que a fisiologia explica: CO2, alcalose);
+     o medo (amígdala, medo × ansiedade, exposição, coragem); psicologia transpessoal (Maslow tardio, Grof, Wilber, críticas);
+     as grandes linhas da psicologia (psicanálise, behaviorismo, cognitiva, humanista, junguiana, evolutiva, positiva).
+  2. *Filosofia sem cara de escola:* o que é filosofia e para que serve na vida prática; uma escola por vez contada por uma
+     pergunta e uma história (estoicos, epicuristas, céticos, Aristóteles e a virtude, utilitarismo × Kant, existencialismo,
+     pragmatismo, liberalismo clássico, filosofia oriental: budismo, taoísmo, confucionismo). Começar sempre por uma situação
+     da vida real, nunca por nome e data.
+  3. *Espiritualidade e religiões do mundo:* a busca por sentido e espiritualidade (incluindo a sem religião); religiões e
+     crenças contadas de forma interessante: origem, ideia central, prática do dia a dia, o que um brasileiro costuma entender
+     errado (hinduísmo, budismo, islã, judaísmo, cristianismos, espiritismo, religiões afro-brasileiras, xintoísmo,
+     xamanismos, guarani no Paraguai). Tom respeitoso e descritivo, sem dizer qual é verdadeira; separar crença, prática e
+     evidência.
+  4. *Como o mundo chegou até aqui:* grandes viradas que explicam o presente (agricultura, escrita, dinheiro, impérios,
+     imprensa, revolução científica, Revolução Industrial, Estado moderno, globalização), sempre com a pergunta "o que isso
+     explica hoje?".
+- **Formato:** o mesmo do bloco 10 (450–650 palavras; O que é, Como funciona, Quando acontece, Principais aplicações,
+  Exceções, Para ir além, Fontes). Em temas de filosofia e religião, "Como funciona" vira a ideia central em passos;
+  "Exceções" vira críticas e mal-entendidos comuns.
+- **Cuidados:** técnicas de respiração e estados alterados sempre com segurança (nunca na água ou dirigindo; contraindicações
+  como epilepsia, gravidez, doença cardíaca, histórico de psicose) e sem promessa terapêutica além da evidência; psicodélicos
+  só como tema de pesquisa e legislação, sem instrução de uso. Distinguir o que é ciência sólida, o que é hipótese e o que é
+  tradição ou crença.
+- O campo `area` em `aprenda.jsonl` registra a família (ex.: "psicologia e consciência") para o rodízio funcionar.

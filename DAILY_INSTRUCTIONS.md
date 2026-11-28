@@ -106,6 +106,9 @@ falar em 13 blocos, vale este arquivo.
    "leitura minha" quando for interpretação); Fonte com link direto da matéria.
 9. **Hoje em 3 pontos** — Fazenda Laçada, Investimentos, Tema a monitorar. Interpretação, não manchete.
 10. **Aprenda** (formato revisto em 24/11/2026: mais curto e direto; substitui o de 10/11). Título "## 10. Aprenda — <tema>".
+    **Temas preferidos (28/11/2026):** cerca de 3 Aprendas por semana (de preferência incluindo o sábado e o domingo) saem da
+    lista de temas do leitor em "Ajuste de 28/11/2026 — Temas do Aprenda" em `criterios_conteudo.md` (psicologia e estados
+    de consciência, filosofia sem cara de escola, espiritualidade e religiões do mundo, como o mundo chegou até aqui).
     **Tamanho: 450 a 650 palavras** (leitura de 3–4 min). Referência do que ficou grande demais: a seção de 24/11
     (~1.550 palavras, 3 estudos detalhados mais 3 citados). Estrutura, nesta ordem, com estes subtítulos em negrito:
     - **O que é:** a ideia em 2–3 frases simples, com um exemplo concreto do dia a dia.
