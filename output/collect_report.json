@@ -14,7 +14,7 @@
     "ok": true,
     "series": {
       "selic_meta": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 21
@@ -42,10 +42,10 @@
     "ok": true,
     "series": {
       "ibovespa": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 225
+        "recebidos": 226
       }
     }
   },
@@ -87,10 +87,10 @@
     "ok": true,
     "series": {
       "treasury_10a": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 226
+        "recebidos": 227
       }
     }
   },
@@ -112,7 +112,7 @@
         "novos": 0,
         "revisados": [],
         "futuros_descartados": 0,
-        "recebidos": 275
+        "recebidos": 274
       }
     }
   },
@@ -131,7 +131,7 @@
     "ok": true,
     "series": {
       "bitcoin": {
-        "novos": 0,
+        "novos": 1,
         "revisados": [],
         "futuros_descartados": 0,
         "recebidos": 20
